@@ -1,0 +1,119 @@
+id: zhiyi
+type: person
+
+name_zh: 智顗
+display_name_zh: 智者大师
+formal_name_zh: 智顗
+honorific_name_zh: 智者大师
+common_name_zh: 智者大师
+
+name_en: Zhiyi
+display_name_en: Master Zhiyi
+name_pinyin: Zhiyi
+
+alternative_names:
+  - 智者大师
+  - 天台智者大师
+  - 智顗大师
+  - 天台大师
+  - Tiantai Zhiyi
+  - Master Zhiyi
+  - Tiantai Zhizhe Dashi
+
+name_usage_note_zh: "智顗是正式本名和著作署名中常见的名称；智者大师是后世和日常语境中更常用的尊称。本资料库默认显示为“智者大师（智顗）”。"
+name_usage_note_en: "Zhiyi is the formal name commonly used in textual attribution, while Master Zhiyi or Zhizhe Dashi is the more common honorific name in later and everyday usage. This archive may display the person as 'Master Zhiyi (Zhiyi)' or '智者大师（智顗）'."
+
+dates:
+  birth: 538 CE
+  death: 597 CE
+  note: "Dates are commonly given as 538-597 CE, but should be verified against additional sources."
+
+regions:
+  - China
+  - East Asia
+
+traditions:
+  - tiantai
+  - chinese_buddhism
+  - lotus_sutra_tradition
+  - meditation
+
+roles:
+  - tiantai_systematizer
+  - patriarch
+  - meditation_master
+  - doctrinal_systematizer
+  - teacher
+  - commentator
+
+related_works:
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju
+  - weimo-jing-xuanshu
+  - guanyin-xuanyi
+  - sijiayi
+
+related_terms:
+  - zhiguan
+  - three-truths
+  - one-thought-three-thousand
+  - five-periods-eight-teachings
+  - lotus-sutra
+  - perfect-teaching
+  - contemplation
+  - doctrinal-classification
+
+lineage_claims:
+  - tradition: tiantai
+    claim_zh: "天台宗传统中，智者大师被视为天台宗教观体系的核心奠基者和集大成者。"
+    claim_en: "In Tiantai tradition, Master Zhiyi is regarded as the central systematizer and foundational figure of the Tiantai doctrinal and contemplative system."
+    confidence: high
+    note_zh: "此处记录为天台宗传统与学术研究中普遍承认的重要定位，但具体表述仍需结合来源进一步校订。"
+    note_en: "This records a widely recognized Tiantai and scholarly characterization, while detailed wording should be refined with additional sources."
+    source_refs: []
+
+  - tradition: tiantai
+    claim_zh: "智者大师通常被置于慧思之后，并被视为承接慧文、慧思思想而建立天台教观体系的重要人物。"
+    claim_en: "Master Zhiyi is usually placed after Huisi and is regarded as a key figure who received earlier Huiwen-Huisi related traditions and systematized Tiantai thought."
+    confidence: high
+    note_zh: "慧文、慧思、智者大师之间的师承与思想关系应后续在 relations 文件中单独建模。"
+    note_en: "The lineage and doctrinal relations among Huiwen, Huisi, and Master Zhiyi should later be modeled separately in relation files."
+    source_refs: []
+
+summary_zh: "智者大师，正式名智顗，是天台宗历史上最重要的人物之一。他在天台宗传统中被视为教观体系的核心奠基者和集大成者，与《摩诃止观》《法华玄义》《法华文句》等天台核心典籍密切相关。智者大师的思想体系以《法华经》为重要依据，发展出止观、三谛、一念三千、判教等天台宗核心教义。本资料库将智者大师记录为天台宗模块的核心人物，并把其相关著作、术语、师承和思想影响分别纳入 works、terms 与 relations 数据。"
+
+summary_en: "Master Zhiyi, formally named Zhiyi, is one of the most important figures in the history of the Tiantai tradition. In Tiantai tradition, he is regarded as the central systematizer of the doctrinal and contemplative system. He is closely associated with core Tiantai works such as Mohe Zhiguan, Fahua Xuanyi, and Fahua Wenju. His thought is deeply connected with the Lotus Sutra and includes key Tiantai doctrines such as calming and contemplation, the three truths, one thought containing three thousand, and doctrinal classification. This archive records Master Zhiyi as a central figure in the Tiantai module and connects his works, terms, lineage, and influence through separate work, term, and relation records."
+
+bibliography:
+  - title_zh: ""
+    title_en: ""
+    author_zh: ""
+    author_en: ""
+    publisher: ""
+    year: ""
+    language: ""
+    type: biography
+    isbn: ""
+    note_zh: "待补充智者大师相关传记、天台宗史、学术研究或传统文献资料。"
+    note_en: "Pending biography, Tiantai history, academic studies, or traditional reference works for Master Zhiyi."
+
+source_refs:
+  - name: "To be added"
+    url: ""
+    identifier: ""
+    license_note: "Source reference pending."
+    reliability_note: "Needs verification."
+
+status:
+  record_status: draft
+  source_status: needs_source
+  review_status: needs_review
+
+notes:
+  - "Master Zhiyi is a core person record for the Tiantai module."
+  - "The id remains zhiyi for stability and machine readability, while display_name_zh is set to 智者大师."
+  - "Core works such as Mohe Zhiguan, Fahua Xuanyi, and Fahua Wenju should be added as separate files under data/works/."
+  - "Relations among Huiwen, Huisi, Master Zhiyi, Guanding, and Zhanran should later be represented in data/relations/teacher-student.yaml."
+  - "Doctrinal terms such as three truths, one thought three thousand, and zhiguan should be added as separate files under data/terms/."
+  - "Future updates should add verified sources for dates, works, lineage position, name usage, and doctrinal summaries."
