@@ -1,0 +1,95 @@
+id: kumarajiva
+type: person
+
+name_zh: 鸠摩罗什
+name_en: Kumarajiva
+name_pinyin: Jiumoluoshi
+name_sanskrit: Kumārajīva
+
+alternative_names:
+  - 鳩摩羅什
+  - 鸠摩罗什
+  - Kumārajīva
+  - Kumarajiva
+
+dates:
+  birth: 344 CE
+  death: 413 CE
+  note: "Dates are commonly given as 344-413 CE, but should be verified against additional sources."
+
+regions:
+  - Kucha
+  - China
+  - Central Asia
+  - East Asia
+
+traditions:
+  - mahayana
+  - madhyamaka
+  - sanlun
+  - tiantai
+
+roles:
+  - translator
+  - monk
+  - transmission_figure
+  - chinese_buddhist_translation_master
+
+related_works:
+  - zhong-lun
+  - shiermen-lun
+  - dazhidu-lun
+  - lotus-sutra
+  - vajracchedika-prajnaparamita-sutra
+  - vimalakirti-sutra
+
+related_terms:
+  - madhyamaka
+  - emptiness
+  - two-truths
+  - prajnaparamita
+  - translation
+
+lineage_claims:
+  - tradition: sanlun
+    claim_zh: "鸠摩罗什译介中观相关论典，对三论宗的形成具有关键意义。"
+    claim_en: "Kumarajiva's translations of Madhyamaka-related works were central to the formation of the Sanlun tradition."
+    confidence: high
+    note_zh: "这是思想与文本传播关系，不等同于直接祖师谱系关系。"
+    note_en: "This is a doctrinal and textual transmission relation, not necessarily a direct patriarchal lineage relation."
+    source_refs: []
+
+  - tradition: tiantai
+    claim_zh: "鸠摩罗什译出的《法华经》等经典，对天台宗教义体系具有重要影响。"
+    claim_en: "Kumarajiva's translation of the Lotus Sutra and related texts had major influence on Tiantai doctrinal development."
+    confidence: high
+    note_zh: "此处记录为典籍影响关系，后续应在 relations 文件中单独建模。"
+    note_en: "This is recorded as a textual influence relation and should later be modeled separately in relation files."
+    source_refs: []
+
+summary_zh: "鸠摩罗什是汉传佛教史上极为重要的译经家。他的译经活动对中观思想、般若思想、《法华经》接受史、三论宗形成以及后来的天台宗思想体系都有深远影响。本资料库将鸠摩罗什记录为连接印度佛教、中亚佛教与汉传佛教的重要传播人物。"
+
+summary_en: "Kumarajiva was one of the most important translators in the history of Chinese Buddhism. His translation activity deeply influenced the reception of Madhyamaka, Prajnaparamita literature, the Lotus Sutra, the formation of the Sanlun tradition, and later Tiantai doctrinal development. This archive records him as a key transmission figure connecting Indian, Central Asian, and Chinese Buddhism."
+
+source_refs:
+  - name: Encyclopaedia Britannica
+    url: "https://www.britannica.com/biography/Kumarajiva"
+    identifier: "Kumarajiva"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia entry."
+
+  - name: Princeton Dictionary of Buddhism entry reference
+    url: ""
+    identifier: "Kumārajīva"
+    license_note: "Bibliographic reference only. Full text not redistributed."
+    reliability_note: "To be verified."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Future updates should add more precise source references for specific translated works."
+  - "Relations between Kumarajiva, Sanlun, Tiantai, and translated texts should be modeled in separate relation records."
+  - "The connection to Tiantai should be treated primarily as a textual and doctrinal influence relation."
