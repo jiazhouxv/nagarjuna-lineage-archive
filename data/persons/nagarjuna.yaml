@@ -1,0 +1,81 @@
+id: nagarjuna
+type: person
+
+name_zh: 龙树菩萨
+name_en: Nagarjuna
+name_pinyin: Longshu Pusa
+name_sanskrit: Nāgārjuna
+
+alternative_names:
+  - 龙树
+  - 龍樹
+  - Nāgārjuna
+  - Nagarjuna
+
+dates:
+  birth: circa 150 CE
+  death: circa 250 CE
+  note: "Dates are approximate and should be treated as scholarly estimates."
+
+regions:
+  - India
+  - South Asia
+
+traditions:
+  - madhyamaka
+  - mahayana
+  - tiantai
+  - sanlun
+
+roles:
+  - philosopher
+  - monk
+  - madhyamaka_founder
+  - lineage_ancestor_claim
+
+related_works:
+  - mulamadhyamakakarika
+  - zhong-lun
+  - shiermen-lun
+  - dazhidu-lun
+
+related_terms:
+  - emptiness
+  - madhyamaka
+  - two-truths
+  - dependent-origination
+
+lineage_claims:
+  - tradition: tiantai
+    claim_zh: "天台宗传统中，龙树菩萨被尊为重要祖师源头之一。"
+    claim_en: "In Tiantai lineage narratives, Nagarjuna is honored as an important ancestral figure."
+    confidence: medium
+    note_zh: "本项目将此记录为宗派传统中的谱系叙述，而非自动视为无争议历史事实。"
+    note_en: "This is recorded as a tradition-level lineage claim, not as an automatically verified historical fact."
+    source_refs: []
+
+summary_zh: "龙树菩萨是大乘佛教史上极具影响力的思想家，通常与中观学派、空性思想和二谛思想密切相关。在东亚佛教传统中，龙树菩萨也常被后世宗派纳入祖师谱系或思想源流叙述。本资料库以龙树菩萨为思想源点，整理其相关思想在东亚佛教诸宗中的接受、转化和传承。"
+
+summary_en: "Nagarjuna was one of the most influential thinkers in Mahayana Buddhist history and is closely associated with Madhyamaka, emptiness, and the two truths. In East Asian Buddhist traditions, Nagarjuna is often included in later lineage narratives or doctrinal genealogies. This archive uses Nagarjuna as a starting point for documenting the reception, transformation, and transmission of related thought across East Asian Buddhist traditions."
+
+source_refs:
+  - name: Stanford Encyclopedia of Philosophy
+    url: "https://plato.stanford.edu/entries/nagarjuna/"
+    identifier: "Nāgārjuna"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Academic encyclopedia entry."
+
+  - name: Encyclopaedia Britannica
+    url: "https://www.britannica.com/biography/Nagarjuna"
+    identifier: "Nagarjuna"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia entry."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This initial record intentionally avoids detailed hagiographic claims until additional sources are added."
+  - "Future updates should add separate relation records for Tiantai, Sanlun, and other tradition-level lineage claims."
