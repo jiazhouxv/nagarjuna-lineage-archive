@@ -1,8 +1,8 @@
 # Project Scope
 
-## English
+## English Overview
 
-Nagarjuna Lineage Archive is an open-source digital humanities project focused on structured, machine-readable data related to Nāgārjuna, Buddhist lineages, doctrinal reception, historical chronology, regional branches, and East Asian Buddhist traditions.
+Nagarjuna Lineage Archive is an open-source digital humanities project focused on structured, machine-readable data related to Nagarjuna, Buddhist lineages, doctrinal reception, historical chronology, regional branches, and East Asian Buddhist traditions.
 
 The project is metadata-first. It does not aim to become a full-text Buddhist canon repository.
 
@@ -42,6 +42,14 @@ The archive focuses on:
 - 引用标识
 - 数据校验工具
 
+## Core Positioning
+
+This project records the reception, transformation, and tradition-level interpretation of Nagarjuna-related thought in East Asian Buddhism.
+
+The project is not limited to one Buddhist school. It is designed as a long-term archive that can document multiple traditions and branches.
+
+The Tiantai tradition is the first active module.
+
 ## Initial Active Module
 
 The first active module is the Tiantai tradition.
@@ -54,9 +62,9 @@ The Tiantai module includes:
 
 The first development phase focuses on:
 
-- Nāgārjuna
+- Nagarjuna
 - Madhyamaka thought
-- Kumārajīva and Chinese Buddhist translation
+- Kumarajiva and Chinese Buddhist translation
 - Huiwen
 - Huisi
 - Zhiyi
@@ -68,20 +76,54 @@ The first development phase focuses on:
 - Tiantai doctrinal terms
 - Regional transmission to Japan and Korea
 
-## Out of Scope
+## Long-Term Tradition Modules
 
-This project does not aim to:
+The long-term archive may include structured modules for East Asian Buddhist traditions that record Nagarjuna-related lineage claims, doctrinal reception, textual influence, and historical development.
 
-- Redistribute restricted full-text Buddhist corpora
-- Replace CBETA, SAT, or other full-text Buddhist databases
-- Provide religious authority or doctrinal judgement
-- Present lineage claims as unquestioned historical facts
-- Host copyrighted scans or restricted modern editions
-- Mix unsourced claims with structured records
+Planned tradition modules include:
+
+- Tiantai
+- Sanlun
+- Huayan
+- Chan
+- Pure Land
+- Faxiang
+- Vinaya
+- Esoteric Buddhism
+
+These modules should be developed gradually. Each module should include historical chronology, major persons, major works, doctrinal terms, regional branches, and source references.
+
+## Chronology Principle
+
+Each tradition should be organized according to historical sequence whenever possible.
+
+Records should distinguish between:
+
+- Historical dates
+- Approximate dates
+- Traditional lineage claims
+- Later retrospective classifications
+- Doctrinal influence
+- Textual transmission
+- Regional transmission
+
+When a date is uncertain, the record should clearly mark it as approximate or disputed.
+
+## Geography Principle
+
+The archive should record regional branches and transmission paths.
+
+For the Tiantai module, the initial regional branches are:
+
+- Chinese Tiantai
+- Japanese Tendai
+- Korean Cheontae
+
+Regional branches should be connected to persons, works, institutions, doctrinal developments, and transmission events.
 
 ## Lineage Claims
 
-Some Buddhist traditions describe Nāgārjuna as a patriarchal source or ancestral figure for multiple East Asian Buddhist schools.
+Some Buddhist traditions describe Nagarjuna as a patriarchal source or ancestral figure for multiple East Asian Buddhist schools.
 
 This project records such claims as tradition-level lineage claims, not as automatically verified historical facts.
 
@@ -92,6 +134,19 @@ Each lineage claim should include:
 - Source reference
 - Confidence level
 - Notes on historical or doctrinal context
+
+## Out of Scope
+
+This project does not aim to:
+
+- Redistribute restricted full-text Buddhist corpora
+- Replace CBETA, SAT, or other full-text Buddhist databases
+- Provide religious authority or doctrinal judgement
+- Present lineage claims as unquestioned historical facts
+- Host copyrighted scans or restricted modern editions
+- Mix unsourced claims with structured records
+- Copy large-scale modern translations or copyrighted annotations
+- Present sectarian preference as neutral data
 
 ## Full Text Policy
 
@@ -105,5 +160,50 @@ When the license is unclear or restrictive, this project records:
 - Citation references
 - Summaries written by contributors
 - Structured topic tags
+- Notes for future review
 
 The project should not copy restricted full-text corpora into the repository.
+
+## Research Tone
+
+The archive should use a neutral, descriptive, and source-aware tone.
+
+Records should distinguish between:
+
+- Historical evidence
+- Traditional attribution
+- Doctrinal interpretation
+- Later sectarian classification
+- Contributor summary
+- Unverified claim
+
+The project welcomes religious, historical, philological, and digital humanities perspectives, but the data structure should remain neutral and source-based.
+
+## First Milestone
+
+The first milestone is to establish the basic structure for:
+
+- Nagarjuna person record
+- Core Madhyamaka-related works
+- Tiantai tradition record
+- Chinese Tiantai branch record
+- Japanese Tendai branch record
+- Korean Cheontae branch record
+- Initial Tiantai chronology
+- Initial teacher-student relations
+- Initial work-influence relations
+- Initial source policy
+- Initial data schema
+
+## Maintenance Goal
+
+The project should grow through small, reviewable updates.
+
+Preferred maintenance workflow:
+
+- Add one person, work, term, branch, or relation at a time
+- Include source references whenever possible
+- Use issues to track missing data
+- Use pull requests for larger structural changes
+- Release versioned milestones
+- Avoid large unsourced dumps of text
