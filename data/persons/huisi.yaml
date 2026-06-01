@@ -1,0 +1,87 @@
+id: huisi
+type: person
+
+name_zh: 慧思
+name_en: Huisi
+name_pinyin: Huisi
+
+alternative_names:
+  - 南岳慧思
+  - 慧思禅师
+  - Nanyue Huisi
+  - Huisi
+
+dates:
+  birth: 515 CE
+  death: 577 CE
+  note: "Dates are commonly given as 515-577 CE, but should be verified against additional sources."
+
+regions:
+  - China
+  - East Asia
+
+traditions:
+  - tiantai
+  - chinese_buddhism
+  - meditation
+  - lotus_sutra_tradition
+
+roles:
+  - tiantai_lineage_figure
+  - meditation_master
+  - teacher_of_zhiyi
+  - doctrinal_transmission_figure
+
+related_works:
+  - fahua-jing-anle-xingyi
+  - zhufa-wuzheng-sanmei-famen
+
+related_terms:
+  - zhiguan
+  - lotus-sutra
+  - three-truths
+  - meditation
+  - repentance-practice
+
+lineage_claims:
+  - tradition: tiantai
+    claim_zh: "天台宗传统中，慧思被视为智顗的重要老师，是连接慧文与智顗之间的关键祖师。"
+    claim_en: "In Tiantai lineage narratives, Huisi is regarded as an important teacher of Zhiyi and a key figure linking Huiwen and Zhiyi."
+    confidence: high
+    note_zh: "此处记录为天台宗传统中的师承与谱系关系，后续应在 relations 文件中单独建模。"
+    note_en: "This is recorded as a Tiantai teacher-student and lineage relation and should later be modeled separately in relation files."
+    source_refs: []
+
+summary_zh: "慧思是天台宗早期谱系中的重要人物，通常被称为南岳慧思。他在天台宗传统中被视为智顗的重要老师，并在法华信仰、禅观实践和早期天台思想形成中具有关键地位。本资料库将慧思记录为连接慧文、智顗与天台教观体系的重要传承节点。"
+
+summary_en: "Huisi, often known as Nanyue Huisi, is an important figure in early Tiantai lineage narratives. Tiantai tradition regards him as a major teacher of Zhiyi and a key figure in the development of Lotus Sutra devotion, meditative practice, and early Tiantai thought. This archive records Huisi as an important transmission node linking Huiwen, Zhiyi, and the formation of Tiantai doctrinal and contemplative systems."
+
+bibliography:
+  - title_zh: ""
+    title_en: ""
+    author_zh: ""
+    author_en: ""
+    publisher: ""
+    year: ""
+    language: ""
+    type: biography
+    isbn: ""
+    note_zh: "待补充慧思相关传记、天台宗史或学术研究资料。"
+    note_en: "Pending biography, Tiantai history, or academic reference works for Huisi."
+
+source_refs:
+  - name: "To be added"
+    url: ""
+    identifier: ""
+    license_note: "Source reference pending."
+    reliability_note: "Needs verification."
+
+status:
+  record_status: draft
+  source_status: needs_source
+  review_status: needs_review
+
+notes:
+  - "Future updates should add reliable sources for Huisi's dates, works, and teacher-student relation with Zhiyi."
+  - "The relation between Huiwen, Huisi, and Zhiyi should later be represented in data/relations/teacher-student.yaml."
+  - "Huisi's works and Lotus Sutra-related practices should be added as separate work and term records."
