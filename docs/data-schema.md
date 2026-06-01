@@ -42,6 +42,7 @@ Most records may include these common fields:
 - title_pinyin
 - summary_zh
 - summary_en
+- bibliography
 - traditions
 - regions
 - source_refs
@@ -60,6 +61,7 @@ Most records may include these common fields:
 - title_pinyin
 - summary_zh
 - summary_en
+- bibliography
 - traditions
 - regions
 - source_refs
@@ -121,6 +123,7 @@ Recommended fields:
 - name_zh
 - name_en
 - name_pinyin
+- name_sanskrit
 - alternative_names
 - dates
 - regions
@@ -131,6 +134,7 @@ Recommended fields:
 - lineage_claims
 - summary_zh
 - summary_en
+- bibliography
 - source_refs
 - status
 - notes
@@ -142,6 +146,7 @@ Recommended fields:
 - name_zh
 - name_en
 - name_pinyin
+- name_sanskrit
 - alternative_names
 - dates
 - regions
@@ -152,9 +157,14 @@ Recommended fields:
 - lineage_claims
 - summary_zh
 - summary_en
+- bibliography
 - source_refs
 - status
 - notes
+
+Bibliography is used to record biographies, academic studies, traditional biographies, and other person-related reference works.
+
+bibliography 字段用于记录与人物相关的传记、学术研究、传统传记和其他参考著作。
 
 Example field pattern:
 
@@ -166,6 +176,7 @@ Example field pattern:
 - traditions: tiantai
 - roles: patriarch, systematizer
 - related_works: mohe-zhiguan, fahua-xuanyi, fahua-wenju
+- bibliography: biography and academic reference works
 
 字段示例：
 
@@ -177,6 +188,61 @@ Example field pattern:
 - traditions: tiantai
 - roles: patriarch, systematizer
 - related_works: mohe-zhiguan, fahua-xuanyi, fahua-wenju
+- bibliography: 传记与学术参考著作
+
+---
+
+## Bibliography Fields / 参考书目字段
+
+Bibliography entries may include:
+
+- title_zh
+- title_en
+- author_zh
+- author_en
+- publisher
+- year
+- language
+- type
+- isbn
+- note_zh
+- note_en
+
+参考书目条目可以包括：
+
+- title_zh
+- title_en
+- author_zh
+- author_en
+- publisher
+- year
+- language
+- type
+- isbn
+- note_zh
+- note_en
+
+Recommended bibliography type values:
+
+- traditional_biography
+- academic_biography
+- popular_biography
+- critical_study
+- primary_source
+- modern_retelling
+- biography
+- bibliography
+
+推荐的 bibliography type 值：
+
+- traditional_biography
+- academic_biography
+- popular_biography
+- critical_study
+- primary_source
+- modern_retelling
+- biography
+- bibliography
 
 ---
 
@@ -716,10 +782,10 @@ Data should be added gradually and reviewed in small units.
 
 Do not add large unsourced text dumps.
 
-Each record should prefer structured fields, source references, and clear status markers.
+Each record should prefer structured fields, source references, bibliography fields, and clear status markers.
 
 数据应逐步添加，并以小单位进行审查。
 
 不要加入大量无来源文本。
 
-每条记录应优先使用结构化字段、来源信息和清晰的状态标记。
+每条记录应优先使用结构化字段、来源信息、参考书目字段和清晰的状态标记。
