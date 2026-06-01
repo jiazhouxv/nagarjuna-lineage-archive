@@ -1,0 +1,84 @@
+id: huiwen
+type: person
+
+name_zh: 慧文
+name_en: Huiwen
+name_pinyin: Huiwen
+
+alternative_names:
+  - 北齐慧文
+  - 慧文禅师
+  - Huiwen
+
+dates:
+  birth: unknown
+  death: unknown
+  note: "Dates are uncertain. Huiwen is generally placed before Huisi and Zhiyi in Tiantai lineage narratives."
+
+regions:
+  - China
+  - East Asia
+
+traditions:
+  - tiantai
+  - madhyamaka
+  - chinese_buddhism
+
+roles:
+  - tiantai_lineage_figure
+  - meditation_master
+  - doctrinal_transmission_figure
+  - lineage_ancestor_claim
+
+related_works:
+  - zhong-lun
+  - dazhidu-lun
+
+related_terms:
+  - three-truths
+  - madhyamaka
+  - emptiness
+  - zhiguan
+
+lineage_claims:
+  - tradition: tiantai
+    claim_zh: "天台宗传统中，慧文被列入早期祖师谱系，通常被视为承接中观三论思想并启发后续天台思想发展的关键人物。"
+    claim_en: "In Tiantai lineage narratives, Huiwen is placed among early lineage figures and is often described as a key figure who received Madhyamaka-related thought and influenced later Tiantai development."
+    confidence: medium
+    note_zh: "本项目将此记录为天台宗传统中的谱系叙述，后续需要补充具体文献来源。"
+    note_en: "This is recorded as a Tiantai tradition-level lineage claim and requires additional source verification."
+    source_refs: []
+
+summary_zh: "慧文是天台宗早期谱系中重要但资料相对有限的人物。天台宗传统常将其置于慧思、智顗之前，用以说明中观、三谛和止观思想在天台宗形成之前的思想承接。本资料库将慧文记录为天台宗早期谱系和思想传承中的关键节点，但其具体生平、年代和文献依据仍需进一步校核。"
+
+summary_en: "Huiwen is an important but historically less documented figure in early Tiantai lineage narratives. Tiantai tradition often places him before Huisi and Zhiyi as a figure associated with the reception of Madhyamaka-related thought, the three truths, and meditative practice. This archive records Huiwen as a key node in early Tiantai lineage and doctrinal transmission, while marking his dates and sources as requiring further verification."
+
+bibliography:
+  - title_zh: ""
+    title_en: ""
+    author_zh: ""
+    author_en: ""
+    publisher: ""
+    year: ""
+    language: ""
+    type: biography
+    isbn: ""
+    note_zh: "待补充慧文相关传记、天台宗史或学术研究资料。"
+    note_en: "Pending biography, Tiantai history, or academic reference works for Huiwen."
+
+source_refs:
+  - name: "To be added"
+    url: ""
+    identifier: ""
+    license_note: "Source reference pending."
+    reliability_note: "Needs verification."
+
+status:
+  record_status: draft
+  source_status: needs_source
+  review_status: needs_review
+
+notes:
+  - "Huiwen should be handled carefully because historical details are limited and many claims are lineage-based."
+  - "Future updates should add sources from Tiantai historical texts, Buddhist dictionaries, or academic studies."
+  - "Relations between Huiwen, Huisi, Zhiyi, Madhyamaka, and the three truths should later be modeled in relation files."
