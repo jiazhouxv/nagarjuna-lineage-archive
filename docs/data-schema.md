@@ -121,10 +121,17 @@ Recommended fields:
 - id
 - type
 - name_zh
+- display_name_zh
+- formal_name_zh
+- honorific_name_zh
+- common_name_zh
 - name_en
+- display_name_en
 - name_pinyin
 - name_sanskrit
 - alternative_names
+- name_usage_note_zh
+- name_usage_note_en
 - dates
 - regions
 - traditions
@@ -144,10 +151,17 @@ Recommended fields:
 - id
 - type
 - name_zh
+- display_name_zh
+- formal_name_zh
+- honorific_name_zh
+- common_name_zh
 - name_en
+- display_name_en
 - name_pinyin
 - name_sanskrit
 - alternative_names
+- name_usage_note_zh
+- name_usage_note_en
 - dates
 - regions
 - traditions
@@ -165,6 +179,70 @@ Recommended fields:
 Bibliography is used to record biographies, academic studies, traditional biographies, and other person-related reference works.
 
 bibliography 字段用于记录与人物相关的传记、学术研究、传统传记和其他参考著作。
+
+### Person Name Fields / 人物名称字段
+
+Many Buddhist figures have formal names, honorific names, common names, Sanskrit names, Chinese translated names, and later display names.
+
+For this reason, person records may include multiple name fields.
+
+许多佛教人物同时具有正式名、尊称、通称、梵文名、汉译名和后世常用显示名。
+
+因此，人物记录可以包含多个名称字段。
+
+Recommended name fields:
+
+- name_zh: standard Chinese name
+- display_name_zh: default Chinese display name
+- formal_name_zh: formal or textual attribution name
+- honorific_name_zh: honorific Chinese name
+- common_name_zh: commonly used Chinese name
+- name_en: standard English name
+- display_name_en: default English display name
+- name_pinyin: pinyin form
+- name_sanskrit: Sanskrit form when applicable
+- alternative_names: other known names
+- name_usage_note_zh: Chinese explanation of name usage
+- name_usage_note_en: English explanation of name usage
+
+推荐名称字段：
+
+- name_zh: 标准中文名
+- display_name_zh: 默认中文显示名
+- formal_name_zh: 正式名或著作署名
+- honorific_name_zh: 中文尊称
+- common_name_zh: 常用中文名
+- name_en: 标准英文名
+- display_name_en: 默认英文显示名
+- name_pinyin: 拼音
+- name_sanskrit: 梵文名，适用于有梵文名的人物
+- alternative_names: 其他别名
+- name_usage_note_zh: 中文名称用法说明
+- name_usage_note_en: 英文名称用法说明
+
+Example:
+
+- id: zhiyi
+- name_zh: 智顗
+- display_name_zh: 智者大师
+- formal_name_zh: 智顗
+- honorific_name_zh: 智者大师
+- common_name_zh: 智者大师
+- name_en: Zhiyi
+- display_name_en: Master Zhiyi
+- name_pinyin: Zhiyi
+
+示例：
+
+- id: zhiyi
+- name_zh: 智顗
+- display_name_zh: 智者大师
+- formal_name_zh: 智顗
+- honorific_name_zh: 智者大师
+- common_name_zh: 智者大师
+- name_en: Zhiyi
+- display_name_en: Master Zhiyi
+- name_pinyin: Zhiyi
 
 Example field pattern:
 
