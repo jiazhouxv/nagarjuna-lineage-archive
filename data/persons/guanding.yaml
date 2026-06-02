@@ -1,0 +1,130 @@
+id: guanding
+type: person
+
+name_zh: 灌顶
+display_name_zh: 章安大师
+formal_name_zh: 灌顶
+honorific_name_zh: 章安大师
+common_name_zh: 灌顶
+
+name_en: Guanding
+display_name_en: Master Guanding
+name_pinyin: Guanding
+
+alternative_names:
+  - 章安灌顶
+  - 章安大师
+  - 灌頂
+  - 章安灌頂
+  - Master Guanding
+  - Zhang'an Guanding
+  - Zhang'an Dashi
+
+name_usage_note_zh: "灌顶是正式名；章安大师、章安灌顶是后世常见称呼。本资料库可显示为“章安大师（灌顶）”。"
+name_usage_note_en: "Guanding is the formal name, while Zhang'an Guanding or Master Zhang'an are common later honorific forms. This archive may display the person as 'Master Guanding (Guanding)' or '章安大师（灌顶）'."
+
+dates:
+  birth: 561 CE
+  death: 632 CE
+  note: "Dates are commonly given as 561-632 CE, but should be verified against additional sources."
+
+regions:
+  - China
+  - East Asia
+
+traditions:
+  - tiantai
+  - chinese_buddhism
+  - lotus_sutra_tradition
+  - meditation
+
+roles:
+  - tiantai_lineage_figure
+  - disciple_of_zhiyi
+  - compiler
+  - editor
+  - recorder
+  - commentator
+  - transmission_figure
+
+related_works:
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju
+  - guoqing-bailu
+  - zhizhe-dashi-biechuan
+  - daban-niepan-jing-xuanyi
+  - daban-niepan-jing-shu
+
+related_terms:
+  - zhiguan
+  - lotus-sutra
+  - three-truths
+  - one-thought-three-thousand
+  - tiantai-lineage
+  - textual-compilation
+
+lineage_claims:
+  - tradition: tiantai
+    claim_zh: "天台宗传统中，灌顶被视为智者大师的重要弟子和天台教法的重要传承者。"
+    claim_en: "In Tiantai tradition, Guanding is regarded as an important disciple of Master Zhiyi and a major transmitter of Tiantai teachings."
+    confidence: high
+    note_zh: "此处记录为天台宗传统中的师承与传承关系，后续应在 relations 文件中单独建模。"
+    note_en: "This is recorded as a Tiantai teacher-student and transmission relation and should later be modeled separately in relation files."
+    source_refs: []
+
+  - tradition: tiantai
+    claim_zh: "灌顶对智者大师讲授内容的记录、整理和编辑，使天台核心典籍得以形成并流传。"
+    claim_en: "Guanding's recording, organization, and editing of Master Zhiyi's lectures helped form and transmit the core Tiantai textual corpus."
+    confidence: high
+    note_zh: "此处记录为典籍整理与文献传承关系，后续应在 works 和 relations 数据中进一步细化。"
+    note_en: "This is recorded as a textual compilation and transmission relation and should later be refined in work and relation records."
+    source_refs: []
+
+summary_zh: "章安大师，正式名灌顶，是天台宗早期传承中极为重要的人物。他是智者大师的重要弟子，负责记录、整理和编辑智者大师的讲授内容，对《摩诃止观》《法华玄义》《法华文句》等天台核心文献的形成和流传具有关键作用。灌顶不仅保存了智者大师的教观体系，也参与建构了早期天台宗的谱系叙述和文献传统。本资料库将灌顶记录为智者大师之后的重要传承、编辑和文献整理人物。"
+
+summary_en: "Master Guanding, formally named Guanding and often known as Zhang'an Guanding, was a crucial figure in early Tiantai transmission. He was an important disciple of Master Zhiyi and played a central role in recording, organizing, and editing Zhiyi's lectures. His work was essential for the formation and transmission of core Tiantai texts such as Mohe Zhiguan, Fahua Xuanyi, and Fahua Wenju. This archive records Guanding as a major transmitter, editor, and organizer of early Tiantai teachings."
+
+bibliography:
+  - title_zh: ""
+    title_en: "In the Beginning ... Guanding (561-632) and the Creation of Early Tiantai"
+    author_zh: ""
+    author_en: "Linda Penkower"
+    publisher: "Journal of the International Association of Buddhist Studies"
+    year: "2000"
+    language: "English"
+    type: critical_study
+    isbn: ""
+    note_zh: "灌顶与早期天台宗形成相关的重要学术研究，后续应补充完整卷期和链接。"
+    note_en: "An important academic study on Guanding and the creation of early Tiantai. Full bibliographic details should be completed later."
+
+source_refs:
+  - name: "Brill Encyclopedia of Buddhism"
+    url: "https://referenceworks.brill.com/display/entries/ENBO/COM-2122.xml"
+    identifier: "Zhiyi / Guanding reference"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Academic reference work."
+
+  - name: "Tendai Buddhist Institute - Chinese Foundations"
+    url: "https://www.tendai.org/tendai/china/"
+    identifier: "Guanding"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Tradition-oriented educational source."
+
+  - name: "Encyclopedia.com - Tiantai School"
+    url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tiantai-school"
+    identifier: "Tiantai School"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia reference."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Guanding is a core person record for the Tiantai module."
+  - "The id remains guanding for stability and machine readability, while display_name_zh may use 章安大师."
+  - "Core works associated with Guanding's compilation and editing should be added as separate files under data/works/."
+  - "Relations among Master Zhiyi, Guanding, and later Tiantai transmission should later be represented in data/relations/teacher-student.yaml and data/relations/work-compilation.yaml."
+  - "Future updates should add verified sources for Guanding's own works, editorial role, and lineage position."
