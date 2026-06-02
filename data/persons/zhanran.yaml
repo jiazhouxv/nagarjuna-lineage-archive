@@ -1,0 +1,180 @@
+id: zhanran
+type: person
+
+name_zh: 湛然
+display_name_zh: 荆溪湛然
+formal_name_zh: 湛然
+honorific_name_zh: 妙乐大师
+common_name_zh: 荆溪湛然
+
+name_en: Zhanran
+display_name_en: Jingxi Zhanran
+name_pinyin: Zhanran
+
+alternative_names:
+  - 荆溪湛然
+  - 荊溪湛然
+  - 荆溪尊者
+  - 荊溪尊者
+  - 妙乐大师
+  - 妙樂大師
+  - 湛然大师
+  - 圆通尊者
+  - 圓通尊者
+  - Jingxi Zhanran
+  - Master Zhanran
+  - Master Miaole
+  - Miaole Dashi
+
+name_usage_note_zh: "湛然是正式法号；荆溪湛然是常见称呼，用以标识其籍贯与人物身份；妙乐大师是尊称。本资料库可显示为“荆溪湛然（妙乐大师）”。"
+name_usage_note_en: "Zhanran is the formal Dharma name. Jingxi Zhanran is a common identifying form connected with his native place, while Master Miaole is an honorific title. This archive may display the person as 'Jingxi Zhanran (Master Miaole)' or '荆溪湛然（妙乐大师）'."
+
+lay_surname_zh: 戚
+lay_surname_en: Qi
+
+dates:
+  birth: 711 CE
+  death: 782 CE
+  note: "Dates are commonly given as 711-782 CE, but should be verified against additional sources."
+
+birthplace:
+  historical_name_zh: 常州晋陵荆溪
+  traditional_name_zh: 常州晉陵荊溪
+  modern_name_zh: 江苏宜兴
+  name_en: Jingxi, modern-day Yixing, Jiangsu
+  region_zh: 中国江苏
+  region_en: Jiangsu, China
+  note_zh: "多种资料记载湛然为常州晋陵荆溪人，即今江苏宜兴一带。"
+  note_en: "Multiple sources identify Zhanran as a native of Jingxi in Changzhou/Jinling, corresponding to modern-day Yixing, Jiangsu."
+
+regions:
+  - China
+  - East Asia
+
+traditions:
+  - tiantai
+  - chinese_buddhism
+  - lotus_sutra_tradition
+  - meditation
+
+roles:
+  - tiantai_lineage_figure
+  - tiantai_revival_figure
+  - commentator
+  - doctrinal_systematizer
+  - transmission_figure
+  - defender_of_tiantai
+
+teachers:
+  - xuanlang
+
+students:
+  - daosui
+  - xingman
+  - yuanhao
+
+related_works:
+  - zhiguan-fuxing-chuanhong-jue
+  - fahua-xuanyi-shiqian
+  - fahua-wenju-ji
+  - jingang-pi
+  - zhiguan-yili
+
+related_terms:
+  - zhiguan
+  - three-truths
+  - one-thought-three-thousand
+  - five-periods-eight-teachings
+  - buddha-nature-of-insentient-beings
+  - tiantai-lineage
+  - doctrinal-classification
+
+lineage_claims:
+  - tradition: tiantai
+    claim_zh: "天台宗传统中，湛然被视为唐代复兴天台宗的重要祖师，常被称为天台宗九祖。"
+    claim_en: "In Tiantai tradition, Zhanran is regarded as a major Tang dynasty reviver of the Tiantai school and is often described as the ninth patriarch of Tiantai."
+    confidence: high
+    note_zh: "此处记录为天台宗传统中的祖师谱系叙述，后续应在 relations 文件中单独建模。"
+    note_en: "This is recorded as a Tiantai lineage claim and should later be modeled separately in relation files."
+    source_refs: []
+
+  - tradition: tiantai
+    claim_zh: "湛然通过注释智者大师的核心著作，进一步确立、辩护和传播天台宗教义体系。"
+    claim_en: "Through commentaries on Master Zhiyi's core works, Zhanran further defined, defended, and transmitted Tiantai doctrinal thought."
+    confidence: high
+    note_zh: "此处记录为典籍注释、教义阐释和宗派复兴关系，后续应在 works 与 relations 数据中进一步细化。"
+    note_en: "This is recorded as a commentary, doctrinal interpretation, and revival relation and should later be refined in work and relation records."
+    source_refs: []
+
+summary_zh: "荆溪湛然，正式法号湛然，俗姓戚，常州晋陵荆溪人，即今江苏宜兴一带，尊称妙乐大师，是唐代天台宗极为重要的人物。天台宗传统常将其列为天台宗九祖，并视为中兴天台宗的重要祖师。湛然通过对智者大师《摩诃止观》《法华玄义》《法华文句》等核心著作的注释、阐发和辩护，进一步确立了天台宗的教义边界和宗派身份。他也与无情有性、判教体系和天台宗自我认同的强化密切相关。本资料库将湛然记录为智者大师、章安大师之后，天台宗在唐代复兴与体系化的重要节点。"
+
+summary_en: "Jingxi Zhanran, formally named Zhanran and also honored as Master Miaole, was a major figure in Tang dynasty Tiantai Buddhism. He is commonly identified as a native of Jingxi, corresponding to modern-day Yixing, Jiangsu. Tiantai tradition often presents him as the ninth patriarch and as an important reviver of the Tiantai school. Through commentaries on Master Zhiyi's core works such as Mohe Zhiguan, Fahua Xuanyi, and Fahua Wenju, Zhanran helped define, defend, and transmit Tiantai doctrinal thought. He is also associated with the doctrine of the buddha-nature of insentient beings, doctrinal classification, and the strengthening of Tiantai identity. This archive records Zhanran as a key figure in the Tang revival and systematization of Tiantai after Master Zhiyi and Master Guanding."
+
+bibliography:
+  - title_zh: ""
+    title_en: "Zhanran"
+    author_zh: ""
+    author_en: ""
+    publisher: "Brill's Encyclopedia of Buddhism, Volume II: Lives"
+    year: ""
+    language: "English"
+    type: encyclopedia_entry
+    isbn: ""
+    note_zh: "湛然人物条目的学术百科参考，后续应补充完整作者、页码和出版信息。"
+    note_en: "Academic encyclopedia reference for Zhanran. Full author, page, and publication details should be completed later."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: ""
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对湛然名称、年代、宗派定位和术语。"
+    note_en: "To be used later for checking Zhanran's names, dates, tradition position, and related terminology."
+
+source_refs:
+  - name: "Chinese Wikipedia"
+    url: "https://zh.wikipedia.org/zh-hans/%E8%8D%8A%E6%BA%AA%E6%B9%9B%E7%84%B6"
+    identifier: "荆溪湛然"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Open encyclopedia reference; birthplace and basic biographical details should be verified against academic sources."
+
+  - name: "English Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Zhanran"
+    identifier: "Zhanran"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Open encyclopedia reference; useful for initial data but requires verification."
+
+  - name: "Tsadra Foundation Buddha-Nature"
+    url: "https://buddhanature.tsadra.org/index.php/People/Jingxi_Zhanran"
+    identifier: "Jingxi Zhanran"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Digital Buddhist studies reference source."
+
+  - name: "Encyclopedia.com"
+    url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/zhanran"
+    identifier: "Zhanran"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia reference."
+
+  - name: "Wikisource Author Page"
+    url: "https://zh.wikisource.org/zh-hant/Author:%E6%B9%9B%E7%84%B6"
+    identifier: "湛然"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Open reference page; details require verification against academic sources."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Zhanran is a core person record for the Tiantai module."
+  - "The id remains zhanran for stability and machine readability, while display_name_zh may use 荆溪湛然."
+  - "Birthplace is recorded as 常州晋陵荆溪 / modern-day Yixing, Jiangsu, but should later be verified against academic reference works."
+  - "Zhanran's major commentaries should be added as separate files under data/works/."
+  - "Relations among Master Zhiyi, Master Guanding, Zhanran, Xuanlang, Daosui, Xingman, and Saicho should later be represented in data/relations/."
+  - "Future updates should verify Zhanran's works, lineage position, teacher-student relations, and doctrinal role using academic sources."
