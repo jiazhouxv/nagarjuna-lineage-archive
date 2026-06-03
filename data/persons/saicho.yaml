@@ -1,0 +1,150 @@
+id: saicho
+type: person
+
+name_zh: 最澄
+display_name_zh: 传教大师最澄
+formal_name_zh: 最澄
+honorific_name_zh: 传教大师
+common_name_zh: 最澄
+
+name_en: Saicho
+display_name_en: Saicho
+name_pinyin: Zuicheng
+name_japanese: Saichō
+
+alternative_names:
+  - 傳教大師
+  - 传教大师
+  - 傳教大師最澄
+  - 传教大师最澄
+  - 最澄大师
+  - Saichō
+  - Saicho
+  - Dengyo Daishi
+  - Dengyō Daishi
+
+name_usage_note_zh: "最澄是正式名；传教大师是日本朝廷追赐的尊号。本资料库可显示为“传教大师最澄”。"
+name_usage_note_en: "Saicho is the formal name, while Dengyo Daishi is a later honorific title. This archive may display the person as 'Saicho (Dengyo Daishi)' or '传教大师最澄'."
+
+dates:
+  birth: 767 CE
+  death: 822 CE
+  note: "Dates are commonly given as 767-822 CE, but should be verified against additional sources."
+
+birthplace:
+  historical_name_zh: 近江国
+  modern_name_zh: 日本滋贺县一带
+  name_en: Omi Province, modern-day Shiga Prefecture, Japan
+  region_zh: 日本
+  region_en: Japan
+  note_zh: "最澄通常被记载为日本近江国人，现代地理大致对应滋贺县一带。"
+  note_en: "Saicho is usually associated with Omi Province, corresponding broadly to modern-day Shiga Prefecture, Japan."
+
+regions:
+  - Japan
+  - China
+  - East Asia
+
+traditions:
+  - tiantai
+  - tendai
+  - japanese_buddhism
+  - lotus_sutra_tradition
+  - esoteric_buddhism
+
+roles:
+  - founder_of_japanese_tendai
+  - transmission_figure
+  - monk
+  - teacher
+  - reformer
+  - lineage_figure
+
+teachers:
+  - daosui
+  - xingman
+  - shunxiao
+
+students:
+  - ennin
+  - encho
+  - kojo
+
+related_works:
+  - kenkaireon
+  - sangakushiki
+  - hokke-shuku
+  - naisho-buppo-sojo-kechimyakufu
+
+related_terms:
+  - tendai
+  - lotus-sutra
+  - perfect-teaching
+  - bodhisattva-precepts
+  - esoteric-buddhism
+  - tiantai-transmission-to-japan
+
+lineage_claims:
+  - tradition: tendai
+    claim_zh: "日本天台宗传统中，最澄被视为日本天台宗的开创者。"
+    claim_en: "In Japanese Tendai tradition, Saicho is regarded as the founder of the Japanese Tendai school."
+    confidence: high
+    note_zh: "此处记录为日本天台宗传统与历史研究中普遍承认的宗派定位，后续应补充来源。"
+    note_en: "This records a widely recognized tradition-level and historical characterization, while additional sources should be added."
+    source_refs: []
+
+  - tradition: tiantai
+    claim_zh: "最澄赴唐求法，将天台教法及相关佛教传统传入日本，是中国天台宗向日本传播的重要人物。"
+    claim_en: "Saicho traveled to Tang China and transmitted Tiantai teachings and related Buddhist traditions to Japan, making him a key figure in the transmission from Chinese Tiantai to Japanese Tendai."
+    confidence: high
+    note_zh: "此处记录为地域传播关系，后续应在 relations 文件中单独建模。"
+    note_en: "This is recorded as a regional transmission relation and should later be modeled separately in relation files."
+    source_refs: []
+
+summary_zh: "传教大师最澄是日本天台宗的关键人物，通常被视为日本天台宗的开创者。最澄赴唐求法，学习天台教法、密教、禅法和戒律等内容，回到日本后以比叡山为中心建立日本天台宗的基础。他在日本佛教史上具有极高地位，不仅承接中国天台宗传统，也推动日本佛教制度、戒律和宗派格局的变化。本资料库将最澄记录为中国天台宗向日本天台宗传播的核心人物。"
+
+summary_en: "Saicho, later honored as Dengyo Daishi, was a central figure in Japanese Buddhist history and is commonly regarded as the founder of the Japanese Tendai school. He traveled to Tang China, studied Tiantai teachings along with esoteric Buddhism, meditation, and precept traditions, and later established the foundations of Japanese Tendai centered on Mount Hiei. This archive records Saicho as a key figure in the transmission from Chinese Tiantai to Japanese Tendai."
+
+bibliography:
+  - title_zh: ""
+    title_en: ""
+    author_zh: ""
+    author_en: ""
+    publisher: ""
+    year: ""
+    language: ""
+    type: biography
+    isbn: ""
+    note_zh: "待补充最澄传记、日本天台宗史或学术研究资料。"
+    note_en: "Pending biography, Japanese Tendai history, or academic reference works for Saicho."
+
+source_refs:
+  - name: "Encyclopaedia Britannica"
+    url: "https://www.britannica.com/biography/Saicho"
+    identifier: "Saicho"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia reference."
+
+  - name: "Tendai Buddhist Institute"
+    url: "https://www.tendai.org/tendai/japan/"
+    identifier: "Saicho"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Tradition-oriented educational source."
+
+  - name: "Encyclopedia.com"
+    url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/saicho"
+    identifier: "Saicho"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia reference."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Saicho is a core person record for the Japanese Tendai branch."
+  - "The id remains saicho for stability and machine readability."
+  - "Relations among Saicho, Chinese Tiantai teachers, Mount Hiei, and Japanese Tendai should later be represented in data/relations/."
+  - "Saicho's works should be added as separate files under data/works/."
+  - "Future updates should verify teacher names, travel dates, titles, and institutional details using academic sources."
