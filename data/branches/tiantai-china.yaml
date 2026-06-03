@@ -1,0 +1,224 @@
+id: tiantai-china
+type: branch
+
+name_zh: 中国天台宗
+display_name_zh: 中国天台宗
+formal_name_zh: 中国天台宗
+common_name_zh: 中国天台宗
+
+name_en: Chinese Tiantai
+display_name_en: Chinese Tiantai Buddhism
+name_pinyin: Zhongguo Tiantai Zong
+
+alternative_names:
+  - 中国天台
+  - 天台宗中国传统
+  - 天台山天台宗
+  - Chinese Tiantai Buddhism
+  - Tiantai in China
+  - Chinese Tiantai tradition
+
+name_usage_note_zh: "中国天台宗指以中国天台山、智者大师教观体系及其后续中国传承为核心的天台宗分支。本资料库将其作为 tiantai 总宗派下的中国地域分支。"
+name_usage_note_en: "Chinese Tiantai refers to the Tiantai branch centered on the Chinese Tiantai Mountain tradition, Master Zhiyi's doctrinal-contemplative system, and later Chinese transmission. This archive records it as the Chinese regional branch under the parent Tiantai tradition."
+
+parent_tradition: tiantai
+
+region:
+  primary: China
+  broader:
+    - East Asia
+
+historical_period:
+  formation_zh: 南北朝至隋代形成并系统化
+  formation_en: Formed and systematized from the Northern and Southern Dynasties through the Sui period
+  later_development_zh: 唐代由湛然等人物复兴和再系统化，宋代以后继续发展
+  later_development_en: Revived and further systematized during the Tang period by figures such as Zhanran, and continued to develop after the Song period
+
+key_places:
+  - id: tiantai-mountain
+    name_zh: 天台山
+    name_en: Mount Tiantai
+    region_zh: 浙江天台
+    region_en: Tiantai, Zhejiang
+    note_zh: "天台山是中国天台宗的重要地理和象征中心。"
+    note_en: "Mount Tiantai is an important geographical and symbolic center of the Chinese Tiantai tradition."
+
+  - id: guoqing-temple
+    name_zh: 国清寺
+    name_en: Guoqing Temple
+    region_zh: 浙江天台
+    region_en: Tiantai, Zhejiang
+    note_zh: "国清寺与天台宗历史传承密切相关。"
+    note_en: "Guoqing Temple is closely associated with the historical transmission of Chinese Tiantai."
+
+key_persons:
+  - huiwen
+  - huisi
+  - zhiyi
+  - guanding
+  - zhanran
+
+related_persons:
+  - nagarjuna
+  - kumarajiva
+  - huiwen
+  - huisi
+  - zhiyi
+  - guanding
+  - zhanran
+  - yitong
+  - zhili
+  - zunshi
+
+key_works:
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju
+  - zhiguan-fuxing-chuanhong-jue
+  - fahua-xuanyi-shiqian
+  - fahua-wenju-ji
+
+related_terms:
+  - zhiguan
+  - three-truths
+  - one-thought-three-thousand
+  - five-periods-eight-teachings
+  - perfect-teaching
+  - doctrinal-classification
+  - lotus-sutra
+  - buddha-nature-of-insentient-beings
+  - tiantai-lineage
+
+transmission_events:
+  - id: madhyamaka-reception-to-early-tiantai
+    title_zh: 中观思想与早期天台思想的关联
+    title_en: Reception of Madhyamaka-related thought in early Tiantai
+    related_persons:
+      - nagarjuna
+      - kumarajiva
+      - huiwen
+    approximate: true
+    note_zh: "天台宗传统常将早期思想源流上溯至龙树、中观和鸠摩罗什译经传统。"
+    note_en: "Tiantai lineage narratives often trace early intellectual sources to Nagarjuna, Madhyamaka, and Kumarajiva's translation activity."
+    confidence: medium
+
+  - id: huisi-to-zhiyi
+    title_zh: 慧思至智者大师的师承与思想传承
+    title_en: Transmission from Huisi to Master Zhiyi
+    related_persons:
+      - huisi
+      - zhiyi
+    approximate: false
+    note_zh: "南岳慧思禅师通常被视为智者大师的重要老师。"
+    note_en: "Huisi is commonly regarded as an important teacher of Master Zhiyi."
+    confidence: high
+
+  - id: zhiyi-systematizes-tiantai
+    title_zh: 智者大师系统化天台教观体系
+    title_en: Master Zhiyi systematizes the Tiantai doctrinal-contemplative system
+    related_persons:
+      - zhiyi
+    approximate: true
+    note_zh: "智者大师被视为天台宗教观体系的核心奠基者和集大成者。"
+    note_en: "Master Zhiyi is regarded as the central systematizer of Tiantai doctrinal and contemplative thought."
+    confidence: high
+
+  - id: guanding-compiles-zhiyi-teachings
+    title_zh: 章安大师整理智者大师讲授内容
+    title_en: Master Guanding compiles and transmits Master Zhiyi's teachings
+    related_persons:
+      - zhiyi
+      - guanding
+    approximate: true
+    note_zh: "章安大师灌顶对智者大师讲授内容的记录、整理和编辑，使天台核心文献得以形成和流传。"
+    note_en: "Master Guanding's recording, organization, and editing of Master Zhiyi's lectures helped form and transmit the core Tiantai textual corpus."
+    confidence: high
+
+  - id: zhanran-revives-tiantai
+    title_zh: 荆溪湛然复兴唐代天台宗
+    title_en: Jingxi Zhanran revives Tang dynasty Tiantai
+    related_persons:
+      - zhanran
+    approximate: true
+    note_zh: "湛然常被视为唐代复兴和再系统化天台宗的重要人物。"
+    note_en: "Zhanran is commonly regarded as a major figure in the Tang revival and re-systematization of Tiantai."
+    confidence: high
+
+lineage_claims:
+  - claim_zh: "中国天台宗传统中，龙树菩萨常被尊为重要思想源头或祖师源头之一。"
+    claim_en: "In Chinese Tiantai tradition, Nagarjuna is often honored as an important intellectual or ancestral source."
+    related_person: nagarjuna
+    confidence: medium
+    note_zh: "此处记录为宗派传统中的谱系叙述，不自动视为无争议历史事实。"
+    note_en: "This is recorded as a tradition-level lineage claim, not as an automatically verified historical fact."
+    source_refs: []
+
+  - claim_zh: "中国天台宗以智者大师的教观体系为核心。"
+    claim_en: "Chinese Tiantai is centered on the doctrinal-contemplative system of Master Zhiyi."
+    related_person: zhiyi
+    confidence: high
+    note_zh: "此处记录为天台宗传统和研究中较普遍的定位。"
+    note_en: "This records a widely recognized Tiantai and scholarly characterization."
+    source_refs: []
+
+summary_zh: "中国天台宗是天台宗的核心源流，以中国天台山传统和智者大师所系统化的教观体系为中心。其思想源流常上溯至龙树菩萨、中观思想、般若思想和鸠摩罗什译经传统；在中国佛教史中，经慧文、慧思、智者大师、章安大师灌顶、荆溪湛然等人物逐步形成、整理、传播和复兴。中国天台宗以《法华经》为重要经典基础，以止观、三谛、一念三千、五时八教、判教体系等为重要教义特色。日本天台宗 Tendai 和韩国天台宗 Cheontae 后来都与中国天台宗的传播和转化有关。本资料库将中国天台宗记录为 tiantai 总宗派下的第一个地域分支。"
+
+summary_en: "Chinese Tiantai is the central source branch of the Tiantai tradition, centered on the Chinese Mount Tiantai tradition and the doctrinal-contemplative system systematized by Master Zhiyi. Its intellectual sources are often traced to Nagarjuna, Madhyamaka thought, Prajnaparamita traditions, and Kumarajiva's translation activity. In Chinese Buddhist history, the tradition developed through figures such as Huiwen, Huisi, Master Zhiyi, Master Guanding, and Jingxi Zhanran. Chinese Tiantai takes the Lotus Sutra as a major scriptural foundation and is characterized by doctrines and practices such as calming and contemplation, the three truths, one thought containing three thousand, the five periods and eight teachings, and doctrinal classification. Japanese Tendai and Korean Cheontae are later connected to the transmission and transformation of Chinese Tiantai. This archive records Chinese Tiantai as the first regional branch under the parent Tiantai tradition."
+
+bibliography:
+  - title_zh: ""
+    title_en: "Tiantai School"
+    author_zh: ""
+    author_en: ""
+    publisher: "Encyclopedia.com"
+    year: ""
+    language: "English"
+    type: encyclopedia_entry
+    isbn: ""
+    note_zh: "中国天台宗概述参考，后续应补充更完整的学术资料。"
+    note_en: "General reference for Chinese Tiantai; more academic sources should be added later."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: ""
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对天台宗人物、典籍和术语。"
+    note_en: "To be used later for checking Tiantai persons, works, and terms."
+
+source_refs:
+  - name: "Encyclopedia.com - Tiantai School"
+    url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tiantai-school"
+    identifier: "Tiantai School"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia reference."
+
+  - name: "Tendai Buddhist Institute - Chinese Foundations"
+    url: "https://www.tendai.org/tendai/china/"
+    identifier: "Chinese Foundations of Tendai"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Tradition-oriented educational source."
+
+  - name: "Chinese Wikipedia"
+    url: "https://zh.wikipedia.org/zh-hans/%E5%A4%A9%E5%8F%B0%E5%AE%97"
+    identifier: "天台宗"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Open encyclopedia reference; details require verification against academic sources."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This is the Chinese regional branch record under the parent Tiantai tradition."
+  - "The id remains tiantai-china for stability and machine readability."
+  - "Japanese Tendai and Korean Cheontae should be represented as separate branch records under data/branches/."
+  - "Core works such as Mohe Zhiguan, Fahua Xuanyi, and Fahua Wenju should be added under data/works/."
+  - "Doctrinal terms such as zhiguan, three truths, and one thought three thousand should be added under data/terms/."
+  - "Relations among Chinese Tiantai, Japanese Tendai, Korean Cheontae, Saicho, and Uicheon should later be represented under data/relations/."
+  - "Future updates should add more precise source references for Chinese Tiantai chronology, places, and institutional history."
