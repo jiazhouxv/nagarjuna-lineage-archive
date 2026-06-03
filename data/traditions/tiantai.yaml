@@ -1,0 +1,203 @@
+id: tiantai
+type: tradition
+
+name_zh: 天台宗
+display_name_zh: 天台宗
+formal_name_zh: 天台宗
+common_name_zh: 天台宗
+
+name_en: Tiantai
+display_name_en: Tiantai Buddhism
+name_pinyin: Tiantai
+
+alternative_names:
+  - 天台教
+  - 天台法门
+  - Tiantai Buddhism
+  - T'ien-t'ai
+  - Tendai
+  - Cheontae
+
+name_usage_note_zh: "天台宗是汉传佛教重要宗派之一；日本分支通常称 Tendai，韩国分支通常称 Cheontae。本资料库以 Tiantai 作为总宗派 ID。"
+name_usage_note_en: "Tiantai is an important East Asian Buddhist tradition. Its Japanese branch is commonly called Tendai, and its Korean branch is commonly called Cheontae. This archive uses Tiantai as the parent tradition ID."
+
+region_scope:
+  - China
+  - Japan
+  - Korea
+  - East Asia
+
+primary_regions:
+  - China
+  - Japan
+  - Korea
+
+historical_origin:
+  region_zh: 中国
+  region_en: China
+  period_zh: 南北朝至隋唐时期形成并系统化
+  period_en: Developed and systematized from the Northern and Southern Dynasties through the Sui and Tang periods
+  note_zh: "天台宗以中国天台山及智者大师的教观体系为核心，但其思想源流常上溯至龙树、中观、般若与《法华经》传统。"
+  note_en: "Tiantai is centered on the Chinese Tiantai tradition and Master Zhiyi's doctrinal-contemplative system, while its intellectual sources are often traced to Nagarjuna, Madhyamaka, Prajnaparamita, and the Lotus Sutra tradition."
+
+related_persons:
+  - nagarjuna
+  - kumarajiva
+  - huiwen
+  - huisi
+  - zhiyi
+  - guanding
+  - zhanran
+  - saicho
+  - uicheon
+
+core_persons:
+  - huiwen
+  - huisi
+  - zhiyi
+  - guanding
+  - zhanran
+
+regional_figures:
+  china:
+    - huiwen
+    - huisi
+    - zhiyi
+    - guanding
+    - zhanran
+  japan:
+    - saicho
+  korea:
+    - uicheon
+
+related_works:
+  - lotus-sutra
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju
+  - zhiguan-fuxing-chuanhong-jue
+  - fahua-xuanyi-shiqian
+  - fahua-wenju-ji
+
+core_works:
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju
+
+related_terms:
+  - zhiguan
+  - three-truths
+  - one-thought-three-thousand
+  - five-periods-eight-teachings
+  - perfect-teaching
+  - lotus-sutra
+  - doctrinal-classification
+  - buddha-nature-of-insentient-beings
+
+branches:
+  - tiantai-china
+  - tendai-japan
+  - cheontae-korea
+
+lineage_claims:
+  - claim_zh: "天台宗传统中，龙树菩萨常被尊为重要祖师源头之一。"
+    claim_en: "In Tiantai lineage narratives, Nagarjuna is often honored as an important ancestral source."
+    related_person: nagarjuna
+    confidence: medium
+    note_zh: "此处记录为宗派传统中的祖师谱系叙述，不自动视为无争议历史事实。"
+    note_en: "This is recorded as a tradition-level lineage claim, not as an automatically verified historical fact."
+    source_refs: []
+
+  - claim_zh: "智者大师被视为天台宗教观体系的核心奠基者和集大成者。"
+    claim_en: "Master Zhiyi is regarded as the central systematizer and foundational figure of Tiantai doctrinal and contemplative thought."
+    related_person: zhiyi
+    confidence: high
+    note_zh: "此处记录为天台宗传统和学术研究中较普遍的定位，后续仍需补充更多来源。"
+    note_en: "This records a widely recognized Tiantai and scholarly characterization, while further sources should still be added."
+    source_refs: []
+
+  - claim_zh: "湛然被视为唐代复兴天台宗的重要祖师。"
+    claim_en: "Zhanran is regarded as an important Tang dynasty reviver of the Tiantai tradition."
+    related_person: zhanran
+    confidence: high
+    note_zh: "此处记录为天台宗祖师谱系和宗派复兴叙述。"
+    note_en: "This records a Tiantai lineage and revival claim."
+    source_refs: []
+
+doctrinal_focus:
+  - term: lotus-sutra
+    note_zh: "《法华经》是天台宗教义体系的重要经典基础。"
+    note_en: "The Lotus Sutra is a major scriptural foundation of Tiantai thought."
+
+  - term: zhiguan
+    note_zh: "止观是天台宗修行与教观体系的核心概念。"
+    note_en: "Calming and contemplation is a central concept in Tiantai practice and doctrine."
+
+  - term: three-truths
+    note_zh: "三谛思想是天台宗解释空、假、中关系的重要教义。"
+    note_en: "The three truths are central to Tiantai interpretation of emptiness, provisional existence, and the middle."
+
+  - term: one-thought-three-thousand
+    note_zh: "一念三千是天台宗极具代表性的圆融思想。"
+    note_en: "One thought containing three thousand is one of the most distinctive Tiantai doctrines."
+
+summary_zh: "天台宗是东亚佛教史上极为重要的宗派之一，以《法华经》为重要经典基础，以智者大师所系统化的教观体系为核心。天台宗的思想源流常上溯至龙树菩萨、中观思想、般若思想和鸠摩罗什译经传统；在中国，经慧文、慧思、智者大师、章安大师、荆溪湛然等人物逐步形成、整理和复兴。天台宗后来传播至日本，形成日本天台宗 Tendai；也传播和转化于朝鲜半岛，形成韩国天台宗 Cheontae。本资料库将天台宗作为第一个重点模块，用以整理龙树菩萨相关思想在东亚佛教中的接受、转化、宗派建构和地域传播。"
+
+summary_en: "Tiantai is one of the most important traditions in East Asian Buddhist history. It takes the Lotus Sutra as a major scriptural foundation and is centered on the doctrinal-contemplative system systematized by Master Zhiyi. Its intellectual sources are often traced to Nagarjuna, Madhyamaka thought, Prajnaparamita traditions, and Kumarajiva's translation activity. In China, Tiantai developed through figures such as Huiwen, Huisi, Master Zhiyi, Master Guanding, and Jingxi Zhanran. It later spread to Japan as Tendai and to Korea as Cheontae. This archive treats Tiantai as the first active module for documenting Nagarjuna-related reception, transformation, lineage construction, and regional transmission in East Asian Buddhism."
+
+bibliography:
+  - title_zh: ""
+    title_en: "Tiantai School"
+    author_zh: ""
+    author_en: ""
+    publisher: "Encyclopedia.com"
+    year: ""
+    language: "English"
+    type: encyclopedia_entry
+    isbn: ""
+    note_zh: "天台宗概述参考，后续应补充更完整的学术来源。"
+    note_en: "General reference for Tiantai; more academic sources should be added later."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: ""
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对天台宗术语、人物和典籍。"
+    note_en: "To be used later for checking Tiantai terms, persons, and works."
+
+source_refs:
+  - name: "Encyclopedia.com - Tiantai School"
+    url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tiantai-school"
+    identifier: "Tiantai School"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia reference."
+
+  - name: "Tendai Buddhist Institute - Chinese Foundations"
+    url: "https://www.tendai.org/tendai/china/"
+    identifier: "Chinese Foundations of Tendai"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Tradition-oriented educational source."
+
+  - name: "Chinese Wikipedia"
+    url: "https://zh.wikipedia.org/zh-hans/%E5%A4%A9%E5%8F%B0%E5%AE%97"
+    identifier: "天台宗"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Open encyclopedia reference; details require verification against academic sources."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This is the parent tradition record for Chinese Tiantai, Japanese Tendai, and Korean Cheontae."
+  - "The id remains tiantai for stability and machine readability."
+  - "Chinese Tiantai, Japanese Tendai, and Korean Cheontae should be represented as separate branch records under data/branches/."
+  - "Core works such as Mohe Zhiguan, Fahua Xuanyi, and Fahua Wenju should be added under data/works/."
+  - "Doctrinal terms such as zhiguan, three truths, and one thought three thousand should be added under data/terms/."
+  - "Relations among Nagarjuna, Kumarajiva, Huiwen, Huisi, Master Zhiyi, Master Guanding, Jingxi Zhanran, Saicho, and Uicheon should later be represented under data/relations/."
