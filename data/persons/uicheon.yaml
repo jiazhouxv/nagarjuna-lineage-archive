@@ -1,0 +1,174 @@
+id: uicheon
+type: person
+
+name_zh: 义天
+display_name_zh: 大觉国师义天
+formal_name_zh: 义天
+honorific_name_zh: 大觉国师
+common_name_zh: 义天
+
+name_en: Uicheon
+display_name_en: Daegak Guksa Uicheon
+name_pinyin: Yitian
+name_korean: Uicheon
+name_hanja: 義天
+name_hangul: 의천
+
+alternative_names:
+  - 義天
+  - 大觉国师
+  - 大覺國師
+  - 大觉国师义天
+  - 大覺國師義天
+  - 义天大师
+  - Uicheon
+  - Ŭich'ŏn
+  - Daegak Guksa
+  - Daegak National Preceptor
+
+name_usage_note_zh: "义天是法名；大觉国师是其尊号。本资料库可显示为“大觉国师义天”。"
+name_usage_note_en: "Uicheon is the Dharma name, while Daegak Guksa is an honorific title meaning Great Enlightenment National Preceptor. This archive may display the person as 'Daegak Guksa Uicheon' or '大觉国师义天'."
+
+lay_name_zh: 王煦
+lay_name_en: Wang Hu
+royal_house_zh: 高丽王室
+royal_house_en: House of Wang, Goryeo
+
+dates:
+  birth: 1055 CE
+  death: 1101 CE
+  note: "Dates are commonly given as 1055-1101 CE, but should be verified against additional academic sources."
+
+birthplace:
+  historical_name_zh: 高丽开京
+  modern_name_zh: 朝鲜开城
+  name_en: Kaegyong, Goryeo; modern-day Kaesong
+  region_zh: 高丽
+  region_en: Goryeo Korea
+  note_zh: "义天出身高丽王室，通常记载为高丽开京相关人物。"
+  note_en: "Uicheon was a Goryeo royal prince and is commonly associated with Kaegyong, the Goryeo capital."
+
+regions:
+  - Korea
+  - Goryeo
+  - China
+  - East Asia
+
+traditions:
+  - cheontae
+  - tiantai
+  - korean_buddhism
+  - hwaeom
+  - seon
+  - doctrinal_buddhism
+
+roles:
+  - founder_of_korean_cheontae
+  - royal_prince
+  - monk
+  - scholar_monk
+  - transmission_figure
+  - reconciler_of_doctrinal_and_meditation_schools
+  - bibliographer
+
+teachers:
+  - "To be added"
+
+students:
+  - "To be added"
+
+related_works:
+  - sinpyeon-jejong-gyojang-chongnok
+  - daegak-guksa-munjip
+  - daegak-guksa-oejip
+
+related_terms:
+  - cheontae
+  - tiantai-transmission-to-korea
+  - doctrinal-and-meditation-integration
+  - hwaeom
+  - seon
+  - buddhist-catalogue
+
+lineage_claims:
+  - tradition: cheontae
+    claim_zh: "韩国天台宗传统中，义天被视为高丽时期创立或确立天台宗独立宗派地位的关键人物。"
+    claim_en: "In Korean Cheontae tradition, Uicheon is regarded as the key figure who founded or established Cheontae as an independent school during the Goryeo period."
+    confidence: high
+    note_zh: "此处记录为韩国天台宗传统与佛教史研究中常见的宗派定位，后续应补充更多学术来源。"
+    note_en: "This records a common tradition-level and historical characterization in Korean Cheontae and Buddhist studies, while additional academic sources should be added."
+    source_refs: []
+
+  - tradition: cheontae
+    claim_zh: "义天试图以天台教观体系调和教宗与禅宗之间的张力。"
+    claim_en: "Uicheon sought to use the Cheontae/Tiantai system to reconcile tensions between doctrinal Buddhist schools and Seon meditation traditions."
+    confidence: medium
+    note_zh: "此处记录为思想史解释，后续应在 relations 和 terms 文件中进一步建模。"
+    note_en: "This is recorded as an intellectual-historical interpretation and should later be modeled further in relation and term records."
+    source_refs: []
+
+summary_zh: "大觉国师义天，法名义天，俗名王煦，是高丽王室出身的重要僧人、佛教学者和韩国天台宗关键人物。他通常被视为高丽时期推动韩国天台宗独立成宗的重要人物。义天重视教观体系，也试图调和教宗与禅宗之间的张力，并在佛教文献目录和典籍整理方面具有重要贡献。本资料库将义天记录为中国天台宗向韩国天台宗传播、转化和制度化过程中的核心人物。"
+
+summary_en: "Daegak Guksa Uicheon, born Wang Hu, was a Goryeo royal prince, Buddhist monk, scholar, and key figure in Korean Cheontae Buddhism. He is commonly regarded as a major figure in establishing Cheontae as an independent school during the Goryeo period. Uicheon emphasized doctrinal and contemplative learning and sought to reconcile tensions between doctrinal Buddhist schools and Seon meditation traditions. He also made important contributions to Buddhist bibliography and textual organization. This archive records Uicheon as a central figure in the transmission, transformation, and institutionalization of Tiantai/Cheontae in Korea."
+
+bibliography:
+  - title_zh: ""
+    title_en: "A Study on Uicheon's Hwaeom Thought"
+    author_zh: ""
+    author_en: "To be added"
+    publisher: ""
+    year: ""
+    language: "English"
+    type: critical_study
+    isbn: ""
+    note_zh: "义天思想研究参考，后续应补充完整作者、期刊、年份和链接。"
+    note_en: "Academic study reference for Uicheon's thought. Full author, journal, year, and link should be completed later."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: ""
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对义天、韩国天台宗和相关术语。"
+    note_en: "To be used later for checking Uicheon, Korean Cheontae, and related terminology."
+
+source_refs:
+  - name: "Cheontae overview"
+    url: "https://en.wikipedia.org/wiki/Cheontae"
+    identifier: "Cheontae"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Open encyclopedia reference; useful for initial data but requires verification."
+
+  - name: "Encyclopedia of Buddhism"
+    url: "https://encyclopediaofbuddhism.org/wiki/Cheontae"
+    identifier: "Cheontae"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Buddhist encyclopedia reference; details should be checked against primary or academic sources."
+
+  - name: "A Study on the Uicheon's Hwaeom Thought"
+    url: "https://oak.go.kr/central/journallist/journaldetail.do?article_seq=17996"
+    identifier: "Uicheon 1055-1101"
+    license_note: "External academic reference. Full text not redistributed."
+    reliability_note: "Academic article reference."
+
+  - name: "World History Encyclopedia"
+    url: "https://www.worldhistory.org/image/6038/uicheon/"
+    identifier: "Uicheon"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General historical reference."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Uicheon is a core person record for the Korean Cheontae branch."
+  - "The id remains uicheon for stability and machine readability."
+  - "Relations among Uicheon, Chinese Tiantai, Korean Cheontae, Hwaeom, and Seon should later be represented in data/relations/."
+  - "Uicheon's works and catalogues should be added as separate files under data/works/."
+  - "Future updates should verify teacher-student relations, travel history, institutional role, and bibliography using Korean and academic sources."
