@@ -1,0 +1,200 @@
+id: cheontae-korea
+type: branch
+
+name_zh: 韩国天台宗
+display_name_zh: 韩国天台宗
+formal_name_zh: 韩国天台宗
+common_name_zh: 韩国天台宗
+
+name_en: Korean Cheontae
+display_name_en: Korean Cheontae Buddhism
+name_korean: Cheontae
+name_hanja: 天台宗
+name_hangul: 천태종
+name_pinyin: Hanguo Tiantai Zong
+
+alternative_names:
+  - 韩国天台宗
+  - 高丽天台宗
+  - 朝鲜天台宗
+  - 天台宗韩国传统
+  - Korean Cheontae Buddhism
+  - Cheontae
+  - Chontae
+  - Ch'ŏnt'ae
+
+name_usage_note_zh: "韩国天台宗指天台宗在朝鲜半岛，尤其是高丽时期经义天推动而形成和发展的地域分支。韩国语境中通常称 Cheontae。本资料库将其作为 tiantai 总宗派下的韩国地域分支。"
+name_usage_note_en: "Korean Cheontae refers to the Korean regional branch of the Tiantai tradition, especially associated with Uicheon's efforts during the Goryeo period. In Korean contexts it is commonly called Cheontae. This archive records it as the Korean regional branch under the parent Tiantai tradition."
+
+parent_tradition: tiantai
+
+region:
+  primary: Korea
+  historical:
+    - Goryeo
+  broader:
+    - East Asia
+
+historical_period:
+  formation_zh: 高丽时期形成独立宗派地位
+  formation_en: Established as an independent school during the Goryeo period
+  later_development_zh: 受高丽佛教制度、华严宗、禅宗和教观调和思想影响而发展
+  later_development_en: Developed in relation to Goryeo Buddhist institutions, Hwaeom, Seon, and efforts to harmonize doctrinal and meditative traditions
+
+key_places:
+  - id: gaegyeong
+    name_zh: 开京
+    name_en: Gaegyeong
+    name_hangul: 개경
+    region_zh: 高丽都城，今朝鲜开城一带
+    region_en: Goryeo capital, around modern-day Kaesong
+    note_zh: "义天出身高丽王室，开京是高丽佛教政治与文化活动的重要中心。"
+    note_en: "Uicheon was born into the Goryeo royal family, and Gaegyeong was a major political and Buddhist cultural center of Goryeo."
+
+key_persons:
+  - uicheon
+
+related_persons:
+  - nagarjuna
+  - kumarajiva
+  - zhiyi
+  - guanding
+  - zhanran
+  - uicheon
+
+key_works:
+  - sinpyeon-jejong-gyojang-chongnok
+  - daegak-guksa-munjip
+  - daegak-guksa-oejip
+
+related_terms:
+  - cheontae
+  - tiantai
+  - tiantai-transmission-to-korea
+  - doctrinal-and-meditation-integration
+  - hwaeom
+  - seon
+  - buddhist-catalogue
+  - lotus-sutra
+  - zhiguan
+  - three-truths
+
+transmission_events:
+  - id: uicheon-studies-in-song-china
+    title_zh: 义天入宋求法
+    title_en: Uicheon studies in Song China
+    related_persons:
+      - uicheon
+    related_places:
+      - song-china
+    approximate: true
+    note_zh: "义天入宋学习佛教，接触中国天台、华严等思想传统，是韩国天台宗形成的重要背景。"
+    note_en: "Uicheon's study in Song China and encounter with Chinese Tiantai, Huayan, and other Buddhist traditions formed an important background for the development of Korean Cheontae."
+    confidence: high
+
+  - id: uicheon-establishes-cheontae
+    title_zh: 义天推动高丽天台宗独立成宗
+    title_en: Uicheon promotes the establishment of Korean Cheontae as an independent school
+    related_persons:
+      - uicheon
+    related_branches:
+      - tiantai-china
+      - cheontae-korea
+    approximate: true
+    note_zh: "韩国天台宗传统中，义天被视为高丽时期推动天台宗独立宗派地位的关键人物。"
+    note_en: "In Korean Cheontae tradition, Uicheon is regarded as the key figure who promoted Cheontae as an independent school during the Goryeo period."
+    confidence: high
+
+  - id: cheontae-integrates-doctrinal-and-meditation-schools
+    title_zh: 韩国天台宗调和教宗与禅宗
+    title_en: Korean Cheontae seeks to harmonize doctrinal and meditation traditions
+    related_persons:
+      - uicheon
+    approximate: true
+    note_zh: "义天常被描述为试图调和教宗与禅宗之间关系的重要人物。"
+    note_en: "Uicheon is often described as seeking to harmonize doctrinal Buddhist schools and Seon meditation traditions."
+    confidence: medium
+
+lineage_claims:
+  - claim_zh: "韩国天台宗传统中，义天被视为高丽天台宗的关键开创人物。"
+    claim_en: "In Korean Cheontae tradition, Uicheon is regarded as a key founding figure of Goryeo Cheontae."
+    related_person: uicheon
+    confidence: high
+    note_zh: "此处记录为韩国天台宗传统和佛教史研究中常见的宗派定位。"
+    note_en: "This records a common tradition-level and historical characterization in Korean Cheontae and Buddhist studies."
+    source_refs: []
+
+  - claim_zh: "韩国天台宗承接中国天台宗教观传统，并在高丽佛教语境中与华严、禅宗等传统发生互动。"
+    claim_en: "Korean Cheontae inherited Chinese Tiantai doctrinal and contemplative traditions while interacting with Hwaeom, Seon, and other traditions in the Goryeo Buddhist context."
+    related_person: uicheon
+    confidence: medium
+    note_zh: "此处记录为宗派接受、转化和思想调和关系，后续应在 relations 文件中进一步建模。"
+    note_en: "This is recorded as a reception, transformation, and doctrinal harmonization relation and should later be modeled in relation files."
+    source_refs: []
+
+summary_zh: "韩国天台宗是天台宗在朝鲜半岛的地域分支，通常与高丽时期大觉国师义天的活动密切相关。义天出身高丽王室，重视佛教典籍整理、教观学习和宗派调和，通常被视为推动高丽天台宗独立成宗的重要人物。韩国天台宗承接中国天台宗的《法华经》中心地位、教观体系和止观传统，同时在高丽佛教语境中与华严宗、禅宗以及教宗与禅宗调和的问题发生深度互动。本资料库将韩国天台宗记录为 tiantai 总宗派下的韩国地域分支，并重点追踪其与中国天台宗、义天、高丽佛教和教禅调和思想的关系。"
+
+summary_en: "Korean Cheontae is the Korean regional branch of the Tiantai tradition and is closely associated with the activity of Daegak Guksa Uicheon during the Goryeo period. Uicheon, a Goryeo royal prince, emphasized Buddhist textual organization, doctrinal-contemplative learning, and the harmonization of Buddhist traditions. He is commonly regarded as a key figure in establishing Cheontae as an independent school in Goryeo. Korean Cheontae inherited the Lotus Sutra focus, doctrinal-contemplative system, and calming and contemplation traditions of Chinese Tiantai, while developing in interaction with Hwaeom, Seon, and broader issues of doctrinal and meditation integration in Goryeo Buddhism. This archive records Korean Cheontae as the Korean regional branch under the parent Tiantai tradition, with a focus on its relation to Chinese Tiantai, Uicheon, Goryeo Buddhism, and doctrinal-meditation harmonization."
+
+bibliography:
+  - title_zh: ""
+    title_en: "A Study on Uicheon's Hwaeom Thought"
+    author_zh: ""
+    author_en: "To be added"
+    publisher: ""
+    year: ""
+    language: "English"
+    type: critical_study
+    isbn: ""
+    note_zh: "义天思想与高丽佛教研究参考，后续应补充完整作者、期刊、年份和链接。"
+    note_en: "Academic reference for Uicheon's thought and Goryeo Buddhism. Full author, journal, year, and link should be completed later."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: ""
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对韩国天台宗、义天和相关术语。"
+    note_en: "To be used later for checking Korean Cheontae, Uicheon, and related terminology."
+
+source_refs:
+  - name: "English Wikipedia - Cheontae"
+    url: "https://en.wikipedia.org/wiki/Cheontae"
+    identifier: "Cheontae"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Open encyclopedia reference; details require verification against academic sources."
+
+  - name: "Encyclopedia of Buddhism - Cheontae"
+    url: "https://encyclopediaofbuddhism.org/wiki/Cheontae"
+    identifier: "Cheontae"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Buddhist encyclopedia reference; details should be checked against primary or academic sources."
+
+  - name: "A Study on the Uicheon's Hwaeom Thought"
+    url: "https://oak.go.kr/central/journallist/journaldetail.do?article_seq=17996"
+    identifier: "Uicheon 1055-1101"
+    license_note: "External academic reference. Full text not redistributed."
+    reliability_note: "Academic article reference."
+
+  - name: "World History Encyclopedia - Uicheon"
+    url: "https://www.worldhistory.org/image/6038/uicheon/"
+    identifier: "Uicheon"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General historical reference."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This is the Korean regional branch record under the parent Tiantai tradition."
+  - "The id remains cheontae-korea for stability and machine readability."
+  - "Uicheon is the core person record for this branch."
+  - "Korean Cheontae works and later figures should later be added as separate person and work records."
+  - "Relations among Chinese Tiantai, Korean Cheontae, Uicheon, Goryeo Buddhism, Hwaeom, and Seon should later be represented under data/relations/."
+  - "Future updates should verify dates, transmission details, institutional history, terminology, and Korean-language sources."
