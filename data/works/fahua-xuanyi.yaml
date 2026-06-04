@@ -1,0 +1,160 @@
+id: fahua-xuanyi
+type: work
+
+title_zh: 法华玄义
+display_title_zh: 法华玄义
+formal_title_zh: 妙法莲华经玄义
+common_title_zh: 法华玄义
+
+title_en: Profound Meaning of the Lotus Sutra
+display_title_en: Fahua Xuanyi
+title_pinyin: Fahua Xuanyi
+
+alternative_titles:
+  - 法華玄義
+  - 妙法莲华经玄义
+  - 妙法蓮華經玄義
+  - Profound Meaning of the Lotus Sutra
+  - Profound Meaning of the Lotus
+  - Fahua Xuanyi
+  - Fa-hua hsüan-i
+
+title_usage_note_zh: "《法华玄义》是天台宗核心典籍之一，通常与《摩诃止观》《法华文句》并称天台三大部。"
+title_usage_note_en: "Fahua Xuanyi is one of the core Tiantai works and is often grouped with Mohe Zhiguan and Fahua Wenju as one of the Three Great Tiantai Works."
+
+traditions:
+  - tiantai
+  - chinese_buddhism
+  - lotus_sutra_tradition
+  - doctrinal_classification
+
+branches:
+  - tiantai-china
+  - tendai-japan
+  - cheontae-korea
+
+work_category:
+  - doctrinal_treatise
+  - lotus_sutra_commentary
+  - tiantai_core_work
+  - lecture_record
+  - doctrinal_classification_text
+
+attributed_author:
+  - zhiyi
+
+lecturer:
+  - zhiyi
+
+compiler:
+  - guanding
+
+recorder:
+  - guanding
+
+related_persons:
+  - zhiyi
+  - guanding
+  - zhanran
+
+related_works:
+  - lotus-sutra
+  - mohe-zhiguan
+  - fahua-wenju
+  - fahua-xuanyi-shiqian
+
+related_terms:
+  - lotus-sutra
+  - five-periods-eight-teachings
+  - doctrinal-classification
+  - perfect-teaching
+  - three-truths
+  - one-thought-three-thousand
+  - tiantai-doctrine
+  - scripture-interpretation
+
+canonical_info:
+  taisho_number: T1716
+  cbeta_id: T33n1716
+  volume_info_zh: 大正藏第 33 册
+  volume_info_en: Taisho Tripitaka, Volume 33
+  note_zh: "藏经编号和卷册信息后续应以 CBETA、SAT 或其他权威佛典数据库核对。"
+  note_en: "Canon identifiers and volume information should be verified against CBETA, SAT, or other authoritative Buddhist canon databases."
+
+approximate_date:
+  period_zh: 隋代
+  period_en: Sui dynasty
+  note_zh: "本书通常被视为智者大师讲授、章安大师灌顶记录整理而成。具体讲授、记录和成书过程需进一步考证。"
+  note_en: "The work is commonly understood as based on Master Zhiyi's lectures and compiled or recorded by Master Guanding. Details of lecture, recording, and compilation history require further verification."
+
+structure:
+  juan_count: 20
+  note_zh: "通常记为二十卷，后续应以权威目录核对。"
+  note_en: "Commonly recorded as twenty fascicles, but this should be verified against authoritative catalogues."
+
+summary_zh: "《法华玄义》是天台宗核心典籍之一，通常被列为天台三大部之一。此书围绕《妙法莲华经》的深层义理展开，系统阐释天台宗对《法华经》的理解，并与判教、圆教、三谛、诸法实相等天台教义密切相关。《法华玄义》不仅是一部经义阐释著作，也是天台宗建立自身教义体系和判教框架的重要文本。本资料库将其记录为天台宗模块的核心典籍，并与智者大师、章安大师、荆溪湛然、《法华经》、判教体系和圆教思想建立关联。"
+
+summary_en: "Fahua Xuanyi, often translated as Profound Meaning of the Lotus Sutra, is one of the core works of the Tiantai tradition and is commonly grouped among the Three Great Tiantai Works. The text presents a systematic interpretation of the deeper meaning of the Lotus Sutra and is closely connected with Tiantai doctrines such as doctrinal classification, the perfect teaching, the three truths, and the true aspect of all dharmas. Fahua Xuanyi is not only a commentary on the Lotus Sutra but also a foundational text for Tiantai doctrinal identity and interpretive structure. This archive records it as a core Tiantai work connected with Master Zhiyi, Master Guanding, Jingxi Zhanran, the Lotus Sutra, doctrinal classification, and perfect teaching thought."
+
+bibliography:
+  - title_zh: "法华玄义"
+    title_en: "Fahua Xuanyi"
+    author_zh: "智顗说；灌顶记"
+    author_en: "Lectured by Zhiyi; recorded by Guanding"
+    publisher: ""
+    year: ""
+    language: "Classical Chinese"
+    type: primary_source
+    isbn: ""
+    note_zh: "本条为原典记录，全文是否收录需根据来源授权另行判断。"
+    note_en: "Primary source record. Full-text inclusion depends on source license review."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: ""
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对《法华玄义》名称、作者、卷数和术语。"
+    note_en: "To be used later for checking title, authorship, fascicle count, and terminology."
+
+source_refs:
+  - name: "CBETA"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1716"
+    identifier: "T33n1716"
+    license_note: "External Buddhist canon reference. Full text not redistributed in this repository unless license compatibility is verified."
+    reliability_note: "Major Buddhist canon database."
+
+  - name: "SAT Daizokyo Text Database"
+    url: "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1716.html"
+    identifier: "T1716"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Major Buddhist canon database."
+
+  - name: "Digital Dictionary of Buddhism"
+    url: ""
+    identifier: "Fahua Xuanyi"
+    license_note: "External reference source. To be added if available."
+    reliability_note: "To be verified."
+
+full_text_policy:
+  included: false
+  reason_zh: "当前仅记录元数据、来源链接、藏经编号和原创摘要，不在仓库中再分发全文。"
+  reason_en: "This repository currently records metadata, source links, canon identifiers, and original summaries only. It does not redistribute the full text."
+  review_status: needs_license_review
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Fahua Xuanyi is a core work record for the Tiantai module."
+  - "The id remains fahua-xuanyi for stability and machine readability."
+  - "This work should later be linked to data/persons/zhiyi.yaml and data/persons/guanding.yaml through relation records."
+  - "Zhanran's commentary on Fahua Xuanyi should be added as a separate work record under data/works/."
+  - "Doctrinal terms such as five periods and eight teachings, perfect teaching, and three truths should be represented under data/terms/."
+  - "Future updates should verify canon identifiers, fascicle count, authorship wording, and bibliographic details using CBETA, SAT, and academic references."
