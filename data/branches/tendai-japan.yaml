@@ -1,0 +1,231 @@
+id: tendai-japan
+type: branch
+
+name_zh: 日本天台宗
+display_name_zh: 日本天台宗
+formal_name_zh: 日本天台宗
+common_name_zh: 日本天台宗
+
+name_en: Japanese Tendai
+display_name_en: Japanese Tendai Buddhism
+name_japanese: Tendai-shū
+name_ja: 天台宗
+name_pinyin: Riben Tiantai Zong
+
+alternative_names:
+  - 日本天台
+  - 天台宗日本传统
+  - 比叡山天台宗
+  - Japanese Tendai Buddhism
+  - Tendai Buddhism
+  - Tendai-shu
+  - Tendai-shū
+  - Mount Hiei Tendai
+
+name_usage_note_zh: "日本天台宗指由最澄赴唐求法后在日本建立和发展的天台宗分支。日本语境中通常称 Tendai 或 Tendai-shū。本资料库将其作为 tiantai 总宗派下的日本地域分支。"
+name_usage_note_en: "Japanese Tendai refers to the branch of the Tiantai tradition established and developed in Japan after Saicho's study in Tang China. In Japanese contexts it is commonly called Tendai or Tendai-shu. This archive records it as the Japanese regional branch under the parent Tiantai tradition."
+
+parent_tradition: tiantai
+
+region:
+  primary: Japan
+  broader:
+    - East Asia
+
+historical_period:
+  formation_zh: 平安时代初期形成
+  formation_en: Formed in the early Heian period
+  later_development_zh: 以比叡山延历寺为中心发展，并对日本佛教诸宗产生深远影响
+  later_development_en: Developed around Mount Hiei and Enryaku-ji, and later exerted major influence on multiple Japanese Buddhist traditions
+
+key_places:
+  - id: mount-hiei
+    name_zh: 比叡山
+    name_en: Mount Hiei
+    name_ja: 比叡山
+    region_zh: 日本京都与滋贺交界
+    region_en: Border area of Kyoto and Shiga, Japan
+    note_zh: "比叡山是日本天台宗的核心山门和象征中心。"
+    note_en: "Mount Hiei is the central monastic and symbolic center of Japanese Tendai."
+
+  - id: enryakuji
+    name_zh: 延历寺
+    name_en: Enryaku-ji
+    name_ja: 延暦寺
+    region_zh: 日本比叡山
+    region_en: Mount Hiei, Japan
+    note_zh: "延历寺是日本天台宗的重要寺院中心。"
+    note_en: "Enryaku-ji is a major institutional center of Japanese Tendai."
+
+key_persons:
+  - saicho
+
+related_persons:
+  - nagarjuna
+  - kumarajiva
+  - zhiyi
+  - guanding
+  - zhanran
+  - daosui
+  - xingman
+  - saicho
+  - ennin
+  - enchin
+  - annen
+  - ryogen
+  - genshin
+
+key_works:
+  - lotus-sutra
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju
+  - kenkaireon
+  - sangakushiki
+  - hokke-shuku
+  - naisho-buppo-sojo-kechimyakufu
+
+related_terms:
+  - tendai
+  - lotus-sutra
+  - perfect-teaching
+  - zhiguan
+  - three-truths
+  - one-thought-three-thousand
+  - bodhisattva-precepts
+  - esoteric-buddhism
+  - tiantai-transmission-to-japan
+  - mount-hiei
+  - enryakuji
+
+transmission_events:
+  - id: saicho-travels-to-tang-china
+    title_zh: 最澄赴唐求法
+    title_en: Saicho travels to Tang China for Buddhist study
+    related_persons:
+      - saicho
+    related_places:
+      - tang-china
+    approximate: false
+    note_zh: "最澄赴唐学习天台教法及相关佛教传统，是中国天台宗向日本传播的重要事件。"
+    note_en: "Saicho's travel to Tang China for Tiantai and related Buddhist teachings was a key event in the transmission from Chinese Tiantai to Japanese Tendai."
+    confidence: high
+
+  - id: saicho-transmits-tiantai-to-japan
+    title_zh: 最澄将天台教法传入日本
+    title_en: Saicho transmits Tiantai teachings to Japan
+    related_persons:
+      - saicho
+      - daosui
+      - xingman
+    related_branches:
+      - tiantai-china
+      - tendai-japan
+    approximate: true
+    note_zh: "日本天台宗传统中，最澄被视为将中国天台教法传入日本并建立日本天台宗基础的核心人物。"
+    note_en: "In Japanese Tendai tradition, Saicho is regarded as the central figure who transmitted Chinese Tiantai teachings to Japan and established the foundation of Japanese Tendai."
+    confidence: high
+
+  - id: mount-hiei-becomes-tendai-center
+    title_zh: 比叡山成为日本天台宗中心
+    title_en: Mount Hiei becomes the center of Japanese Tendai
+    related_persons:
+      - saicho
+    related_places:
+      - mount-hiei
+      - enryakuji
+    approximate: true
+    note_zh: "比叡山和延历寺成为日本天台宗的重要制度、修学和传承中心。"
+    note_en: "Mount Hiei and Enryaku-ji became central institutions for Japanese Tendai training, transmission, and identity."
+    confidence: high
+
+lineage_claims:
+  - claim_zh: "日本天台宗传统中，最澄被视为日本天台宗的开创者。"
+    claim_en: "In Japanese Tendai tradition, Saicho is regarded as the founder of Japanese Tendai."
+    related_person: saicho
+    confidence: high
+    note_zh: "此处记录为日本天台宗传统和佛教史研究中常见的宗派定位。"
+    note_en: "This records a common tradition-level and historical characterization in Japanese Tendai and Buddhist studies."
+    source_refs: []
+
+  - claim_zh: "日本天台宗承接中国天台宗教观体系，同时在日本发展出与密教、戒律、禅观等结合的特色。"
+    claim_en: "Japanese Tendai inherited Chinese Tiantai doctrinal and contemplative systems while developing distinctive Japanese forms involving esoteric Buddhism, precepts, and meditation."
+    related_person: saicho
+    confidence: high
+    note_zh: "此处记录为宗派接受、转化和地域发展关系，后续应在 relations 文件中进一步建模。"
+    note_en: "This is recorded as a reception, transformation, and regional development relation and should later be modeled in relation files."
+    source_refs: []
+
+summary_zh: "日本天台宗是天台宗在日本的地域分支，通常以传教大师最澄赴唐求法、回国后以比叡山延历寺为中心建立日本天台宗基础为关键起点。日本天台宗承接中国天台宗的《法华经》中心地位、教观体系、止观传统和圆教思想，同时在日本发展过程中与密教、菩萨戒、禅观和日本本土佛教制度产生深度结合。比叡山后来成为日本佛教史上极具影响力的修学中心，对镰仓新佛教诸宗也有深远影响。本资料库将日本天台宗记录为 tiantai 总宗派下的日本地域分支，并重点追踪其与中国天台宗、最澄、比叡山和日本佛教史的关系。"
+
+summary_en: "Japanese Tendai is the Japanese regional branch of the Tiantai tradition. It is commonly traced to Saicho's study in Tang China and his later establishment of the foundations of Tendai in Japan centered on Mount Hiei and Enryaku-ji. Japanese Tendai inherited the Lotus Sutra focus, doctrinal-contemplative system, calming and contemplation traditions, and perfect teaching framework of Chinese Tiantai, while developing distinctive Japanese forms in relation to esoteric Buddhism, bodhisattva precepts, meditation, and Japanese Buddhist institutions. Mount Hiei later became one of the most influential training centers in Japanese Buddhist history. This archive records Japanese Tendai as the Japanese regional branch under the parent Tiantai tradition, with a focus on its connections to Chinese Tiantai, Saicho, Mount Hiei, and Japanese Buddhist history."
+
+bibliography:
+  - title_zh: ""
+    title_en: "Saicho"
+    author_zh: ""
+    author_en: ""
+    publisher: "Encyclopaedia Britannica"
+    year: ""
+    language: "English"
+    type: encyclopedia_entry
+    isbn: ""
+    note_zh: "最澄与日本天台宗概述参考，后续应补充更完整的学术资料。"
+    note_en: "General reference for Saicho and Japanese Tendai; more academic sources should be added later."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: ""
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对日本天台宗人物、术语、寺院和传承。"
+    note_en: "To be used later for checking Japanese Tendai persons, terms, institutions, and transmission."
+
+source_refs:
+  - name: "Encyclopaedia Britannica - Saicho"
+    url: "https://www.britannica.com/biography/Saicho"
+    identifier: "Saicho"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia reference."
+
+  - name: "Tendai Buddhist Institute - Japanese Foundations"
+    url: "https://www.tendai.org/tendai/japan/"
+    identifier: "Japanese Foundations of Tendai"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Tradition-oriented educational source."
+
+  - name: "Encyclopedia.com - Saicho"
+    url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/saicho"
+    identifier: "Saicho"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "General encyclopedia reference."
+
+  - name: "English Wikipedia - Tendai"
+    url: "https://en.wikipedia.org/wiki/Tendai"
+    identifier: "Tendai"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Open encyclopedia reference; details require verification against academic sources."
+
+  - name: "English Wikipedia - Enryaku-ji"
+    url: "https://en.wikipedia.org/wiki/Enryaku-ji"
+    identifier: "Enryaku-ji"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Open encyclopedia reference; institutional details require verification."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This is the Japanese regional branch record under the parent Tiantai tradition."
+  - "The id remains tendai-japan for stability and machine readability."
+  - "Saicho is the core person record for this branch."
+  - "Mount Hiei and Enryaku-ji should later be represented as separate place or institution records if the archive adds place data."
+  - "Japanese Tendai works and later figures such as Ennin, Enchin, Annen, Ryogen, and Genshin should later be added as separate person and work records."
+  - "Relations among Chinese Tiantai, Japanese Tendai, Saicho, Daosui, Xingman, Mount Hiei, and Enryaku-ji should later be represented under data/relations/."
+  - "Future updates should verify dates, transmission details, institutional history, and terminology using academic sources."
