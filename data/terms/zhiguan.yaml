@@ -1,0 +1,97 @@
+id: zhiguan
+type: term
+
+term_zh: 止观
+display_term_zh: 止观
+formal_term_zh: 止观
+common_term_zh: 止观
+
+term_en: Calming and Contemplation
+display_term_en: Zhiguan
+term_pinyin: Zhiguan
+
+alternative_terms:
+  - 止觀
+  - 止观双修
+  - 止觀雙修
+  - calming and contemplation
+  - cessation and contemplation
+  - śamatha and vipaśyanā
+  - shamatha and vipashyana
+  - zhiguan
+  - chih-kuan
+
+term_usage_note_zh: "止观是天台宗教观体系和修行体系的核心术语之一。“止”偏重安止、寂静、定；“观”偏重观察、照见、慧。本资料库以 zhiguan 作为稳定 ID。"
+term_usage_note_en: "Zhiguan is one of the central doctrinal and practice terms in Tiantai Buddhism. Zhi is associated with calming, stilling, or meditative stabilization, while guan is associated with contemplation, observation, or insight. This archive uses zhiguan as the stable ID."
+
+traditions:
+  - tiantai
+  - chinese_buddhism
+  - meditation
+  - lotus_sutra_tradition
+
+branches:
+  - tiantai-china
+  - tendai-japan
+  - cheontae-korea
+
+related_persons:
+  - zhiyi
+  - guanding
+  - zhanran
+  - saicho
+  - uicheon
+
+related_works:
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju
+  - zhiguan-fuxing-chuanhong-jue
+
+related_terms:
+  - three-truths
+  - one-thought-three-thousand
+  - perfect-teaching
+  - meditation
+  - contemplation
+  - calming
+  - tiantai-practice
+
+category:
+  - doctrine
+  - practice
+  - meditation
+  - tiantai_core_term
+
+summary_zh: "止观是天台宗最核心的修行与教义术语之一。“止”指止息散乱、安住一境、令心寂静；“观”指观察诸法、照见实相、开发智慧。在天台宗中，止观不是单纯的禅定技巧，而是与三谛、一念三千、圆教思想和《摩诃止观》等核心典籍密切相连的完整教观体系。智者大师所系统化的天台止观，对中国、日本和韩国天台传统都产生了深远影响。"
+
+summary_en: "Zhiguan, often translated as calming and contemplation, is one of the most central practice and doctrinal terms in the Tiantai tradition. Zhi refers to calming, stilling, and stabilizing the mind, while guan refers to contemplation, observation, and insight into the nature of reality. In Tiantai Buddhism, zhiguan is not merely a meditation technique but a complete doctrinal-contemplative system closely connected with the three truths, one thought containing three thousand, the perfect teaching, and core texts such as Mohe Zhiguan. The Tiantai system of zhiguan associated with Master Zhiyi deeply influenced Chinese Tiantai, Japanese Tendai, and Korean Cheontae traditions."
+
+source_refs:
+  - name: "CBETA - Mohe Zhiguan"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1911"
+    identifier: "T46n1911"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Primary Buddhist text database reference."
+
+  - name: "SAT Daizokyo Text Database - Mohe Zhiguan"
+    url: "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1911.html"
+    identifier: "T1911"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Primary Buddhist text database reference."
+
+  - name: "The Princeton Dictionary of Buddhism"
+    url: ""
+    identifier: "zhiguan"
+    license_note: "Bibliographic reference only. Full text not redistributed."
+    reliability_note: "Reference work; details to be completed."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Zhiguan is a core Tiantai term and should be connected to Mohe Zhiguan."
+  - "Future updates should distinguish general Buddhist śamatha-vipaśyanā usage from specifically Tiantai zhiguan usage."
+  - "Related passages should be referenced by canon identifiers rather than copied into the repository unless redistribution rights are verified."
