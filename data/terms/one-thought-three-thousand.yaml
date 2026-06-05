@@ -1,0 +1,118 @@
+id: one-thought-three-thousand
+type: term
+
+term_zh: 一念三千
+display_term_zh: 一念三千
+formal_term_zh: 一念三千
+common_term_zh: 一念三千
+
+term_en: One Thought Contains Three Thousand
+display_term_en: One Thought Three Thousand
+term_pinyin: Yi Nian San Qian
+
+alternative_terms:
+  - 一念三千
+  - 一念三千法
+  - 一念三千世界
+  - one thought contains three thousand
+  - one thought three thousand
+  - three thousand realms in a single thought-moment
+  - ichinen sanzen
+
+term_usage_note_zh: "一念三千是天台宗极具代表性的圆融教义，用以说明一念心中具足十界、十如是、三世间等一切法界。本资料库以 one-thought-three-thousand 作为稳定 ID。"
+term_usage_note_en: "One thought contains three thousand is one of the most distinctive doctrines of Tiantai Buddhism. It explains that a single thought-moment contains the ten realms, the ten suchnesses, the three realms of existence, and the full range of dharmas. This archive uses one-thought-three-thousand as the stable ID."
+
+traditions:
+  - tiantai
+  - tendai
+  - cheontae
+  - chinese_buddhism
+  - lotus_sutra_tradition
+
+branches:
+  - tiantai-china
+  - tendai-japan
+  - cheontae-korea
+
+related_persons:
+  - zhiyi
+  - guanding
+  - zhanran
+  - saicho
+  - uicheon
+
+related_works:
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju
+  - zhiguan-fuxing-chuanhong-jue
+
+related_terms:
+  - three-truths
+  - zhiguan
+  - ten-realms
+  - ten-suchnesses
+  - three-realms-of-existence
+  - perfect-teaching
+  - lotus-sutra
+  - tiantai-doctrine
+
+category:
+  - doctrine
+  - tiantai_core_term
+  - ontology
+  - contemplation
+  - perfect_teaching
+
+components:
+  - id: ten-realms
+    term_zh: 十界
+    term_en: ten realms
+    note_zh: "十界是构成三千法数的重要部分。"
+    note_en: "The ten realms form an important component in the calculation of three thousand."
+
+  - id: ten-suchnesses
+    term_zh: 十如是
+    term_en: ten suchnesses
+    note_zh: "十如是出自《法华经》语境，是一念三千结构的重要组成。"
+    note_en: "The ten suchnesses, associated with the Lotus Sutra, are an important component of the one thought three thousand structure."
+
+  - id: three-realms-of-existence
+    term_zh: 三世间
+    term_en: three realms of existence
+    note_zh: "三世间通常包括五阴世间、众生世间、国土世间。"
+    note_en: "The three realms of existence are commonly understood as the realm of the five aggregates, the realm of sentient beings, and the realm of lands."
+
+summary_zh: "一念三千是天台宗最具代表性的核心教义之一，通常用来说明一念心中具足三千法界。其基本结构常与十界、十界互具、十如是和三世间相关，用以表达凡圣、迷悟、染净、依正诸法在一念中圆融具足。此教义与《法华经》、三谛圆融、止观实践和圆教思想密切相关，是理解天台宗圆融世界观和修行观的重要入口。本资料库将一念三千记录为天台宗模块的核心术语，并与智者大师、《摩诃止观》《法华玄义》以及日本天台、韩国天台的传播关系建立关联。"
+
+summary_en: "One thought contains three thousand is one of the most distinctive core doctrines of Tiantai Buddhism. It explains that a single thought-moment contains the full range of three thousand realms. Its structure is commonly associated with the ten realms, the mutual inclusion of the ten realms, the ten suchnesses, and the three realms of existence. The doctrine expresses the interpenetration of ordinary and sacred, delusion and awakening, impurity and purity, and the full range of dependent reality within one thought. It is closely connected with the Lotus Sutra, the interpenetrating three truths, zhiguan practice, and the perfect teaching. This archive records it as a core Tiantai term connected with Master Zhiyi, Mohe Zhiguan, Fahua Xuanyi, and the transmission of Tiantai thought to Japanese Tendai and Korean Cheontae."
+
+source_refs:
+  - name: "CBETA - Mohe Zhiguan"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1911"
+    identifier: "T46n1911"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Primary Buddhist text database reference."
+
+  - name: "CBETA - Fahua Xuanyi"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1716"
+    identifier: "T33n1716"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Primary Buddhist text database reference."
+
+  - name: "The Princeton Dictionary of Buddhism"
+    url: ""
+    identifier: "yinian sanqian / ichinen sanzen"
+    license_note: "Bibliographic reference only. Full text not redistributed."
+    reliability_note: "Reference work; details to be completed."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "One thought three thousand is a core Tiantai term and should be linked to Mohe Zhiguan and Fahua Xuanyi."
+  - "Future updates should clarify the calculation structure: ten realms, mutual inclusion, ten suchnesses, and three realms of existence."
+  - "Japanese Tendai and later Japanese Buddhist uses of ichinen sanzen should be represented in future branch-specific records."
+  - "Future updates should add academic references and precise source passages without redistributing restricted full text."
