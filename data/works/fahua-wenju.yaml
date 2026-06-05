@@ -1,0 +1,160 @@
+id: fahua-wenju
+type: work
+
+title_zh: 法华文句
+display_title_zh: 法华文句
+formal_title_zh: 妙法莲华经文句
+common_title_zh: 法华文句
+
+title_en: Words and Phrases of the Lotus Sutra
+display_title_en: Fahua Wenju
+title_pinyin: Fahua Wenju
+
+alternative_titles:
+  - 法華文句
+  - 妙法莲华经文句
+  - 妙法蓮華經文句
+  - Words and Phrases of the Lotus Sutra
+  - Words and Phrases of the Lotus
+  - Fahua Wenju
+  - Fa-hua wen-chü
+
+title_usage_note_zh: "《法华文句》是天台宗核心典籍之一，通常与《摩诃止观》《法华玄义》并称天台三大部。"
+title_usage_note_en: "Fahua Wenju is one of the core Tiantai works and is often grouped with Mohe Zhiguan and Fahua Xuanyi as one of the Three Great Tiantai Works."
+
+traditions:
+  - tiantai
+  - chinese_buddhism
+  - lotus_sutra_tradition
+  - scripture_commentary
+
+branches:
+  - tiantai-china
+  - tendai-japan
+  - cheontae-korea
+
+work_category:
+  - scripture_commentary
+  - lotus_sutra_commentary
+  - tiantai_core_work
+  - lecture_record
+  - exegetical_text
+
+attributed_author:
+  - zhiyi
+
+lecturer:
+  - zhiyi
+
+compiler:
+  - guanding
+
+recorder:
+  - guanding
+
+related_persons:
+  - zhiyi
+  - guanding
+  - zhanran
+
+related_works:
+  - lotus-sutra
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju-ji
+
+related_terms:
+  - lotus-sutra
+  - scripture-interpretation
+  - tiantai-doctrine
+  - perfect-teaching
+  - three-truths
+  - one-thought-three-thousand
+  - doctrinal-classification
+  - expedient-means
+
+canonical_info:
+  taisho_number: T1718
+  cbeta_id: T34n1718
+  volume_info_zh: 大正藏第 34 册
+  volume_info_en: Taisho Tripitaka, Volume 34
+  note_zh: "藏经编号和卷册信息后续应以 CBETA、SAT 或其他权威佛典数据库核对。"
+  note_en: "Canon identifiers and volume information should be verified against CBETA, SAT, or other authoritative Buddhist canon databases."
+
+approximate_date:
+  period_zh: 隋代
+  period_en: Sui dynasty
+  note_zh: "本书通常被视为智者大师讲授、章安大师灌顶记录整理而成。具体讲授、记录和成书过程需进一步考证。"
+  note_en: "The work is commonly understood as based on Master Zhiyi's lectures and compiled or recorded by Master Guanding. Details of lecture, recording, and compilation history require further verification."
+
+structure:
+  juan_count: 20
+  note_zh: "通常记为二十卷，后续应以权威目录核对。"
+  note_en: "Commonly recorded as twenty fascicles, but this should be verified against authoritative catalogues."
+
+summary_zh: "《法华文句》是天台宗核心典籍之一，通常被列为天台三大部之一。此书主要围绕《妙法莲华经》的经文进行解释，重在逐句、逐段阐发《法华经》的文义、结构和教义内涵。与偏重义理纲领的《法华玄义》和偏重修行观法的《摩诃止观》相比，《法华文句》更集中体现天台宗对《法华经》文本本身的注释传统。它对于理解天台宗的法华解释学、判教体系、圆教思想和经文诠释方法具有重要意义。本资料库将其记录为天台宗模块的核心典籍，并与智者大师、章安大师、荆溪湛然、《法华经》以及天台宗经义解释传统建立关联。"
+
+summary_en: "Fahua Wenju, often translated as Words and Phrases of the Lotus Sutra, is one of the core works of the Tiantai tradition and is commonly grouped among the Three Great Tiantai Works. The text focuses on explaining the wording, passages, structure, and doctrinal meaning of the Lotus Sutra. Compared with Fahua Xuanyi, which emphasizes doctrinal meaning, and Mohe Zhiguan, which emphasizes contemplative practice, Fahua Wenju more directly represents the Tiantai exegetical tradition centered on the Lotus Sutra text itself. It is important for understanding Tiantai Lotus hermeneutics, doctrinal classification, perfect teaching thought, and scriptural interpretation. This archive records it as a core Tiantai work connected with Master Zhiyi, Master Guanding, Jingxi Zhanran, the Lotus Sutra, and Tiantai exegetical traditions."
+
+bibliography:
+  - title_zh: "法华文句"
+    title_en: "Fahua Wenju"
+    author_zh: "智顗说；灌顶记"
+    author_en: "Lectured by Zhiyi; recorded by Guanding"
+    publisher: ""
+    year: ""
+    language: "Classical Chinese"
+    type: primary_source
+    isbn: ""
+    note_zh: "本条为原典记录，全文是否收录需根据来源授权另行判断。"
+    note_en: "Primary source record. Full-text inclusion depends on source license review."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: ""
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对《法华文句》名称、作者、卷数和术语。"
+    note_en: "To be used later for checking title, authorship, fascicle count, and terminology."
+
+source_refs:
+  - name: "CBETA"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1718"
+    identifier: "T34n1718"
+    license_note: "External Buddhist canon reference. Full text not redistributed in this repository unless license compatibility is verified."
+    reliability_note: "Major Buddhist canon database."
+
+  - name: "SAT Daizokyo Text Database"
+    url: "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1718.html"
+    identifier: "T1718"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Major Buddhist canon database."
+
+  - name: "Digital Dictionary of Buddhism"
+    url: ""
+    identifier: "Fahua Wenju"
+    license_note: "External reference source. To be added if available."
+    reliability_note: "To be verified."
+
+full_text_policy:
+  included: false
+  reason_zh: "当前仅记录元数据、来源链接、藏经编号和原创摘要，不在仓库中再分发全文。"
+  reason_en: "This repository currently records metadata, source links, canon identifiers, and original summaries only. It does not redistribute the full text."
+  review_status: needs_license_review
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Fahua Wenju is a core work record for the Tiantai module."
+  - "The id remains fahua-wenju for stability and machine readability."
+  - "This work should later be linked to data/persons/zhiyi.yaml and data/persons/guanding.yaml through relation records."
+  - "Zhanran's commentary on Fahua Wenju should be added as a separate work record under data/works/."
+  - "Doctrinal terms related to Lotus Sutra interpretation, perfect teaching, and doctrinal classification should be represented under data/terms/."
+  - "Future updates should verify canon identifiers, fascicle count, authorship wording, and bibliographic details using CBETA, SAT, and academic references."
