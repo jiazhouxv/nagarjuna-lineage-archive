@@ -1,0 +1,120 @@
+id: three-truths
+type: term
+
+term_zh: 三谛
+display_term_zh: 三谛
+formal_term_zh: 三谛
+common_term_zh: 三谛
+
+term_en: Three Truths
+display_term_en: Three Truths
+term_pinyin: San Di
+
+alternative_terms:
+  - 三諦
+  - 空假中三谛
+  - 空假中三諦
+  - 圆融三谛
+  - 圓融三諦
+  - threefold truth
+  - three truths
+  - emptiness, provisional existence, and the middle
+
+term_usage_note_zh: "三谛通常指空谛、假谛、中谛，是天台宗解释诸法实相和圆融思想的重要教义。本资料库以 three-truths 作为稳定 ID。"
+term_usage_note_en: "The three truths usually refer to the truth of emptiness, the truth of provisional existence, and the truth of the middle. They are central to Tiantai interpretation of the true aspect of all dharmas and the doctrine of interpenetration. This archive uses three-truths as the stable ID."
+
+traditions:
+  - tiantai
+  - chinese_buddhism
+  - madhyamaka
+  - lotus_sutra_tradition
+
+branches:
+  - tiantai-china
+  - tendai-japan
+  - cheontae-korea
+
+related_persons:
+  - nagarjuna
+  - kumarajiva
+  - huiwen
+  - huisi
+  - zhiyi
+  - guanding
+  - zhanran
+
+related_works:
+  - zhong-lun
+  - dazhidu-lun
+  - mohe-zhiguan
+  - fahua-xuanyi
+  - fahua-wenju
+
+related_terms:
+  - emptiness
+  - provisional-existence
+  - middle
+  - madhyamaka
+  - zhiguan
+  - one-thought-three-thousand
+  - perfect-teaching
+  - doctrinal-classification
+
+category:
+  - doctrine
+  - tiantai_core_term
+  - madhyamaka_reception
+  - ontology
+  - hermeneutics
+
+components:
+  - id: emptiness
+    term_zh: 空谛
+    term_en: truth of emptiness
+    note_zh: "说明诸法无自性、缘起性空。"
+    note_en: "Indicates that phenomena lack independent self-nature and are empty through dependent arising."
+
+  - id: provisional-existence
+    term_zh: 假谛
+    term_en: truth of provisional existence
+    note_zh: "说明诸法虽空而依缘假立、作用宛然。"
+    note_en: "Indicates that phenomena, while empty, function provisionally through dependent conditions."
+
+  - id: middle
+    term_zh: 中谛
+    term_en: truth of the middle
+    note_zh: "说明空与假不二，离两边而圆融。"
+    note_en: "Indicates the middle that transcends and integrates emptiness and provisional existence."
+
+summary_zh: "三谛是天台宗极为重要的核心教义，通常指空谛、假谛、中谛。天台宗通过三谛说明诸法既空、又假、又中：空谛显示诸法无自性，假谛显示诸法依缘假有，中谛显示空与假圆融不二。三谛思想与中观思想有深厚关系，也在天台宗中被进一步发展为圆融三谛，成为理解《法华经》、止观实践、一念三千和圆教思想的重要基础。"
+
+summary_en: "The three truths are among the most important doctrines in Tiantai Buddhism. They usually refer to the truth of emptiness, the truth of provisional existence, and the truth of the middle. Tiantai uses the three truths to explain that all phenomena are empty, provisionally existent, and middle at once: emptiness indicates the lack of independent self-nature, provisional existence indicates dependent functioning, and the middle indicates the nonduality and integration of emptiness and provisionality. The doctrine has deep connections with Madhyamaka thought and was further developed in Tiantai as the interpenetrating three truths, forming a foundation for interpreting the Lotus Sutra, zhiguan practice, one thought containing three thousand, and the perfect teaching."
+
+source_refs:
+  - name: "CBETA - Fahua Xuanyi"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1716"
+    identifier: "T33n1716"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Primary Buddhist text database reference."
+
+  - name: "CBETA - Mohe Zhiguan"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1911"
+    identifier: "T46n1911"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Primary Buddhist text database reference."
+
+  - name: "The Princeton Dictionary of Buddhism"
+    url: ""
+    identifier: "three truths"
+    license_note: "Bibliographic reference only. Full text not redistributed."
+    reliability_note: "Reference work; details to be completed."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "The three truths should be distinguished from the two truths in Madhyamaka while recording their doctrinal connection."
+  - "Future relation records should link Nagarjuna, Madhyamaka, Huiwen, Zhiyi, and Tiantai development of the three truths."
+  - "Future updates should add citations from academic studies and Tiantai primary sources."
