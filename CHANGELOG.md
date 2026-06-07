@@ -22,6 +22,21 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 - Added initial person record for Master Zhiyi.
 - Added initial person record for Master Guanding.
 - Added initial person record for Jingxi Zhanran.
+- Added initial person record for Saicho.
+- Added initial person record for Uicheon.
+- Added Tiantai parent tradition record.
+- Added Chinese Tiantai branch record.
+- Added Japanese Tendai branch record.
+- Added Korean Cheontae branch record.
+- Added Mohe Zhiguan work record.
+- Added Fahua Xuanyi work record.
+- Added Fahua Wenju work record.
+- Added Zhiguan term record.
+- Added Three Truths term record.
+- Added One Thought Three Thousand term record.
+- Added teacher-student relation file.
+- Added work compilation and commentary relation file.
+- Added tradition and regional branch relation file.
 
 中文记录：
 
@@ -37,18 +52,35 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 - 添加智者大师人物记录。
 - 添加章安大师人物记录。
 - 添加荆溪湛然人物记录。
+- 添加最澄人物记录。
+- 添加义天人物记录。
+- 添加天台宗总宗派记录。
+- 添加中国天台宗分支记录。
+- 添加日本天台宗分支记录。
+- 添加韩国天台宗分支记录。
+- 添加《摩诃止观》典籍记录。
+- 添加《法华玄义》典籍记录。
+- 添加《法华文句》典籍记录。
+- 添加止观术语记录。
+- 添加三谛术语记录。
+- 添加一念三千术语记录。
+- 添加师承关系文件。
+- 添加讲授、记录、整理与注释关系文件。
+- 添加宗派与地域分支关系文件。
 
 ### Changed / 修改
 
 - Updated person data schema to include bibliography fields.
 - Updated person data schema to include display name, formal name, honorific name, common name, and name usage notes.
 - Refined the project direction from a Tiantai-only archive to a broader Nagarjuna-related lineage archive with Tiantai as the first active module.
+- Expanded the Tiantai module from person records to traditions, branches, works, terms, and relations.
 
 中文记录：
 
 - 更新人物数据结构，加入 bibliography 参考书目字段。
 - 更新人物数据结构，加入显示名、正式名、尊称、常用名和名称用法说明字段。
 - 将项目方向从单一天台宗资料库扩展为以龙树菩萨思想谱系为核心、以天台宗为第一个重点模块的长期资料库。
+- 将天台宗模块从人物记录扩展到宗派、分支、典籍、术语和关系数据。
 
 ### Notes / 备注
 
@@ -57,6 +89,7 @@ Current project status:
 - The project is in the initial structure-building phase.
 - The first active module is Tiantai.
 - Current data focuses on the early Tiantai lineage and Nagarjuna-related doctrinal reception.
+- The archive now includes initial person, tradition, branch, work, term, and relation records.
 - Source verification is still partial.
 - Many records are marked as draft or needs review.
 
@@ -65,6 +98,7 @@ Current project status:
 - 项目处于初始结构建设阶段。
 - 第一个重点模块是天台宗。
 - 当前数据重点是早期天台宗祖师谱系与龙树菩萨相关思想接受。
+- 资料库目前已经包含初始人物、宗派、分支、典籍、术语和关系记录。
 - 来源核查仍处于初步阶段。
 - 多数记录仍标记为草稿或待审查。
 
@@ -74,28 +108,18 @@ Current project status:
 
 Planned before the first release:
 
-- Add Tiantai tradition record.
-- Add Chinese Tiantai branch record.
-- Add Japanese Tendai branch record.
-- Add Korean Cheontae branch record.
-- Add core Tiantai work records.
-- Add core Tiantai doctrinal term records.
-- Add initial teacher-student relation records.
-- Add initial chronology records.
+- Add initial timeline records.
 - Add basic YAML validation script.
 - Review all initial person records.
+- Review all initial work and term records.
+- Improve source references.
 - Prepare v0.1.0 release notes.
 
 v0.1.0 发布前计划完成：
 
-- 添加天台宗宗派记录。
-- 添加中国天台宗分支记录。
-- 添加日本天台宗分支记录。
-- 添加韩国天台宗分支记录。
-- 添加天台宗核心典籍记录。
-- 添加天台宗核心教义术语记录。
-- 添加初步师承关系记录。
 - 添加初步时间线记录。
 - 添加基础 YAML 校验脚本。
 - 审查第一批人物记录。
+- 审查第一批典籍和术语记录。
+- 改进资料来源。
 - 准备 v0.1.0 发布说明。
