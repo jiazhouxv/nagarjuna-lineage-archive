@@ -1,0 +1,164 @@
+id: work-compilation
+type: relation_file
+
+title_zh: 讲授、记录、整理与注释关系
+title_en: Lecture, Recording, Compilation, and Commentary Relations
+
+description_zh: "本文件记录天台宗核心典籍的讲授、记录、整理、编纂和注释关系。"
+description_en: "This file records lecture, recording, compilation, editorial, and commentary relations for core Tiantai works."
+
+relations:
+  - id: zhiyi-lectures-mohe-zhiguan
+    type: relation
+    subject: zhiyi
+    object: mohe-zhiguan
+    relation_type: lecture_source
+    tradition: tiantai
+    confidence: high
+    note_zh: "《摩诃止观》通常被视为智者大师讲授、章安大师灌顶记录整理而成。"
+    note_en: "Mohe Zhiguan is commonly understood as based on Master Zhiyi's lectures and recorded or compiled by Master Guanding."
+    source_refs:
+      - name: "CBETA"
+        url: "https://cbetaonline.dila.edu.tw/zh/T1911"
+        identifier: "T46n1911"
+        license_note: "External Buddhist canon reference. Full text not redistributed."
+        reliability_note: "Primary Buddhist text database reference."
+
+  - id: guanding-records-mohe-zhiguan
+    type: relation
+    subject: guanding
+    object: mohe-zhiguan
+    relation_type: recorder_compiler
+    tradition: tiantai
+    confidence: high
+    note_zh: "章安大师灌顶在天台宗文献传统中常被记为《摩诃止观》的记录、整理者。"
+    note_en: "Master Guanding is commonly recorded in Tiantai textual tradition as the recorder and compiler of Mohe Zhiguan."
+    source_refs:
+      - name: "CBETA"
+        url: "https://cbetaonline.dila.edu.tw/zh/T1911"
+        identifier: "T46n1911"
+        license_note: "External Buddhist canon reference. Full text not redistributed."
+        reliability_note: "Primary Buddhist text database reference."
+
+  - id: zhiyi-lectures-fahua-xuanyi
+    type: relation
+    subject: zhiyi
+    object: fahua-xuanyi
+    relation_type: lecture_source
+    tradition: tiantai
+    confidence: high
+    note_zh: "《法华玄义》通常被视为智者大师讲授、章安大师灌顶记录整理而成。"
+    note_en: "Fahua Xuanyi is commonly understood as based on Master Zhiyi's lectures and recorded or compiled by Master Guanding."
+    source_refs:
+      - name: "CBETA"
+        url: "https://cbetaonline.dila.edu.tw/zh/T1716"
+        identifier: "T33n1716"
+        license_note: "External Buddhist canon reference. Full text not redistributed."
+        reliability_note: "Primary Buddhist text database reference."
+
+  - id: guanding-records-fahua-xuanyi
+    type: relation
+    subject: guanding
+    object: fahua-xuanyi
+    relation_type: recorder_compiler
+    tradition: tiantai
+    confidence: high
+    note_zh: "章安大师灌顶在天台宗文献传统中常被记为《法华玄义》的记录、整理者。"
+    note_en: "Master Guanding is commonly recorded in Tiantai textual tradition as the recorder and compiler of Fahua Xuanyi."
+    source_refs:
+      - name: "CBETA"
+        url: "https://cbetaonline.dila.edu.tw/zh/T1716"
+        identifier: "T33n1716"
+        license_note: "External Buddhist canon reference. Full text not redistributed."
+        reliability_note: "Primary Buddhist text database reference."
+
+  - id: zhiyi-lectures-fahua-wenju
+    type: relation
+    subject: zhiyi
+    object: fahua-wenju
+    relation_type: lecture_source
+    tradition: tiantai
+    confidence: high
+    note_zh: "《法华文句》通常被视为智者大师讲授、章安大师灌顶记录整理而成。"
+    note_en: "Fahua Wenju is commonly understood as based on Master Zhiyi's lectures and recorded or compiled by Master Guanding."
+    source_refs:
+      - name: "CBETA"
+        url: "https://cbetaonline.dila.edu.tw/zh/T1718"
+        identifier: "T34n1718"
+        license_note: "External Buddhist canon reference. Full text not redistributed."
+        reliability_note: "Primary Buddhist text database reference."
+
+  - id: guanding-records-fahua-wenju
+    type: relation
+    subject: guanding
+    object: fahua-wenju
+    relation_type: recorder_compiler
+    tradition: tiantai
+    confidence: high
+    note_zh: "章安大师灌顶在天台宗文献传统中常被记为《法华文句》的记录、整理者。"
+    note_en: "Master Guanding is commonly recorded in Tiantai textual tradition as the recorder and compiler of Fahua Wenju."
+    source_refs:
+      - name: "CBETA"
+        url: "https://cbetaonline.dila.edu.tw/zh/T1718"
+        identifier: "T34n1718"
+        license_note: "External Buddhist canon reference. Full text not redistributed."
+        reliability_note: "Primary Buddhist text database reference."
+
+  - id: zhanran-comments-on-mohe-zhiguan
+    type: relation
+    subject: zhanran
+    object: mohe-zhiguan
+    relation_type: commentary_interpretation
+    tradition: tiantai
+    confidence: high
+    note_zh: "荆溪湛然通过注释和阐发智者大师核心著作，推动唐代天台宗复兴与再系统化。"
+    note_en: "Jingxi Zhanran helped revive and re-systematize Tang dynasty Tiantai through commentarial interpretation of Master Zhiyi's core works."
+    source_refs:
+      - name: "Tsadra Foundation Buddha-Nature"
+        url: "https://buddhanature.tsadra.org/index.php/People/Jingxi_Zhanran"
+        identifier: "Jingxi Zhanran"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "Digital Buddhist studies reference source."
+
+  - id: zhanran-comments-on-fahua-xuanyi
+    type: relation
+    subject: zhanran
+    object: fahua-xuanyi
+    relation_type: commentary_interpretation
+    tradition: tiantai
+    confidence: high
+    note_zh: "湛然对《法华玄义》等天台核心文献的注释，有助于确立唐代以后天台宗的教义解释传统。"
+    note_en: "Zhanran's commentarial work on Fahua Xuanyi and other core Tiantai texts helped shape later Tiantai doctrinal interpretation."
+    source_refs:
+      - name: "Encyclopedia.com"
+        url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/zhanran"
+        identifier: "Zhanran"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "General encyclopedia reference."
+
+  - id: zhanran-comments-on-fahua-wenju
+    type: relation
+    subject: zhanran
+    object: fahua-wenju
+    relation_type: commentary_interpretation
+    tradition: tiantai
+    confidence: high
+    note_zh: "湛然对《法华文句》等天台经典注释传统有重要贡献，后续应补充具体著作条目。"
+    note_en: "Zhanran made important contributions to the commentarial tradition on Fahua Wenju and related Tiantai texts. Specific work records should be added later."
+    source_refs:
+      - name: "Encyclopedia.com"
+        url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/zhanran"
+        identifier: "Zhanran"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "General encyclopedia reference."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This file focuses on work formation, recording, compilation, and commentary relations."
+  - "Teacher-student relations should remain in data/relations/teacher-student.yaml."
+  - "Future updates should add separate records for Zhanran's commentaries, including Zhiguan Fuxing Chuanhong Jue, Fahua Xuanyi Shiqian, and Fahua Wenju Ji."
+  - "Source references are partial and should be strengthened with academic and canonical sources."
