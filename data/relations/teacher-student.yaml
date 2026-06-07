@@ -1,0 +1,39 @@
+id: teacher-student
+type: relation
+
+relations:
+  - teacher: huiwen
+    student: huisi
+    confidence: high
+    note_zh: "慧文是慧思的师父，天台宗早期传承关系"
+    note_en: "Huiwen is the teacher of Huisi, early Tiantai lineage"
+
+  - teacher: huisi
+    student: zhiyi
+    confidence: high
+    note_zh: "慧思是智者大师的重要老师"
+    note_en: "Huisi is a principal teacher of Master Zhiyi"
+
+  - teacher: zhiyi
+    student: guanding
+    confidence: high
+    note_zh: "智者大师灌顶章安大师"
+    note_en: "Master Zhiyi initiates Master Guanding"
+
+  - teacher: zhiyi
+    student: zhanran
+    confidence: medium
+    note_zh: "荆溪湛然在天台宗复兴过程中承接智者大师教观"
+    note_en: "Jingxi Zhanran inherits Master Zhiyi's teaching in Tiantai revival"
+
+  - teacher: zhiyi
+    student: saicho
+    confidence: medium
+    note_zh: "最澄赴唐求法，接受天台教观传入日本"
+    note_en: "Saicho studies Tiantai teachings in Tang China before founding Tendai in Japan"
+
+  - teacher: zhiyi
+    student: uicheon
+    confidence: medium
+    note_zh: "义天赴宋学习天台教法，传入高丽"
+    note_en: "Uicheon studies Tiantai in Song China and transmits it to Goryeo"
