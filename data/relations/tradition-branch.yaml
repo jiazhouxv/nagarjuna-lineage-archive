@@ -1,0 +1,114 @@
+id: tradition-branch
+type: relation_file
+
+title_zh: 宗派与地域分支关系
+title_en: Tradition and Regional Branch Relations
+
+description_zh: "本文件记录天台宗总宗派与中国天台宗、日本天台宗、韩国天台宗之间的分支关系。"
+description_en: "This file records the branch relations between the parent Tiantai tradition and its Chinese, Japanese, and Korean regional branches."
+
+relations:
+  - id: tiantai-has-chinese-branch
+    type: relation
+    subject: tiantai
+    object: tiantai-china
+    relation_type: parent_tradition_to_branch
+    confidence: high
+    note_zh: "中国天台宗是天台宗的核心源流和中国地域分支。"
+    note_en: "Chinese Tiantai is the core source branch and Chinese regional branch of the Tiantai tradition."
+    source_refs:
+      - name: "Encyclopedia.com - Tiantai School"
+        url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tiantai-school"
+        identifier: "Tiantai School"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "General encyclopedia reference."
+
+  - id: tiantai-has-japanese-branch
+    type: relation
+    subject: tiantai
+    object: tendai-japan
+    relation_type: parent_tradition_to_branch
+    confidence: high
+    note_zh: "日本天台宗 Tendai 是天台宗在日本的地域分支，通常与最澄赴唐求法和比叡山传统密切相关。"
+    note_en: "Japanese Tendai is the Japanese regional branch of the Tiantai tradition, commonly associated with Saicho's study in Tang China and the Mount Hiei tradition."
+    source_refs:
+      - name: "Tendai Buddhist Institute - Japanese Foundations"
+        url: "https://www.tendai.org/tendai/japan/"
+        identifier: "Japanese Foundations of Tendai"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "Tradition-oriented educational source."
+
+  - id: tiantai-has-korean-branch
+    type: relation
+    subject: tiantai
+    object: cheontae-korea
+    relation_type: parent_tradition_to_branch
+    confidence: high
+    note_zh: "韩国天台宗 Cheontae 是天台宗在朝鲜半岛的地域分支，通常与高丽义天的活动密切相关。"
+    note_en: "Korean Cheontae is the Korean regional branch of the Tiantai tradition, commonly associated with Uicheon's activity during the Goryeo period."
+    source_refs:
+      - name: "Encyclopedia of Buddhism - Cheontae"
+        url: "https://encyclopediaofbuddhism.org/wiki/Cheontae"
+        identifier: "Cheontae"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "Buddhist encyclopedia reference; details should be checked against primary or academic sources."
+
+  - id: chinese-tiantai-transmits-to-japanese-tendai
+    type: relation
+    subject: tiantai-china
+    object: tendai-japan
+    relation_type: regional_transmission
+    key_persons:
+      - saicho
+      - daosui
+      - xingman
+    confidence: high
+    note_zh: "日本天台宗传统中，最澄赴唐求法，将中国天台教法及相关佛教传统传入日本。"
+    note_en: "In Japanese Tendai tradition, Saicho traveled to Tang China and transmitted Chinese Tiantai teachings and related Buddhist traditions to Japan."
+    source_refs:
+      - name: "Encyclopaedia Britannica - Saicho"
+        url: "https://www.britannica.com/biography/Saicho"
+        identifier: "Saicho"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "General encyclopedia reference."
+
+  - id: chinese-tiantai-transmits-to-korean-cheontae
+    type: relation
+    subject: tiantai-china
+    object: cheontae-korea
+    relation_type: regional_transmission
+    key_persons:
+      - uicheon
+    confidence: high
+    note_zh: "韩国天台宗通常与义天入宋求法、推动高丽天台宗独立成宗有关。"
+    note_en: "Korean Cheontae is commonly associated with Uicheon's study in Song China and his role in establishing Cheontae as an independent school in Goryeo."
+    source_refs:
+      - name: "A Study on the Uicheon's Hwaeom Thought"
+        url: "https://oak.go.kr/central/journallist/journaldetail.do?article_seq=17996"
+        identifier: "Uicheon 1055-1101"
+        license_note: "External academic reference. Full text not redistributed."
+        reliability_note: "Academic article reference."
+
+  - id: tiantai-branch-system
+    type: relation
+    subject: tiantai
+    object:
+      - tiantai-china
+      - tendai-japan
+      - cheontae-korea
+    relation_type: branch_system
+    confidence: high
+    note_zh: "本资料库将天台宗作为总宗派，将中国天台宗、日本天台宗、韩国天台宗记录为其地域分支。"
+    note_en: "This archive records Tiantai as the parent tradition and Chinese Tiantai, Japanese Tendai, and Korean Cheontae as its regional branches."
+    source_refs: []
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This file models tradition-to-branch and branch-to-branch transmission relations."
+  - "Person-level teacher-student relations should remain in data/relations/teacher-student.yaml."
+  - "Work formation and commentary relations should remain in data/relations/work-compilation.yaml."
+  - "Future updates should add more precise institutional and historical sources for Japanese Tendai and Korean Cheontae transmission."
