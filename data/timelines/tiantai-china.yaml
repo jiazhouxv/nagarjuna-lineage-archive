@@ -1,0 +1,165 @@
+id: tiantai-china-timeline
+type: timeline
+
+title_zh: 中国天台宗时间线
+title_en: Chinese Tiantai Timeline
+
+tradition: tiantai
+branch: tiantai-china
+region: China
+
+description_zh: "本时间线记录中国天台宗从思想源流、早期谱系、智者大师系统化，到章安大师整理和荆溪湛然复兴的初步历史脉络。"
+description_en: "This timeline records the initial historical structure of Chinese Tiantai from intellectual sources and early lineage narratives to Master Zhiyi's systematization, Master Guanding's compilation, and Jingxi Zhanran's revival."
+
+events:
+  - id: nagarjuna-as-intellectual-source
+    date_range: "circa 2nd-3rd century CE"
+    approximate: true
+    event_type: intellectual_source
+    related_persons:
+      - nagarjuna
+    related_terms:
+      - madhyamaka
+      - emptiness
+      - two-truths
+    title_zh: "龙树菩萨作为天台宗追溯的重要思想源头"
+    title_en: "Nagarjuna as an important intellectual source traced by Tiantai"
+    description_zh: "中国天台宗传统常将思想源流上溯至龙树菩萨、中观思想和空义。"
+    description_en: "Chinese Tiantai tradition often traces its intellectual sources to Nagarjuna, Madhyamaka thought, and emptiness."
+    confidence: medium
+    source_refs: []
+
+  - id: kumarajiva-chinese-transmission
+    date_range: "4th-5th century CE"
+    approximate: true
+    event_type: translation_transmission
+    related_persons:
+      - kumarajiva
+    related_works:
+      - lotus-sutra
+      - zhong-lun
+      - dazhidu-lun
+    title_zh: "鸠摩罗什译经影响汉传佛教思想环境"
+    title_en: "Kumarajiva's translations shape the Chinese Buddhist intellectual environment"
+    description_zh: "鸠摩罗什译出的《法华经》及中观、般若相关典籍，对后来天台宗教义建构产生重要影响。"
+    description_en: "Kumarajiva's translations of the Lotus Sutra and Madhyamaka and Prajnaparamita-related works significantly influenced later Tiantai doctrinal formation."
+    confidence: high
+    source_refs: []
+
+  - id: huiwen-early-lineage-position
+    date_range: "before 515 CE"
+    approximate: true
+    event_type: lineage_claim
+    related_persons:
+      - huiwen
+    related_terms:
+      - three-truths
+      - madhyamaka
+    title_zh: "慧文被置于中国天台宗早期谱系中"
+    title_en: "Huiwen is placed in early Chinese Tiantai lineage"
+    description_zh: "慧文在天台宗谱系中通常位于慧思之前，被视为早期承接中观与三谛思想的重要人物。"
+    description_en: "Huiwen is usually placed before Huisi in Tiantai lineage narratives and is associated with early reception of Madhyamaka and the three truths."
+    confidence: medium
+    source_refs: []
+
+  - id: huisi-life-and-transmission
+    date_range: "515-577 CE"
+    approximate: false
+    event_type: person_life
+    related_persons:
+      - huisi
+    related_terms:
+      - zhiguan
+      - lotus-sutra
+    title_zh: "南岳慧思活动并影响智者大师"
+    title_en: "Nanyue Huisi teaches and influences Master Zhiyi"
+    description_zh: "慧思在天台宗传统中被视为智者大师的重要老师，是早期天台教观形成的重要人物。"
+    description_en: "Huisi is regarded in Tiantai tradition as an important teacher of Master Zhiyi and a major figure in early Tiantai doctrinal and contemplative formation."
+    confidence: high
+    source_refs: []
+
+  - id: zhiyi-life-and-systematization
+    date_range: "538-597 CE"
+    approximate: false
+    event_type: doctrinal_systematization
+    related_persons:
+      - zhiyi
+    related_works:
+      - mohe-zhiguan
+      - fahua-xuanyi
+      - fahua-wenju
+    related_terms:
+      - zhiguan
+      - three-truths
+      - one-thought-three-thousand
+    title_zh: "智者大师建立并系统化天台教观体系"
+    title_en: "Master Zhiyi establishes and systematizes Tiantai doctrine and contemplation"
+    description_zh: "智者大师以《法华经》为重要经典基础，系统化止观、三谛、一念三千、判教等天台宗核心思想。"
+    description_en: "Master Zhiyi, with the Lotus Sutra as a major scriptural foundation, systematized Tiantai doctrines such as zhiguan, the three truths, one thought containing three thousand, and doctrinal classification."
+    confidence: high
+    source_refs: []
+
+  - id: guoqing-temple-tiantai-center
+    date_range: "Sui dynasty and later"
+    approximate: true
+    event_type: institution_place
+    related_persons:
+      - zhiyi
+      - guanding
+    related_places:
+      - tiantai-mountain
+      - guoqing-temple
+    title_zh: "天台山与国清寺成为中国天台宗的重要中心"
+    title_en: "Mount Tiantai and Guoqing Temple become important centers of Chinese Tiantai"
+    description_zh: "天台山和国清寺在天台宗历史中具有重要地理、制度和象征意义。"
+    description_en: "Mount Tiantai and Guoqing Temple hold major geographical, institutional, and symbolic significance in Tiantai history."
+    confidence: high
+    source_refs: []
+
+  - id: guanding-compilation
+    date_range: "561-632 CE"
+    approximate: false
+    event_type: compilation_transmission
+    related_persons:
+      - guanding
+      - zhiyi
+    related_works:
+      - mohe-zhiguan
+      - fahua-xuanyi
+      - fahua-wenju
+    title_zh: "章安大师灌顶记录整理天台核心文献"
+    title_en: "Master Guanding records and compiles core Tiantai texts"
+    description_zh: "章安大师灌顶记录、整理智者大师讲授内容，对天台三大部的形成和流传具有关键作用。"
+    description_en: "Master Guanding recorded and compiled Master Zhiyi's lectures, playing a key role in the formation and transmission of the Three Great Tiantai Works."
+    confidence: high
+    source_refs: []
+
+  - id: zhanran-life-revival
+    date_range: "711-782 CE"
+    approximate: false
+    event_type: revival_commentary
+    related_persons:
+      - zhanran
+    related_works:
+      - zhiguan-fuxing-chuanhong-jue
+      - fahua-xuanyi-shiqian
+      - fahua-wenju-ji
+    related_terms:
+      - buddha-nature-of-insentient-beings
+      - tiantai-lineage
+    title_zh: "荆溪湛然复兴唐代天台宗"
+    title_en: "Jingxi Zhanran revives Tang dynasty Tiantai"
+    description_zh: "湛然通过注释、阐发和辩护天台核心教义，推动唐代天台宗复兴和宗派身份强化。"
+    description_en: "Zhanran revived Tang dynasty Tiantai by commenting on, interpreting, and defending core Tiantai doctrines, strengthening Tiantai identity."
+    confidence: high
+    source_refs: []
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This timeline focuses on the Chinese Tiantai branch."
+  - "Later Song dynasty figures such as Yitong, Zhili, and Zunshi should be added in future updates."
+  - "More precise dates, institutional sources, and academic references should be added later."
