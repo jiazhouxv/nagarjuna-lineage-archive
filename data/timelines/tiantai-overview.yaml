@@ -1,0 +1,177 @@
+id: tiantai-overview
+type: timeline
+
+title_zh: 天台宗总览时间线
+title_en: Tiantai Overview Timeline
+
+tradition: tiantai
+regions:
+  - China
+  - Japan
+  - Korea
+  - East Asia
+
+description_zh: "本时间线记录天台宗从思想源流、早期中国发展，到日本天台宗和韩国天台宗地域传播的总览。"
+description_en: "This timeline records an overview of Tiantai from its intellectual sources and early Chinese development to regional transmission in Japan and Korea."
+
+events:
+  - id: nagarjuna-madhyamaka-source
+    date_range: "circa 2nd-3rd century CE"
+    approximate: true
+    event_type: intellectual_source
+    related_persons:
+      - nagarjuna
+    related_terms:
+      - madhyamaka
+      - emptiness
+      - two-truths
+    title_zh: "龙树菩萨与中观思想成为后世天台宗追溯的重要思想源头"
+    title_en: "Nagarjuna and Madhyamaka thought become important intellectual sources later traced by Tiantai tradition"
+    description_zh: "天台宗传统常将自身思想源流上溯至龙树菩萨、中观思想、空义和二谛思想。本项目将其记录为思想源流关系，而不是直接历史建宗关系。"
+    description_en: "Tiantai lineage narratives often trace intellectual sources to Nagarjuna, Madhyamaka thought, emptiness, and the two truths. This archive records this as an intellectual-source relation rather than a direct institutional founding relation."
+    confidence: medium
+    source_refs: []
+
+  - id: kumarajiva-translations
+    date_range: "4th-5th century CE"
+    approximate: true
+    event_type: translation_transmission
+    related_persons:
+      - kumarajiva
+    related_works:
+      - lotus-sutra
+      - zhong-lun
+      - dazhidu-lun
+    title_zh: "鸠摩罗什译经推动中观、般若和《法华经》在汉地传播"
+    title_en: "Kumarajiva's translations support the Chinese reception of Madhyamaka, Prajnaparamita, and the Lotus Sutra"
+    description_zh: "鸠摩罗什的译经活动对三论宗、天台宗以及汉传佛教《法华经》接受史产生深远影响。"
+    description_en: "Kumarajiva's translation activity deeply influenced Sanlun, Tiantai, and the Chinese reception history of the Lotus Sutra."
+    confidence: high
+    source_refs: []
+
+  - id: huiwen-early-tiantai-lineage
+    date_range: "before Huisi and Zhiyi"
+    approximate: true
+    event_type: lineage_claim
+    related_persons:
+      - huiwen
+    related_terms:
+      - three-truths
+      - madhyamaka
+    title_zh: "慧文被置于天台宗早期谱系中"
+    title_en: "Huiwen is placed in early Tiantai lineage narratives"
+    description_zh: "天台宗传统通常将慧文置于慧思和智者大师之前，作为承接中观与三谛思想的重要早期人物。"
+    description_en: "Tiantai tradition often places Huiwen before Huisi and Master Zhiyi as an early figure associated with Madhyamaka and the three truths."
+    confidence: medium
+    source_refs: []
+
+  - id: huisi-to-zhiyi
+    date_range: "6th century CE"
+    approximate: true
+    event_type: teacher_student
+    related_persons:
+      - huisi
+      - zhiyi
+    title_zh: "慧思成为智者大师的重要老师"
+    title_en: "Huisi becomes an important teacher of Master Zhiyi"
+    description_zh: "慧思在天台宗谱系中承上启下，是连接慧文与智者大师的重要人物。"
+    description_en: "Huisi is a key transmission figure in Tiantai lineage, linking Huiwen and Master Zhiyi."
+    confidence: high
+    source_refs: []
+
+  - id: zhiyi-systematizes-tiantai
+    date_range: "538-597 CE"
+    approximate: false
+    event_type: doctrinal_systematization
+    related_persons:
+      - zhiyi
+    related_works:
+      - mohe-zhiguan
+      - fahua-xuanyi
+      - fahua-wenju
+    related_terms:
+      - zhiguan
+      - three-truths
+      - one-thought-three-thousand
+    title_zh: "智者大师系统化天台宗教观体系"
+    title_en: "Master Zhiyi systematizes the Tiantai doctrinal-contemplative system"
+    description_zh: "智者大师被视为天台宗教观体系的核心奠基者和集大成者，与天台三大部及止观、三谛、一念三千等思想密切相关。"
+    description_en: "Master Zhiyi is regarded as the central systematizer of Tiantai doctrine and contemplation, closely associated with the Three Great Tiantai Works, zhiguan, the three truths, and one thought containing three thousand."
+    confidence: high
+    source_refs: []
+
+  - id: guanding-compiles-core-texts
+    date_range: "561-632 CE"
+    approximate: false
+    event_type: compilation_transmission
+    related_persons:
+      - guanding
+      - zhiyi
+    related_works:
+      - mohe-zhiguan
+      - fahua-xuanyi
+      - fahua-wenju
+    title_zh: "章安大师灌顶记录整理智者大师讲授内容"
+    title_en: "Master Guanding records and compiles Master Zhiyi's teachings"
+    description_zh: "章安大师灌顶对智者大师讲授内容的记录、整理和编辑，使天台核心典籍得以形成并流传。"
+    description_en: "Master Guanding's recording and compilation of Master Zhiyi's lectures helped form and transmit core Tiantai texts."
+    confidence: high
+    source_refs: []
+
+  - id: zhanran-revives-tiantai
+    date_range: "711-782 CE"
+    approximate: false
+    event_type: revival_commentary
+    related_persons:
+      - zhanran
+    related_terms:
+      - buddha-nature-of-insentient-beings
+      - tiantai-lineage
+    title_zh: "荆溪湛然复兴并再系统化唐代天台宗"
+    title_en: "Jingxi Zhanran revives and re-systematizes Tang dynasty Tiantai"
+    description_zh: "湛然通过注释智者大师核心著作，强化天台宗教义边界和宗派身份。"
+    description_en: "Through commentaries on Master Zhiyi's core works, Zhanran helped strengthen Tiantai doctrinal boundaries and sectarian identity."
+    confidence: high
+    source_refs: []
+
+  - id: saicho-transmits-tiantai-to-japan
+    date_range: "early 9th century CE"
+    approximate: true
+    event_type: regional_transmission
+    related_persons:
+      - saicho
+    related_branches:
+      - tiantai-china
+      - tendai-japan
+    title_zh: "最澄将天台教法传入日本，形成日本天台宗"
+    title_en: "Saicho transmits Tiantai teachings to Japan, forming Japanese Tendai"
+    description_zh: "最澄赴唐求法，回国后以比叡山为中心建立日本天台宗基础。"
+    description_en: "Saicho studied in Tang China and later established the foundations of Japanese Tendai centered on Mount Hiei."
+    confidence: high
+    source_refs: []
+
+  - id: uicheon-establishes-cheontae
+    date_range: "11th century CE"
+    approximate: true
+    event_type: regional_transmission
+    related_persons:
+      - uicheon
+    related_branches:
+      - tiantai-china
+      - cheontae-korea
+    title_zh: "义天推动高丽天台宗独立成宗"
+    title_en: "Uicheon promotes the establishment of Korean Cheontae"
+    description_zh: "义天入宋求法，推动高丽佛教中的天台宗发展，并尝试调和教宗与禅宗。"
+    description_en: "Uicheon studied in Song China, promoted Cheontae in Goryeo, and sought to harmonize doctrinal and meditation traditions."
+    confidence: high
+    source_refs: []
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This timeline is an overview and should be refined with more precise dates and sources."
+  - "Branch-specific timelines should later be created for Chinese Tiantai, Japanese Tendai, and Korean Cheontae."
+  - "Events should be linked to persons, works, terms, and relations through stable IDs."
