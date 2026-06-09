@@ -1,5 +1,5 @@
 id: teacher-student
-type: relation
+type: relation_file
 
 relations:
   - teacher: huiwen
