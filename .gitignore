@@ -1,0 +1,43 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Build outputs
+
+build/
+dist/
+*.egg-info/
+
+# Editor and system files
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local research files not intended for redistribution
+
+local-texts/
+raw-texts/
+private-notes/
+*.local.yaml
+
+# Temporary files
+
+*.tmp
+*.bak
+*.log
