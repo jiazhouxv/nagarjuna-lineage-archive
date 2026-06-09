@@ -37,3 +37,13 @@ relations:
     confidence: medium
     note_zh: "义天赴宋学习天台教法，传入高丽"
     note_en: "Uicheon studies Tiantai in Song China and transmits it to Goryeo"
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This file records initial teacher-student and transmission-related relations for the Tiantai module."
+  - "Some relations need stronger source verification and should be refined in future updates."
+  - "Historical teacher-student relations should be distinguished from broader doctrinal or regional transmission relations."
