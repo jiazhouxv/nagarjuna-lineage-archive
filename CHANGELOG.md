@@ -37,6 +37,7 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 - Added teacher-student relation file.
 - Added work compilation and commentary relation file.
 - Added tradition and regional branch relation file.
+- Verified YAML validation in GitHub Codespaces.
 
 中文记录：
 
@@ -67,6 +68,7 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 - 添加师承关系文件。
 - 添加讲授、记录、整理与注释关系文件。
 - 添加宗派与地域分支关系文件。
+- 已在 GitHub Codespaces 中验证 YAML 校验脚本可正常运行。
 
 ### Changed / 修改
 
