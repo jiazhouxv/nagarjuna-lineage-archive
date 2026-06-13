@@ -1,0 +1,83 @@
+Nagarjuna Lineage Archive License Policy
+
+Copyright (c) 2026 Jiazhou Xv and contributors
+
+This repository uses a mixed license model.
+
+1. Data and Documentation
+
+Unless otherwise stated, all data and documentation in this repository are licensed under:
+
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+You are free to:
+
+* Share: copy and redistribute the material in any medium or format.
+* Adapt: remix, transform, and build upon the material for any purpose.
+
+Under the following terms:
+
+* Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+* ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+
+License text:
+
+https://creativecommons.org/licenses/by-sa/4.0/
+
+This applies to files including, but not limited to:
+
+* README.md
+* CHANGELOG.md
+* docs/
+* data/
+
+2. Code
+
+Unless otherwise stated, code files in this repository are licensed under the MIT License.
+
+This applies to files including, but not limited to:
+
+* tools/
+* .github/workflows/
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the code portions of this repository and associated documentation files
+(the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+3. Full Text and External Sources
+
+This repository does not claim ownership over external Buddhist texts, canon databases, scans, modern editions, translations, or third-party reference sources.
+
+External sources referenced in the data remain under their own licenses and terms of use.
+
+This repository generally does not redistribute full-text Buddhist corpora unless redistribution rights have been clearly verified.
+
+For details, see:
+
+* docs/source-policy.md
+* docs/full-text-policy.md
+
+4. Contributor Agreement
+
+By contributing to this repository, contributors agree that their contributions may be distributed under the applicable license described above:
+
+* Data and documentation: CC BY-SA 4.0
+* Code: MIT License
+
+Contributors should not submit materials that they do not have the right to contribute.
