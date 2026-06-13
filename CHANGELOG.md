@@ -13,9 +13,11 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * Added initial bilingual README.
 * Added project scope documentation.
 * Added source policy documentation.
+* Added full text policy documentation.
 * Added roadmap documentation.
 * Added data schema documentation.
 * Added validation guide documentation.
+* Added project license policy.
 * Added initial person record for Nagarjuna.
 * Added initial person record for Kumarajiva.
 * Added initial person record for Huiwen.
@@ -50,9 +52,11 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * 添加中英文双语 README。
 * 添加项目范围说明文档。
 * 添加资料来源政策文档。
+* 添加全文收录政策文档。
 * 添加路线图文档。
 * 添加数据结构规范文档。
 * 添加数据校验指南文档。
+* 添加项目授权政策。
 * 添加龙树菩萨人物记录。
 * 添加鸠摩罗什人物记录。
 * 添加慧文人物记录。
@@ -123,6 +127,7 @@ Current project status:
 * Source verification is still partial.
 * Many records are marked as draft or needs review.
 * The repository now includes a working YAML validator and GitHub Actions workflow.
+* The repository now includes explicit source, full-text, and license policies.
 
 当前项目状态：
 
@@ -133,6 +138,7 @@ Current project status:
 * 来源核查仍处于初步阶段。
 * 多数记录仍标记为草稿或待审查。
 * 仓库目前已经包含可运行的 YAML 校验脚本和 GitHub Actions 自动校验流程。
+* 仓库目前已经包含明确的资料来源、全文收录和授权政策。
 
 ---
 
@@ -142,7 +148,6 @@ Planned before the first release:
 
 * Review all initial YAML records.
 * Improve source references where possible.
-* Add release checklist issue.
 * Confirm GitHub Actions validation passes.
 * Prepare v0.1.0 release notes.
 * Publish v0.1.0 release.
@@ -151,7 +156,6 @@ v0.1.0 发布前计划完成：
 
 * 审查所有初始 YAML 记录。
 * 尽可能改进资料来源。
-* 添加发布检查清单 issue。
 * 确认 GitHub Actions 校验通过。
 * 准备 v0.1.0 发布说明。
 * 发布 v0.1.0 版本。
