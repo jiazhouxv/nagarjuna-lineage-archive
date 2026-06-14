@@ -381,6 +381,49 @@ Continue the project from the current state. Do not assume missing facts from ol
 
 ---
 
+## Maintenance Log / 维护记录
+
+### 2026-06-14 — Tiantai source reference stabilization
+
+Daily maintenance issue:
+
+- #6 Stabilize Tiantai source references and bibliography
+
+Completed updates:
+
+- Updated `data/persons/zhiyi.yaml` by replacing placeholder source references with SEP, DDB, and CBETA references, adding bibliography metadata, and moving `source_status` from `needs_source` to `partial`.
+- Updated `data/works/mohe-zhiguan.yaml` by adding `sat_id`, access dates, clearer CBETA / SAT / SEP source references, and improved primary-source bibliography metadata.
+- Updated `data/works/fahua-xuanyi.yaml` by adding `sat_id`, access dates, clearer CBETA / SAT / SEP source references, and removing the empty placeholder DDB source entry.
+- No restricted full text was added.
+- Stable IDs were not changed.
+- GitHub Actions validation was confirmed green by the maintainer after these commits.
+
+Commits:
+
+- `e0dd6aeadf926fcb79a8ecd70bf73a7f2e653bc7` — Improve Zhiyi source references
+- `6deb044b1cdda90c8599ed120c1d420dededab00` — Improve Mohe Zhiguan source references
+- `0964d3a1608a76162e7796069c2671291121d485` — Improve Fahua Xuanyi source references
+
+中文记录：
+
+- 已创建并使用 issue #6 跟踪本次“天台宗 source references 与 bibliography 稳定化”维护。
+- 已更新 `data/persons/zhiyi.yaml`，将占位来源替换为 SEP、DDB、CBETA，并补充 bibliography 元数据；`source_status` 从 `needs_source` 推进为 `partial`。
+- 已更新 `data/works/mohe-zhiguan.yaml`，补充 `sat_id`、访问日期、CBETA / SAT / SEP 来源说明，以及原典书目信息。
+- 已更新 `data/works/fahua-xuanyi.yaml`，补充 `sat_id`、访问日期、CBETA / SAT / SEP 来源说明，并删除空 URL 的占位来源。
+- 未加入受限制全文。
+- 未修改稳定 id。
+- 维护者已确认 GitHub Actions 校验为绿色通过。
+
+Recommended next maintenance step:
+
+- Continue source reference stabilization for `data/works/fahua-wenju.yaml` and the first core Tiantai term records, or improve validator checks for relation targets.
+
+下一步建议：
+
+- 继续稳定 `data/works/fahua-wenju.yaml` 和第一批天台宗核心术语记录的来源，或开始改进 relation target 校验规则。
+
+---
+
 ## Current Open Directions / 当前后续方向
 
 Recommended next directions after v0.1.0:
@@ -433,6 +476,6 @@ Do not do the following without a separate issue and review:
 
 ## Last Updated / 最后更新
 
-Last updated for post-v0.1.0 project handoff.
+Last updated after the 2026-06-14 Tiantai source reference stabilization maintenance batch.
 
-最后更新用途：v0.1.0 发布后的项目交接。
+最后更新用途：记录 2026-06-14 天台宗 source references 与 bibliography 稳定化维护批次。
