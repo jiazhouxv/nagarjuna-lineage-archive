@@ -76,10 +76,11 @@ related_terms:
 canonical_info:
   taisho_number: T1716
   cbeta_id: T33n1716
+  sat_id: T1716
   volume_info_zh: 大正藏第 33 册
   volume_info_en: Taisho Tripitaka, Volume 33
-  note_zh: "藏经编号和卷册信息后续应以 CBETA、SAT 或其他权威佛典数据库核对。"
-  note_en: "Canon identifiers and volume information should be verified against CBETA, SAT, or other authoritative Buddhist canon databases."
+  note_zh: "藏经编号和卷册信息已记录为 T1716 / T33n1716，后续仍应继续以 CBETA、SAT 或其他权威佛典目录核对细节。"
+  note_en: "Canon identifiers are recorded as T1716 / T33n1716. Details should continue to be checked against CBETA, SAT, or other authoritative Buddhist canon catalogues."
 
 approximate_date:
   period_zh: 隋代
@@ -101,20 +102,20 @@ bibliography:
     title_en: "Fahua Xuanyi"
     author_zh: "智顗说；灌顶记"
     author_en: "Lectured by Zhiyi; recorded by Guanding"
-    publisher: ""
+    publisher: "Taisho Tripitaka / CBETA reference record"
     year: ""
     language: "Classical Chinese"
     type: primary_source
     isbn: ""
-    note_zh: "本条为原典记录，全文是否收录需根据来源授权另行判断。"
-    note_en: "Primary source record. Full-text inclusion depends on source license review."
+    note_zh: "本条为原典元数据记录，全文是否收录需根据来源授权另行判断。"
+    note_en: "Primary source metadata record. Full-text inclusion depends on source license review."
 
   - title_zh: ""
     title_en: "The Princeton Dictionary of Buddhism"
     author_zh: ""
     author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
     publisher: "Princeton University Press"
-    year: ""
+    year: "2014"
     language: "English"
     type: reference_work
     isbn: ""
@@ -122,23 +123,26 @@ bibliography:
     note_en: "To be used later for checking title, authorship, fascicle count, and terminology."
 
 source_refs:
-  - name: "CBETA"
+  - name: "CBETA Online"
     url: "https://cbetaonline.dila.edu.tw/zh/T1716"
     identifier: "T33n1716"
+    access_date: "2026-06-14"
     license_note: "External Buddhist canon reference. Full text not redistributed in this repository unless license compatibility is verified."
-    reliability_note: "Major Buddhist canon database."
+    reliability_note: "Major Buddhist canon database; useful for canon identifier and textual metadata verification."
 
   - name: "SAT Daizokyo Text Database"
     url: "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1716.html"
     identifier: "T1716"
+    access_date: "2026-06-14"
     license_note: "External Buddhist canon reference. Full text not redistributed."
-    reliability_note: "Major Buddhist canon database."
+    reliability_note: "Major Buddhist canon database; useful for independent cross-checking of Taisho identifiers."
 
-  - name: "Digital Dictionary of Buddhism"
-    url: ""
-    identifier: "Fahua Xuanyi"
-    license_note: "External reference source. To be added if available."
-    reliability_note: "To be verified."
+  - name: "Stanford Encyclopedia of Philosophy"
+    url: "https://plato.stanford.edu/entries/buddhism-tiantai/"
+    identifier: "sep-tiantai-buddhism"
+    access_date: "2026-06-14"
+    license_note: "External academic reference; metadata and source link only. No copied full text redistributed."
+    reliability_note: "Peer-reviewed encyclopedia entry; useful for Tiantai doctrinal context around the Lotus Sutra, Zhiyi, and core Tiantai thought."
 
 full_text_policy:
   included: false
