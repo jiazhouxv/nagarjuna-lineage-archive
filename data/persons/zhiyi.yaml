@@ -71,7 +71,9 @@ lineage_claims:
     confidence: high
     note_zh: "此处记录为天台宗传统与学术研究中普遍承认的重要定位，但具体表述仍需结合来源进一步校订。"
     note_en: "This records a widely recognized Tiantai and scholarly characterization, while detailed wording should be refined with additional sources."
-    source_refs: []
+    source_refs:
+      - sep-tiantai-buddhism
+      - ddb-zhiyi
 
   - tradition: tiantai
     claim_zh: "智者大师通常被置于慧思之后，并被视为承接慧文、慧思思想而建立天台教观体系的重要人物。"
@@ -79,7 +81,9 @@ lineage_claims:
     confidence: high
     note_zh: "慧文、慧思、智者大师之间的师承与思想关系应后续在 relations 文件中单独建模。"
     note_en: "The lineage and doctrinal relations among Huiwen, Huisi, and Master Zhiyi should later be modeled separately in relation files."
-    source_refs: []
+    source_refs:
+      - sep-tiantai-buddhism
+      - cbeta-zhiyi
 
 summary_zh: "智者大师，正式名智顗，是天台宗历史上最重要的人物之一。他在天台宗传统中被视为教观体系的核心奠基者和集大成者，与《摩诃止观》《法华玄义》《法华文句》等天台核心典籍密切相关。智者大师的思想体系以《法华经》为重要依据，发展出止观、三谛、一念三千、判教等天台宗核心教义。本资料库将智者大师记录为天台宗模块的核心人物，并把其相关著作、术语、师承和思想影响分别纳入 works、terms 与 relations 数据。"
 
@@ -87,33 +91,60 @@ summary_en: "Master Zhiyi, formally named Zhiyi, is one of the most important fi
 
 bibliography:
   - title_zh: ""
-    title_en: ""
+    title_en: "Tiantai Buddhism"
     author_zh: ""
-    author_en: ""
-    publisher: ""
-    year: ""
-    language: ""
-    type: biography
+    author_en: "Brook Ziporyn"
+    publisher: "Stanford Encyclopedia of Philosophy"
+    year: "2014; substantive revision 2022"
+    language: "English"
+    type: academic_reference
     isbn: ""
-    note_zh: "待补充智者大师相关传记、天台宗史、学术研究或传统文献资料。"
-    note_en: "Pending biography, Tiantai history, academic studies, or traditional reference works for Master Zhiyi."
+    note_zh: "用于核对天台宗哲学背景、智者大师的代表性地位，以及智顗、湛然、知礼等核心人物的基本定位。"
+    note_en: "Used to check Tiantai philosophical context, Master Zhiyi's representative position, and the basic positioning of figures such as Zhiyi, Zhanran, and Zhili."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: "2014"
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对智者大师名称、年代、著作、术语和天台宗相关条目。"
+    note_en: "To be used for checking Master Zhiyi's names, dates, works, terminology, and Tiantai-related entries."
 
 source_refs:
-  - name: "To be added"
-    url: ""
-    identifier: ""
-    license_note: "Source reference pending."
-    reliability_note: "Needs verification."
+  - name: "Stanford Encyclopedia of Philosophy"
+    url: "https://plato.stanford.edu/entries/buddhism-tiantai/"
+    identifier: "sep-tiantai-buddhism"
+    access_date: "2026-06-14"
+    license_note: "External academic reference; metadata and source link only. No copied full text redistributed."
+    reliability_note: "Peer-reviewed encyclopedia entry; useful for Tiantai doctrinal context and representative figures including Zhiyi."
+
+  - name: "Digital Dictionary of Buddhism"
+    url: "https://www.buddhism-dict.net/ddb/"
+    identifier: "ddb-zhiyi"
+    access_date: "2026-06-14"
+    license_note: "External dictionary reference. Access may be limited by DDB terms; no copied entry text redistributed."
+    reliability_note: "Specialist-edited Buddhist reference dictionary; entry details should be checked directly by contributors with access."
+
+  - name: "CBETA Online"
+    url: "https://cbetaonline.dila.edu.tw/"
+    identifier: "cbeta-zhiyi"
+    access_date: "2026-06-14"
+    license_note: "External Buddhist canon and reference database. Canon metadata and links only; no large full text redistributed."
+    reliability_note: "Useful for locating primary-source records, biographies, and canonical references; exact passages require later verification."
 
 status:
   record_status: draft
-  source_status: needs_source
+  source_status: partial
   review_status: needs_review
 
 notes:
   - "Master Zhiyi is a core person record for the Tiantai module."
   - "The id remains zhiyi for stability and machine readability, while display_name_zh is set to 智者大师."
-  - "Core works such as Mohe Zhiguan, Fahua Xuanyi, and Fahua Wenju should be added as separate files under data/works/."
+  - "Core works such as Mohe Zhiguan, Fahua Xuanyi, and Fahua Wenju should be maintained as separate files under data/works/."
   - "Relations among Huiwen, Huisi, Master Zhiyi, Guanding, and Zhanran should later be represented in data/relations/teacher-student.yaml."
-  - "Doctrinal terms such as three truths, one thought three thousand, and zhiguan should be added as separate files under data/terms/."
-  - "Future updates should add verified sources for dates, works, lineage position, name usage, and doctrinal summaries."
+  - "Doctrinal terms such as three truths, one thought three thousand, and zhiguan should be maintained as separate files under data/terms/."
+  - "Future updates should verify dates, works, lineage position, name usage, and doctrinal summaries against additional primary and academic sources."
