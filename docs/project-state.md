@@ -383,6 +383,47 @@ Continue the project from the current state. Do not assume missing facts from ol
 
 ## Maintenance Log / 维护记录
 
+### 2026-06-15 — Fahua Wenju and core Tiantai term source stabilization
+
+Daily maintenance issue:
+
+- #7 Stabilize Fahua Wenju and core Tiantai term sources
+
+Completed updates:
+
+- Updated `data/works/fahua-wenju.yaml` by adding `sat_id`, access dates, clearer CBETA / SAT / SEP source references, improved primary-source bibliography metadata, and removing the empty placeholder DDB source entry.
+- Updated `data/terms/zhiguan.yaml` by adding bibliography metadata and CBETA / SAT / SEP / DDB source references with access dates.
+- Updated `data/terms/three-truths.yaml` by adding bibliography metadata and CBETA / SAT / SEP / DDB source references with access dates.
+- No restricted full text was added.
+- Stable IDs were not changed.
+- GitHub Actions validation was confirmed green by the maintainer after these commits.
+
+Commits:
+
+- `69ed586326dffc50b48866eb45b61bf98d54ce85` — Improve Fahua Wenju source references
+- `72433d32fd595100f73c4c064f0a0016f3777b78` — Improve Zhiguan source references
+- `f2d3ba0a47016a4d78c2e7daa64141f8a627c9a5` — Improve Three Truths source references
+
+中文记录：
+
+- 已创建并使用 issue #7 跟踪本次“《法华文句》与天台宗核心术语来源稳定化”维护。
+- 已更新 `data/works/fahua-wenju.yaml`，补充 `sat_id`、访问日期、CBETA / SAT / SEP 来源说明、原典书目信息，并删除空 URL 的 DDB 占位来源。
+- 已更新 `data/terms/zhiguan.yaml`，补充 bibliography 元数据，以及 CBETA / SAT / SEP / DDB 来源和访问日期。
+- 已更新 `data/terms/three-truths.yaml`，补充 bibliography 元数据，以及 CBETA / SAT / SEP / DDB 来源和访问日期。
+- 未加入受限制全文。
+- 未修改稳定 id。
+- 维护者已确认 GitHub Actions 校验为绿色通过。
+
+Recommended next maintenance step:
+
+- Continue source reference stabilization for `data/terms/one-thought-three-thousand.yaml`, then consider adding a small validator improvement for source reference quality or relation target existence.
+
+下一步建议：
+
+- 继续稳定 `data/terms/one-thought-three-thousand.yaml` 的来源，然后可考虑小步改进 source reference 质量检查或 relation target 存在性校验。
+
+---
+
 ### 2026-06-14 — Tiantai source reference stabilization
 
 Daily maintenance issue:
@@ -476,6 +517,6 @@ Do not do the following without a separate issue and review:
 
 ## Last Updated / 最后更新
 
-Last updated after the 2026-06-14 Tiantai source reference stabilization maintenance batch.
+Last updated after the 2026-06-15 Fahua Wenju and core Tiantai term source stabilization maintenance batch.
 
-最后更新用途：记录 2026-06-14 天台宗 source references 与 bibliography 稳定化维护批次。
+最后更新用途：记录 2026-06-15《法华文句》与天台宗核心术语来源稳定化维护批次。
