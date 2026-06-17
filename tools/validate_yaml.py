@@ -7,6 +7,7 @@ This script checks:
 - required fields by record type
 - duplicate IDs
 - filename and ID consistency warning
+- source reference quality warnings
 
 Usage:
     python tools/validate_yaml.py
@@ -39,6 +40,15 @@ REQUIRED_FIELDS_BY_TYPE = {
     "timeline": ["id", "type", "title_zh", "title_en", "events", "status"],
     "relation_file": ["id", "type", "relations", "status"],
 }
+
+RECOMMENDED_SOURCE_REF_FIELDS = [
+    "name",
+    "url",
+    "identifier",
+    "access_date",
+    "license_note",
+    "reliability_note",
+]
 
 
 def load_yaml(path: Path) -> dict[str, Any] | None:
@@ -92,6 +102,33 @@ def validate_filename_id(path: Path, data: dict[str, Any]) -> int:
     return 0
 
 
+def validate_source_refs(path: Path, data: dict[str, Any]) -> int:
+    source_refs = data.get("source_refs")
+
+    if source_refs in (None, ""):
+        return 0
+
+    if not isinstance(source_refs, list):
+        print(f"[WARNING] {path}: source_refs should be a list")
+        return 0
+
+    for index, ref in enumerate(source_refs, start=1):
+        if not isinstance(ref, dict):
+            print(f"[WARNING] {path}: source_refs[{index}] should be a mapping/object")
+            continue
+
+        missing = [
+            field
+            for field in RECOMMENDED_SOURCE_REF_FIELDS
+            if ref.get(field) in (None, "")
+        ]
+        if missing:
+            missing_fields = ", ".join(missing)
+            print(f"[WARNING] {path}: source_refs[{index}] missing recommended field(s): {missing_fields}")
+
+    return 0
+
+
 def collect_yaml_files() -> list[Path]:
     if not DATA_DIR.exists():
         print(f"[ERROR] data directory not found: {DATA_DIR}")
@@ -130,6 +167,7 @@ def main() -> int:
 
         errors += validate_required_fields(path, data)
         validate_filename_id(path, data)
+        validate_source_refs(path, data)
 
     print()
     print(f"Checked {len(yaml_files)} YAML files.")
