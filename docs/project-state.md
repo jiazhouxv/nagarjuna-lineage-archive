@@ -247,6 +247,7 @@ The validator checks:
 - Required fields by record type
 - Duplicate IDs
 - Filename and ID consistency warnings
+- Source reference quality warnings
 
 当前校验器检查：
 
@@ -254,16 +255,19 @@ The validator checks:
 - 不同记录类型的必填字段
 - 重复 ID
 - 文件名与 ID 一致性警告
+- 来源引用字段质量警告
 
 Maintenance rule:
 
 - Do not proceed with major new data additions if GitHub Actions is failing.
 - Fix validation errors first.
+- Treat source reference warnings as cleanup guidance unless a separate issue makes them blocking.
 
 维护规则：
 
 - 如果 GitHub Actions 失败，不继续添加大量新数据。
 - 应先修复校验错误。
+- 来源引用警告默认作为逐步清理提示处理，除非单独 issue 将其设为阻断项。
 
 ---
 
@@ -382,6 +386,47 @@ Continue the project from the current state. Do not assume missing facts from ol
 ---
 
 ## Maintenance Log / 维护记录
+
+### 2026-06-17 — One thought three thousand sources and validator warning maintenance
+
+Daily maintenance issue:
+
+- #8 Stabilize one-thought-three-thousand sources and validator warnings
+
+Completed updates:
+
+- Updated `data/terms/one-thought-three-thousand.yaml` by adding bibliography metadata and CBETA / SAT / SEP / DDB source references with access dates.
+- Updated `tools/validate_yaml.py` by adding non-breaking source reference quality warnings for recommended source reference fields.
+- Updated `docs/validation-guide.md` to document source reference quality warnings, recommended `source_refs` fields, and the error / warning policy.
+- No restricted full text was added.
+- Stable IDs were not changed.
+- GitHub Actions validation was confirmed green by the maintainer after these commits.
+
+Commits:
+
+- `521772b7242bcb00adabf6151db91c1a98aee2df` — Improve one thought three thousand source references
+- `21b0f1d835cebb64a38ad7c8bf127838dd91b67a` — Add source reference quality warnings
+- `79f76216468a77688260838d614a88fcf6ace261` — Update validation guide for source references
+
+中文记录：
+
+- 已创建并使用 issue #8 跟踪本次“一念三千来源稳定化与校验器 warning 改进”维护。
+- 已更新 `data/terms/one-thought-three-thousand.yaml`，补充 bibliography 元数据，以及 CBETA / SAT / SEP / DDB 来源和访问日期。
+- 已更新 `tools/validate_yaml.py`，新增非阻断型 source reference quality warnings。
+- 已更新 `docs/validation-guide.md`，说明来源引用质量警告、推荐 `source_refs` 字段，以及错误 / 警告处理规则。
+- 未加入受限制全文。
+- 未修改稳定 id。
+- 维护者已确认 GitHub Actions 校验为绿色通过。
+
+Recommended next maintenance step:
+
+- Consider a small relation target existence validator improvement, or continue stabilizing source references for remaining person / branch records with placeholder or sparse source metadata.
+
+下一步建议：
+
+- 可考虑小步改进 relation target 存在性校验，或继续清理仍有占位 / 稀疏来源元数据的人物与分支记录。
+
+---
 
 ### 2026-06-15 — Fahua Wenju and core Tiantai term source stabilization
 
@@ -517,6 +562,6 @@ Do not do the following without a separate issue and review:
 
 ## Last Updated / 最后更新
 
-Last updated after the 2026-06-15 Fahua Wenju and core Tiantai term source stabilization maintenance batch.
+Last updated after the 2026-06-17 one thought three thousand source stabilization and source reference validator warning maintenance batch.
 
-最后更新用途：记录 2026-06-15《法华文句》与天台宗核心术语来源稳定化维护批次。
+最后更新用途：记录 2026-06-17 一念三千来源稳定化与 source reference 校验警告维护批次。
