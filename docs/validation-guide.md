@@ -24,6 +24,7 @@ The current validator checks:
 * Required fields by record type
 * Duplicate IDs
 * Filename and ID consistency warnings
+* Source reference quality warnings
 
 当前校验工具检查：
 
@@ -31,6 +32,7 @@ The current validator checks:
 * 不同记录类型的必填字段
 * 重复 ID
 * 文件名与 ID 是否一致的警告
+* 来源引用字段质量警告
 
 ---
 
@@ -75,6 +77,18 @@ Validation passed.
 ```
 Validation passed.
 ```
+
+---
+
+## Error and Warning Policy / 错误与警告规则
+
+Errors fail validation and should be fixed before merging or releasing.
+
+错误会导致校验失败，合并或发布前应修复。
+
+Warnings do not fail validation. They indicate recommended cleanup work that can be fixed gradually.
+
+警告不会导致校验失败。警告表示建议逐步清理的质量问题。
 
 ---
 
@@ -126,6 +140,42 @@ This is a warning, not always a fatal error. However, the preferred rule is:
 
 ---
 
+### Source reference quality warning / 来源引用质量警告
+
+Example:
+
+```
+[WARNING] data/terms/example.yaml: source_refs[1] missing recommended field(s): access_date, reliability_note
+```
+
+This means the `source_refs` entry is valid enough for the current validator, but its metadata should be improved.
+
+这表示该 `source_refs` 条目目前不会导致校验失败，但来源元数据还应继续补充。
+
+Recommended `source_refs` fields:
+
+* name
+* url
+* identifier
+* access_date
+* license_note
+* reliability_note
+
+推荐的 `source_refs` 字段：
+
+* name
+* url
+* identifier
+* access_date
+* license_note
+* reliability_note
+
+For external sources such as CBETA, SAT, SEP, or DDB, the repository should record metadata and source links only. Do not copy restricted full text into the repository.
+
+对于 CBETA、SAT、SEP、DDB 等外部来源，本仓库应只记录元数据和来源链接，不复制受限制全文。
+
+---
+
 ## Record Types / 记录类型
 
 The validator currently supports these record types:
@@ -161,16 +211,18 @@ Recommended workflow:
 1. Add or edit YAML files.
 2. Run the validator.
 3. Fix errors.
-4. Commit changes.
-5. Update CHANGELOG if needed.
+4. Review warnings and decide whether they should be fixed in the same batch or a later batch.
+5. Commit changes.
+6. Update CHANGELOG or docs/project-state.md if needed.
 
 推荐流程：
 
 1. 新增或修改 YAML 文件。
 2. 运行校验工具。
 3. 修复错误。
-4. 提交修改。
-5. 如有需要，更新 CHANGELOG。
+4. 查看警告，并判断应在本批次修复还是后续批次修复。
+5. 提交修改。
+6. 如有需要，更新 CHANGELOG 或 docs/project-state.md。
 
 ---
 
@@ -178,19 +230,25 @@ Recommended workflow:
 
 The validator is intentionally simple in the v0.1.0 stage.
 
+v0.1.0 阶段的校验工具保持简单。
+
+Completed validator improvements:
+
+* Source reference quality warnings
+
+已完成的校验器改进：
+
+* 来源引用质量警告
+
 Future improvements may include:
 
-* Source reference quality checks
 * Required bibliography checks
 * Relation target existence checks
 * Timeline event validation
 * GitHub Actions integration
 
-v0.1.0 阶段的校验工具保持简单。
-
 后续可以改进：
 
-* 来源质量检查
 * 参考书目字段检查
 * 关系目标是否存在检查
 * 时间线事件校验
