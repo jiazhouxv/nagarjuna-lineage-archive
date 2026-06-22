@@ -8,6 +8,7 @@ This script checks:
 - duplicate IDs
 - filename and ID consistency warning
 - source reference quality warnings
+- relation target existence warnings
 
 Usage:
     python tools/validate_yaml.py
@@ -48,6 +49,14 @@ RECOMMENDED_SOURCE_REF_FIELDS = [
     "access_date",
     "license_note",
     "reliability_note",
+]
+
+RELATION_TARGET_FIELDS = [
+    "subject",
+    "object",
+    "teacher",
+    "student",
+    "key_persons",
 ]
 
 
@@ -129,6 +138,46 @@ def validate_source_refs(path: Path, data: dict[str, Any]) -> int:
     return 0
 
 
+def iter_relation_targets(value: Any) -> list[str]:
+    if value in (None, ""):
+        return []
+
+    if isinstance(value, str):
+        return [value]
+
+    if isinstance(value, list):
+        targets: list[str] = []
+        for item in value:
+            if isinstance(item, str):
+                targets.append(item)
+        return targets
+
+    return []
+
+
+def validate_relation_targets(path: Path, data: dict[str, Any], known_ids: set[str]) -> int:
+    if data.get("type") != "relation_file":
+        return 0
+
+    relations = data.get("relations")
+    if not isinstance(relations, list):
+        print(f"[WARNING] {path}: relation_file relations should be a list")
+        return 0
+
+    for index, relation in enumerate(relations, start=1):
+        if not isinstance(relation, dict):
+            print(f"[WARNING] {path}: relations[{index}] should be a mapping/object")
+            continue
+
+        relation_id = relation.get("id", f"relation-{index}")
+        for field in RELATION_TARGET_FIELDS:
+            for target in iter_relation_targets(relation.get(field)):
+                if target not in known_ids:
+                    print(f"[WARNING] {path}: {relation_id}.{field} references unknown id '{target}'")
+
+    return 0
+
+
 def collect_yaml_files() -> list[Path]:
     if not DATA_DIR.exists():
         print(f"[ERROR] data directory not found: {DATA_DIR}")
@@ -143,6 +192,7 @@ def main() -> int:
         print("No YAML files found.")
         return 1
 
+    records: list[tuple[Path, dict[str, Any]]] = []
     seen_ids: dict[str, Path] = {}
     errors = 0
 
@@ -151,6 +201,8 @@ def main() -> int:
         if data is None:
             errors += 1
             continue
+
+        records.append((path, data))
 
         record_id = data.get("id")
         if not record_id:
@@ -165,9 +217,13 @@ def main() -> int:
             else:
                 seen_ids[record_id] = path
 
+    known_ids = set(seen_ids)
+
+    for path, data in records:
         errors += validate_required_fields(path, data)
         validate_filename_id(path, data)
         validate_source_refs(path, data)
+        validate_relation_targets(path, data, known_ids)
 
     print()
     print(f"Checked {len(yaml_files)} YAML files.")
