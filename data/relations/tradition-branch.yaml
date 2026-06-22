@@ -17,11 +17,12 @@ relations:
     note_zh: "中国天台宗是天台宗的核心源流和中国地域分支。"
     note_en: "Chinese Tiantai is the core source branch and Chinese regional branch of the Tiantai tradition."
     source_refs:
-      - name: "Encyclopedia.com - Tiantai School"
-        url: "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tiantai-school"
-        identifier: "Tiantai School"
-        license_note: "External reference source. Full text not redistributed."
-        reliability_note: "General encyclopedia reference."
+      - name: "Stanford Encyclopedia of Philosophy"
+        url: "https://plato.stanford.edu/entries/buddhism-tiantai/"
+        identifier: "sep-tiantai-buddhism"
+        access_date: "2026-06-22"
+        license_note: "External academic reference; metadata and source link only. No copied full text redistributed."
+        reliability_note: "Peer-reviewed encyclopedia entry; useful for Tiantai historical and doctrinal context."
 
   - id: tiantai-has-japanese-branch
     type: relation
@@ -35,8 +36,16 @@ relations:
       - name: "Tendai Buddhist Institute - Japanese Foundations"
         url: "https://www.tendai.org/tendai/japan/"
         identifier: "Japanese Foundations of Tendai"
+        access_date: "2026-06-22"
         license_note: "External reference source. Full text not redistributed."
-        reliability_note: "Tradition-oriented educational source."
+        reliability_note: "Tradition-oriented educational source; useful for Japanese Tendai historical framing."
+
+      - name: "Encyclopaedia Britannica - Saicho"
+        url: "https://www.britannica.com/biography/Saicho"
+        identifier: "Saicho"
+        access_date: "2026-06-22"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "General encyclopedia reference; useful for Saicho and Japanese Tendai transmission context."
 
   - id: tiantai-has-korean-branch
     type: relation
@@ -50,6 +59,7 @@ relations:
       - name: "Encyclopedia of Buddhism - Cheontae"
         url: "https://encyclopediaofbuddhism.org/wiki/Cheontae"
         identifier: "Cheontae"
+        access_date: "2026-06-22"
         license_note: "External reference source. Full text not redistributed."
         reliability_note: "Buddhist encyclopedia reference; details should be checked against primary or academic sources."
 
@@ -69,8 +79,16 @@ relations:
       - name: "Encyclopaedia Britannica - Saicho"
         url: "https://www.britannica.com/biography/Saicho"
         identifier: "Saicho"
+        access_date: "2026-06-22"
         license_note: "External reference source. Full text not redistributed."
-        reliability_note: "General encyclopedia reference."
+        reliability_note: "General encyclopedia reference; useful for Saicho and early Japanese Tendai transmission."
+
+      - name: "Tendai Buddhist Institute - Japanese Foundations"
+        url: "https://www.tendai.org/tendai/japan/"
+        identifier: "Japanese Foundations of Tendai"
+        access_date: "2026-06-22"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "Tradition-oriented educational source; useful for Japanese Tendai transmission framing."
 
   - id: chinese-tiantai-transmits-to-korean-cheontae
     type: relation
@@ -86,8 +104,9 @@ relations:
       - name: "A Study on the Uicheon's Hwaeom Thought"
         url: "https://oak.go.kr/central/journallist/journaldetail.do?article_seq=17996"
         identifier: "Uicheon 1055-1101"
+        access_date: "2026-06-22"
         license_note: "External academic reference. Full text not redistributed."
-        reliability_note: "Academic article reference."
+        reliability_note: "Academic article reference; useful for Uicheon context, though Cheontae-specific claims need further source review."
 
   - id: tiantai-branch-system
     type: relation
@@ -100,7 +119,27 @@ relations:
     confidence: high
     note_zh: "本资料库将天台宗作为总宗派，将中国天台宗、日本天台宗、韩国天台宗记录为其地域分支。"
     note_en: "This archive records Tiantai as the parent tradition and Chinese Tiantai, Japanese Tendai, and Korean Cheontae as its regional branches."
-    source_refs: []
+    source_refs:
+      - name: "Stanford Encyclopedia of Philosophy"
+        url: "https://plato.stanford.edu/entries/buddhism-tiantai/"
+        identifier: "sep-tiantai-buddhism"
+        access_date: "2026-06-22"
+        license_note: "External academic reference; metadata and source link only. No copied full text redistributed."
+        reliability_note: "Peer-reviewed encyclopedia entry; useful for parent Tiantai tradition context."
+
+      - name: "Tendai Buddhist Institute - Japanese Foundations"
+        url: "https://www.tendai.org/tendai/japan/"
+        identifier: "Japanese Foundations of Tendai"
+        access_date: "2026-06-22"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "Tradition-oriented educational source; useful for Japanese Tendai branch context."
+
+      - name: "Encyclopedia of Buddhism - Cheontae"
+        url: "https://encyclopediaofbuddhism.org/wiki/Cheontae"
+        identifier: "Cheontae"
+        access_date: "2026-06-22"
+        license_note: "External reference source. Full text not redistributed."
+        reliability_note: "Buddhist encyclopedia reference; useful for Korean Cheontae branch context, pending academic source strengthening."
 
 status:
   record_status: draft
@@ -112,3 +151,4 @@ notes:
   - "Person-level teacher-student relations should remain in data/relations/teacher-student.yaml."
   - "Work formation and commentary relations should remain in data/relations/work-compilation.yaml."
   - "Future updates should add more precise institutional and historical sources for Japanese Tendai and Korean Cheontae transmission."
+  - "The relation target validator may warn about planned future person records such as daosui and xingman until those records are added."
