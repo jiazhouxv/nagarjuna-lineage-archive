@@ -25,6 +25,7 @@ The current validator checks:
 * Duplicate IDs
 * Filename and ID consistency warnings
 * Source reference quality warnings
+* Relation target existence warnings
 
 当前校验工具检查：
 
@@ -33,6 +34,7 @@ The current validator checks:
 * 重复 ID
 * 文件名与 ID 是否一致的警告
 * 来源引用字段质量警告
+* 关系目标 ID 是否存在的警告
 
 ---
 
@@ -89,6 +91,18 @@ Errors fail validation and should be fixed before merging or releasing.
 Warnings do not fail validation. They indicate recommended cleanup work that can be fixed gradually.
 
 警告不会导致校验失败。警告表示建议逐步清理的质量问题。
+
+Current warning-only checks include:
+
+* Filename and ID mismatch
+* Source reference quality
+* Relation target existence
+
+当前仅作为警告处理的检查包括：
+
+* 文件名与 ID 不一致
+* 来源引用字段质量
+* 关系目标 ID 是否存在
 
 ---
 
@@ -176,6 +190,40 @@ For external sources such as CBETA, SAT, SEP, or DDB, the repository should reco
 
 ---
 
+### Relation target existence warning / 关系目标存在性警告
+
+Example:
+
+```
+[WARNING] data/relations/example.yaml: relation-1.subject references unknown id 'unknown-person'
+```
+
+This means a relation points to an id that is not currently present in the YAML data set.
+
+这表示某条关系指向了当前 YAML 数据集中不存在的 ID。
+
+The validator currently checks relation target fields in `relation_file` records:
+
+* subject
+* object
+* teacher
+* student
+* key_persons
+
+当前校验器检查 `relation_file` 记录中的以下关系目标字段：
+
+* subject
+* object
+* teacher
+* student
+* key_persons
+
+This is currently a warning, not a blocking error. Some relation targets may be planned future records, especially in branch transmission or commentary data. Maintainers should either add the missing record later or document why the target remains unresolved.
+
+当前这是警告，不是阻断错误。一些关系目标可能是计划中的未来记录，尤其是地域传播或注释文献数据。维护者后续应补充缺失记录，或说明为什么该目标暂时保持未解析。
+
+---
+
 ## Record Types / 记录类型
 
 The validator currently supports these record types:
@@ -235,21 +283,23 @@ v0.1.0 阶段的校验工具保持简单。
 Completed validator improvements:
 
 * Source reference quality warnings
+* Relation target existence warnings
 
 已完成的校验器改进：
 
 * 来源引用质量警告
+* 关系目标 ID 是否存在的警告
 
 Future improvements may include:
 
 * Required bibliography checks
-* Relation target existence checks
 * Timeline event validation
 * GitHub Actions integration
+* Optional strict mode for warnings
 
 后续可以改进：
 
 * 参考书目字段检查
-* 关系目标是否存在检查
 * 时间线事件校验
 * GitHub Actions 集成
+* 可选的 warning 严格模式
