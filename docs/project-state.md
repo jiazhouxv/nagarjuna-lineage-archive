@@ -248,6 +248,7 @@ The validator checks:
 - Duplicate IDs
 - Filename and ID consistency warnings
 - Source reference quality warnings
+- Relation target existence warnings
 
 当前校验器检查：
 
@@ -256,18 +257,19 @@ The validator checks:
 - 重复 ID
 - 文件名与 ID 一致性警告
 - 来源引用字段质量警告
+- 关系目标 ID 是否存在的警告
 
 Maintenance rule:
 
 - Do not proceed with major new data additions if GitHub Actions is failing.
 - Fix validation errors first.
-- Treat source reference warnings as cleanup guidance unless a separate issue makes them blocking.
+- Treat source reference warnings and relation target warnings as cleanup guidance unless a separate issue makes them blocking.
 
 维护规则：
 
 - 如果 GitHub Actions 失败，不继续添加大量新数据。
 - 应先修复校验错误。
-- 来源引用警告默认作为逐步清理提示处理，除非单独 issue 将其设为阻断项。
+- 来源引用警告和关系目标警告默认作为逐步清理提示处理，除非单独 issue 将其设为阻断项。
 
 ---
 
@@ -386,6 +388,47 @@ Continue the project from the current state. Do not assume missing facts from ol
 ---
 
 ## Maintenance Log / 维护记录
+
+### 2026-06-22 — Relation target warnings and branch relation source stabilization
+
+Daily maintenance issue:
+
+- #9 Add relation target warnings and stabilize branch relation sources
+
+Completed updates:
+
+- Updated `tools/validate_yaml.py` by adding non-breaking relation target existence warnings for relation fields including `subject`, `object`, `teacher`, `student`, and `key_persons`.
+- Updated `docs/validation-guide.md` to document relation target existence warnings, the warning-only policy, and the currently checked relation fields.
+- Updated `data/relations/tradition-branch.yaml` by adding access dates, strengthening reliability notes, and replacing an empty `source_refs: []` relation entry with metadata-only source references.
+- No restricted full text was added.
+- Stable IDs were not changed.
+- GitHub Actions validation was confirmed green by the maintainer after these commits.
+
+Commits:
+
+- `57fbff024b9564515354cd5a1ac1ed6ced2302cf` — Add relation target existence warnings
+- `992a5a00fb79a40510d1ac385cf4b5ca4d554526` — Update validation guide for relation targets
+- `a9b3dc4ac7c3e6d93ea611caa534279c161bed7d` — Improve tradition branch source references
+
+中文记录：
+
+- 已创建并使用 issue #9 跟踪本次“关系目标 warning 与分支关系来源稳定化”维护。
+- 已更新 `tools/validate_yaml.py`，新增非阻断型 relation target existence warnings。
+- 已更新 `docs/validation-guide.md`，说明关系目标存在性警告、warning-only 政策，以及当前检查的关系字段。
+- 已更新 `data/relations/tradition-branch.yaml`，补充访问日期、强化 reliability notes，并将空 `source_refs: []` 改为只含元数据的来源引用。
+- 未加入受限制全文。
+- 未修改稳定 id。
+- 维护者已确认 GitHub Actions 校验为绿色通过。
+
+Recommended next maintenance step:
+
+- Resolve or document known relation target warnings, especially planned future records such as `daosui` and `xingman`, or continue source stabilization for remaining person / branch records with sparse source metadata.
+
+下一步建议：
+
+- 处理或记录已知关系目标 warning，尤其是 `daosui`、`xingman` 等计划中的未来人物记录；或继续清理仍有稀疏来源元数据的人物与分支记录。
+
+---
 
 ### 2026-06-17 — One thought three thousand sources and validator warning maintenance
 
@@ -562,6 +605,6 @@ Do not do the following without a separate issue and review:
 
 ## Last Updated / 最后更新
 
-Last updated after the 2026-06-17 one thought three thousand source stabilization and source reference validator warning maintenance batch.
+Last updated after the 2026-06-22 relation target warning and Tiantai branch relation source stabilization maintenance batch.
 
-最后更新用途：记录 2026-06-17 一念三千来源稳定化与 source reference 校验警告维护批次。
+最后更新用途：记录 2026-06-22 关系目标 warning 与天台宗分支关系来源稳定化维护批次。
