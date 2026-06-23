@@ -46,6 +46,8 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * Added Python requirements file.
 * Added .gitignore.
 * Added GitHub Actions workflow for automatic YAML validation.
+* Added Sanlun scaffold planning notes.
+
 
 中文记录：
 
@@ -84,7 +86,10 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * 添加基础 YAML 校验脚本。
 * 添加 Python 依赖文件。
 * 添加 .gitignore。
-* 添加 GitHub Actions 自动 YAML 校验流程。
+* 添加 GitHub Actions 自动校验流程。
+* 添加三论宗脚手架规划说明文件。
+
+---
 
 ### Changed / 修改
 
@@ -102,6 +107,8 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * 将天台宗模块从人物记录扩展到宗派、分支、典籍、术语、时间线和关系数据。
 * 将仓库从静态资料库进一步提升为可本地校验、可自动校验的结构化数据项目。
 
+---
+
 ### Validation / 校验
 
 * Local Windows validation completed successfully.
@@ -116,6 +123,8 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * GitHub Actions 自动校验已成功通过。
 * 当前校验脚本可检查 YAML 语法、必填字段、重复 ID 和文件名与 ID 一致性警告。
 
+---
+
 ### Notes / 备注
 
 Current project status:
@@ -128,17 +137,6 @@ Current project status:
 * Many records are marked as draft or needs review.
 * The repository now includes a working YAML validator and GitHub Actions workflow.
 * The repository now includes explicit source, full-text, and license policies.
-
-当前项目状态：
-
-* 项目处于 v0.1.0 发布准备阶段。
-* 第一个重点模块是天台宗。
-* 当前数据重点是早期天台宗祖师谱系、核心典籍、关键教义术语、地域分支、时间线和关系记录。
-* 资料库目前已经包含初始人物、宗派、分支、典籍、术语、时间线和关系记录。
-* 来源核查仍处于初步阶段。
-* 多数记录仍标记为草稿或待审查。
-* 仓库目前已经包含可运行的 YAML 校验脚本和 GitHub Actions 自动校验流程。
-* 仓库目前已经包含明确的资料来源、全文收录和授权政策。
 
 ---
 
