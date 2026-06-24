@@ -1,0 +1,120 @@
+id: jizang
+type: person
+
+name_zh: 吉藏
+display_name_zh: 吉藏
+formal_name_zh: 吉藏
+honorific_name_zh: 嘉祥大师
+common_name_zh: 吉藏
+
+name_en: Jizang
+display_name_en: Master Jizang
+name_pinyin: Jizang
+
+alternative_names:
+  - 吉藏
+  - 嘉祥大师
+  - 嘉祥大師
+  - Jiaxiang Dashi
+  - Master Jizang
+  - Chi-tsang
+
+name_usage_note_zh: "吉藏是中国三论宗传统中的核心人物之一；嘉祥大师是常见尊称。本资料库以 jizang 作为稳定 ID。"
+name_usage_note_en: "Jizang is a central figure in the Chinese Sanlun tradition, and Jiaxiang Dashi is a common honorific. This archive uses jizang as the stable ID."
+
+dates:
+  birth: 549 CE
+  death: 623 CE
+  note: "Dates are commonly given as 549-623 CE, but should be verified against additional academic sources."
+
+regions:
+  - China
+  - East Asia
+
+traditions:
+  - sanlun
+  - chinese_buddhism
+  - madhyamaka
+
+roles:
+  - sanlun_systematizer
+  - patriarch
+  - commentator
+  - doctrinal_exegete
+  - teacher
+
+related_works:
+  - zhonglun
+  - shiermenlun
+  - bailun
+
+related_terms:
+  - emptiness
+  - madhyamaka
+  - two-truths
+  - middle-way
+
+lineage_claims:
+  - tradition: sanlun
+    claim_zh: "吉藏常被视为中国三论宗的重要集大成者。"
+    claim_en: "Jizang is commonly regarded as a major systematizer of the Chinese Sanlun tradition."
+    confidence: high
+    note_zh: "此处记录为三论宗传统与学术研究中常见定位，具体传承和著作归属仍需后续来源核对。"
+    note_en: "This records a common Sanlun and scholarly characterization. Specific lineage and authorship details should be checked with further sources."
+    source_refs:
+      - ddb-jizang
+      - princeton-jizang
+
+summary_zh: "吉藏，又称嘉祥大师，是中国三论宗传统中的核心人物之一。他以阐释中观、二谛、空义以及三论核心论书而闻名，常被视为中国三论宗的重要集大成者。本资料库将吉藏记录为三论宗模块的核心人物，并与《中论》《十二门论》《百论》以及中观、空、二谛等术语建立关联。"
+
+summary_en: "Jizang, also known by the honorific Jiaxiang Dashi, is one of the central figures in the Chinese Sanlun tradition. He is known for interpreting Madhyamaka, the two truths, emptiness, and the three core Sanlun treatises, and is commonly regarded as a major systematizer of Chinese Sanlun thought. This archive records Jizang as a core person in the Sanlun module and links him with Zhonglun, Shiermenlun, Bailun, Madhyamaka, emptiness, and the two truths."
+
+bibliography:
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: "2014"
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对吉藏名称、年代、三论宗定位和相关典籍。"
+    note_en: "To be used for checking Jizang's names, dates, Sanlun positioning, and related works."
+
+  - title_zh: ""
+    title_en: "Digital Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Charles Muller and contributors"
+    publisher: "Digital Dictionary of Buddhism"
+    year: ""
+    language: "English; Chinese Buddhist terminology"
+    type: digital_reference
+    isbn: ""
+    note_zh: "外部佛教辞典来源；不复制条目正文。"
+    note_en: "External Buddhist dictionary reference; entry text is not copied."
+
+source_refs:
+  - name: "Digital Dictionary of Buddhism"
+    url: "https://www.buddhism-dict.net/ddb/"
+    identifier: "ddb-jizang"
+    access_date: "2026-06-24"
+    license_note: "External dictionary reference. Access may be limited by DDB terms; no copied entry text redistributed."
+    reliability_note: "Specialist-edited Buddhist reference dictionary; entry details should be checked directly by contributors with access."
+
+  - name: "Princeton Dictionary of Buddhism"
+    url: "https://press.princeton.edu/books/hardcover/9780691157863/the-princeton-dictionary-of-buddhism"
+    identifier: "princeton-jizang"
+    access_date: "2026-06-24"
+    license_note: "External bibliographic reference. No copied dictionary text redistributed."
+    reliability_note: "Standard academic reference work for Buddhist studies; use for controlled terminology and basic biographical verification."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Jizang is a core person record for the Sanlun module."
+  - "Future updates should add more precise academic and canonical references for Jizang's works and historical context."
+  - "No modern copyrighted dictionary text is redistributed in this record."
