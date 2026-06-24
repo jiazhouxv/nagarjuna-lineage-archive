@@ -1,0 +1,91 @@
+id: xingman
+type: person
+
+name_zh: 行满
+display_name_zh: 行满
+formal_name_zh: 行满
+honorific_name_zh: ""
+common_name_zh: 行满
+
+name_en: Xingman
+display_name_en: Xingman
+name_pinyin: Xingman
+
+alternative_names:
+  - 行滿
+  - 行满
+  - Hsing-man
+  - Xingman
+
+name_usage_note_zh: "行满在本资料库中先作为日本天台宗入唐求法相关关系目标的最小人物记录。"
+name_usage_note_en: "Xingman is initially recorded here as a minimal person record for relation-target resolution in Japanese Tendai transmission data."
+
+dates:
+  birth: ""
+  death: ""
+  note: "Dates require further verification."
+
+regions:
+  - China
+  - East Asia
+
+traditions:
+  - tiantai
+  - chinese_buddhism
+
+roles:
+  - tiantai_teacher
+  - transmission_figure
+
+related_persons:
+  - saicho
+
+related_works: []
+
+related_terms:
+  - zhiguan
+  - tiantai-doctrine
+
+lineage_claims:
+  - tradition: tiantai
+    claim_zh: "行满与最澄入唐求法、天台教法传入日本的叙述有关。"
+    claim_en: "Xingman is connected with accounts of Saicho's study in Tang China and the transmission of Tiantai teachings to Japan."
+    confidence: medium
+    note_zh: "此处仅用于 relation target 收敛；具体身份、生卒年和师承关系仍需后续以更强来源核对。"
+    note_en: "This is primarily used for relation target convergence. Details of identity, dates, and teacher-student relations require stronger later verification."
+    source_refs:
+      - tendai-japanese-foundations
+
+summary_zh: "行满是与日本天台宗入唐求法叙述相关的人物。本资料库当前将其作为最小人物记录，用于收敛 `tradition-branch.yaml` 中 `key_persons` 的关系目标 warning。其详细生平、师承和文献来源仍需后续补充与核对。"
+
+summary_en: "Xingman is a figure connected with narratives of Japanese Tendai study in Tang China. This archive currently records him as a minimal person record to resolve relation target warnings for `key_persons` in `tradition-branch.yaml`. His detailed biography, lineage relations, and source evidence require later verification."
+
+bibliography:
+  - title_zh: ""
+    title_en: "Japanese Foundations of Tendai"
+    author_zh: ""
+    author_en: ""
+    publisher: "Tendai Buddhist Institute"
+    year: ""
+    language: "English"
+    type: tradition_reference
+    isbn: ""
+    note_zh: "用于初步定位最澄入唐求法与日本天台宗传播背景；不复制正文。"
+    note_en: "Used for preliminary context on Saicho's study in Tang China and Japanese Tendai transmission; text is not copied."
+
+source_refs:
+  - name: "Tendai Buddhist Institute - Japanese Foundations"
+    url: "https://www.tendai.org/tendai/japan/"
+    identifier: "tendai-japanese-foundations"
+    access_date: "2026-06-24"
+    license_note: "External reference source. Full text not redistributed."
+    reliability_note: "Tradition-oriented educational source; useful for preliminary Japanese Tendai transmission context."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This minimal person record resolves a relation target warning for xingman."
+  - "Future updates should add stronger academic or primary references before upgrading source status."
