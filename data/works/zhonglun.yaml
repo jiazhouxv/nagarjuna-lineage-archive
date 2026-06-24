@@ -1,0 +1,118 @@
+id: zhonglun
+type: work
+
+title_zh: 中论
+display_title_zh: 中论
+formal_title_zh: 中论
+common_title_zh: 中论
+
+title_en: Treatise on the Middle
+display_title_en: Zhonglun
+title_pinyin: Zhonglun
+
+alternative_titles:
+  - 中論
+  - 中论
+  - Madhyamaka Shastra
+  - Mulamadhyamakakarika
+  - Treatise on the Middle
+  - Fundamental Verses on the Middle Way
+  - Zhong Lun
+
+title_usage_note_zh: "《中论》是三论宗核心论书之一，也是汉传佛教中观思想的重要依据。本资料库以 zhonglun 作为稳定 ID。"
+title_usage_note_en: "Zhonglun is one of the core Sanlun treatises and an important basis for Madhyamaka thought in Chinese Buddhism. This archive uses zhonglun as the stable ID."
+
+traditions:
+  - sanlun
+  - madhyamaka
+  - chinese_buddhism
+
+branches: []
+
+work_category:
+  - madhyamaka_treatise
+  - sanlun_core_work
+  - translated_treatise
+
+attributed_author:
+  - nagarjuna
+
+translator:
+  - kumarajiva
+
+related_persons:
+  - nagarjuna
+  - kumarajiva
+  - jizang
+
+related_works:
+  - shiermenlun
+  - bailun
+
+related_terms:
+  - emptiness
+  - madhyamaka
+  - two-truths
+  - middle-way
+
+canonical_info:
+  taisho_number: T1564
+  cbeta_id: T30n1564
+  sat_id: T1564
+  volume_info_zh: 大正藏第 30 册
+  volume_info_en: Taisho Tripitaka, Volume 30
+  note_zh: "藏经编号和卷册信息已记录为 T1564 / T30n1564，后续仍应继续以 CBETA、SAT 或其他权威佛典目录核对细节。"
+  note_en: "Canon identifiers are recorded as T1564 / T30n1564. Details should continue to be checked against CBETA, SAT, or other authoritative Buddhist canon catalogues."
+
+approximate_date:
+  period_zh: 后秦译出
+  period_en: Later Qin translation period
+  note_zh: "本条记录为鸠摩罗什汉译传统中的《中论》元数据，具体译出年代需进一步核对。"
+  note_en: "This record tracks the Zhonglun in Kumarajiva's Chinese translation tradition. Specific translation date should be checked later."
+
+summary_zh: "《中论》是三论宗最核心的论书之一，通常归于龙树菩萨造、鸠摩罗什译。它是汉传佛教中观思想与三论宗教义建构的重要基础。本资料库将《中论》记录为三论宗模块的核心典籍，并与龙树、鸠摩罗什、吉藏、空、中观、二谛等人物和术语建立关联。"
+
+summary_en: "Zhonglun is one of the core treatises of the Sanlun tradition, commonly attributed to Nagarjuna and translated into Chinese by Kumarajiva. It is a major foundation for Madhyamaka thought and Sanlun doctrinal formation in Chinese Buddhism. This archive records Zhonglun as a core work in the Sanlun module and links it with Nagarjuna, Kumarajiva, Jizang, emptiness, Madhyamaka, and the two truths."
+
+bibliography:
+  - title_zh: "中论"
+    title_en: "Zhonglun"
+    author_zh: "龙树造；鸠摩罗什译"
+    author_en: "Attributed to Nagarjuna; translated by Kumarajiva"
+    publisher: "Taisho Tripitaka / CBETA reference record"
+    year: ""
+    language: "Classical Chinese"
+    type: primary_source
+    isbn: ""
+    note_zh: "本条为原典元数据记录，全文是否收录需根据来源授权另行判断。"
+    note_en: "Primary source metadata record. Full-text inclusion depends on source license review."
+
+source_refs:
+  - name: "CBETA Online"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1564"
+    identifier: "T30n1564"
+    access_date: "2026-06-24"
+    license_note: "External Buddhist canon reference. Full text not redistributed in this repository unless license compatibility is verified."
+    reliability_note: "Major Buddhist canon database; useful for canon identifier and textual metadata verification."
+
+  - name: "SAT Daizokyo Text Database"
+    url: "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1564.html"
+    identifier: "T1564"
+    access_date: "2026-06-24"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Major Buddhist canon database; useful for independent cross-checking of Taisho identifiers."
+
+full_text_policy:
+  included: false
+  reason_zh: "当前仅记录元数据、来源链接、藏经编号和原创摘要，不在仓库中再分发全文。"
+  reason_en: "This repository currently records metadata, source links, canon identifiers, and original summaries only. It does not redistribute the full text."
+  review_status: needs_license_review
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Zhonglun is a core work record for the Sanlun module."
+  - "Future updates should verify canon identifiers, attribution, translation history, and title variants using CBETA, SAT, and academic references."
