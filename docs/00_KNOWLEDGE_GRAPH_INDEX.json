@@ -4953,5 +4953,6 @@
   "statistics": {
     "node_count": 26,
     "edge_count": 382
-  }
+  },
+  "temporal_index": "docs/00_TEMPORAL_GRAPH_INDEX.json"
 }
