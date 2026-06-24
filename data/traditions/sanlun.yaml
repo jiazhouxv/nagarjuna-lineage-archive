@@ -1,0 +1,142 @@
+id: sanlun
+type: tradition
+
+name_zh: 三论宗
+display_name_zh: 三论宗
+formal_name_zh: 三论宗
+common_name_zh: 三论宗
+
+name_en: Sanlun
+name_pinyin: Sanlun
+display_name_en: Sanlun Buddhism
+
+alternative_names:
+  - 三論宗
+  - 三论宗
+  - Sanlun school
+  - Three Treatise school
+  - Chinese Madhyamaka
+  - East Asian Madhyamaka
+  - Sanron
+
+name_usage_note_zh: "三论宗是以《中论》《十二门论》《百论》为核心论书的东亚中观传统。本资料库以 sanlun 作为稳定 ID。"
+name_usage_note_en: "Sanlun refers to the East Asian Madhyamaka tradition centered on three core treatises: Zhonglun, Shiermenlun, and Bailun. This archive uses sanlun as the stable ID."
+
+region_scope:
+  - China
+  - East Asia
+
+primary_regions:
+  - China
+  - Japan
+
+historical_origin:
+  region_zh: 中国
+  region_en: China
+  period_zh: 南北朝至隋唐时期
+  period_en: Northern and Southern Dynasties through Sui-Tang period
+  note_zh: "三论宗的中国形态与鸠摩罗什译经传统、龙树和提婆中观论书的汉译接受，以及吉藏的系统阐释密切相关。"
+  note_en: "The Chinese form of Sanlun is closely connected with Kumarajiva's translation tradition, the Chinese reception of Madhyamaka treatises attributed to Nagarjuna and Aryadeva, and Jizang's systematizing interpretations."
+
+related_persons:
+  - nagarjuna
+  - kumarajiva
+  - jizang
+
+core_persons:
+  - nagarjuna
+  - kumarajiva
+  - jizang
+
+related_works:
+  - zhonglun
+  - shiermenlun
+  - bailun
+
+core_works:
+  - zhonglun
+  - shiermenlun
+  - bailun
+
+related_terms:
+  - emptiness
+  - madhyamaka
+  - two-truths
+  - middle-way
+
+branches: []
+
+lineage_claims:
+  - claim_zh: "三论宗传统通常以龙树菩萨的中观论书作为重要思想源头。"
+    claim_en: "Sanlun tradition commonly treats Nagarjuna's Madhyamaka treatises as a major doctrinal source."
+    related_person: nagarjuna
+    confidence: high
+    note_zh: "此处记录为思想谱系关系，不等同于现代意义上的直接宗派创立关系。"
+    note_en: "This records an intellectual lineage relation, not necessarily direct institutional founding in the modern sense."
+    source_refs:
+      - cbeta-zhonglun
+      - ddb-sanlun
+
+  - claim_zh: "吉藏常被视为中国三论宗的重要集大成者。"
+    claim_en: "Jizang is commonly treated as a major systematizer of the Chinese Sanlun tradition."
+    related_person: jizang
+    confidence: high
+    note_zh: "具体历史细节和宗派形成过程仍需后续补充学术来源。"
+    note_en: "Historical details and the process of school formation should be strengthened with academic sources later."
+    source_refs:
+      - ddb-jizang
+
+summary_zh: "三论宗是东亚佛教中以中观思想为核心的重要宗派之一，名称来自《中论》《十二门论》《百论》三部核心论书。它与龙树菩萨、提婆、鸠摩罗什译经传统以及吉藏的系统阐释密切相关。本资料库将三论宗作为天台宗之后的下一个模块，用于整理龙树相关思想在汉传佛教中的另一条重要接受与宗派化路径。"
+
+summary_en: "Sanlun is an important East Asian Buddhist tradition centered on Madhyamaka thought. Its name comes from three core treatises: Zhonglun, Shiermenlun, and Bailun. It is closely connected with Nagarjuna, Aryadeva, Kumarajiva's translation tradition, and Jizang's systematic interpretations. This archive treats Sanlun as the next module after Tiantai for documenting another major Chinese Buddhist reception and institutionalization of Nagarjuna-related thought."
+
+bibliography:
+  - title_zh: "中论"
+    title_en: "Zhonglun"
+    author_zh: "龙树造；鸠摩罗什译"
+    author_en: "Attributed to Nagarjuna; translated by Kumarajiva"
+    publisher: "Taisho Tripitaka / CBETA reference record"
+    year: ""
+    language: "Classical Chinese"
+    type: primary_source
+    isbn: ""
+    note_zh: "三论宗核心论书之一；本仓库仅记录元数据和来源链接。"
+    note_en: "One of the core Sanlun treatises. This repository records metadata and source links only."
+
+  - title_zh: ""
+    title_en: "The Princeton Dictionary of Buddhism"
+    author_zh: ""
+    author_en: "Robert E. Buswell Jr.; Donald S. Lopez Jr."
+    publisher: "Princeton University Press"
+    year: "2014"
+    language: "English"
+    type: reference_work
+    isbn: ""
+    note_zh: "后续可用于核对三论宗、吉藏、中观与三论核心典籍相关条目。"
+    note_en: "To be used for checking entries related to Sanlun, Jizang, Madhyamaka, and the three core treatises."
+
+source_refs:
+  - name: "CBETA Online - Zhonglun"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1564"
+    identifier: "T30n1564"
+    access_date: "2026-06-24"
+    license_note: "External Buddhist canon reference. Full text not redistributed in this repository unless license compatibility is verified."
+    reliability_note: "Primary canon metadata reference for Zhonglun and Sanlun-related source mapping."
+
+  - name: "Digital Dictionary of Buddhism"
+    url: "https://www.buddhism-dict.net/ddb/"
+    identifier: "ddb-sanlun"
+    access_date: "2026-06-24"
+    license_note: "External dictionary reference. Access may be limited by DDB terms; no copied entry text redistributed."
+    reliability_note: "Specialist-edited Buddhist reference dictionary; details should be checked directly by contributors with access."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This is the parent tradition record for the Sanlun module."
+  - "The id remains sanlun for stability and machine readability."
+  - "Future updates should add branch and transmission records for Japanese Sanron and other regional developments."
+  - "Future updates should strengthen source references using academic studies of Chinese Madhyamaka and Jizang."
