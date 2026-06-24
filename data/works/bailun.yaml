@@ -1,0 +1,117 @@
+id: bailun
+type: work
+
+title_zh: 百论
+display_title_zh: 百论
+formal_title_zh: 百论
+common_title_zh: 百论
+
+title_en: Hundred Treatise
+display_title_en: Bailun
+title_pinyin: Bailun
+
+alternative_titles:
+  - 百論
+  - 百论
+  - Hundred Treatise
+  - Shata Shastra
+  - Bailun
+  - Bai Lun
+
+title_usage_note_zh: "《百论》是三论宗核心论书之一，通常与《中论》《十二门论》并列。本资料库以 bailun 作为稳定 ID。"
+title_usage_note_en: "Bailun is one of the core Sanlun treatises and is commonly grouped with Zhonglun and Shiermenlun. This archive uses bailun as the stable ID."
+
+traditions:
+  - sanlun
+  - madhyamaka
+  - chinese_buddhism
+
+branches: []
+
+work_category:
+  - madhyamaka_treatise
+  - sanlun_core_work
+  - translated_treatise
+
+attributed_author:
+  - aryadeva
+
+translator:
+  - kumarajiva
+
+related_persons:
+  - nagarjuna
+  - kumarajiva
+  - jizang
+
+related_works:
+  - zhonglun
+  - shiermenlun
+
+related_terms:
+  - emptiness
+  - madhyamaka
+  - two-truths
+  - middle-way
+
+canonical_info:
+  taisho_number: T1569
+  cbeta_id: T30n1569
+  sat_id: T1569
+  volume_info_zh: 大正藏第 30 册
+  volume_info_en: Taisho Tripitaka, Volume 30
+  note_zh: "藏经编号和卷册信息已记录为 T1569 / T30n1569，后续仍应继续以 CBETA、SAT 或其他权威佛典目录核对细节。"
+  note_en: "Canon identifiers are recorded as T1569 / T30n1569. Details should continue to be checked against CBETA, SAT, or other authoritative Buddhist canon catalogues."
+
+approximate_date:
+  period_zh: 后秦译出
+  period_en: Later Qin translation period
+  note_zh: "本条记录为鸠摩罗什汉译传统中的《百论》元数据，具体译出年代和作者归属需进一步核对。"
+  note_en: "This record tracks Bailun in Kumarajiva's Chinese translation tradition. Specific translation date and attribution should be checked later."
+
+summary_zh: "《百论》是三论宗三部核心论书之一，通常归于提婆造、鸠摩罗什译。它与《中论》《十二门论》共同构成三论宗的重要文本基础。本资料库将《百论》记录为三论宗模块的核心典籍，并与龙树、鸠摩罗什、吉藏、空、中观、二谛等人物和术语建立关联。"
+
+summary_en: "Bailun is one of the three core treatises of the Sanlun tradition, commonly attributed to Aryadeva and translated into Chinese by Kumarajiva. Together with Zhonglun and Shiermenlun, it forms an important textual basis for Sanlun. This archive records Bailun as a core work in the Sanlun module and links it with Nagarjuna, Kumarajiva, Jizang, emptiness, Madhyamaka, and the two truths."
+
+bibliography:
+  - title_zh: "百论"
+    title_en: "Bailun"
+    author_zh: "提婆造；鸠摩罗什译"
+    author_en: "Attributed to Aryadeva; translated by Kumarajiva"
+    publisher: "Taisho Tripitaka / CBETA reference record"
+    year: ""
+    language: "Classical Chinese"
+    type: primary_source
+    isbn: ""
+    note_zh: "本条为原典元数据记录，全文是否收录需根据来源授权另行判断。"
+    note_en: "Primary source metadata record. Full-text inclusion depends on source license review."
+
+source_refs:
+  - name: "CBETA Online"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1569"
+    identifier: "T30n1569"
+    access_date: "2026-06-24"
+    license_note: "External Buddhist canon reference. Full text not redistributed in this repository unless license compatibility is verified."
+    reliability_note: "Major Buddhist canon database; useful for canon identifier and textual metadata verification."
+
+  - name: "SAT Daizokyo Text Database"
+    url: "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1569.html"
+    identifier: "T1569"
+    access_date: "2026-06-24"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Major Buddhist canon database; useful for independent cross-checking of Taisho identifiers."
+
+full_text_policy:
+  included: false
+  reason_zh: "当前仅记录元数据、来源链接、藏经编号和原创摘要，不在仓库中再分发全文。"
+  reason_en: "This repository currently records metadata, source links, canon identifiers, and original summaries only. It does not redistribute the full text."
+  review_status: needs_license_review
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "Bailun is a core work record for the Sanlun module."
+  - "Future updates should verify canon identifiers, attribution, translation history, and title variants using CBETA, SAT, and academic references."
