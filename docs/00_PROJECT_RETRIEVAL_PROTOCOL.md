@@ -10,6 +10,12 @@ This protocol defines how a new Codex or ChatGPT window should reconstruct the N
 4. If the question involves historical change, read `docs/00_PROJECT_TASK_EVENT_LOG.md` and `docs/00_PROJECT_TASK_EVENT_LOG.json`.
 5. If the question involves replay, debugging a prior sequence, or reconstructing how the project reached the current state, read `docs/00_PROJECT_TASK_EXECUTION_REPLAY.md` and `docs/00_PROJECT_TASK_EXECUTION_REPLAY.json`.
 
+## Knowledge Graph Retrieval Rules
+- If the question involves person-to-person, person-to-work, or tradition-to-branch relations, use `docs/00_KNOWLEDGE_GRAPH_INDEX.json` and `node scripts/graph-cli.js path <from> <to>`.
+- If the question involves concept propagation or doctrinal reception, use graph traversal through work, person, tradition, and concept nodes before reading detailed YAML records.
+- If the question involves historical development, combine graph traversal with timeline records; temporal reasoning is reserved for a later Engineering OS version.
+- If graph output conflicts with source YAML or policy docs, treat the graph as a derived index and verify against source files.
+
 ## Evidence Rules
 - Prefer repository files over memory.
 - Prefer `docs/project-state.md`, README, CHANGELOG, docs, data files, tools, workflows, and git log over inferred statements.

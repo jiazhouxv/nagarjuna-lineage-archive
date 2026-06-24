@@ -1,0 +1,4957 @@
+{
+  "nodes": [
+    {
+      "id": "bailun",
+      "type": "work",
+      "name": "Bailun",
+      "tags": [
+        "work",
+        "sanlun",
+        "madhyamaka",
+        "chinese_buddhism",
+        "emptiness",
+        "two-truths",
+        "middle-way",
+        "madhyamaka_treatise",
+        "sanlun_core_work",
+        "translated_treatise"
+      ],
+      "metadata": {
+        "source_file": "data/works/bailun.yaml",
+        "record_type": "work"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "cheontae-korea",
+      "type": "tradition",
+      "name": "Korean Cheontae Buddhism",
+      "tags": [
+        "branch",
+        "cheontae",
+        "tiantai",
+        "tiantai-transmission-to-korea",
+        "doctrinal-and-meditation-integration",
+        "hwaeom",
+        "seon",
+        "buddhist-catalogue",
+        "lotus-sutra",
+        "zhiguan",
+        "three-truths"
+      ],
+      "metadata": {
+        "source_file": "data/branches/cheontae-korea.yaml",
+        "record_type": "branch"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "daosui",
+      "type": "person",
+      "name": "Daosui",
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "China",
+        "East Asia",
+        "tiantai_teacher",
+        "transmission_figure",
+        "zhiguan",
+        "tiantai-doctrine"
+      ],
+      "metadata": {
+        "source_file": "data/persons/daosui.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "fahua-wenju",
+      "type": "work",
+      "name": "Fahua Wenju",
+      "tags": [
+        "work",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "scripture_commentary",
+        "lotus-sutra",
+        "scripture-interpretation",
+        "tiantai-doctrine",
+        "perfect-teaching",
+        "three-truths",
+        "one-thought-three-thousand",
+        "doctrinal-classification",
+        "expedient-means",
+        "lotus_sutra_commentary",
+        "tiantai_core_work",
+        "lecture_record",
+        "exegetical_text"
+      ],
+      "metadata": {
+        "source_file": "data/works/fahua-wenju.yaml",
+        "record_type": "work"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "fahua-xuanyi",
+      "type": "work",
+      "name": "Fahua Xuanyi",
+      "tags": [
+        "work",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "doctrinal_classification",
+        "lotus-sutra",
+        "five-periods-eight-teachings",
+        "doctrinal-classification",
+        "perfect-teaching",
+        "three-truths",
+        "one-thought-three-thousand",
+        "tiantai-doctrine",
+        "scripture-interpretation",
+        "doctrinal_treatise",
+        "lotus_sutra_commentary",
+        "tiantai_core_work",
+        "lecture_record",
+        "doctrinal_classification_text"
+      ],
+      "metadata": {
+        "source_file": "data/works/fahua-xuanyi.yaml",
+        "record_type": "work"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "guanding",
+      "type": "person",
+      "name": "Master Guanding",
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "meditation",
+        "China",
+        "East Asia",
+        "tiantai_lineage_figure",
+        "disciple_of_zhiyi",
+        "compiler",
+        "editor",
+        "recorder",
+        "commentator",
+        "transmission_figure",
+        "zhiguan",
+        "lotus-sutra",
+        "three-truths",
+        "one-thought-three-thousand",
+        "tiantai-lineage",
+        "textual-compilation"
+      ],
+      "metadata": {
+        "source_file": "data/persons/guanding.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "huisi",
+      "type": "person",
+      "name": "Huisi",
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "meditation",
+        "lotus_sutra_tradition",
+        "China",
+        "East Asia",
+        "tiantai_lineage_figure",
+        "meditation_master",
+        "teacher_of_zhiyi",
+        "doctrinal_transmission_figure",
+        "zhiguan",
+        "lotus-sutra",
+        "three-truths",
+        "repentance-practice"
+      ],
+      "metadata": {
+        "source_file": "data/persons/huisi.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "huiwen",
+      "type": "person",
+      "name": "Huiwen",
+      "tags": [
+        "person",
+        "tiantai",
+        "madhyamaka",
+        "chinese_buddhism",
+        "China",
+        "East Asia",
+        "tiantai_lineage_figure",
+        "meditation_master",
+        "doctrinal_transmission_figure",
+        "lineage_ancestor_claim",
+        "three-truths",
+        "emptiness",
+        "zhiguan"
+      ],
+      "metadata": {
+        "source_file": "data/persons/huiwen.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "jizang",
+      "type": "person",
+      "name": "Master Jizang",
+      "tags": [
+        "person",
+        "sanlun",
+        "chinese_buddhism",
+        "madhyamaka",
+        "China",
+        "East Asia",
+        "sanlun_systematizer",
+        "patriarch",
+        "commentator",
+        "doctrinal_exegete",
+        "teacher",
+        "emptiness",
+        "two-truths",
+        "middle-way"
+      ],
+      "metadata": {
+        "source_file": "data/persons/jizang.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "kumarajiva",
+      "type": "person",
+      "name": "Kumarajiva",
+      "tags": [
+        "person",
+        "mahayana",
+        "madhyamaka",
+        "sanlun",
+        "tiantai",
+        "Kucha",
+        "China",
+        "Central Asia",
+        "East Asia",
+        "translator",
+        "monk",
+        "transmission_figure",
+        "chinese_buddhist_translation_master",
+        "emptiness",
+        "two-truths",
+        "prajnaparamita",
+        "translation"
+      ],
+      "metadata": {
+        "source_file": "data/persons/kumarajiva.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "mohe-zhiguan",
+      "type": "work",
+      "name": "Mohe Zhiguan",
+      "tags": [
+        "work",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "meditation",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "perfect-teaching",
+        "contemplation",
+        "calming",
+        "tiantai-practice",
+        "meditation_manual",
+        "doctrinal_treatise",
+        "tiantai_core_work",
+        "lecture_record",
+        "practice_text"
+      ],
+      "metadata": {
+        "source_file": "data/works/mohe-zhiguan.yaml",
+        "record_type": "work"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "nagarjuna",
+      "type": "person",
+      "name": "Nagarjuna",
+      "tags": [
+        "person",
+        "madhyamaka",
+        "mahayana",
+        "tiantai",
+        "sanlun",
+        "India",
+        "South Asia",
+        "philosopher",
+        "monk",
+        "madhyamaka_founder",
+        "lineage_ancestor_claim",
+        "emptiness",
+        "two-truths",
+        "dependent-origination"
+      ],
+      "metadata": {
+        "source_file": "data/persons/nagarjuna.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "one-thought-three-thousand",
+      "type": "concept",
+      "name": "One Thought Contains Three Thousand",
+      "tags": [
+        "term",
+        "tiantai",
+        "tendai",
+        "cheontae",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "three-truths",
+        "zhiguan",
+        "ten-realms",
+        "ten-suchnesses",
+        "three-realms-of-existence",
+        "perfect-teaching",
+        "lotus-sutra",
+        "tiantai-doctrine"
+      ],
+      "metadata": {
+        "source_file": "data/terms/one-thought-three-thousand.yaml",
+        "record_type": "term"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "saicho",
+      "type": "person",
+      "name": "Saicho",
+      "tags": [
+        "person",
+        "tiantai",
+        "tendai",
+        "japanese_buddhism",
+        "lotus_sutra_tradition",
+        "esoteric_buddhism",
+        "Japan",
+        "China",
+        "East Asia",
+        "founder_of_japanese_tendai",
+        "transmission_figure",
+        "monk",
+        "teacher",
+        "reformer",
+        "lineage_figure",
+        "lotus-sutra",
+        "perfect-teaching",
+        "bodhisattva-precepts",
+        "esoteric-buddhism",
+        "tiantai-transmission-to-japan"
+      ],
+      "metadata": {
+        "source_file": "data/persons/saicho.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "sanlun",
+      "type": "tradition",
+      "name": "Sanlun Buddhism",
+      "tags": [
+        "tradition",
+        "emptiness",
+        "madhyamaka",
+        "two-truths",
+        "middle-way"
+      ],
+      "metadata": {
+        "source_file": "data/traditions/sanlun.yaml",
+        "record_type": "tradition"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "shiermenlun",
+      "type": "work",
+      "name": "Shiermenlun",
+      "tags": [
+        "work",
+        "sanlun",
+        "madhyamaka",
+        "chinese_buddhism",
+        "emptiness",
+        "two-truths",
+        "middle-way",
+        "madhyamaka_treatise",
+        "sanlun_core_work",
+        "translated_treatise"
+      ],
+      "metadata": {
+        "source_file": "data/works/shiermenlun.yaml",
+        "record_type": "work"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "tendai-japan",
+      "type": "tradition",
+      "name": "Japanese Tendai Buddhism",
+      "tags": [
+        "branch",
+        "tendai",
+        "lotus-sutra",
+        "perfect-teaching",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "bodhisattva-precepts",
+        "esoteric-buddhism",
+        "tiantai-transmission-to-japan",
+        "mount-hiei",
+        "enryakuji"
+      ],
+      "metadata": {
+        "source_file": "data/branches/tendai-japan.yaml",
+        "record_type": "branch"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "three-truths",
+      "type": "concept",
+      "name": "Three Truths",
+      "tags": [
+        "term",
+        "tiantai",
+        "chinese_buddhism",
+        "madhyamaka",
+        "lotus_sutra_tradition",
+        "emptiness",
+        "provisional-existence",
+        "middle",
+        "zhiguan",
+        "one-thought-three-thousand",
+        "perfect-teaching",
+        "doctrinal-classification"
+      ],
+      "metadata": {
+        "source_file": "data/terms/three-truths.yaml",
+        "record_type": "term"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "tiantai",
+      "type": "tradition",
+      "name": "Tiantai Buddhism",
+      "tags": [
+        "tradition",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "perfect-teaching",
+        "lotus-sutra",
+        "doctrinal-classification",
+        "buddha-nature-of-insentient-beings"
+      ],
+      "metadata": {
+        "source_file": "data/traditions/tiantai.yaml",
+        "record_type": "tradition"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "tiantai-china",
+      "type": "tradition",
+      "name": "Chinese Tiantai Buddhism",
+      "tags": [
+        "branch",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "perfect-teaching",
+        "doctrinal-classification",
+        "lotus-sutra",
+        "buddha-nature-of-insentient-beings",
+        "tiantai-lineage"
+      ],
+      "metadata": {
+        "source_file": "data/branches/tiantai-china.yaml",
+        "record_type": "branch"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "uicheon",
+      "type": "person",
+      "name": "Daegak Guksa Uicheon",
+      "tags": [
+        "person",
+        "cheontae",
+        "tiantai",
+        "korean_buddhism",
+        "hwaeom",
+        "seon",
+        "doctrinal_buddhism",
+        "Korea",
+        "Goryeo",
+        "China",
+        "East Asia",
+        "founder_of_korean_cheontae",
+        "royal_prince",
+        "monk",
+        "scholar_monk",
+        "transmission_figure",
+        "reconciler_of_doctrinal_and_meditation_schools",
+        "bibliographer",
+        "tiantai-transmission-to-korea",
+        "doctrinal-and-meditation-integration",
+        "buddhist-catalogue"
+      ],
+      "metadata": {
+        "source_file": "data/persons/uicheon.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "xingman",
+      "type": "person",
+      "name": "Xingman",
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "China",
+        "East Asia",
+        "tiantai_teacher",
+        "transmission_figure",
+        "zhiguan",
+        "tiantai-doctrine"
+      ],
+      "metadata": {
+        "source_file": "data/persons/xingman.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "zhanran",
+      "type": "person",
+      "name": "Jingxi Zhanran",
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "meditation",
+        "China",
+        "East Asia",
+        "tiantai_lineage_figure",
+        "tiantai_revival_figure",
+        "commentator",
+        "doctrinal_systematizer",
+        "transmission_figure",
+        "defender_of_tiantai",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "buddha-nature-of-insentient-beings",
+        "tiantai-lineage",
+        "doctrinal-classification"
+      ],
+      "metadata": {
+        "source_file": "data/persons/zhanran.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "zhiguan",
+      "type": "concept",
+      "name": "Calming and Contemplation",
+      "tags": [
+        "term",
+        "tiantai",
+        "chinese_buddhism",
+        "meditation",
+        "lotus_sutra_tradition",
+        "three-truths",
+        "one-thought-three-thousand",
+        "perfect-teaching",
+        "contemplation",
+        "calming",
+        "tiantai-practice"
+      ],
+      "metadata": {
+        "source_file": "data/terms/zhiguan.yaml",
+        "record_type": "term"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "zhiyi",
+      "type": "person",
+      "name": "Master Zhiyi",
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "meditation",
+        "China",
+        "East Asia",
+        "tiantai_systematizer",
+        "patriarch",
+        "meditation_master",
+        "doctrinal_systematizer",
+        "teacher",
+        "commentator",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "lotus-sutra",
+        "perfect-teaching",
+        "contemplation",
+        "doctrinal-classification"
+      ],
+      "metadata": {
+        "source_file": "data/persons/zhiyi.yaml",
+        "record_type": "person"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    },
+    {
+      "id": "zhonglun",
+      "type": "work",
+      "name": "Zhonglun",
+      "tags": [
+        "work",
+        "sanlun",
+        "madhyamaka",
+        "chinese_buddhism",
+        "emptiness",
+        "two-truths",
+        "middle-way",
+        "madhyamaka_treatise",
+        "sanlun_core_work",
+        "translated_treatise"
+      ],
+      "metadata": {
+        "source_file": "data/works/zhonglun.yaml",
+        "record_type": "work"
+      },
+      "embedding": [],
+      "created_at": "2026-06-24T00:54:40.000Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "bailun",
+      "to": "jizang",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/jizang.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "jizang",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "sanlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "sanlun",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "bailun",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "uicheon",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "daosui",
+      "to": "saicho",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/daosui.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "daosui",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "daosui",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/daosui.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "daosui",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/daosui.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "guanding",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "guanding",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "huisi",
+      "to": "huiwen",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "huisi",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/huisi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/huisi.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "huisi",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/huisi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "zhiyi",
+      "type": "teacher_of",
+      "weight": 1,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "huiwen",
+      "to": "huisi",
+      "type": "teacher_of",
+      "weight": 1,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "huiwen",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/huiwen.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "huiwen",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "huiwen",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/huiwen.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "huiwen",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "huiwen",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "huiwen",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/huiwen.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/jizang.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "sanlun",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/jizang.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "jizang",
+      "to": "sanlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/jizang.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/jizang.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "sanlun",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/kumarajiva.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "kumarajiva",
+      "to": "sanlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/kumarajiva.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "kumarajiva",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "sanlun",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/nagarjuna.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "nagarjuna",
+      "to": "sanlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/nagarjuna.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "nagarjuna",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "saicho",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "uicheon",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhanran.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "daosui",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/daosui.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/saicho.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "saicho",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "xingman",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/xingman.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.66,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 0.66
+    },
+    {
+      "from": "sanlun",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "jizang",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/jizang.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "jizang",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/kumarajiva.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/nagarjuna.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "shiermenlun",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "jizang",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/jizang.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "jizang",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "sanlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "sanlun",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "shiermenlun",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "zhonglun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "daosui",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "saicho",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "tendai-japan",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "tendai-japan",
+      "to": "xingman",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "huisi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/huisi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "huisi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "huiwen",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/huiwen.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "huiwen",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "three-truths",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhanran.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai-china",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "huisi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "huiwen",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai-china",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai-china",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "cheontae-korea",
+      "type": "belongs_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai",
+      "to": "daosui",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/daosui.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "huisi",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/huisi.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "huisi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "huiwen",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/huiwen.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "huiwen",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/kumarajiva.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/nagarjuna.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "saicho",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/saicho.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "saicho",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "tendai-japan",
+      "type": "belongs_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "tiantai-china",
+      "type": "belongs_to",
+      "weight": 1,
+      "source": "data/relations/tradition-branch.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai",
+      "to": "uicheon",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/uicheon.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "uicheon",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "xingman",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/xingman.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/zhanran.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.8,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/uicheon.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "uicheon",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.66,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 0.66
+    },
+    {
+      "from": "xingman",
+      "to": "saicho",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/xingman.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "xingman",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "xingman",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/xingman.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "xingman",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/xingman.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "fahua-wenju",
+      "type": "commentary_on",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "zhanran",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "fahua-xuanyi",
+      "type": "commentary_on",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "zhanran",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "mohe-zhiguan",
+      "type": "commentary_on",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "zhanran",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhanran.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhanran.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/zhanran.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "zhanran",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhanran.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.66,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 0.66
+    },
+    {
+      "from": "zhiguan",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "daosui",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/daosui.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/guanding.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "guanding",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "huisi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/huisi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "huiwen",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/huiwen.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "saicho",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "zhiguan",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "uicheon",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "xingman",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/xingman.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhanran.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "zhanran",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "zhiyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "cheontae-korea",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/cheontae-korea.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-wenju",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-wenju.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-xuanyi",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/fahua-xuanyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "guanding",
+      "type": "teacher_of",
+      "weight": 1,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "huisi",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 1,
+      "source": "data/relations/work-compilation.yaml",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "mohe-zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/mohe-zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "one-thought-three-thousand",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/one-thought-three-thousand.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "saicho",
+      "type": "teacher_of",
+      "weight": 0.66,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 0.66
+    },
+    {
+      "from": "zhiyi",
+      "to": "tendai-japan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tendai-japan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "three-truths",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/three-truths.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "tiantai",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "zhiyi",
+      "to": "tiantai",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/tiantai.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "tiantai-china",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/branches/tiantai-china.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "uicheon",
+      "type": "teacher_of",
+      "weight": 0.66,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 0.66
+    },
+    {
+      "from": "zhiyi",
+      "to": "zhanran",
+      "type": "teacher_of",
+      "weight": 0.66,
+      "source": "data/relations/teacher-student.yaml",
+      "confidence": 0.66
+    },
+    {
+      "from": "zhiyi",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/zhiyi.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "zhiguan",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/terms/zhiguan.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/bailun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "bailun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "jizang",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/persons/jizang.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "jizang",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "kumarajiva",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "nagarjuna",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "sanlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/traditions/sanlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "sanlun",
+      "type": "belongs_to",
+      "weight": 0.8,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.8
+    },
+    {
+      "from": "zhonglun",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/shiermenlun.yaml",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "shiermenlun",
+      "type": "related_to",
+      "weight": 0.5,
+      "source": "data/works/zhonglun.yaml",
+      "confidence": 0.5
+    }
+  ],
+  "clusters": [
+    {
+      "id": "type:work",
+      "type": "type",
+      "node_ids": [
+        "bailun",
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "mohe-zhiguan",
+        "shiermenlun",
+        "zhonglun"
+      ],
+      "size": 6
+    },
+    {
+      "id": "type:tradition",
+      "type": "type",
+      "node_ids": [
+        "cheontae-korea",
+        "sanlun",
+        "tendai-japan",
+        "tiantai",
+        "tiantai-china"
+      ],
+      "size": 5
+    },
+    {
+      "id": "type:person",
+      "type": "type",
+      "node_ids": [
+        "daosui",
+        "guanding",
+        "huisi",
+        "huiwen",
+        "jizang",
+        "kumarajiva",
+        "nagarjuna",
+        "saicho",
+        "uicheon",
+        "xingman",
+        "zhanran",
+        "zhiyi"
+      ],
+      "size": 12
+    },
+    {
+      "id": "type:concept",
+      "type": "type",
+      "node_ids": [
+        "one-thought-three-thousand",
+        "three-truths",
+        "zhiguan"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:work",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "mohe-zhiguan",
+        "shiermenlun",
+        "zhonglun"
+      ],
+      "size": 6
+    },
+    {
+      "id": "tag:sanlun",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "jizang",
+        "kumarajiva",
+        "nagarjuna",
+        "shiermenlun",
+        "zhonglun"
+      ],
+      "size": 6
+    },
+    {
+      "id": "tag:madhyamaka",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "huiwen",
+        "jizang",
+        "kumarajiva",
+        "nagarjuna",
+        "sanlun",
+        "shiermenlun",
+        "three-truths",
+        "zhonglun"
+      ],
+      "size": 9
+    },
+    {
+      "id": "tag:chinese_buddhism",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "daosui",
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "guanding",
+        "huisi",
+        "huiwen",
+        "jizang",
+        "mohe-zhiguan",
+        "one-thought-three-thousand",
+        "shiermenlun",
+        "three-truths",
+        "xingman",
+        "zhanran",
+        "zhiguan",
+        "zhiyi",
+        "zhonglun"
+      ],
+      "size": 17
+    },
+    {
+      "id": "tag:emptiness",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "huiwen",
+        "jizang",
+        "kumarajiva",
+        "nagarjuna",
+        "sanlun",
+        "shiermenlun",
+        "three-truths",
+        "zhonglun"
+      ],
+      "size": 9
+    },
+    {
+      "id": "tag:two-truths",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "jizang",
+        "kumarajiva",
+        "nagarjuna",
+        "sanlun",
+        "shiermenlun",
+        "zhonglun"
+      ],
+      "size": 7
+    },
+    {
+      "id": "tag:middle-way",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "jizang",
+        "sanlun",
+        "shiermenlun",
+        "zhonglun"
+      ],
+      "size": 5
+    },
+    {
+      "id": "tag:madhyamaka_treatise",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "shiermenlun",
+        "zhonglun"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:sanlun_core_work",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "shiermenlun",
+        "zhonglun"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:translated_treatise",
+      "type": "tag",
+      "node_ids": [
+        "bailun",
+        "shiermenlun",
+        "zhonglun"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:branch",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "tendai-japan",
+        "tiantai-china"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:cheontae",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "one-thought-three-thousand",
+        "uicheon"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:tiantai",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "daosui",
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "guanding",
+        "huisi",
+        "huiwen",
+        "kumarajiva",
+        "mohe-zhiguan",
+        "nagarjuna",
+        "one-thought-three-thousand",
+        "saicho",
+        "three-truths",
+        "uicheon",
+        "xingman",
+        "zhanran",
+        "zhiguan",
+        "zhiyi"
+      ],
+      "size": 18
+    },
+    {
+      "id": "tag:tiantai-transmission-to-korea",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "uicheon"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:doctrinal-and-meditation-integration",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "uicheon"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:hwaeom",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "uicheon"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:seon",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "uicheon"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:buddhist-catalogue",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "uicheon"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:lotus-sutra",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "guanding",
+        "huisi",
+        "one-thought-three-thousand",
+        "saicho",
+        "tendai-japan",
+        "tiantai",
+        "tiantai-china",
+        "zhiyi"
+      ],
+      "size": 11
+    },
+    {
+      "id": "tag:zhiguan",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "daosui",
+        "guanding",
+        "huisi",
+        "huiwen",
+        "mohe-zhiguan",
+        "one-thought-three-thousand",
+        "tendai-japan",
+        "three-truths",
+        "tiantai",
+        "tiantai-china",
+        "xingman",
+        "zhanran",
+        "zhiyi"
+      ],
+      "size": 14
+    },
+    {
+      "id": "tag:three-truths",
+      "type": "tag",
+      "node_ids": [
+        "cheontae-korea",
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "guanding",
+        "huisi",
+        "huiwen",
+        "mohe-zhiguan",
+        "one-thought-three-thousand",
+        "tendai-japan",
+        "tiantai",
+        "tiantai-china",
+        "zhanran",
+        "zhiguan",
+        "zhiyi"
+      ],
+      "size": 14
+    },
+    {
+      "id": "tag:person",
+      "type": "tag",
+      "node_ids": [
+        "daosui",
+        "guanding",
+        "huisi",
+        "huiwen",
+        "jizang",
+        "kumarajiva",
+        "nagarjuna",
+        "saicho",
+        "uicheon",
+        "xingman",
+        "zhanran",
+        "zhiyi"
+      ],
+      "size": 12
+    },
+    {
+      "id": "tag:China",
+      "type": "tag",
+      "node_ids": [
+        "daosui",
+        "guanding",
+        "huisi",
+        "huiwen",
+        "jizang",
+        "kumarajiva",
+        "saicho",
+        "uicheon",
+        "xingman",
+        "zhanran",
+        "zhiyi"
+      ],
+      "size": 11
+    },
+    {
+      "id": "tag:East Asia",
+      "type": "tag",
+      "node_ids": [
+        "daosui",
+        "guanding",
+        "huisi",
+        "huiwen",
+        "jizang",
+        "kumarajiva",
+        "saicho",
+        "uicheon",
+        "xingman",
+        "zhanran",
+        "zhiyi"
+      ],
+      "size": 11
+    },
+    {
+      "id": "tag:tiantai_teacher",
+      "type": "tag",
+      "node_ids": [
+        "daosui",
+        "xingman"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:transmission_figure",
+      "type": "tag",
+      "node_ids": [
+        "daosui",
+        "guanding",
+        "kumarajiva",
+        "saicho",
+        "uicheon",
+        "xingman",
+        "zhanran"
+      ],
+      "size": 7
+    },
+    {
+      "id": "tag:tiantai-doctrine",
+      "type": "tag",
+      "node_ids": [
+        "daosui",
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "one-thought-three-thousand",
+        "xingman"
+      ],
+      "size": 5
+    },
+    {
+      "id": "tag:lotus_sutra_tradition",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "guanding",
+        "huisi",
+        "mohe-zhiguan",
+        "one-thought-three-thousand",
+        "saicho",
+        "three-truths",
+        "zhanran",
+        "zhiguan",
+        "zhiyi"
+      ],
+      "size": 11
+    },
+    {
+      "id": "tag:scripture_commentary",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:scripture-interpretation",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju",
+        "fahua-xuanyi"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:perfect-teaching",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "mohe-zhiguan",
+        "one-thought-three-thousand",
+        "saicho",
+        "tendai-japan",
+        "three-truths",
+        "tiantai",
+        "tiantai-china",
+        "zhiguan",
+        "zhiyi"
+      ],
+      "size": 11
+    },
+    {
+      "id": "tag:one-thought-three-thousand",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "guanding",
+        "mohe-zhiguan",
+        "tendai-japan",
+        "three-truths",
+        "tiantai",
+        "tiantai-china",
+        "zhanran",
+        "zhiguan",
+        "zhiyi"
+      ],
+      "size": 11
+    },
+    {
+      "id": "tag:doctrinal-classification",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "three-truths",
+        "tiantai",
+        "tiantai-china",
+        "zhanran",
+        "zhiyi"
+      ],
+      "size": 7
+    },
+    {
+      "id": "tag:expedient-means",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:lotus_sutra_commentary",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju",
+        "fahua-xuanyi"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:tiantai_core_work",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "mohe-zhiguan"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:lecture_record",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju",
+        "fahua-xuanyi",
+        "mohe-zhiguan"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:exegetical_text",
+      "type": "tag",
+      "node_ids": [
+        "fahua-wenju"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:doctrinal_classification",
+      "type": "tag",
+      "node_ids": [
+        "fahua-xuanyi"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:five-periods-eight-teachings",
+      "type": "tag",
+      "node_ids": [
+        "fahua-xuanyi",
+        "mohe-zhiguan",
+        "tiantai",
+        "tiantai-china",
+        "zhanran",
+        "zhiyi"
+      ],
+      "size": 6
+    },
+    {
+      "id": "tag:doctrinal_treatise",
+      "type": "tag",
+      "node_ids": [
+        "fahua-xuanyi",
+        "mohe-zhiguan"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:doctrinal_classification_text",
+      "type": "tag",
+      "node_ids": [
+        "fahua-xuanyi"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:meditation",
+      "type": "tag",
+      "node_ids": [
+        "guanding",
+        "huisi",
+        "mohe-zhiguan",
+        "zhanran",
+        "zhiguan",
+        "zhiyi"
+      ],
+      "size": 6
+    },
+    {
+      "id": "tag:tiantai_lineage_figure",
+      "type": "tag",
+      "node_ids": [
+        "guanding",
+        "huisi",
+        "huiwen",
+        "zhanran"
+      ],
+      "size": 4
+    },
+    {
+      "id": "tag:disciple_of_zhiyi",
+      "type": "tag",
+      "node_ids": [
+        "guanding"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:compiler",
+      "type": "tag",
+      "node_ids": [
+        "guanding"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:editor",
+      "type": "tag",
+      "node_ids": [
+        "guanding"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:recorder",
+      "type": "tag",
+      "node_ids": [
+        "guanding"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:commentator",
+      "type": "tag",
+      "node_ids": [
+        "guanding",
+        "jizang",
+        "zhanran",
+        "zhiyi"
+      ],
+      "size": 4
+    },
+    {
+      "id": "tag:tiantai-lineage",
+      "type": "tag",
+      "node_ids": [
+        "guanding",
+        "tiantai-china",
+        "zhanran"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:textual-compilation",
+      "type": "tag",
+      "node_ids": [
+        "guanding"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:meditation_master",
+      "type": "tag",
+      "node_ids": [
+        "huisi",
+        "huiwen",
+        "zhiyi"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:teacher_of_zhiyi",
+      "type": "tag",
+      "node_ids": [
+        "huisi"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:doctrinal_transmission_figure",
+      "type": "tag",
+      "node_ids": [
+        "huisi",
+        "huiwen"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:repentance-practice",
+      "type": "tag",
+      "node_ids": [
+        "huisi"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:lineage_ancestor_claim",
+      "type": "tag",
+      "node_ids": [
+        "huiwen",
+        "nagarjuna"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:sanlun_systematizer",
+      "type": "tag",
+      "node_ids": [
+        "jizang"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:patriarch",
+      "type": "tag",
+      "node_ids": [
+        "jizang",
+        "zhiyi"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:doctrinal_exegete",
+      "type": "tag",
+      "node_ids": [
+        "jizang"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:teacher",
+      "type": "tag",
+      "node_ids": [
+        "jizang",
+        "saicho",
+        "zhiyi"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:mahayana",
+      "type": "tag",
+      "node_ids": [
+        "kumarajiva",
+        "nagarjuna"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:Kucha",
+      "type": "tag",
+      "node_ids": [
+        "kumarajiva"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:Central Asia",
+      "type": "tag",
+      "node_ids": [
+        "kumarajiva"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:translator",
+      "type": "tag",
+      "node_ids": [
+        "kumarajiva"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:monk",
+      "type": "tag",
+      "node_ids": [
+        "kumarajiva",
+        "nagarjuna",
+        "saicho",
+        "uicheon"
+      ],
+      "size": 4
+    },
+    {
+      "id": "tag:chinese_buddhist_translation_master",
+      "type": "tag",
+      "node_ids": [
+        "kumarajiva"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:prajnaparamita",
+      "type": "tag",
+      "node_ids": [
+        "kumarajiva"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:translation",
+      "type": "tag",
+      "node_ids": [
+        "kumarajiva"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:contemplation",
+      "type": "tag",
+      "node_ids": [
+        "mohe-zhiguan",
+        "zhiguan",
+        "zhiyi"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:calming",
+      "type": "tag",
+      "node_ids": [
+        "mohe-zhiguan",
+        "zhiguan"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:tiantai-practice",
+      "type": "tag",
+      "node_ids": [
+        "mohe-zhiguan",
+        "zhiguan"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:meditation_manual",
+      "type": "tag",
+      "node_ids": [
+        "mohe-zhiguan"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:practice_text",
+      "type": "tag",
+      "node_ids": [
+        "mohe-zhiguan"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:India",
+      "type": "tag",
+      "node_ids": [
+        "nagarjuna"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:South Asia",
+      "type": "tag",
+      "node_ids": [
+        "nagarjuna"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:philosopher",
+      "type": "tag",
+      "node_ids": [
+        "nagarjuna"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:madhyamaka_founder",
+      "type": "tag",
+      "node_ids": [
+        "nagarjuna"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:dependent-origination",
+      "type": "tag",
+      "node_ids": [
+        "nagarjuna"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:term",
+      "type": "tag",
+      "node_ids": [
+        "one-thought-three-thousand",
+        "three-truths",
+        "zhiguan"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:tendai",
+      "type": "tag",
+      "node_ids": [
+        "one-thought-three-thousand",
+        "saicho",
+        "tendai-japan"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:ten-realms",
+      "type": "tag",
+      "node_ids": [
+        "one-thought-three-thousand"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:ten-suchnesses",
+      "type": "tag",
+      "node_ids": [
+        "one-thought-three-thousand"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:three-realms-of-existence",
+      "type": "tag",
+      "node_ids": [
+        "one-thought-three-thousand"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:japanese_buddhism",
+      "type": "tag",
+      "node_ids": [
+        "saicho"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:esoteric_buddhism",
+      "type": "tag",
+      "node_ids": [
+        "saicho"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:Japan",
+      "type": "tag",
+      "node_ids": [
+        "saicho"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:founder_of_japanese_tendai",
+      "type": "tag",
+      "node_ids": [
+        "saicho"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:reformer",
+      "type": "tag",
+      "node_ids": [
+        "saicho"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:lineage_figure",
+      "type": "tag",
+      "node_ids": [
+        "saicho"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:bodhisattva-precepts",
+      "type": "tag",
+      "node_ids": [
+        "saicho",
+        "tendai-japan"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:esoteric-buddhism",
+      "type": "tag",
+      "node_ids": [
+        "saicho",
+        "tendai-japan"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:tiantai-transmission-to-japan",
+      "type": "tag",
+      "node_ids": [
+        "saicho",
+        "tendai-japan"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:tradition",
+      "type": "tag",
+      "node_ids": [
+        "sanlun",
+        "tiantai"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:mount-hiei",
+      "type": "tag",
+      "node_ids": [
+        "tendai-japan"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:enryakuji",
+      "type": "tag",
+      "node_ids": [
+        "tendai-japan"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:provisional-existence",
+      "type": "tag",
+      "node_ids": [
+        "three-truths"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:middle",
+      "type": "tag",
+      "node_ids": [
+        "three-truths"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:buddha-nature-of-insentient-beings",
+      "type": "tag",
+      "node_ids": [
+        "tiantai",
+        "tiantai-china",
+        "zhanran"
+      ],
+      "size": 3
+    },
+    {
+      "id": "tag:korean_buddhism",
+      "type": "tag",
+      "node_ids": [
+        "uicheon"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:doctrinal_buddhism",
+      "type": "tag",
+      "node_ids": [
+        "uicheon"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:Korea",
+      "type": "tag",
+      "node_ids": [
+        "uicheon"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:Goryeo",
+      "type": "tag",
+      "node_ids": [
+        "uicheon"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:founder_of_korean_cheontae",
+      "type": "tag",
+      "node_ids": [
+        "uicheon"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:royal_prince",
+      "type": "tag",
+      "node_ids": [
+        "uicheon"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:scholar_monk",
+      "type": "tag",
+      "node_ids": [
+        "uicheon"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:reconciler_of_doctrinal_and_meditation_schools",
+      "type": "tag",
+      "node_ids": [
+        "uicheon"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:bibliographer",
+      "type": "tag",
+      "node_ids": [
+        "uicheon"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:tiantai_revival_figure",
+      "type": "tag",
+      "node_ids": [
+        "zhanran"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:doctrinal_systematizer",
+      "type": "tag",
+      "node_ids": [
+        "zhanran",
+        "zhiyi"
+      ],
+      "size": 2
+    },
+    {
+      "id": "tag:defender_of_tiantai",
+      "type": "tag",
+      "node_ids": [
+        "zhanran"
+      ],
+      "size": 1
+    },
+    {
+      "id": "tag:tiantai_systematizer",
+      "type": "tag",
+      "node_ids": [
+        "zhiyi"
+      ],
+      "size": 1
+    }
+  ],
+  "statistics": {
+    "node_count": 26,
+    "edge_count": 382
+  }
+}

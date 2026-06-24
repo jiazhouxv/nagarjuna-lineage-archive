@@ -1,0 +1,9 @@
+{
+  "id": "string",
+  "type": "person | work | tradition | concept",
+  "name": "string",
+  "tags": ["string"],
+  "metadata": {},
+  "embedding": [],
+  "created_at": ""
+}

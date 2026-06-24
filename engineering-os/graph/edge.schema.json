@@ -1,0 +1,8 @@
+{
+  "from": "node_id",
+  "to": "node_id",
+  "type": "teacher_of | commentary_on | belongs_to | related_to",
+  "weight": 0.0,
+  "source": "string",
+  "confidence": 0.0
+}

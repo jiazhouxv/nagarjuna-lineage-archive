@@ -14,6 +14,7 @@ This file is the human-readable Memory Index for the Nagarjuna Lineage Archive E
 ## Generated at
 - generated_at: 2026-06-24T08:30:00+08:00
 - version: engineering-os-v0.1-bootstrap
+- graph_index: `docs/00_KNOWLEDGE_GRAPH_INDEX.json`
 
 ## Memory Layers
 | id | title | paths | evidence |

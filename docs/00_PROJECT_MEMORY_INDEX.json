@@ -5,6 +5,7 @@
   "repository": "https://github.com/jiazhouxv/nagarjuna-lineage-archive.git",
   "branch": "docs/engineering-os-v01-bootstrap",
   "head_commit": "03ba6bf",
+  "graph_index": "docs/00_KNOWLEDGE_GRAPH_INDEX.json",
   "memory_layers": [
     {"id":"handoff_state","title":"Project state handoff","paths":["docs/project-state.md"],"evidence":["inferred from docs/project-state.md"]},
     {"id":"scope_policy","title":"Scope, source, full-text, and license policy","paths":["README.md","docs/project-scope.md","docs/source-policy.md","docs/full-text-policy.md","LICENSE"],"evidence":["inferred from README","inferred from docs"]},
