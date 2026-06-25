@@ -1,0 +1,3794 @@
+{
+  "nodes": [
+    {
+      "id": "bailun",
+      "type": "work",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "work",
+        "sanlun",
+        "madhyamaka",
+        "chinese_buddhism",
+        "emptiness",
+        "two-truths",
+        "middle-way",
+        "madhyamaka_treatise",
+        "sanlun_core_work",
+        "translated_treatise"
+      ]
+    },
+    {
+      "id": "cheontae-korea",
+      "type": "tradition",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "branch",
+        "cheontae",
+        "tiantai",
+        "tiantai-transmission-to-korea",
+        "doctrinal-and-meditation-integration",
+        "hwaeom",
+        "seon",
+        "buddhist-catalogue",
+        "lotus-sutra",
+        "zhiguan",
+        "three-truths"
+      ]
+    },
+    {
+      "id": "daosui",
+      "type": "person",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "China",
+        "East Asia",
+        "tiantai_teacher",
+        "transmission_figure",
+        "zhiguan",
+        "tiantai-doctrine"
+      ]
+    },
+    {
+      "id": "fahua-wenju",
+      "type": "work",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "work",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "scripture_commentary",
+        "lotus-sutra",
+        "scripture-interpretation",
+        "tiantai-doctrine",
+        "perfect-teaching",
+        "three-truths",
+        "one-thought-three-thousand",
+        "doctrinal-classification",
+        "expedient-means",
+        "lotus_sutra_commentary",
+        "tiantai_core_work",
+        "lecture_record",
+        "exegetical_text"
+      ]
+    },
+    {
+      "id": "fahua-xuanyi",
+      "type": "work",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "work",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "doctrinal_classification",
+        "lotus-sutra",
+        "five-periods-eight-teachings",
+        "doctrinal-classification",
+        "perfect-teaching",
+        "three-truths",
+        "one-thought-three-thousand",
+        "tiantai-doctrine",
+        "scripture-interpretation",
+        "doctrinal_treatise",
+        "lotus_sutra_commentary",
+        "tiantai_core_work",
+        "lecture_record",
+        "doctrinal_classification_text"
+      ]
+    },
+    {
+      "id": "guanding",
+      "type": "person",
+      "time": {
+        "start": 561,
+        "end": 632,
+        "active_range": [
+          561,
+          632
+        ]
+      },
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "meditation",
+        "China",
+        "East Asia",
+        "tiantai_lineage_figure",
+        "disciple_of_zhiyi",
+        "compiler",
+        "editor",
+        "recorder",
+        "commentator",
+        "transmission_figure",
+        "zhiguan",
+        "lotus-sutra",
+        "three-truths",
+        "one-thought-three-thousand",
+        "tiantai-lineage",
+        "textual-compilation"
+      ]
+    },
+    {
+      "id": "huisi",
+      "type": "person",
+      "time": {
+        "start": 515,
+        "end": 577,
+        "active_range": [
+          515,
+          577
+        ]
+      },
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "meditation",
+        "lotus_sutra_tradition",
+        "China",
+        "East Asia",
+        "tiantai_lineage_figure",
+        "meditation_master",
+        "teacher_of_zhiyi",
+        "doctrinal_transmission_figure",
+        "zhiguan",
+        "lotus-sutra",
+        "three-truths",
+        "repentance-practice"
+      ]
+    },
+    {
+      "id": "huiwen",
+      "type": "person",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "person",
+        "tiantai",
+        "madhyamaka",
+        "chinese_buddhism",
+        "China",
+        "East Asia",
+        "tiantai_lineage_figure",
+        "meditation_master",
+        "doctrinal_transmission_figure",
+        "lineage_ancestor_claim",
+        "three-truths",
+        "emptiness",
+        "zhiguan"
+      ]
+    },
+    {
+      "id": "jizang",
+      "type": "person",
+      "time": {
+        "start": 549,
+        "end": 623,
+        "active_range": [
+          549,
+          623
+        ]
+      },
+      "tags": [
+        "person",
+        "sanlun",
+        "chinese_buddhism",
+        "madhyamaka",
+        "China",
+        "East Asia",
+        "sanlun_systematizer",
+        "patriarch",
+        "commentator",
+        "doctrinal_exegete",
+        "teacher",
+        "emptiness",
+        "two-truths",
+        "middle-way"
+      ]
+    },
+    {
+      "id": "kumarajiva",
+      "type": "person",
+      "time": {
+        "start": 344,
+        "end": 413,
+        "active_range": [
+          344,
+          413
+        ]
+      },
+      "tags": [
+        "person",
+        "mahayana",
+        "madhyamaka",
+        "sanlun",
+        "tiantai",
+        "Kucha",
+        "China",
+        "Central Asia",
+        "East Asia",
+        "translator",
+        "monk",
+        "transmission_figure",
+        "chinese_buddhist_translation_master",
+        "emptiness",
+        "two-truths",
+        "prajnaparamita",
+        "translation"
+      ]
+    },
+    {
+      "id": "mohe-zhiguan",
+      "type": "work",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "work",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "meditation",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "perfect-teaching",
+        "contemplation",
+        "calming",
+        "tiantai-practice",
+        "meditation_manual",
+        "doctrinal_treatise",
+        "tiantai_core_work",
+        "lecture_record",
+        "practice_text"
+      ]
+    },
+    {
+      "id": "nagarjuna",
+      "type": "person",
+      "time": {
+        "start": 150,
+        "end": 250,
+        "active_range": [
+          150,
+          250
+        ]
+      },
+      "tags": [
+        "person",
+        "madhyamaka",
+        "mahayana",
+        "tiantai",
+        "sanlun",
+        "India",
+        "South Asia",
+        "philosopher",
+        "monk",
+        "madhyamaka_founder",
+        "lineage_ancestor_claim",
+        "emptiness",
+        "two-truths",
+        "dependent-origination"
+      ]
+    },
+    {
+      "id": "one-thought-three-thousand",
+      "type": "concept",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "term",
+        "tiantai",
+        "tendai",
+        "cheontae",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "three-truths",
+        "zhiguan",
+        "ten-realms",
+        "ten-suchnesses",
+        "three-realms-of-existence",
+        "perfect-teaching",
+        "lotus-sutra",
+        "tiantai-doctrine"
+      ]
+    },
+    {
+      "id": "saicho",
+      "type": "person",
+      "time": {
+        "start": 767,
+        "end": 822,
+        "active_range": [
+          767,
+          822
+        ]
+      },
+      "tags": [
+        "person",
+        "tiantai",
+        "tendai",
+        "japanese_buddhism",
+        "lotus_sutra_tradition",
+        "esoteric_buddhism",
+        "Japan",
+        "China",
+        "East Asia",
+        "founder_of_japanese_tendai",
+        "transmission_figure",
+        "monk",
+        "teacher",
+        "reformer",
+        "lineage_figure",
+        "lotus-sutra",
+        "perfect-teaching",
+        "bodhisattva-precepts",
+        "esoteric-buddhism",
+        "tiantai-transmission-to-japan"
+      ]
+    },
+    {
+      "id": "sanlun",
+      "type": "tradition",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "tradition",
+        "emptiness",
+        "madhyamaka",
+        "two-truths",
+        "middle-way"
+      ]
+    },
+    {
+      "id": "shiermenlun",
+      "type": "work",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "work",
+        "sanlun",
+        "madhyamaka",
+        "chinese_buddhism",
+        "emptiness",
+        "two-truths",
+        "middle-way",
+        "madhyamaka_treatise",
+        "sanlun_core_work",
+        "translated_treatise"
+      ]
+    },
+    {
+      "id": "tendai-japan",
+      "type": "tradition",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "branch",
+        "tendai",
+        "lotus-sutra",
+        "perfect-teaching",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "bodhisattva-precepts",
+        "esoteric-buddhism",
+        "tiantai-transmission-to-japan",
+        "mount-hiei",
+        "enryakuji"
+      ]
+    },
+    {
+      "id": "three-truths",
+      "type": "concept",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "term",
+        "tiantai",
+        "chinese_buddhism",
+        "madhyamaka",
+        "lotus_sutra_tradition",
+        "emptiness",
+        "provisional-existence",
+        "middle",
+        "zhiguan",
+        "one-thought-three-thousand",
+        "perfect-teaching",
+        "doctrinal-classification"
+      ]
+    },
+    {
+      "id": "tiantai",
+      "type": "tradition",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "tradition",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "perfect-teaching",
+        "lotus-sutra",
+        "doctrinal-classification",
+        "buddha-nature-of-insentient-beings"
+      ]
+    },
+    {
+      "id": "tiantai-china",
+      "type": "tradition",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "branch",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "perfect-teaching",
+        "doctrinal-classification",
+        "lotus-sutra",
+        "buddha-nature-of-insentient-beings",
+        "tiantai-lineage"
+      ]
+    },
+    {
+      "id": "uicheon",
+      "type": "person",
+      "time": {
+        "start": 1055,
+        "end": 1101,
+        "active_range": [
+          1055,
+          1101
+        ]
+      },
+      "tags": [
+        "person",
+        "cheontae",
+        "tiantai",
+        "korean_buddhism",
+        "hwaeom",
+        "seon",
+        "doctrinal_buddhism",
+        "Korea",
+        "Goryeo",
+        "China",
+        "East Asia",
+        "founder_of_korean_cheontae",
+        "royal_prince",
+        "monk",
+        "scholar_monk",
+        "transmission_figure",
+        "reconciler_of_doctrinal_and_meditation_schools",
+        "bibliographer",
+        "tiantai-transmission-to-korea",
+        "doctrinal-and-meditation-integration",
+        "buddhist-catalogue"
+      ]
+    },
+    {
+      "id": "xingman",
+      "type": "person",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "China",
+        "East Asia",
+        "tiantai_teacher",
+        "transmission_figure",
+        "zhiguan",
+        "tiantai-doctrine"
+      ]
+    },
+    {
+      "id": "zhanran",
+      "type": "person",
+      "time": {
+        "start": 711,
+        "end": 782,
+        "active_range": [
+          711,
+          782
+        ]
+      },
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "meditation",
+        "China",
+        "East Asia",
+        "tiantai_lineage_figure",
+        "tiantai_revival_figure",
+        "commentator",
+        "doctrinal_systematizer",
+        "transmission_figure",
+        "defender_of_tiantai",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "buddha-nature-of-insentient-beings",
+        "tiantai-lineage",
+        "doctrinal-classification"
+      ]
+    },
+    {
+      "id": "zhiguan",
+      "type": "concept",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "term",
+        "tiantai",
+        "chinese_buddhism",
+        "meditation",
+        "lotus_sutra_tradition",
+        "three-truths",
+        "one-thought-three-thousand",
+        "perfect-teaching",
+        "contemplation",
+        "calming",
+        "tiantai-practice"
+      ]
+    },
+    {
+      "id": "zhiyi",
+      "type": "person",
+      "time": {
+        "start": 538,
+        "end": 597,
+        "active_range": [
+          538,
+          597
+        ]
+      },
+      "tags": [
+        "person",
+        "tiantai",
+        "chinese_buddhism",
+        "lotus_sutra_tradition",
+        "meditation",
+        "China",
+        "East Asia",
+        "tiantai_systematizer",
+        "patriarch",
+        "meditation_master",
+        "doctrinal_systematizer",
+        "teacher",
+        "commentator",
+        "zhiguan",
+        "three-truths",
+        "one-thought-three-thousand",
+        "five-periods-eight-teachings",
+        "lotus-sutra",
+        "perfect-teaching",
+        "contemplation",
+        "doctrinal-classification"
+      ]
+    },
+    {
+      "id": "zhonglun",
+      "type": "work",
+      "time": {
+        "start": null,
+        "end": null,
+        "active_range": []
+      },
+      "tags": [
+        "work",
+        "sanlun",
+        "madhyamaka",
+        "chinese_buddhism",
+        "emptiness",
+        "two-truths",
+        "middle-way",
+        "madhyamaka_treatise",
+        "sanlun_core_work",
+        "translated_treatise"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "bailun",
+      "to": "jizang",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "jizang",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "sanlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "sanlun",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "bailun",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "bailun",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "uicheon",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "cheontae-korea",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "daosui",
+      "to": "saicho",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "daosui",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "daosui",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "daosui",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-wenju",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "fahua-xuanyi",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "guanding",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "guanding",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "guanding",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "guanding",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": -23,
+      "validity": "suspicious",
+      "confidence": 1
+    },
+    {
+      "from": "huisi",
+      "to": "huiwen",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "huisi",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "huisi",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "huisi",
+      "to": "zhiyi",
+      "relation": "transmission",
+      "time_lag": 23,
+      "validity": "plausible",
+      "confidence": 1
+    },
+    {
+      "from": "huiwen",
+      "to": "huisi",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "huiwen",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "huiwen",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "huiwen",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "huiwen",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "huiwen",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "huiwen",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "sanlun",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "jizang",
+      "to": "sanlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "jizang",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "sanlun",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "kumarajiva",
+      "to": "sanlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "kumarajiva",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "kumarajiva",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "mohe-zhiguan",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "sanlun",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "nagarjuna",
+      "to": "sanlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "nagarjuna",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "nagarjuna",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "saicho",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "uicheon",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "one-thought-three-thousand",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "daosui",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "saicho",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "xingman",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "saicho",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": -229,
+      "validity": "suspicious",
+      "confidence": 0.66
+    },
+    {
+      "from": "sanlun",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "jizang",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "jizang",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "sanlun",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "sanlun",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "shiermenlun",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "jizang",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "jizang",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "sanlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "sanlun",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "shiermenlun",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "shiermenlun",
+      "to": "zhonglun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "daosui",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "saicho",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "tendai-japan",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "tendai-japan",
+      "to": "xingman",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tendai-japan",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "huisi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "huisi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "huiwen",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "huiwen",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "three-truths",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "three-truths",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai-china",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "huisi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "huiwen",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai-china",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai-china",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai-china",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "cheontae-korea",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai",
+      "to": "daosui",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "huisi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "huisi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "huiwen",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "huiwen",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "saicho",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "saicho",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "tendai-japan",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "tiantai-china",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "tiantai",
+      "to": "uicheon",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "uicheon",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "xingman",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "tiantai",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "tiantai",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "uicheon",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "uicheon",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": -517,
+      "validity": "suspicious",
+      "confidence": 0.66
+    },
+    {
+      "from": "xingman",
+      "to": "saicho",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "xingman",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "xingman",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "xingman",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "fahua-wenju",
+      "relation": "commentary",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "zhanran",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "fahua-xuanyi",
+      "relation": "commentary",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "zhanran",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "mohe-zhiguan",
+      "relation": "commentary",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "zhanran",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "zhanran",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhanran",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": -173,
+      "validity": "suspicious",
+      "confidence": 0.66
+    },
+    {
+      "from": "zhiguan",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "daosui",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "guanding",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "huisi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "huiwen",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "saicho",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "zhiguan",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "uicheon",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "xingman",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "zhanran",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiguan",
+      "to": "zhiyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "cheontae-korea",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-wenju",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "fahua-xuanyi",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "guanding",
+      "relation": "transmission",
+      "time_lag": 23,
+      "validity": "plausible",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "huisi",
+      "relation": "influence",
+      "time_lag": -23,
+      "validity": "suspicious",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 1
+    },
+    {
+      "from": "zhiyi",
+      "to": "mohe-zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "one-thought-three-thousand",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "saicho",
+      "relation": "transmission",
+      "time_lag": 229,
+      "validity": "plausible",
+      "confidence": 0.66
+    },
+    {
+      "from": "zhiyi",
+      "to": "tendai-japan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "three-truths",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "tiantai",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "zhiyi",
+      "to": "tiantai",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "tiantai-china",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "uicheon",
+      "relation": "transmission",
+      "time_lag": 517,
+      "validity": "plausible",
+      "confidence": 0.66
+    },
+    {
+      "from": "zhiyi",
+      "to": "zhanran",
+      "relation": "transmission",
+      "time_lag": 173,
+      "validity": "plausible",
+      "confidence": 0.66
+    },
+    {
+      "from": "zhiyi",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhiyi",
+      "to": "zhiguan",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "bailun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "jizang",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "jizang",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "kumarajiva",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "nagarjuna",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "sanlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "sanlun",
+      "relation": "transmission",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.8
+    },
+    {
+      "from": "zhonglun",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "from": "zhonglun",
+      "to": "shiermenlun",
+      "relation": "influence",
+      "time_lag": null,
+      "validity": "unknown",
+      "confidence": 0.5
+    }
+  ],
+  "eras": [
+    "Indian Madhyamaka",
+    "Chinese Translation Period",
+    "Tiantai Formation",
+    "East Asian Expansion"
+  ],
+  "timeline": [
+    {
+      "year": 150,
+      "event": "Nagarjuna active",
+      "node_id": "nagarjuna"
+    },
+    {
+      "year": 344,
+      "event": "Kumarajiva active",
+      "node_id": "kumarajiva"
+    },
+    {
+      "year": 515,
+      "event": "Huisi active",
+      "node_id": "huisi"
+    },
+    {
+      "year": 538,
+      "event": "Master Zhiyi active",
+      "node_id": "zhiyi"
+    },
+    {
+      "year": 549,
+      "event": "Master Jizang active",
+      "node_id": "jizang"
+    },
+    {
+      "year": 561,
+      "event": "Master Guanding active",
+      "node_id": "guanding"
+    },
+    {
+      "year": 711,
+      "event": "Jingxi Zhanran active",
+      "node_id": "zhanran"
+    },
+    {
+      "year": 767,
+      "event": "Saicho active",
+      "node_id": "saicho"
+    },
+    {
+      "year": 1055,
+      "event": "Daegak Guksa Uicheon active",
+      "node_id": "uicheon"
+    }
+  ],
+  "statistics": {
+    "node_count": 26,
+    "edge_count": 382,
+    "known_time_nodes": 9,
+    "unknown_time_nodes": 17
+  }
+}

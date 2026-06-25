@@ -1,0 +1,21 @@
+{
+  "version": "engineering-os-v0.1-bootstrap",
+  "project": "龙树菩萨项目",
+  "generated_at": "2026-06-24T08:30:00+08:00",
+  "events": [
+    {"id":"E001","date":"2026-06-07","task_id":"T006","event_type":"data_bootstrap","summary":"Initial Tiantai relation records added.","evidence":["inferred from git log"],"commit":"d1684dc, 91be3e0, d30452f","confidence":"medium"},
+    {"id":"E002","date":"2026-06-08","task_id":"T006","event_type":"timeline_bootstrap","summary":"Tiantai overview and Chinese Tiantai timeline records added.","evidence":["inferred from git log"],"commit":"8c72bfe, 908c605","confidence":"medium"},
+    {"id":"E003","date":"2026-06-08","task_id":"T005","event_type":"tooling","summary":"Basic YAML validation script added.","evidence":["inferred from git log","inferred from tools/validate_yaml.py"],"commit":"6e4de26","confidence":"high"},
+    {"id":"E004","date":"2026-06-10","task_id":"T005","event_type":"ci","summary":"GitHub Actions YAML validation workflow added.","evidence":["inferred from git log","inferred from .github/workflows/validate-yaml.yml"],"commit":"3173797","confidence":"high"},
+    {"id":"E005","date":"2026-06-13","task_id":"T003","event_type":"policy","summary":"Full-text and license policy documentation added.","evidence":["inferred from git log","inferred from docs/full-text-policy.md","inferred from LICENSE"],"commit":"b2a318d, 87a091b, a4674f7","confidence":"high"},
+    {"id":"E006","date":"2026-06-14","task_id":"T001","event_type":"handoff","summary":"Project state documentation added.","evidence":["inferred from git log","inferred from docs/project-state.md"],"commit":"db8a3b8","confidence":"high"},
+    {"id":"E007","date":"2026-06-14","task_id":"T007","event_type":"source_stabilization","summary":"Zhiyi and core Tiantai work source references improved.","evidence":["inferred from docs/project-state.md maintenance log","inferred from git log"],"commit":"e0dd6ae, 6deb044, 0964d3a","confidence":"medium"},
+    {"id":"E008","date":"2026-06-15","task_id":"T007","event_type":"source_stabilization","summary":"Fahua Wenju and core Tiantai term sources improved.","evidence":["inferred from docs/project-state.md maintenance log","inferred from git log"],"commit":"69ed586, 72433d3, f2d3ba0","confidence":"medium"},
+    {"id":"E009","date":"2026-06-17","task_id":"T005","event_type":"validator_improvement","summary":"Source reference quality warnings added and documented.","evidence":["inferred from git log","inferred from docs/validation-guide.md"],"commit":"21b0f1d, 79f7621","confidence":"high"},
+    {"id":"E010","date":"2026-06-22","task_id":"T005","event_type":"validator_improvement","summary":"Relation target existence warnings added and documented.","evidence":["inferred from git log","inferred from docs/validation-guide.md"],"commit":"57fbff0, 992a5a0","confidence":"high"},
+    {"id":"E011","date":"2026-06-23","task_id":"T009","event_type":"planning","summary":"Sanlun scaffold planning notes added.","evidence":["inferred from git log","inferred from docs/sanlun-scaffold-notes.md"],"commit":"ff37bb0, 100acb6","confidence":"high"},
+    {"id":"E012","date":"2026-06-24","task_id":"T009","event_type":"data_bootstrap","summary":"Initial Sanlun tradition, Jizang, and three core work records added.","evidence":["inferred from git log","inferred from data files"],"commit":"a897ab4, 51d1850, 4684cc5, 8c67474, c59cc0f","confidence":"high"},
+    {"id":"E013","date":"2026-06-24","task_id":"T008","event_type":"release_preparation","summary":"v0.1.0 release notes draft and Sanlun module updates recorded.","evidence":["inferred from docs/releases/v0.1.0.md","inferred from git log"],"commit":"59feccc, 03ba6bf","confidence":"medium"},
+    {"id":"E014","date":"2026-06-24","task_id":"T010","event_type":"engineering_os_bootstrap","summary":"Engineering OS v0.1 project memory, task registry, event log, replay, and check script introduced.","evidence":["current bootstrap task"],"commit":"PENDING","confidence":"high"}
+  ]
+}

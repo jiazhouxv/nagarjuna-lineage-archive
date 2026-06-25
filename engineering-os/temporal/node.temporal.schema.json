@@ -1,0 +1,10 @@
+{
+  "id": "string",
+  "type": "person | work | tradition | concept",
+  "time": {
+    "start": "number | null",
+    "end": "number | null",
+    "active_range": ["number", "number"]
+  },
+  "tags": ["string"]
+}

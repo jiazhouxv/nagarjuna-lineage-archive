@@ -1,0 +1,8 @@
+{
+  "from": "node_id",
+  "to": "node_id",
+  "relation": "influence | commentary | transmission | reinterpretation",
+  "time_lag": "number",
+  "validity": "plausible | suspicious | unknown",
+  "confidence": 0.0
+}
