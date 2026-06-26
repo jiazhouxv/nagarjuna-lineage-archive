@@ -55,6 +55,7 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * Added Sanlun scaffold planning notes.
 * Added v0.1.0 release notes draft.
 * Added Engineering OS layer status documentation.
+* Added Sanlun source review notes.
 
 中文记录：
 
@@ -103,6 +104,7 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * 添加三论宗脚手架规划说明文件。
 * 添加 v0.1.0 发布说明草案。
 * 添加 Engineering OS 层级状态说明文档。
+* 添加三论宗来源审查说明。
 
 ---
 
