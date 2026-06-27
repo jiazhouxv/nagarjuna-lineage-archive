@@ -29,6 +29,7 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * Added initial person record for Uicheon.
 * Added minimal person record for Daosui.
 * Added minimal person record for Xingman.
+* Added minimal person record for Aryadeva.
 * Added Tiantai parent tradition record.
 * Added Chinese Tiantai branch record.
 * Added Japanese Tendai branch record.
@@ -56,6 +57,8 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * Added v0.1.0 release notes draft.
 * Added Engineering OS layer status documentation.
 * Added Sanlun source review notes.
+* Added Sanlun relation modeling notes.
+* Added Sanlun three-batch project-state addendum.
 
 中文记录：
 
@@ -78,6 +81,7 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * 添加义天人物记录。
 * 添加道邃最小人物记录。
 * 添加行满最小人物记录。
+* 添加提婆最小人物记录。
 * 添加天台宗总宗派记录。
 * 添加中国天台宗分支记录。
 * 添加日本天台宗分支记录。
@@ -105,6 +109,8 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * 添加 v0.1.0 发布说明草案。
 * 添加 Engineering OS 层级状态说明文档。
 * 添加三论宗来源审查说明。
+* 添加三论宗关系建模说明。
+* 添加三论宗三批次项目状态附录。
 
 ---
 
@@ -117,6 +123,7 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * Improved the repository from a static data archive into a locally and automatically validated structured data project.
 * Expanded Sanlun scaffold planning notes into a bilingual planning document.
 * Recorded that Engineering OS v0.5 autonomous evolution is paused until existing layers are stabilized.
+* Clarified Sanlun relation modeling boundaries for textual attribution, translation, intellectual influence, reception, and institutional lineage.
 
 中文记录：
 
@@ -127,6 +134,7 @@ All notable changes to Nagarjuna Lineage Archive will be documented in this file
 * 将仓库从静态资料库进一步提升为可本地校验、可自动校验的结构化数据项目。
 * 将三论宗脚手架说明扩展为中英文双语规划文档。
 * 记录 Engineering OS v0.5 自动演化层暂停，等待已有层级稳定后再继续。
+* 明确三论宗关系建模边界，区分文本署名、翻译、思想影响、接受史和制度性传承。
 
 ---
 
@@ -155,7 +163,7 @@ Current project status:
 * The project is in the v0.1.0 preparation phase.
 * The first active module is Tiantai.
 * Tiantai is structurally stable and continues to receive source and relation cleanup.
-* Sanlun scaffold modeling has started with one tradition record, one core person record, and three core work records.
+* Sanlun scaffold modeling has started with one tradition record, one core person record, three core work records, source review notes, and relation modeling notes.
 * Engineering OS v0.1, v0.2, and v0.3 are installed on the Engineering OS bootstrap branch.
 * Engineering OS v0.5 autonomous evolution is paused.
 * Current data focuses on early Tiantai lineage, core Tiantai works, key doctrinal terms, regional branches, timelines, relation records, and initial Sanlun structure.
@@ -170,7 +178,7 @@ Current project status:
 * 项目处于 v0.1.0 发布准备阶段。
 * 第一个重点模块是天台宗。
 * 天台宗结构已经稳定，继续进行来源与关系清理。
-* 三论宗脚手架建模已经开始，包含一个宗派记录、一个核心人物记录和三部核心典籍记录。
+* 三论宗脚手架建模已经开始，包含一个宗派记录、一个核心人物记录、三部核心典籍记录、来源审查说明和关系建模说明。
 * Engineering OS v0.1、v0.2、v0.3 已安装在 Engineering OS bootstrap 分支上。
 * Engineering OS v0.5 自动演化层已暂停。
 * 当前数据重点是早期天台宗祖师谱系、核心典籍、关键教义术语、地域分支、时间线、关系记录，以及三论宗初始结构。
