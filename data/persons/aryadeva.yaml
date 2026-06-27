@@ -1,0 +1,103 @@
+id: aryadeva
+type: person
+
+name_zh: 提婆
+display_name_zh: 提婆
+formal_name_zh: 提婆
+honorific_name_zh: ""
+common_name_zh: 提婆
+
+name_en: Aryadeva
+display_name_en: Aryadeva
+name_pinyin: Tipo
+name_sanskrit: Aryadeva
+
+alternative_names:
+  - 提婆
+  - 提婆菩萨
+  - 提婆菩薩
+  - Aryadeva
+  - Āryadeva
+  - Deva
+
+name_usage_note_zh: "本资料库以 aryadeva 作为稳定 ID。当前最小记录主要用于支持《百论》记录中 attributed_author: aryadeva 的关系目标。"
+name_usage_note_en: "This archive uses aryadeva as the stable ID. This minimal record primarily supports the attributed_author: aryadeva target already used in the Bailun work record."
+
+dates:
+  birth: ""
+  death: ""
+  note: "Dates are not asserted in this minimal record. Future updates should verify biographical chronology through reliable sources."
+
+regions:
+  - India
+  - South Asia
+
+traditions:
+  - madhyamaka
+  - sanlun
+
+roles:
+  - attributed_author
+  - madhyamaka_figure
+
+related_works:
+  - bailun
+
+related_terms:
+  - madhyamaka
+  - emptiness
+  - middle-way
+
+lineage_claims:
+  - tradition: sanlun
+    claim_zh: "《百论》记录中将提婆作为传统署名作者。"
+    claim_en: "The Bailun work record uses Aryadeva as the attributed author."
+    confidence: medium
+    note_zh: "此处仅记录本仓库《百论》元数据中的署名关系，不扩展为未经核实的制度宗派传承判断。"
+    note_en: "This records the attribution relation already present in this repository's Bailun metadata, not an unverified institutional lineage claim."
+    source_refs:
+      - cbeta-bailun
+      - sat-bailun
+
+summary_zh: "提婆，梵名 Aryadeva，是本资料库三论宗模块中与《百论》署名关系相关的中观人物。本最小记录用于补齐《百论》 attributed_author 字段中的 aryadeva 关系目标，并保持来源状态为 partial，等待后续以学术来源和佛典目录继续核对。"
+
+summary_en: "Aryadeva is recorded here as a minimal Madhyamaka-related person node connected to the Bailun attribution in the Sanlun module. This record exists to provide a stable target for the aryadeva identifier already used by the Bailun attributed_author field, while keeping the source status partial pending further academic and canonical verification."
+
+bibliography:
+  - title_zh: "百论"
+    title_en: "Bailun"
+    author_zh: "提婆造；鸠摩罗什译"
+    author_en: "Attributed to Aryadeva; translated by Kumarajiva"
+    publisher: "Taisho Tripitaka / CBETA reference record"
+    year: ""
+    language: "Classical Chinese"
+    type: primary_source_metadata
+    isbn: ""
+    note_zh: "本条仅记录《百论》相关元数据，不复制全文。"
+    note_en: "This entry records Bailun-related metadata only and does not copy full text."
+
+source_refs:
+  - name: "CBETA Online - Bailun"
+    url: "https://cbetaonline.dila.edu.tw/zh/T1569"
+    identifier: "T30n1569"
+    access_date: "2026-06-27"
+    license_note: "External Buddhist canon reference. Full text not redistributed in this repository unless license compatibility is verified."
+    reliability_note: "Primary canon metadata reference for the Bailun attribution context."
+
+  - name: "SAT Daizokyo Text Database - Bailun"
+    url: "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1569.html"
+    identifier: "T1569"
+    access_date: "2026-06-27"
+    license_note: "External Buddhist canon reference. Full text not redistributed."
+    reliability_note: "Major Buddhist canon database; useful for independent cross-checking of Taisho identifiers."
+
+status:
+  record_status: draft
+  source_status: partial
+  review_status: needs_review
+
+notes:
+  - "This is a minimal person record added to support the existing Bailun attributed_author relation target."
+  - "No specific dates are asserted in this record."
+  - "Future updates should add stronger academic references for Aryadeva's biography and role in Madhyamaka transmission."
+  - "No restricted full text is redistributed in this record."
