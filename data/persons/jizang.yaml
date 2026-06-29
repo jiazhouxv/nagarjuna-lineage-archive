@@ -25,7 +25,7 @@ name_usage_note_en: "Jizang is a central figure in the Chinese Sanlun tradition,
 dates:
   birth: 549 CE
   death: 623 CE
-  note: "Dates are commonly given as 549-623 CE, but should be verified against additional academic sources."
+  note: "Dates are commonly given as 549-623 CE. This record keeps the dates in draft status and links them to reference-level verification rather than treating them as fully reviewed data."
 
 regions:
   - China
@@ -59,11 +59,14 @@ lineage_claims:
     claim_zh: "吉藏常被视为中国三论宗的重要集大成者。"
     claim_en: "Jizang is commonly regarded as a major systematizer of the Chinese Sanlun tradition."
     confidence: high
-    note_zh: "此处记录为三论宗传统与学术研究中常见定位，具体传承和著作归属仍需后续来源核对。"
-    note_en: "This records a common Sanlun and scholarly characterization. Specific lineage and authorship details should be checked with further sources."
+    note_zh: "此处记录为三论宗传统与学术研究中常见定位，不扩展为未经核实的制度性师承判断。具体传承、著作归属和年代细节仍需后续人工审查。"
+    note_en: "This records a common Sanlun and scholarly characterization and does not expand it into an unverified institutional lineage claim. Specific lineage, authorship, and chronology details still require further human review."
     source_refs:
       - ddb-jizang
       - princeton-jizang
+      - cheng-empty-logic
+      - routledge-jizang-entry
+      - ducor-isler-sanlun-xuanyi
 
 summary_zh: "吉藏，又称嘉祥大师，是中国三论宗传统中的核心人物之一。他以阐释中观、二谛、空义以及三论核心论书而闻名，常被视为中国三论宗的重要集大成者。本资料库将吉藏记录为三论宗模块的核心人物，并与《中论》《十二门论》《百论》以及中观、空、二谛等术语建立关联。"
 
@@ -94,20 +97,96 @@ bibliography:
     note_zh: "外部佛教辞典来源；不复制条目正文。"
     note_en: "External Buddhist dictionary reference; entry text is not copied."
 
+  - title_zh: ""
+    title_en: "Empty Logic: Madhyamika Buddhism from Chinese Sources"
+    author_zh: ""
+    author_en: "Hsueh-Li Cheng"
+    publisher: "Philosophical Library; later reprints also circulate"
+    year: "1984"
+    language: "English"
+    type: academic_monograph
+    isbn: ""
+    note_zh: "用于后续核对吉藏与中国中观、三论思想、空义和二谛讨论的学术语境。"
+    note_en: "Useful for checking Jizang's place in Chinese Madhyamaka, Sanlun thought, emptiness, and two-truths discussions."
+
+  - title_zh: ""
+    title_en: "Jizang"
+    author_zh: ""
+    author_en: "Hsueh-Li Cheng"
+    publisher: "In Antonio S. Cua, ed., Encyclopedia of Chinese Philosophy; Routledge"
+    year: "2003"
+    language: "English"
+    type: encyclopedia_entry
+    isbn: ""
+    note_zh: "吉藏专门条目，可用于后续核对人物定位、名称和思想摘要。"
+    note_en: "Dedicated Jizang entry; useful for checking person-level positioning, names, and concise doctrinal context."
+
+  - title_zh: "三論玄義"
+    title_en: "Jizang: Le Sens des arcanes des Trois Traités (Sanlun xuanyi / Sanron gengi)"
+    author_zh: ""
+    author_en: "Jizang; translated and studied by Jérôme Ducor and Henry W. Isler"
+    publisher: "Librairie Droz"
+    year: "2022"
+    language: "French; Classical Chinese source context"
+    type: critical_translation_and_study
+    isbn: "9782600063838"
+    note_zh: "《三论玄义》的现代学术译注与研究，可作为后续核对吉藏三论思想和著作语境的重要参考。"
+    note_en: "Modern scholarly translation and study of Sanlun xuanyi; useful for checking Jizang's Sanlun thought and textual context."
+
+  - title_zh: ""
+    title_en: "A Source Book in Chinese Philosophy"
+    author_zh: ""
+    author_en: "Wing-tsit Chan"
+    publisher: "Princeton University Press"
+    year: "1963"
+    language: "English"
+    type: sourcebook
+    isbn: ""
+    note_zh: "可作为后续核对英文世界中吉藏、二谛与三论相关节选接受史的辅助来源。"
+    note_en: "Auxiliary source for checking English-language reception of Jizang, two-truths materials, and Sanlun-related excerpts."
+
 source_refs:
   - name: "Digital Dictionary of Buddhism"
     url: "https://www.buddhism-dict.net/ddb/"
     identifier: "ddb-jizang"
-    access_date: "2026-06-24"
+    access_date: "2026-06-29"
     license_note: "External dictionary reference. Access may be limited by DDB terms; no copied entry text redistributed."
     reliability_note: "Specialist-edited Buddhist reference dictionary; entry details should be checked directly by contributors with access."
 
   - name: "Princeton Dictionary of Buddhism"
     url: "https://press.princeton.edu/books/hardcover/9780691157863/the-princeton-dictionary-of-buddhism"
     identifier: "princeton-jizang"
-    access_date: "2026-06-24"
+    access_date: "2026-06-29"
     license_note: "External bibliographic reference. No copied dictionary text redistributed."
     reliability_note: "Standard academic reference work for Buddhist studies; use for controlled terminology and basic biographical verification."
+
+  - name: "Hsueh-Li Cheng - Empty Logic"
+    url: ""
+    identifier: "cheng-empty-logic"
+    access_date: "2026-06-29"
+    license_note: "Bibliographic metadata only. No monograph text redistributed."
+    reliability_note: "Academic monograph frequently cited for Chinese Madhyamaka and Sanlun-related interpretation."
+
+  - name: "Hsueh-Li Cheng - Jizang entry in Encyclopedia of Chinese Philosophy"
+    url: ""
+    identifier: "routledge-jizang-entry"
+    access_date: "2026-06-29"
+    license_note: "Bibliographic metadata only. No encyclopedia text redistributed."
+    reliability_note: "Dedicated reference entry for Jizang; useful for person-level verification."
+
+  - name: "Librairie Droz - Jizang, Le Sens des arcanes des Trois Traités"
+    url: "https://www.droz.org/suisse/product/9782600063838"
+    identifier: "ducor-isler-sanlun-xuanyi"
+    access_date: "2026-06-29"
+    license_note: "External publisher record and bibliographic metadata only. No book text redistributed."
+    reliability_note: "Modern scholarly translation and study of Sanlun xuanyi; useful for Jizang's textual and doctrinal context."
+
+  - name: "Wing-tsit Chan - A Source Book in Chinese Philosophy"
+    url: ""
+    identifier: "chan-sourcebook-jizang"
+    access_date: "2026-06-29"
+    license_note: "Bibliographic metadata only. No sourcebook text redistributed."
+    reliability_note: "Widely used academic sourcebook; useful as an auxiliary English-language reference for Chinese philosophical and Buddhist materials."
 
 status:
   record_status: draft
@@ -116,5 +195,7 @@ status:
 
 notes:
   - "Jizang is a core person record for the Sanlun module."
-  - "Future updates should add more precise academic and canonical references for Jizang's works and historical context."
-  - "No modern copyrighted dictionary text is redistributed in this record."
+  - "Source coverage was strengthened with additional bibliography and source reference identifiers on 2026-06-29."
+  - "This update preserves draft, partial, and needs_review status pending human review."
+  - "Future updates should verify work lists and institutional lineage details before expanding relation records."
+  - "No modern copyrighted dictionary, encyclopedia, monograph, or translation text is redistributed in this record."
