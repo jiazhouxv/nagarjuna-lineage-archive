@@ -60,8 +60,8 @@ canonical_info:
   sat_id: T1569
   volume_info_zh: 大正藏第 30 册
   volume_info_en: Taisho Tripitaka, Volume 30
-  note_zh: "藏经编号和卷册信息已记录为 T1569 / T30n1569，后续仍应继续以 CBETA、SAT 或其他权威佛典目录核对细节。"
-  note_en: "Canon identifiers are recorded as T1569 / T30n1569. Details should continue to be checked against CBETA, SAT, or other authoritative Buddhist canon catalogues."
+  note_zh: "藏经编号和卷册信息已记录为 T1569 / T30n1569。本记录以 CBETA 与 SAT 作为外部藏经元数据交叉核对入口，不在仓库中复制全文。"
+  note_en: "Canon identifiers are recorded as T1569 / T30n1569. This record uses CBETA and SAT as external canonical metadata cross-check points and does not copy the full text into the repository."
 
 approximate_date:
   period_zh: 后秦译出
@@ -78,28 +78,40 @@ bibliography:
     title_en: "Bailun"
     author_zh: "提婆造；鸠摩罗什译"
     author_en: "Attributed to Aryadeva; translated by Kumarajiva"
-    publisher: "Taisho Tripitaka / CBETA reference record"
+    publisher: "CBETA Online"
     year: ""
     language: "Classical Chinese"
-    type: primary_source
+    type: digital_canonical_reference
     isbn: ""
-    note_zh: "本条为原典元数据记录，全文是否收录需根据来源授权另行判断。"
-    note_en: "Primary source metadata record. Full-text inclusion depends on source license review."
+    note_zh: "CBETA 外部藏经参考入口；本仓库仅记录元数据、链接和原创摘要，不复制全文。"
+    note_en: "External CBETA canonical reference; this repository records metadata, links, and original summaries only and does not copy the full text."
+
+  - title_zh: "百论"
+    title_en: "Bailun"
+    author_zh: "提婆造；鸠摩罗什译"
+    author_en: "Attributed to Aryadeva; translated by Kumarajiva"
+    publisher: "SAT Daizokyo Text Database"
+    year: ""
+    language: "Classical Chinese"
+    type: digital_canonical_reference
+    isbn: ""
+    note_zh: "SAT 外部藏经参考入口，用于与 CBETA 共同核对大正藏编号和文本元数据；不复制全文。"
+    note_en: "External SAT canonical reference for cross-checking Taisho identifiers and textual metadata alongside CBETA; no full text is copied."
 
 source_refs:
   - name: "CBETA Online"
     url: "https://cbetaonline.dila.edu.tw/zh/T1569"
     identifier: "T30n1569"
-    access_date: "2026-06-24"
-    license_note: "External Buddhist canon reference. Full text not redistributed in this repository unless license compatibility is verified."
-    reliability_note: "Major Buddhist canon database; useful for canon identifier and textual metadata verification."
+    access_date: "2026-07-02"
+    license_note: "External Buddhist canon reference. Full text is not redistributed in this repository unless license compatibility is separately verified."
+    reliability_note: "Major Buddhist canon database; useful for canon identifier, title, translator, and textual metadata verification."
 
   - name: "SAT Daizokyo Text Database"
     url: "https://21dzk.l.u-tokyo.ac.jp/SAT2018/T1569.html"
     identifier: "T1569"
-    access_date: "2026-06-24"
-    license_note: "External Buddhist canon reference. Full text not redistributed."
-    reliability_note: "Major Buddhist canon database; useful for independent cross-checking of Taisho identifiers."
+    access_date: "2026-07-02"
+    license_note: "External Buddhist canon reference. Full text is not redistributed in this repository."
+    reliability_note: "Major Buddhist canon database; useful for independent cross-checking of Taisho identifiers and canonical metadata."
 
 full_text_policy:
   included: false
@@ -114,4 +126,6 @@ status:
 
 notes:
   - "Bailun is a core work record for the Sanlun module."
-  - "Future updates should verify canon identifiers, attribution, translation history, and title variants using CBETA, SAT, and academic references."
+  - "Source references were stabilized on 2026-07-02 by separating CBETA and SAT bibliography entries and refreshing canonical source metadata."
+  - "Future updates should verify attribution to Aryadeva, translation history, title variants, and Sanlun reception using academic references before changing review_status."
+  - "No full text from CBETA, SAT, or other restricted sources is redistributed in this record."
