@@ -99,6 +99,54 @@ bibliography:
     note_zh: "SAT 外部藏经参考入口，用于与 CBETA 共同核对大正藏编号和文本元数据；不复制全文。"
     note_en: "External SAT canonical reference for cross-checking Taisho identifiers and textual metadata alongside CBETA; no full text is copied."
 
+  - title_zh: ""
+    title_en: "The Fundamental Wisdom of the Middle Way: Nāgārjuna's Mūlamadhyamakakārikā"
+    author_zh: ""
+    author_en: "Jay L. Garfield"
+    publisher: "Oxford University Press"
+    year: "1995"
+    language: "English"
+    type: critical_translation_and_study
+    isbn: "9780195093360"
+    note_zh: "现代英文译注与哲学研究指针；用于辅助理解《中论》对应的 Mūlamadhyamakakārikā 研究语境，不作为汉译本细节的唯一依据。"
+    note_en: "Modern English translation and philosophical study pointer; useful for the Mūlamadhyamakakārikā research context corresponding to Zhonglun, but not used as the sole authority for Chinese translation details."
+
+  - title_zh: ""
+    title_en: "Nāgārjuna's Middle Way: Mūlamadhyamakakārikā"
+    author_zh: ""
+    author_en: "Mark Siderits; Shōryū Katsura"
+    publisher: "Wisdom Publications"
+    year: "2013"
+    language: "English"
+    type: critical_translation_and_study
+    isbn: "9781614290506"
+    note_zh: "现代英文译注与研究指针；可用于核对 Mūlamadhyamakakārikā 的题名、结构与印度中观研究语境，不直接替代汉译《中论》藏经元数据。"
+    note_en: "Modern English translation and study pointer; useful for title, structure, and Indian Madhyamaka context of the Mūlamadhyamakakārikā, but not a replacement for canonical metadata on the Chinese Zhonglun."
+
+  - title_zh: ""
+    title_en: "Mūlamadhyamakakārikā of Nāgārjuna: The Philosophy of the Middle Way"
+    author_zh: ""
+    author_en: "David J. Kalupahana"
+    publisher: "State University of New York Press"
+    year: "1986"
+    language: "English"
+    type: critical_translation_and_study
+    isbn: ""
+    note_zh: "现代英文研究指针；用于补充龙树中观哲学和 Mūlamadhyamakakārikā 解释史语境，仍需后续人工核对版本与书目信息。"
+    note_en: "Modern English study pointer for Nāgārjuna's Madhyamaka philosophy and Mūlamadhyamakakārikā interpretation history; edition and bibliographic details still require later human verification."
+
+  - title_zh: ""
+    title_en: "The Literature of the Madhyamaka School of Philosophy in India"
+    author_zh: ""
+    author_en: "David Seyfort Ruegg"
+    publisher: "Otto Harrassowitz"
+    year: "1981"
+    language: "English"
+    type: academic_monograph
+    isbn: ""
+    note_zh: "印度中观文献史研究指针；用于提供更广的 Madhyamaka 文献背景，不直接证明汉译《中论》的所有文本细节。"
+    note_en: "Academic monograph pointer for the broader literature of Indian Madhyamaka; useful as context and not as direct proof for all Chinese Zhonglun textual details."
+
 source_refs:
   - name: "CBETA Online"
     url: "https://cbetaonline.dila.edu.tw/zh/T1564"
@@ -114,6 +162,34 @@ source_refs:
     license_note: "External Buddhist canon reference. Full text is not redistributed in this repository."
     reliability_note: "Major Buddhist canon database; useful for independent cross-checking of Taisho identifiers and canonical metadata."
 
+  - name: "Oxford University Press - The Fundamental Wisdom of the Middle Way"
+    url: "https://global.oup.com/academic/product/the-fundamental-wisdom-of-the-middle-way-9780195093360"
+    identifier: "garfield-fundamental-wisdom-1995"
+    access_date: "2026-07-05"
+    license_note: "Publisher/bibliographic reference only. No book text redistributed."
+    reliability_note: "Publisher record and widely cited modern study/translation pointer for the Mūlamadhyamakakārikā."
+
+  - name: "Wisdom Publications - Nāgārjuna's Middle Way"
+    url: "https://wisdomexperience.org/product/nagarjunas-middle-way/"
+    identifier: "siderits-katsura-middle-way-2013"
+    access_date: "2026-07-05"
+    license_note: "Publisher/bibliographic reference only. No book text redistributed."
+    reliability_note: "Publisher record and modern study/translation pointer for the Mūlamadhyamakakārikā."
+
+  - name: "David J. Kalupahana - Mūlamadhyamakakārikā of Nāgārjuna"
+    url: ""
+    identifier: "kalupahana-mulamadhyamakakarika-1986"
+    access_date: "2026-07-05"
+    license_note: "Bibliographic metadata only. No book text redistributed."
+    reliability_note: "Academic study pointer; edition details should be verified against a library catalogue or publisher record in a later cleanup."
+
+  - name: "David Seyfort Ruegg - The Literature of the Madhyamaka School of Philosophy in India"
+    url: ""
+    identifier: "ruegg-madhyamaka-literature-1981"
+    access_date: "2026-07-05"
+    license_note: "Bibliographic metadata only. No book text redistributed."
+    reliability_note: "Academic monograph pointer for Indian Madhyamaka literature; edition details should be verified against a library catalogue or publisher record in a later cleanup."
+
 full_text_policy:
   included: false
   reason_zh: "当前仅记录元数据、来源链接、藏经编号和原创摘要，不在仓库中再分发全文。"
@@ -128,5 +204,7 @@ status:
 notes:
   - "Zhonglun is a core work record for the Sanlun module."
   - "Source references were stabilized on 2026-07-02 by separating CBETA and SAT bibliography entries and refreshing canonical source metadata."
-  - "Future updates should verify attribution, translation history, title variants, and Sanlun reception using academic references before changing review_status."
-  - "No full text from CBETA, SAT, or other restricted sources is redistributed in this record."
+  - "Secondary academic bibliography pointers were added on 2026-07-05 for Mūlamadhyamakakārikā and broader Madhyamaka study context."
+  - "Secondary bibliography pointers do not by themselves settle Chinese translation date, Sanskrit-Chinese equivalence, or Sanlun reception details."
+  - "Future updates should verify attribution, translation history, title variants, and Sanlun reception using more targeted academic references before changing review_status."
+  - "No full text from CBETA, SAT, publishers, monographs, translations, or other restricted sources is redistributed in this record."
