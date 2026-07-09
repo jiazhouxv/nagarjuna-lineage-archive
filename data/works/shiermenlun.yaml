@@ -98,6 +98,42 @@ bibliography:
     note_zh: "SAT 外部藏经参考入口，用于与 CBETA 共同核对大正藏编号和文本元数据；不复制全文。"
     note_en: "External SAT canonical reference for cross-checking Taisho identifiers and textual metadata alongside CBETA; no full text is copied."
 
+  - title_zh: ""
+    title_en: "Early Mādhyamika in India and China"
+    author_zh: ""
+    author_en: "Richard H. Robinson"
+    publisher: "University of Wisconsin Press"
+    year: "1967"
+    language: "English"
+    type: academic_monograph
+    isbn: ""
+    note_zh: "早期印度与中国中观研究指针；可用于补充《十二门论》在早期汉传中观与三论语境中的研究背景，仍需后续人工核对具体页码和论证范围。"
+    note_en: "Academic monograph pointer for early Madhyamaka in India and China; useful for broader Shiermenlun, early Chinese Madhyamaka, and Sanlun context, with page-level claims left for later human review."
+
+  - title_zh: ""
+    title_en: "Empty Logic: Madhyamika Buddhism from Chinese Sources"
+    author_zh: ""
+    author_en: "Hsueh-Li Cheng"
+    publisher: "Philosophical Library; later reprints also circulate"
+    year: "1984"
+    language: "English"
+    type: academic_monograph
+    isbn: ""
+    note_zh: "中国中观与三论思想研究指针；用于辅助核对《十二门论》相关的汉传中观语境，不直接替代藏经目录元数据。"
+    note_en: "Academic pointer for Chinese Madhyamaka and Sanlun thought; useful for contextualizing Shiermenlun in Chinese sources and not a replacement for canonical metadata."
+
+  - title_zh: "三論玄義"
+    title_en: "Jizang: Le Sens des arcanes des Trois Traités (Sanlun xuanyi / Sanron gengi)"
+    author_zh: ""
+    author_en: "Jizang; translated and studied by Jérôme Ducor and Henry W. Isler"
+    publisher: "Librairie Droz"
+    year: "2022"
+    language: "French; Classical Chinese source context"
+    type: critical_translation_and_study
+    isbn: "9782600063838"
+    note_zh: "吉藏《三论玄义》的现代译注与研究指针；可用于理解《十二门论》在三论组合和吉藏解释语境中的位置，不直接证明具体译出年代。"
+    note_en: "Modern scholarly translation and study pointer for Jizang's Sanlun xuanyi; useful for the Three Treatises grouping and Jizang reception context, not direct proof for exact translation chronology."
+
 source_refs:
   - name: "CBETA Online"
     url: "https://cbetaonline.dila.edu.tw/zh/T1568"
@@ -113,6 +149,27 @@ source_refs:
     license_note: "External Buddhist canon reference. Full text is not redistributed in this repository."
     reliability_note: "Major Buddhist canon database; useful for independent cross-checking of Taisho identifiers and canonical metadata."
 
+  - name: "Richard H. Robinson - Early Mādhyamika in India and China"
+    url: ""
+    identifier: "robinson-early-madhyamika-1967"
+    access_date: "2026-07-08"
+    license_note: "Bibliographic metadata only. No monograph text redistributed."
+    reliability_note: "Academic monograph pointer for early Indian and Chinese Madhyamaka; specific page evidence should be verified in a later review."
+
+  - name: "Hsueh-Li Cheng - Empty Logic"
+    url: ""
+    identifier: "cheng-empty-logic-1984"
+    access_date: "2026-07-08"
+    license_note: "Bibliographic metadata only. No monograph text redistributed."
+    reliability_note: "Academic monograph pointer for Chinese Madhyamaka and Sanlun-related interpretation."
+
+  - name: "Librairie Droz - Jizang, Le Sens des arcanes des Trois Traités"
+    url: "https://www.droz.org/suisse/product/9782600063838"
+    identifier: "ducor-isler-sanlun-xuanyi-2022"
+    access_date: "2026-07-08"
+    license_note: "External publisher record and bibliographic metadata only. No book text redistributed."
+    reliability_note: "Modern scholarly translation and study of Sanlun xuanyi; useful for Jizang's Three Treatises context."
+
 full_text_policy:
   included: false
   reason_zh: "当前仅记录元数据、来源链接、藏经编号和原创摘要，不在仓库中再分发全文。"
@@ -127,5 +184,7 @@ status:
 notes:
   - "Shiermenlun is a core work record for the Sanlun module."
   - "Source references were stabilized on 2026-07-02 by separating CBETA and SAT bibliography entries and refreshing canonical source metadata."
-  - "Future updates should verify attribution, translation history, title variants, and Sanlun reception using academic references before changing review_status."
-  - "No full text from CBETA, SAT, or other restricted sources is redistributed in this record."
+  - "Secondary academic bibliography pointers were added on 2026-07-08 for early Chinese Madhyamaka, Sanlun, and Jizang Three Treatises context."
+  - "Secondary bibliography pointers do not by themselves settle authorship, exact translation date, Sanskrit-Chinese equivalence, or Sanlun reception details."
+  - "Future updates should verify attribution, translation history, title variants, and Sanlun reception using page-level academic references before changing review_status."
+  - "No full text from CBETA, SAT, publishers, monographs, translations, or other restricted sources is redistributed in this record."
