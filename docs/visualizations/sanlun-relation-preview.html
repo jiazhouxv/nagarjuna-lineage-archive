@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sanlun Relation Preview / 三论关系预览</title>
+  <style>
+    :root {
+      --bg: #f8f5ee;
+      --panel: #fffdf8;
+      --ink: #27231d;
+      --muted: #70695f;
+      --line: #d9cdb8;
+      --accent: #8b5e2b;
+      --person: #3f6f8f;
+      --work: #8a5a83;
+      --tradition: #6f7f3f;
+      --concept: #a46a3f;
+      --danger: #9a3f36;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.5;
+    }
+
+    .page {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    header {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(24px, 3vw, 36px);
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin: 0;
+      max-width: 860px;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .badge {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .badge.warning {
+      border-color: rgba(154, 63, 54, 0.35);
+      color: var(--danger);
+      background: #fff7f5;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: 0 14px 32px rgba(60, 42, 20, 0.08);
+      overflow: hidden;
+    }
+
+    .canvas-card {
+      min-height: 620px;
+      position: relative;
+    }
+
+    svg {
+      width: 100%;
+      height: 620px;
+      display: block;
+    }
+
+    .side {
+      display: grid;
+      gap: 16px;
+    }
+
+    .panel {
+      padding: 16px;
+    }
+
+    .panel h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+
+    .panel p {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .legend {
+      display: grid;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .detail {
+      border-top: 1px solid var(--line);
+      padding-top: 12px;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+
+    .detail dl {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 6px 10px;
+      margin: 0;
+    }
+
+    .detail dt {
+      color: var(--muted);
+    }
+
+    .detail dd {
+      margin: 0;
+    }
+
+    .notice {
+      border-left: 4px solid var(--danger);
+      padding: 12px;
+      background: #fff8f5;
+      color: #5e2d29;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .node circle {
+      stroke: #fffdf8;
+      stroke-width: 3;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.18));
+      cursor: pointer;
+    }
+
+    .node text {
+      font-size: 13px;
+      fill: var(--ink);
+      text-anchor: middle;
+      dominant-baseline: middle;
+      pointer-events: none;
+      font-weight: 650;
+    }
+
+    .edge {
+      stroke: rgba(92, 72, 48, 0.38);
+      stroke-width: 2;
+      fill: none;
+      cursor: pointer;
+    }
+
+    .edge-label {
+      font-size: 11px;
+      fill: var(--muted);
+      text-anchor: middle;
+      pointer-events: none;
+      paint-order: stroke;
+      stroke: var(--panel);
+      stroke-width: 5px;
+      stroke-linejoin: round;
+    }
+
+    .selected circle {
+      stroke: var(--accent);
+      stroke-width: 5;
+    }
+
+    .selected-edge {
+      stroke: var(--accent);
+      stroke-width: 4;
+    }
+
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .canvas-card,
+      svg {
+        min-height: 560px;
+        height: 560px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>三论关系 HTML5 预览</h1>
+      <p class="subtitle">Sanlun relation preview. This page is a dependency-free HTML5 scaffold for visualization planning only. It is not a canonical relation record and does not promote any claim to reviewed status.</p>
+      <div class="badge-row">
+        <span class="badge warning">sample_only</span>
+        <span class="badge">no CDN</span>
+        <span class="badge">no external JS</span>
+        <span class="badge">canonical data excluded</span>
+      </div>
+    </header>
+
+    <section class="layout">
+      <div class="card canvas-card">
+        <svg id="graph" role="img" aria-label="Sanlun relation preview graph"></svg>
+      </div>
+
+      <aside class="side">
+        <section class="card panel">
+          <h2>图例</h2>
+          <p>节点和边仅用于预览交互与数据结构。</p>
+          <div class="legend">
+            <div class="legend-item"><span class="dot" style="background: var(--person)"></span>Person / 人物</div>
+            <div class="legend-item"><span class="dot" style="background: var(--work)"></span>Work / 典籍</div>
+            <div class="legend-item"><span class="dot" style="background: var(--tradition)"></span>Tradition / 宗派</div>
+            <div class="legend-item"><span class="dot" style="background: var(--concept)"></span>Concept / 概念</div>
+          </div>
+          <div id="detail" class="detail">
+            <p>点击节点或关系线查看详情。</p>
+          </div>
+        </section>
+
+        <section class="card panel">
+          <h2>安全边界</h2>
+          <div class="notice">
+            本页不复制 CBETA / SAT / DDB / 出版物正文，不自动生成新关系，不把 sample edge 当作 reviewed relation。
+          </div>
+        </section>
+      </aside>
+    </section>
+
+    <footer>
+      Preview status: visualization_sample_only. Replace inline sample data with generated reviewed JSON only after relation review gates pass.
+    </footer>
+  </main>
+
+  <script>
+    const graphData = {
+      metadata: {
+        title: "Sanlun Relation Preview",
+        version: "preview",
+        canonical: false,
+        status: "sample_only"
+      },
+      nodes: [
+        { id: "nagarjuna", label: "龙树\nNagarjuna", type: "person", status: "needs_review", x: 150, y: 130 },
+        { id: "aryadeva", label: "提婆\nAryadeva", type: "person", status: "needs_review", x: 150, y: 320 },
+        { id: "kumarajiva", label: "鸠摩罗什\nKumarajiva", type: "person", status: "needs_review", x: 395, y: 500 },
+        { id: "jizang", label: "吉藏\nJizang", type: "person", status: "needs_review", x: 650, y: 500 },
+        { id: "zhonglun", label: "中论\nZhonglun", type: "work", status: "needs_review", x: 395, y: 130 },
+        { id: "shiermenlun", label: "十二门论\nShiermenlun", type: "work", status: "needs_review", x: 395, y: 320 },
+        { id: "bailun", label: "百论\nBailun", type: "work", status: "needs_review", x: 650, y: 320 },
+        { id: "sanlun", label: "三论宗\nSanlun", type: "tradition", status: "needs_review", x: 820, y: 220 },
+        { id: "emptiness", label: "空\nEmptiness", type: "concept", status: "needs_review", x: 820, y: 410 }
+      ],
+      edges: [
+        { id: "e1", source: "nagarjuna", target: "zhonglun", label: "attributed author", relationType: "attributed_author_of", claimStrength: "traditional_attribution", reviewStatus: "sample_only" },
+        { id: "e2", source: "nagarjuna", target: "shiermenlun", label: "attributed author", relationType: "attributed_author_of", claimStrength: "traditional_attribution", reviewStatus: "sample_only" },
+        { id: "e3", source: "aryadeva", target: "bailun", label: "attributed author", relationType: "attributed_author_of", claimStrength: "traditional_attribution", reviewStatus: "sample_only" },
+        { id: "e4", source: "kumarajiva", target: "zhonglun", label: "translator", relationType: "translator_of", claimStrength: "canonical_metadata", reviewStatus: "sample_only" },
+        { id: "e5", source: "kumarajiva", target: "shiermenlun", label: "translator", relationType: "translator_of", claimStrength: "canonical_metadata", reviewStatus: "sample_only" },
+        { id: "e6", source: "kumarajiva", target: "bailun", label: "translator", relationType: "translator_of", claimStrength: "canonical_metadata", reviewStatus: "sample_only" },
+        { id: "e7", source: "zhonglun", target: "sanlun", label: "core work", relationType: "sanlun_core_work", claimStrength: "academic_context", reviewStatus: "sample_only" },
+        { id: "e8", source: "shiermenlun", target: "sanlun", label: "core work", relationType: "sanlun_core_work", claimStrength: "academic_context", reviewStatus: "sample_only" },
+        { id: "e9", source: "bailun", target: "sanlun", label: "core work", relationType: "sanlun_core_work", claimStrength: "academic_context", reviewStatus: "sample_only" },
+        { id: "e10", source: "jizang", target: "sanlun", label: "interpreter context", relationType: "influential_interpreter_of", claimStrength: "interpretive_context", reviewStatus: "sample_only" },
+        { id: "e11", source: "sanlun", target: "emptiness", label: "doctrinal context", relationType: "tradition_context", claimStrength: "academic_context", reviewStatus: "sample_only" }
+      ]
+    };
+
+    const colors = {
+      person: getComputedStyle(document.documentElement).getPropertyValue("--person").trim(),
+      work: getComputedStyle(document.documentElement).getPropertyValue("--work").trim(),
+      tradition: getComputedStyle(document.documentElement).getPropertyValue("--tradition").trim(),
+      concept: getComputedStyle(document.documentElement).getPropertyValue("--concept").trim()
+    };
+
+    const svg = document.getElementById("graph");
+    const detail = document.getElementById("detail");
+    const nodeById = new Map(graphData.nodes.map(node => [node.id, node]));
+
+    function clearSelection() {
+      svg.querySelectorAll(".selected").forEach(el => el.classList.remove("selected"));
+      svg.querySelectorAll(".selected-edge").forEach(el => el.classList.remove("selected-edge"));
+    }
+
+    function setDetail(title, rows) {
+      detail.innerHTML = `<h2>${title}</h2><dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>`;
+    }
+
+    function linePoint(source, target, ratio) {
+      return {
+        x: source.x + (target.x - source.x) * ratio,
+        y: source.y + (target.y - source.y) * ratio
+      };
+    }
+
+    function draw() {
+      svg.setAttribute("viewBox", "0 0 960 620");
+      svg.innerHTML = "";
+
+      const edgeGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      const labelGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      const nodeGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+
+      graphData.edges.forEach(edge => {
+        const source = nodeById.get(edge.source);
+        const target = nodeById.get(edge.target);
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        const mid = linePoint(source, target, 0.5);
+        const dx = target.x - source.x;
+        const dy = target.y - source.y;
+        const curve = Math.min(70, Math.max(-70, dx * 0.12));
+        const d = `M ${source.x} ${source.y} Q ${mid.x} ${mid.y - curve} ${target.x} ${target.y}`;
+        path.setAttribute("d", d);
+        path.setAttribute("class", "edge");
+        path.dataset.id = edge.id;
+        path.addEventListener("click", () => {
+          clearSelection();
+          path.classList.add("selected-edge");
+          setDetail("Relation / 关系", [
+            ["ID", edge.id],
+            ["Source", edge.source],
+            ["Target", edge.target],
+            ["Label", edge.label],
+            ["Type", edge.relationType],
+            ["Strength", edge.claimStrength],
+            ["Review", edge.reviewStatus]
+          ]);
+        });
+        edgeGroup.appendChild(path);
+
+        const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        label.setAttribute("x", mid.x);
+        label.setAttribute("y", mid.y - curve - 8);
+        label.setAttribute("class", "edge-label");
+        label.textContent = edge.label;
+        labelGroup.appendChild(label);
+      });
+
+      graphData.nodes.forEach(node => {
+        const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        g.setAttribute("class", "node");
+        g.dataset.id = node.id;
+
+        const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+        circle.setAttribute("cx", node.x);
+        circle.setAttribute("cy", node.y);
+        circle.setAttribute("r", node.type === "tradition" ? 58 : 50);
+        circle.setAttribute("fill", colors[node.type] || colors.concept);
+
+        const lines = node.label.split("\n");
+        lines.forEach((line, index) => {
+          const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+          text.setAttribute("x", node.x);
+          text.setAttribute("y", node.y + (index - (lines.length - 1) / 2) * 18);
+          text.textContent = line;
+          text.setAttribute("fill", "#fffdf8");
+          g.appendChild(text);
+        });
+
+        g.insertBefore(circle, g.firstChild);
+        g.addEventListener("click", () => {
+          clearSelection();
+          g.classList.add("selected");
+          setDetail("Node / 节点", [
+            ["ID", node.id],
+            ["Label", node.label.replace("\n", " / ")],
+            ["Type", node.type],
+            ["Status", node.status],
+            ["Canonical", "false in this preview"]
+          ]);
+        });
+        nodeGroup.appendChild(g);
+      });
+
+      svg.appendChild(edgeGroup);
+      svg.appendChild(labelGroup);
+      svg.appendChild(nodeGroup);
+    }
+
+    draw();
+  </script>
+</body>
+</html>
