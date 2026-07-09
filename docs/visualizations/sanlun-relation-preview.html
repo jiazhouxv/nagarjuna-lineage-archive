@@ -3,433 +3,112 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sanlun Relation Preview / 三论关系预览</title>
+  <title>Sanlun Relation Preview</title>
   <style>
-    :root {
-      --bg: #f8f5ee;
-      --panel: #fffdf8;
-      --ink: #27231d;
-      --muted: #70695f;
-      --line: #d9cdb8;
-      --accent: #8b5e2b;
-      --person: #3f6f8f;
-      --work: #8a5a83;
-      --tradition: #6f7f3f;
-      --concept: #a46a3f;
-      --danger: #9a3f36;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--ink);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif;
-      line-height: 1.5;
-    }
-
-    .page {
-      max-width: 1180px;
-      margin: 0 auto;
-      padding: 24px;
-    }
-
-    header {
-      display: grid;
-      gap: 8px;
-      margin-bottom: 18px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(24px, 3vw, 36px);
-      letter-spacing: -0.02em;
-    }
-
-    .subtitle {
-      color: var(--muted);
-      margin: 0;
-      max-width: 860px;
-    }
-
-    .badge-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 8px;
-    }
-
-    .badge {
-      border: 1px solid var(--line);
-      background: var(--panel);
-      border-radius: 999px;
-      padding: 6px 10px;
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .badge.warning {
-      border-color: rgba(154, 63, 54, 0.35);
-      color: var(--danger);
-      background: #fff7f5;
-    }
-
-    .layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 320px;
-      gap: 16px;
-      align-items: stretch;
-    }
-
-    .card {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      box-shadow: 0 14px 32px rgba(60, 42, 20, 0.08);
-      overflow: hidden;
-    }
-
-    .canvas-card {
-      min-height: 620px;
-      position: relative;
-    }
-
-    svg {
-      width: 100%;
-      height: 620px;
-      display: block;
-    }
-
-    .side {
-      display: grid;
-      gap: 16px;
-    }
-
-    .panel {
-      padding: 16px;
-    }
-
-    .panel h2 {
-      margin: 0 0 8px;
-      font-size: 18px;
-    }
-
-    .panel p {
-      margin: 0 0 10px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .legend {
-      display: grid;
-      gap: 8px;
-      margin-top: 10px;
-    }
-
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 14px;
-    }
-
-    .dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      display: inline-block;
-    }
-
-    .detail {
-      border-top: 1px solid var(--line);
-      padding-top: 12px;
-      margin-top: 12px;
-      font-size: 14px;
-    }
-
-    .detail dl {
-      display: grid;
-      grid-template-columns: 110px 1fr;
-      gap: 6px 10px;
-      margin: 0;
-    }
-
-    .detail dt {
-      color: var(--muted);
-    }
-
-    .detail dd {
-      margin: 0;
-    }
-
-    .notice {
-      border-left: 4px solid var(--danger);
-      padding: 12px;
-      background: #fff8f5;
-      color: #5e2d29;
-      border-radius: 10px;
-      font-size: 14px;
-    }
-
-    .node circle {
-      stroke: #fffdf8;
-      stroke-width: 3;
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.18));
-      cursor: pointer;
-    }
-
-    .node text {
-      font-size: 13px;
-      fill: var(--ink);
-      text-anchor: middle;
-      dominant-baseline: middle;
-      pointer-events: none;
-      font-weight: 650;
-    }
-
-    .edge {
-      stroke: rgba(92, 72, 48, 0.38);
-      stroke-width: 2;
-      fill: none;
-      cursor: pointer;
-    }
-
-    .edge-label {
-      font-size: 11px;
-      fill: var(--muted);
-      text-anchor: middle;
-      pointer-events: none;
-      paint-order: stroke;
-      stroke: var(--panel);
-      stroke-width: 5px;
-      stroke-linejoin: round;
-    }
-
-    .selected circle {
-      stroke: var(--accent);
-      stroke-width: 5;
-    }
-
-    .selected-edge {
-      stroke: var(--accent);
-      stroke-width: 4;
-    }
-
-    footer {
-      margin-top: 18px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    @media (max-width: 900px) {
-      .layout {
-        grid-template-columns: 1fr;
-      }
-
-      .canvas-card,
-      svg {
-        min-height: 560px;
-        height: 560px;
-      }
-    }
+    :root{--bg:#f8f5ee;--panel:#fffdf8;--ink:#27231d;--muted:#70695f;--line:#d9cdb8;--accent:#8b5e2b;--person:#3f6f8f;--work:#8a5a83;--tradition:#6f7f3f;--concept:#a46a3f;--danger:#9a3f36;--ok:#2f6f55}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","Noto Sans JP","Noto Sans KR","Microsoft YaHei",sans-serif;line-height:1.55}.page{max-width:1200px;margin:0 auto;padding:24px}header{display:grid;gap:12px;margin-bottom:18px}.topbar{display:flex;gap:12px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap}h1{margin:0;font-size:clamp(25px,3vw,38px);letter-spacing:-.02em}.subtitle{color:var(--muted);margin:0;max-width:880px}.lang-switch{display:flex;gap:6px;flex-wrap:wrap}.lang-switch button{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:7px 11px;cursor:pointer;color:var(--ink)}.lang-switch button.active{background:var(--accent);color:#fffdf8;border-color:var(--accent)}.badge-row{display:flex;flex-wrap:wrap;gap:8px}.badge{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 10px;font-size:13px;color:var(--muted)}.badge.warning{border-color:rgba(154,63,54,.35);color:var(--danger);background:#fff7f5}.badge.ok{border-color:rgba(47,111,85,.3);color:var(--ok);background:#f3fbf6}.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;box-shadow:0 14px 32px rgba(60,42,20,.08);overflow:hidden}.panel{padding:16px}.panel h2{margin:0 0 8px;font-size:19px}.panel p{margin:0 0 10px;color:var(--muted);font-size:14px}.feature-list{margin:10px 0 0;padding-left:18px;color:var(--muted);font-size:14px}.layout{display:grid;grid-template-columns:minmax(0,1fr)330px;gap:16px;align-items:stretch}.canvas-card{min-height:620px;position:relative}svg{width:100%;height:620px;display:block}.side{display:grid;gap:16px;align-content:start}.legend{display:grid;gap:8px;margin-top:10px}.legend-item{display:flex;align-items:center;gap:8px;font-size:14px}.dot{width:12px;height:12px;border-radius:50%;display:inline-block}.detail{border-top:1px solid var(--line);padding-top:12px;margin-top:12px;font-size:14px}.detail dl{display:grid;grid-template-columns:112px 1fr;gap:6px 10px;margin:0}.detail dt{color:var(--muted)}.detail dd{margin:0}.notice{border-left:4px solid var(--danger);padding:12px;background:#fff8f5;color:#5e2d29;border-radius:10px;font-size:14px}.node circle{stroke:#fffdf8;stroke-width:3;filter:drop-shadow(0 4px 8px rgba(0,0,0,.18));cursor:pointer}.node text{font-size:13px;fill:#fffdf8;text-anchor:middle;dominant-baseline:middle;pointer-events:none;font-weight:650}.edge{stroke:rgba(92,72,48,.38);stroke-width:2;fill:none;cursor:pointer}.edge-label{font-size:11px;fill:var(--muted);text-anchor:middle;pointer-events:none;paint-order:stroke;stroke:var(--panel);stroke-width:5px;stroke-linejoin:round}.selected circle{stroke:var(--accent);stroke-width:5}.selected-edge{stroke:var(--accent);stroke-width:4}footer{margin-top:18px;color:var(--muted);font-size:13px}@media(max-width:920px){.layout,.info-grid{grid-template-columns:1fr}.canvas-card,svg{min-height:560px;height:560px}}
   </style>
 </head>
 <body>
   <main class="page">
     <header>
-      <h1>三论关系 HTML5 预览</h1>
-      <p class="subtitle">Sanlun relation preview. This page is a dependency-free HTML5 scaffold for visualization planning only. It is not a canonical relation record and does not promote any claim to reviewed status.</p>
+      <div class="topbar">
+        <div>
+          <h1 data-i18n="title">三论关系 HTML5 预览</h1>
+          <p class="subtitle" data-i18n="subtitle">Nagarjuna Lineage Archive 的三论关系可视化预览。当前页面仅用于演示交互与数据结构，不是正式关系记录。</p>
+        </div>
+        <nav class="lang-switch" aria-label="Language switcher">
+          <button data-lang="zh">中文</button><button data-lang="ja">日本語</button><button data-lang="ko">한국어</button><button data-lang="en">English</button>
+        </nav>
+      </div>
       <div class="badge-row">
-        <span class="badge warning">sample_only</span>
-        <span class="badge">no CDN</span>
-        <span class="badge">no external JS</span>
-        <span class="badge">canonical data excluded</span>
+        <span class="badge warning" data-i18n="badgeSample">sample_only</span>
+        <span class="badge ok" data-i18n="badgeStatic">静态 HTML5</span>
+        <span class="badge" data-i18n="badgeNoCdn">无 CDN</span>
+        <span class="badge" data-i18n="badgeNoExternalJs">无外部 JS</span>
+        <span class="badge" id="localeBadge">locale: auto</span>
       </div>
     </header>
 
-    <section class="layout">
-      <div class="card canvas-card">
-        <svg id="graph" role="img" aria-label="Sanlun relation preview graph"></svg>
-      </div>
+    <section class="info-grid" aria-label="Project introduction and feature preview">
+      <article class="card panel">
+        <h2 data-i18n="projectTitle">项目说明</h2>
+        <p data-i18n="projectBody">本项目以 metadata-first、source-linked、machine-readable 为原则，整理龙树及三论相关人物、典籍、术语和关系线索。仓库不复制受限制全文，只记录元数据、来源链接、原创摘要和待审关系。</p>
+      </article>
+      <article class="card panel">
+        <h2 data-i18n="featureTitle">功能预览</h2>
+        <p data-i18n="featureBody">此页面展示未来关系图功能的最小原型：语言切换、节点详情、关系详情、图例、安全边界说明，以及后续由已审查 JSON 数据驱动的可能路径。</p>
+        <ul class="feature-list">
+          <li data-i18n="feature1">点击节点查看人物、典籍、宗派或概念信息。</li>
+          <li data-i18n="feature2">点击关系线查看关系类型、证据强度和审查状态。</li>
+          <li data-i18n="feature3">支持 URL、手动、部署层 IP locale、浏览器语言四级语言选择。</li>
+        </ul>
+      </article>
+    </section>
 
+    <section class="layout">
+      <div class="card canvas-card"><svg id="graph" role="img" aria-label="Sanlun relation preview graph"></svg></div>
       <aside class="side">
         <section class="card panel">
-          <h2>图例</h2>
-          <p>节点和边仅用于预览交互与数据结构。</p>
+          <h2 data-i18n="legendTitle">图例</h2>
+          <p data-i18n="legendBody">节点和边仅用于预览交互与数据结构。</p>
           <div class="legend">
-            <div class="legend-item"><span class="dot" style="background: var(--person)"></span>Person / 人物</div>
-            <div class="legend-item"><span class="dot" style="background: var(--work)"></span>Work / 典籍</div>
-            <div class="legend-item"><span class="dot" style="background: var(--tradition)"></span>Tradition / 宗派</div>
-            <div class="legend-item"><span class="dot" style="background: var(--concept)"></span>Concept / 概念</div>
+            <div class="legend-item"><span class="dot" style="background:var(--person)"></span><span data-i18n="legendPerson">Person / 人物</span></div>
+            <div class="legend-item"><span class="dot" style="background:var(--work)"></span><span data-i18n="legendWork">Work / 典籍</span></div>
+            <div class="legend-item"><span class="dot" style="background:var(--tradition)"></span><span data-i18n="legendTradition">Tradition / 宗派</span></div>
+            <div class="legend-item"><span class="dot" style="background:var(--concept)"></span><span data-i18n="legendConcept">Concept / 概念</span></div>
           </div>
-          <div id="detail" class="detail">
-            <p>点击节点或关系线查看详情。</p>
-          </div>
+          <div id="detail" class="detail"><p data-i18n="detailEmpty">点击节点或关系线查看详情。</p></div>
         </section>
-
         <section class="card panel">
-          <h2>安全边界</h2>
-          <div class="notice">
-            本页不复制 CBETA / SAT / DDB / 出版物正文，不自动生成新关系，不把 sample edge 当作 reviewed relation。
-          </div>
+          <h2 data-i18n="safetyTitle">安全边界</h2>
+          <div class="notice" data-i18n="safetyBody">本页不复制 CBETA / SAT / DDB / 出版物正文，不自动生成新关系，不把 sample edge 当作 reviewed relation。</div>
         </section>
       </aside>
     </section>
-
-    <footer>
-      Preview status: visualization_sample_only. Replace inline sample data with generated reviewed JSON only after relation review gates pass.
-    </footer>
+    <footer data-i18n="footerText">Preview status: visualization_sample_only. Replace inline sample data with generated reviewed JSON only after relation review gates pass.</footer>
   </main>
 
   <script>
-    const graphData = {
-      metadata: {
-        title: "Sanlun Relation Preview",
-        version: "preview",
-        canonical: false,
-        status: "sample_only"
-      },
-      nodes: [
-        { id: "nagarjuna", label: "龙树\nNagarjuna", type: "person", status: "needs_review", x: 150, y: 130 },
-        { id: "aryadeva", label: "提婆\nAryadeva", type: "person", status: "needs_review", x: 150, y: 320 },
-        { id: "kumarajiva", label: "鸠摩罗什\nKumarajiva", type: "person", status: "needs_review", x: 395, y: 500 },
-        { id: "jizang", label: "吉藏\nJizang", type: "person", status: "needs_review", x: 650, y: 500 },
-        { id: "zhonglun", label: "中论\nZhonglun", type: "work", status: "needs_review", x: 395, y: 130 },
-        { id: "shiermenlun", label: "十二门论\nShiermenlun", type: "work", status: "needs_review", x: 395, y: 320 },
-        { id: "bailun", label: "百论\nBailun", type: "work", status: "needs_review", x: 650, y: 320 },
-        { id: "sanlun", label: "三论宗\nSanlun", type: "tradition", status: "needs_review", x: 820, y: 220 },
-        { id: "emptiness", label: "空\nEmptiness", type: "concept", status: "needs_review", x: 820, y: 410 }
-      ],
-      edges: [
-        { id: "e1", source: "nagarjuna", target: "zhonglun", label: "attributed author", relationType: "attributed_author_of", claimStrength: "traditional_attribution", reviewStatus: "sample_only" },
-        { id: "e2", source: "nagarjuna", target: "shiermenlun", label: "attributed author", relationType: "attributed_author_of", claimStrength: "traditional_attribution", reviewStatus: "sample_only" },
-        { id: "e3", source: "aryadeva", target: "bailun", label: "attributed author", relationType: "attributed_author_of", claimStrength: "traditional_attribution", reviewStatus: "sample_only" },
-        { id: "e4", source: "kumarajiva", target: "zhonglun", label: "translator", relationType: "translator_of", claimStrength: "canonical_metadata", reviewStatus: "sample_only" },
-        { id: "e5", source: "kumarajiva", target: "shiermenlun", label: "translator", relationType: "translator_of", claimStrength: "canonical_metadata", reviewStatus: "sample_only" },
-        { id: "e6", source: "kumarajiva", target: "bailun", label: "translator", relationType: "translator_of", claimStrength: "canonical_metadata", reviewStatus: "sample_only" },
-        { id: "e7", source: "zhonglun", target: "sanlun", label: "core work", relationType: "sanlun_core_work", claimStrength: "academic_context", reviewStatus: "sample_only" },
-        { id: "e8", source: "shiermenlun", target: "sanlun", label: "core work", relationType: "sanlun_core_work", claimStrength: "academic_context", reviewStatus: "sample_only" },
-        { id: "e9", source: "bailun", target: "sanlun", label: "core work", relationType: "sanlun_core_work", claimStrength: "academic_context", reviewStatus: "sample_only" },
-        { id: "e10", source: "jizang", target: "sanlun", label: "interpreter context", relationType: "influential_interpreter_of", claimStrength: "interpretive_context", reviewStatus: "sample_only" },
-        { id: "e11", source: "sanlun", target: "emptiness", label: "doctrinal context", relationType: "tradition_context", claimStrength: "academic_context", reviewStatus: "sample_only" }
-      ]
+    // Optional deployment-layer hook for IP-based locale.
+    // Example: window.__NLA_IP_LOCALE__ = "ja"; injected by Cloudflare Worker, Nginx, Vercel Edge, etc.
+    window.__NLA_IP_LOCALE__ = window.__NLA_IP_LOCALE__ || "";
+
+    const I18N = {
+      zh: {htmlLang:"zh-Hans",title:"三论关系 HTML5 预览",subtitle:"Nagarjuna Lineage Archive 的三论关系可视化预览。当前页面仅用于演示交互与数据结构，不是正式关系记录。",badgeSample:"sample_only",badgeStatic:"静态 HTML5",badgeNoCdn:"无 CDN",badgeNoExternalJs:"无外部 JS",projectTitle:"项目说明",projectBody:"本项目以 metadata-first、source-linked、machine-readable 为原则，整理龙树及三论相关人物、典籍、术语和关系线索。仓库不复制受限制全文，只记录元数据、来源链接、原创摘要和待审关系。",featureTitle:"功能预览",featureBody:"此页面展示未来关系图功能的最小原型：语言切换、节点详情、关系详情、图例、安全边界说明，以及后续由已审查 JSON 数据驱动的可能路径。",feature1:"点击节点查看人物、典籍、宗派或概念信息。",feature2:"点击关系线查看关系类型、证据强度和审查状态。",feature3:"支持 URL、手动、部署层 IP locale、浏览器语言四级语言选择。",legendTitle:"图例",legendBody:"节点和边仅用于预览交互与数据结构。",legendPerson:"Person / 人物",legendWork:"Work / 典籍",legendTradition:"Tradition / 宗派",legendConcept:"Concept / 概念",detailEmpty:"点击节点或关系线查看详情。",safetyTitle:"安全边界",safetyBody:"本页不复制 CBETA / SAT / DDB / 出版物正文，不自动生成新关系，不把 sample edge 当作 reviewed relation。",footerText:"预览状态：visualization_sample_only。只有在关系审查门槛通过后，才能用已审查 JSON 替换内联 sample 数据。",nodeTitle:"节点",edgeTitle:"关系",id:"ID",label:"标签",type:"类型",status:"状态",source:"来源",target:"目标",strength:"证据强度",review:"审查",canonical:"正式数据",canonicalFalse:"本预览中为 false",locale:"语言",nodes:{nagarjuna:"龙树\nNagarjuna",aryadeva:"提婆\nAryadeva",kumarajiva:"鸠摩罗什\nKumārajīva",jizang:"吉藏\nJizang",zhonglun:"中论\nZhonglun",shiermenlun:"十二门论\nShiermenlun",bailun:"百论\nBailun",sanlun:"三论宗\nSanlun",emptiness:"空\nEmptiness"},edges:{attributed:"署名作者",translator:"译者",core:"核心典籍",interpreter:"解释语境",doctrine:"教义语境"}},
+      ja: {htmlLang:"ja",title:"三論関係 HTML5 プレビュー",subtitle:"Nagarjuna Lineage Archive における三論関係の可視化プレビューです。このページは相互作用とデータ構造の確認用であり、正式な関係記録ではありません。",badgeSample:"sample_only",badgeStatic:"静的 HTML5",badgeNoCdn:"CDN なし",badgeNoExternalJs:"外部 JS なし",projectTitle:"プロジェクト説明",projectBody:"本プロジェクトは metadata-first、source-linked、machine-readable を原則とし、龍樹および三論に関する人物・典籍・術語・関係手がかりを整理します。制限付き全文は複製せず、メタデータ、出典リンク、独自要約、未審査の関係のみを記録します。",featureTitle:"機能プレビュー",featureBody:"このページは将来の関係図機能の最小プロトタイプです。言語切替、ノード詳細、関係詳細、凡例、安全境界、および審査済み JSON による駆動経路を示します。",feature1:"ノードをクリックして人物・典籍・宗派・概念の情報を表示します。",feature2:"関係線をクリックして関係タイプ、証拠強度、審査状態を表示します。",feature3:"URL、手動、デプロイ層 IP locale、ブラウザ言語による四段階の言語選択に対応します。",legendTitle:"凡例",legendBody:"ノードとエッジは相互作用とデータ構造のプレビュー専用です。",legendPerson:"Person / 人物",legendWork:"Work / 典籍",legendTradition:"Tradition / 伝統",legendConcept:"Concept / 概念",detailEmpty:"ノードまたは関係線をクリックして詳細を表示します。",safetyTitle:"安全境界",safetyBody:"このページは CBETA / SAT / DDB / 出版物本文を複製せず、新しい関係を自動生成せず、sample edge を reviewed relation として扱いません。",footerText:"Preview status: visualization_sample_only. 関係審査ゲート通過後にのみ、内蔵 sample data を審査済み JSON に置き換えます。",nodeTitle:"ノード",edgeTitle:"関係",id:"ID",label:"ラベル",type:"種別",status:"状態",source:"始点",target:"終点",strength:"証拠強度",review:"審査",canonical:"正式データ",canonicalFalse:"このプレビューでは false",locale:"言語",nodes:{nagarjuna:"龍樹\nNagarjuna",aryadeva:"提婆\nĀryadeva",kumarajiva:"鳩摩羅什\nKumārajīva",jizang:"吉蔵\nJizang",zhonglun:"中論\nZhonglun",shiermenlun:"十二門論\nShiermenlun",bailun:"百論\nBailun",sanlun:"三論宗\nSanlun",emptiness:"空\nEmptiness"},edges:{attributed:"伝統的著者帰属",translator:"訳者",core:"中核典籍",interpreter:"解釈文脈",doctrine:"教義文脈"}},
+      ko: {htmlLang:"ko",title:"삼론 관계 HTML5 미리보기",subtitle:"Nagarjuna Lineage Archive의 삼론 관계 시각화 미리보기입니다. 이 페이지는 상호작용과 데이터 구조를 확인하기 위한 것이며 공식 관계 기록이 아닙니다.",badgeSample:"sample_only",badgeStatic:"정적 HTML5",badgeNoCdn:"CDN 없음",badgeNoExternalJs:"외부 JS 없음",projectTitle:"프로젝트 설명",projectBody:"본 프로젝트는 metadata-first, source-linked, machine-readable 원칙에 따라 용수와 삼론 관련 인물, 문헌, 용어, 관계 단서를 정리합니다. 제한된 전문은 복사하지 않고 메타데이터, 출처 링크, 원문 요약, 검토 대기 관계만 기록합니다.",featureTitle:"기능 미리보기",featureBody:"이 페이지는 향후 관계도 기능의 최소 프로토타입입니다. 언어 전환, 노드 상세, 관계 상세, 범례, 안전 경계, 검토된 JSON 기반 경로를 보여줍니다.",feature1:"노드를 클릭하여 인물, 문헌, 전통 또는 개념 정보를 봅니다.",feature2:"관계선을 클릭하여 관계 유형, 증거 강도, 검토 상태를 봅니다.",feature3:"URL, 수동 선택, 배포 계층 IP locale, 브라우저 언어의 네 단계 언어 선택을 지원합니다.",legendTitle:"범례",legendBody:"노드와 엣지는 상호작용과 데이터 구조 미리보기에만 사용됩니다.",legendPerson:"Person / 인물",legendWork:"Work / 문헌",legendTradition:"Tradition / 전통",legendConcept:"Concept / 개념",detailEmpty:"노드 또는 관계선을 클릭하여 상세 정보를 봅니다.",safetyTitle:"안전 경계",safetyBody:"이 페이지는 CBETA / SAT / DDB / 출판물 본문을 복사하지 않고, 새 관계를 자동 생성하지 않으며, sample edge를 reviewed relation으로 취급하지 않습니다.",footerText:"Preview status: visualization_sample_only. 관계 검토 기준 통과 후에만 내장 sample data를 검토된 JSON으로 대체합니다.",nodeTitle:"노드",edgeTitle:"관계",id:"ID",label:"라벨",type:"유형",status:"상태",source:"출발",target:"도착",strength:"증거 강도",review:"검토",canonical:"공식 데이터",canonicalFalse:"이 미리보기에서는 false",locale:"언어",nodes:{nagarjuna:"용수\nNagarjuna",aryadeva:"제바\nĀryadeva",kumarajiva:"구마라집\nKumārajīva",jizang:"길장\nJizang",zhonglun:"중론\nZhonglun",shiermenlun:"십이문론\nShiermenlun",bailun:"백론\nBailun",sanlun:"삼론종\nSanlun",emptiness:"공\nEmptiness"},edges:{attributed:"전통적 저자 귀속",translator:"역자",core:"핵심 문헌",interpreter:"해석 맥락",doctrine:"교의 맥락"}},
+      en: {htmlLang:"en",title:"Sanlun relation HTML5 preview",subtitle:"A relation-visualization preview for the Nagarjuna Lineage Archive. This page demonstrates interaction and data structure only; it is not a canonical relation record.",badgeSample:"sample_only",badgeStatic:"Static HTML5",badgeNoCdn:"No CDN",badgeNoExternalJs:"No external JS",projectTitle:"About this project",projectBody:"This project follows metadata-first, source-linked, and machine-readable principles to organize persons, works, concepts, and relation clues around Nagarjuna and the Sanlun tradition. It does not copy restricted full text; it records metadata, source links, original summaries, and relations awaiting review.",featureTitle:"Feature preview",featureBody:"This page previews the minimum future relation-graph experience: language switching, node details, relation details, legend, safety boundaries, and a path toward reviewed JSON-driven visualization.",feature1:"Click a node to view person, work, tradition, or concept information.",feature2:"Click an edge to view relation type, claim strength, and review status.",feature3:"Language selection supports URL, manual override, deployment-layer IP locale, and browser-language fallback.",legendTitle:"Legend",legendBody:"Nodes and edges are used only to preview interaction and data structure.",legendPerson:"Person",legendWork:"Work",legendTradition:"Tradition",legendConcept:"Concept",detailEmpty:"Click a node or edge to view details.",safetyTitle:"Safety boundary",safetyBody:"This page does not copy CBETA / SAT / DDB / publisher text, does not auto-generate new relations, and does not treat sample edges as reviewed relations.",footerText:"Preview status: visualization_sample_only. Replace inline sample data with generated reviewed JSON only after relation review gates pass.",nodeTitle:"Node",edgeTitle:"Relation",id:"ID",label:"Label",type:"Type",status:"Status",source:"Source",target:"Target",strength:"Claim strength",review:"Review",canonical:"Canonical",canonicalFalse:"false in this preview",locale:"Locale",nodes:{nagarjuna:"Nagarjuna\nNāgārjuna",aryadeva:"Aryadeva\nĀryadeva",kumarajiva:"Kumarajiva\nKumārajīva",jizang:"Jizang",zhonglun:"Zhonglun\nMiddle Treatise",shiermenlun:"Shiermenlun\nTwelve Gate Treatise",bailun:"Bailun\nHundred Treatise",sanlun:"Sanlun\nThree Treatise tradition",emptiness:"Emptiness\nŚūnyatā"},edges:{attributed:"attributed author",translator:"translator",core:"core work",interpreter:"interpreter context",doctrine:"doctrinal context"}}
     };
 
-    const colors = {
-      person: getComputedStyle(document.documentElement).getPropertyValue("--person").trim(),
-      work: getComputedStyle(document.documentElement).getPropertyValue("--work").trim(),
-      tradition: getComputedStyle(document.documentElement).getPropertyValue("--tradition").trim(),
-      concept: getComputedStyle(document.documentElement).getPropertyValue("--concept").trim()
+    const langAliases = {"zh-cn":"zh","zh-sg":"zh","zh-hans":"zh","zh":"zh","ja":"ja","ja-jp":"ja","ko":"ko","ko-kr":"ko","en":"en","en-us":"en","en-gb":"en"};
+    const countryToLang = {CN:"zh",SG:"zh",MY:"zh",JP:"ja",KR:"ko",US:"en",GB:"en",AU:"en",CA:"en"};
+
+    function normalizeLang(value){if(!value)return"";const key=String(value).trim().toLowerCase().replace("_","-");return langAliases[key]||langAliases[key.split("-")[0]]||"";}
+    function resolveLanguage(){const params=new URLSearchParams(location.search);const fromUrl=normalizeLang(params.get("lang"));if(fromUrl)return {lang:fromUrl,source:"url"};const saved=normalizeLang(localStorage.getItem("nla_lang"));if(saved)return {lang:saved,source:"manual"};const injected=window.__NLA_IP_LOCALE__;const fromInjected=normalizeLang(injected)||countryToLang[String(injected||"").toUpperCase()]||"";if(fromInjected)return {lang:fromInjected,source:"ip-hook"};const browser=normalizeLang(navigator.language||(navigator.languages&&navigator.languages[0]));if(browser)return {lang:browser,source:"browser"};return {lang:"en",source:"default"};}
+
+    const graphBase = {
+      nodes:["nagarjuna","aryadeva","kumarajiva","jizang","zhonglun","shiermenlun","bailun","sanlun","emptiness"],
+      positions:{nagarjuna:[150,130],aryadeva:[150,320],kumarajiva:[395,500],jizang:[650,500],zhonglun:[395,130],shiermenlun:[395,320],bailun:[650,320],sanlun:[820,220],emptiness:[820,410]},
+      types:{nagarjuna:"person",aryadeva:"person",kumarajiva:"person",jizang:"person",zhonglun:"work",shiermenlun:"work",bailun:"work",sanlun:"tradition",emptiness:"concept"},
+      edges:[
+        ["e1","nagarjuna","zhonglun","attributed","attributed_author_of","traditional_attribution"],["e2","nagarjuna","shiermenlun","attributed","attributed_author_of","traditional_attribution"],["e3","aryadeva","bailun","attributed","attributed_author_of","traditional_attribution"],["e4","kumarajiva","zhonglun","translator","translator_of","canonical_metadata"],["e5","kumarajiva","shiermenlun","translator","translator_of","canonical_metadata"],["e6","kumarajiva","bailun","translator","translator_of","canonical_metadata"],["e7","zhonglun","sanlun","core","sanlun_core_work","academic_context"],["e8","shiermenlun","sanlun","core","sanlun_core_work","academic_context"],["e9","bailun","sanlun","core","sanlun_core_work","academic_context"],["e10","jizang","sanlun","interpreter","influential_interpreter_of","interpretive_context"],["e11","sanlun","emptiness","doctrine","tradition_context","academic_context"]]
     };
 
-    const svg = document.getElementById("graph");
-    const detail = document.getElementById("detail");
-    const nodeById = new Map(graphData.nodes.map(node => [node.id, node]));
+    const colors={person:getComputedStyle(document.documentElement).getPropertyValue("--person").trim(),work:getComputedStyle(document.documentElement).getPropertyValue("--work").trim(),tradition:getComputedStyle(document.documentElement).getPropertyValue("--tradition").trim(),concept:getComputedStyle(document.documentElement).getPropertyValue("--concept").trim()};
+    const svg=document.getElementById("graph");const detail=document.getElementById("detail");let currentLang=resolveLanguage().lang;let currentSource=resolveLanguage().source;
 
-    function clearSelection() {
-      svg.querySelectorAll(".selected").forEach(el => el.classList.remove("selected"));
-      svg.querySelectorAll(".selected-edge").forEach(el => el.classList.remove("selected-edge"));
-    }
-
-    function setDetail(title, rows) {
-      detail.innerHTML = `<h2>${title}</h2><dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>`;
-    }
-
-    function linePoint(source, target, ratio) {
-      return {
-        x: source.x + (target.x - source.x) * ratio,
-        y: source.y + (target.y - source.y) * ratio
-      };
-    }
-
-    function draw() {
-      svg.setAttribute("viewBox", "0 0 960 620");
-      svg.innerHTML = "";
-
-      const edgeGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-      const labelGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-      const nodeGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
-
-      graphData.edges.forEach(edge => {
-        const source = nodeById.get(edge.source);
-        const target = nodeById.get(edge.target);
-        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-        const mid = linePoint(source, target, 0.5);
-        const dx = target.x - source.x;
-        const dy = target.y - source.y;
-        const curve = Math.min(70, Math.max(-70, dx * 0.12));
-        const d = `M ${source.x} ${source.y} Q ${mid.x} ${mid.y - curve} ${target.x} ${target.y}`;
-        path.setAttribute("d", d);
-        path.setAttribute("class", "edge");
-        path.dataset.id = edge.id;
-        path.addEventListener("click", () => {
-          clearSelection();
-          path.classList.add("selected-edge");
-          setDetail("Relation / 关系", [
-            ["ID", edge.id],
-            ["Source", edge.source],
-            ["Target", edge.target],
-            ["Label", edge.label],
-            ["Type", edge.relationType],
-            ["Strength", edge.claimStrength],
-            ["Review", edge.reviewStatus]
-          ]);
-        });
-        edgeGroup.appendChild(path);
-
-        const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
-        label.setAttribute("x", mid.x);
-        label.setAttribute("y", mid.y - curve - 8);
-        label.setAttribute("class", "edge-label");
-        label.textContent = edge.label;
-        labelGroup.appendChild(label);
-      });
-
-      graphData.nodes.forEach(node => {
-        const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
-        g.setAttribute("class", "node");
-        g.dataset.id = node.id;
-
-        const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-        circle.setAttribute("cx", node.x);
-        circle.setAttribute("cy", node.y);
-        circle.setAttribute("r", node.type === "tradition" ? 58 : 50);
-        circle.setAttribute("fill", colors[node.type] || colors.concept);
-
-        const lines = node.label.split("\n");
-        lines.forEach((line, index) => {
-          const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-          text.setAttribute("x", node.x);
-          text.setAttribute("y", node.y + (index - (lines.length - 1) / 2) * 18);
-          text.textContent = line;
-          text.setAttribute("fill", "#fffdf8");
-          g.appendChild(text);
-        });
-
-        g.insertBefore(circle, g.firstChild);
-        g.addEventListener("click", () => {
-          clearSelection();
-          g.classList.add("selected");
-          setDetail("Node / 节点", [
-            ["ID", node.id],
-            ["Label", node.label.replace("\n", " / ")],
-            ["Type", node.type],
-            ["Status", node.status],
-            ["Canonical", "false in this preview"]
-          ]);
-        });
-        nodeGroup.appendChild(g);
-      });
-
-      svg.appendChild(edgeGroup);
-      svg.appendChild(labelGroup);
-      svg.appendChild(nodeGroup);
-    }
-
-    draw();
+    function t(){return I18N[currentLang]||I18N.en;}
+    function buildGraph(){const L=t();const nodes=graphBase.nodes.map(id=>({id,label:L.nodes[id],type:graphBase.types[id],status:"needs_review",x:graphBase.positions[id][0],y:graphBase.positions[id][1]}));const edges=graphBase.edges.map(([id,source,target,labelKey,relationType,claimStrength])=>({id,source,target,label:L.edges[labelKey],relationType,claimStrength,reviewStatus:"sample_only"}));return {nodes,edges,nodeById:new Map(nodes.map(n=>[n.id,n]))};}
+    function applyI18n(){const L=t();document.documentElement.lang=L.htmlLang;document.title=L.title;document.querySelectorAll("[data-i18n]").forEach(el=>{const key=el.dataset.i18n;if(L[key])el.textContent=L[key];});document.querySelectorAll(".lang-switch button").forEach(btn=>btn.classList.toggle("active",btn.dataset.lang===currentLang));document.getElementById("localeBadge").textContent=`${L.locale}: ${currentLang} / ${currentSource}`;setEmptyDetail();draw();}
+    function setEmptyDetail(){detail.innerHTML=`<p>${t().detailEmpty}</p>`;}
+    function clearSelection(){svg.querySelectorAll(".selected").forEach(el=>el.classList.remove("selected"));svg.querySelectorAll(".selected-edge").forEach(el=>el.classList.remove("selected-edge"));}
+    function setDetail(title,rows){detail.innerHTML=`<h2>${title}</h2><dl>${rows.map(([k,v])=>`<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>`;}
+    function linePoint(source,target,ratio){return{x:source.x+(target.x-source.x)*ratio,y:source.y+(target.y-source.y)*ratio};}
+    function draw(){const L=t();const graph=buildGraph();svg.setAttribute("viewBox","0 0 960 620");svg.innerHTML="";const edgeGroup=document.createElementNS("http://www.w3.org/2000/svg","g");const labelGroup=document.createElementNS("http://www.w3.org/2000/svg","g");const nodeGroup=document.createElementNS("http://www.w3.org/2000/svg","g");
+      graph.edges.forEach(edge=>{const source=graph.nodeById.get(edge.source);const target=graph.nodeById.get(edge.target);const path=document.createElementNS("http://www.w3.org/2000/svg","path");const mid=linePoint(source,target,.5);const dx=target.x-source.x;const curve=Math.min(70,Math.max(-70,dx*.12));path.setAttribute("d",`M ${source.x} ${source.y} Q ${mid.x} ${mid.y-curve} ${target.x} ${target.y}`);path.setAttribute("class","edge");path.addEventListener("click",()=>{clearSelection();path.classList.add("selected-edge");setDetail(L.edgeTitle,[[L.id,edge.id],[L.source,edge.source],[L.target,edge.target],[L.label,edge.label],[L.type,edge.relationType],[L.strength,edge.claimStrength],[L.review,edge.reviewStatus]]);});edgeGroup.appendChild(path);const label=document.createElementNS("http://www.w3.org/2000/svg","text");label.setAttribute("x",mid.x);label.setAttribute("y",mid.y-curve-8);label.setAttribute("class","edge-label");label.textContent=edge.label;labelGroup.appendChild(label);});
+      graph.nodes.forEach(node=>{const g=document.createElementNS("http://www.w3.org/2000/svg","g");g.setAttribute("class","node");const circle=document.createElementNS("http://www.w3.org/2000/svg","circle");circle.setAttribute("cx",node.x);circle.setAttribute("cy",node.y);circle.setAttribute("r",node.type==="tradition"?58:50);circle.setAttribute("fill",colors[node.type]||colors.concept);g.appendChild(circle);node.label.split("\n").forEach((line,index,arr)=>{const text=document.createElementNS("http://www.w3.org/2000/svg","text");text.setAttribute("x",node.x);text.setAttribute("y",node.y+(index-(arr.length-1)/2)*18);text.textContent=line;g.appendChild(text);});g.addEventListener("click",()=>{clearSelection();g.classList.add("selected");setDetail(L.nodeTitle,[[L.id,node.id],[L.label,node.label.replace("\n"," / ")],[L.type,node.type],[L.status,node.status],[L.canonical,L.canonicalFalse]]);});nodeGroup.appendChild(g);});svg.appendChild(edgeGroup);svg.appendChild(labelGroup);svg.appendChild(nodeGroup);}
+    document.querySelectorAll(".lang-switch button").forEach(btn=>btn.addEventListener("click",()=>{currentLang=btn.dataset.lang;currentSource="manual";localStorage.setItem("nla_lang",currentLang);applyI18n();}));
+    applyI18n();
   </script>
 </body>
 </html>
