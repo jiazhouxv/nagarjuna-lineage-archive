@@ -1,5 +1,18 @@
 # Nagarjuna Lineage Archive / 龙树菩萨思想谱系资料库
 
+## Public Visualization / 公开可视化入口
+
+- Project overview / 项目总览页: https://jiazhouxv.github.io/nagarjuna-lineage-archive/docs/visualizations/index.html
+- Tiantai preview / 天台宗预览页: https://jiazhouxv.github.io/nagarjuna-lineage-archive/docs/visualizations/tiantai-relation-preview.html
+- Sanlun preview / 三论宗预览页: https://jiazhouxv.github.io/nagarjuna-lineage-archive/docs/visualizations/sanlun-relation-preview.html
+- GitHub repository / GitHub 仓库: https://github.com/jiazhouxv/nagarjuna-lineage-archive
+
+Note: `https://jiazhouxv.github.io/` is the GitHub Pages user-site root. It may show 404 unless a separate repository named `jiazhouxv.github.io` exists and is configured. This archive is a project site under `https://jiazhouxv.github.io/nagarjuna-lineage-archive/`.
+
+说明：`https://jiazhouxv.github.io/` 是 GitHub Pages 用户站点根路径。除非存在并配置了单独的 `jiazhouxv.github.io` 仓库，否则显示 404 是正常的。本资料库属于 project site，公开页面位于 `https://jiazhouxv.github.io/nagarjuna-lineage-archive/` 路径下。
+
+---
+
 ## English Overview
 
 Nagarjuna Lineage Archive is an open-source digital humanities archive focused on structured, machine-readable data related to Nagarjuna, Buddhist lineages, doctrinal reception, historical chronology, regional branches, and East Asian Buddhist traditions.
@@ -192,7 +205,7 @@ Chinese Buddhist terms should preserve the original Chinese form and may include
 
 结构化数据字段应使用英文 key。
 
-中文佛教术语应保留中文原词，并可同时补充拼音和英文译名。
+中文佛教术语应保留中文原词，并可同时补充 pinyin 和英文译名。
 
 Recommended field pattern:
 
