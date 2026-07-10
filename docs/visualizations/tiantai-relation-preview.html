@@ -3,65 +3,141 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tiantai relation preview / 天台宗关系预览</title>
+  <title>Tiantai dense knowledge graph demo / 天台宗高密度知识图谱演示</title>
   <style>
-    :root{--bg:#0e0b08;--bg2:#181109;--panel:rgba(35,27,18,.86);--ink:#f7ead0;--muted:#cbb98f;--dim:#907d59;--gold:#d6aa5a;--line:rgba(214,170,90,.35);--red:#be4b4b;--green:#7f9d62;--blue:#5b91a4;--purple:#9a72a8}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 30% 8%,rgba(214,170,90,.16),transparent 25%),linear-gradient(145deg,#090706,var(--bg),#151008);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","Noto Sans JP","Noto Sans KR","Microsoft YaHei",serif;line-height:1.55}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:radial-gradient(circle at 20% 30%,rgba(255,240,198,.2) 0 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:90px 90px,16px 16px}.page{max-width:1260px;margin:0 auto;padding:26px}.top{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap}.brand{letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-size:13px}.nav{display:flex;gap:8px;flex-wrap:wrap}.pill{border:1px solid var(--line);background:rgba(246,234,210,.06);color:var(--ink);border-radius:999px;padding:9px 13px;text-decoration:none;cursor:pointer}.pill:hover,.pill.active{background:rgba(214,170,90,.18);border-color:rgba(214,170,90,.72)}.hero{display:grid;grid-template-columns:.92fr 1.08fr;gap:22px;align-items:stretch;margin-top:28px}.intro{padding:54px 0}.eyebrow{color:var(--gold);font-size:13px;letter-spacing:.16em;text-transform:uppercase}.intro h1{font-size:clamp(42px,6vw,82px);line-height:1.04;margin:14px 0 20px}.intro p{font-size:18px;color:var(--muted);max-width:620px}.graph-card,.panel{border:1px solid var(--line);background:linear-gradient(180deg,rgba(48,37,24,.82),rgba(16,12,8,.9));border-radius:26px;box-shadow:0 28px 68px rgba(0,0,0,.42)}.graph-card{min-height:650px;position:relative;overflow:hidden}.graph-card:before{content:"";position:absolute;inset:-45%;background:conic-gradient(from 0deg,transparent,rgba(214,170,90,.09),transparent 18%,transparent 100%);animation:slowTurn 60s linear infinite}.graph-card svg{position:absolute;inset:0;width:100%;height:100%}.edge{stroke:rgba(214,170,90,.45);stroke-width:1.35;fill:none;transition:.25s}.edge.active{stroke:var(--gold);stroke-width:3;filter:drop-shadow(0 0 8px rgba(214,170,90,.45))}.node circle,.node rect{stroke:rgba(214,170,90,.75);stroke-width:1.3;cursor:pointer;transition:.25s}.node text{pointer-events:none}.node.active circle,.node.active rect{stroke:#ff6f6f;stroke-width:3.5;filter:drop-shadow(0 0 12px rgba(255,111,111,.55))}.node.root circle{fill:#342312}.node.tradition circle{fill:#d6aa5a}.node.person circle{fill:#211915}.node.work rect{fill:#201713}.node.branch circle{fill:#151d1a}.node.term circle{fill:#141b20}.section{margin-top:34px}.section h2{font-size:clamp(25px,3vw,42px);margin:0 0 14px}.grid{display:grid;grid-template-columns:1.05fr .95fr;gap:18px}.panel{padding:20px}.detail dl{display:grid;grid-template-columns:116px 1fr;gap:7px 12px}.detail dt{color:var(--dim)}.detail dd{margin:0;color:var(--ink)}.legend{display:flex;gap:10px;flex-wrap:wrap}.legend span{border:1px solid var(--line);border-radius:999px;padding:7px 10px;color:var(--muted);font-size:13px}.timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.time-card{border:1px solid var(--line);border-radius:18px;padding:15px;background:rgba(246,234,210,.045)}.time-card b{color:var(--gold)}.time-card p{color:var(--muted);font-size:14px}.status{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.status div{border:1px solid var(--line);border-radius:16px;padding:14px;color:var(--muted);background:rgba(246,234,210,.045)}footer{margin-top:30px;border-top:1px solid var(--line);padding-top:18px;color:var(--dim);font-size:13px}@keyframes slowTurn{to{transform:rotate(360deg)}}@media(max-width:980px){.hero,.grid{grid-template-columns:1fr}.timeline,.status{grid-template-columns:1fr 1fr}.graph-card{min-height:620px}}@media(max-width:640px){.page{padding:18px}.timeline,.status{grid-template-columns:1fr}.intro{padding:30px 0}.intro h1{font-size:46px}}
+    :root{--bg:#0c0906;--panel:#1f170f;--panel2:#2a2116;--ink:#f8ead0;--muted:#c8b486;--dim:#8e7a52;--gold:#d7ab58;--red:#ff6767;--line:rgba(215,171,88,.34);--person:#322018;--work:#2d1d2f;--doctrine:#142233;--region:#13251d;--trans:#2d2718;--shadow:rgba(0,0,0,.45)}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 28% 6%,rgba(215,171,88,.15),transparent 28%),linear-gradient(145deg,#050403,#100b07 48%,#1a120a);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","Noto Sans JP","Noto Sans KR","Microsoft YaHei",serif;line-height:1.55}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.13;background-image:radial-gradient(circle at 20% 30%,rgba(255,236,190,.24) 0 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:86px 86px,14px 14px}.page{max-width:1480px;margin:0 auto;padding:24px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.brand{letter-spacing:.15em;color:var(--gold);font-size:13px;text-transform:uppercase}.nav,.controls,.path-controls{display:flex;gap:8px;flex-wrap:wrap}.btn,.pill{border:1px solid var(--line);background:rgba(248,234,208,.055);color:var(--ink);border-radius:999px;padding:8px 12px;text-decoration:none;cursor:pointer;font-size:13px}.btn:hover,.btn.active,.pill:hover{background:rgba(215,171,88,.18);border-color:rgba(215,171,88,.75)}.hero{display:grid;grid-template-columns:420px 1fr 340px;gap:18px;margin-top:22px}.panel,.graph-card{border:1px solid var(--line);background:linear-gradient(180deg,rgba(44,34,22,.86),rgba(15,11,7,.92));border-radius:24px;box-shadow:0 26px 70px var(--shadow)}.intro{padding:24px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:.16em;text-transform:uppercase}.intro h1{font-size:clamp(42px,5vw,78px);line-height:1.03;margin:14px 0}.intro p{color:var(--muted);font-size:16px}.metric-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.metric{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(248,234,208,.045)}.metric b{font-size:22px;color:var(--gold)}.metric span{display:block;color:var(--muted);font-size:12px}.graph-card{position:relative;min-height:760px;overflow:hidden}.graph-card:before{content:"";position:absolute;inset:-45%;background:conic-gradient(from 0deg,transparent,rgba(215,171,88,.08),transparent 18%,transparent 100%);animation:turn 80s linear infinite}.graph-card svg{position:absolute;inset:0;width:100%;height:100%}.edge{stroke:rgba(215,171,88,.32);stroke-width:1.2;fill:none;transition:.25s}.edge.highlight{stroke:var(--gold);stroke-width:3;filter:drop-shadow(0 0 8px rgba(215,171,88,.5))}.edge.dim{opacity:.11}.node{transition:.25s}.node circle,.node rect{stroke:rgba(215,171,88,.72);stroke-width:1.2;cursor:pointer;transition:.25s}.node text{pointer-events:none;font-weight:700}.node.person circle{fill:var(--person)}.node.work rect{fill:var(--work)}.node.doctrine circle{fill:var(--doctrine)}.node.region circle{fill:var(--region)}.node.transmission circle{fill:var(--trans)}.node.center circle{fill:var(--gold);stroke:#ffe2a0;stroke-width:2}.node.active circle,.node.active rect{stroke:var(--red);stroke-width:3.4;filter:drop-shadow(0 0 12px rgba(255,103,103,.6))}.node.dim{opacity:.18}.side{padding:18px}.side h2{margin:0 0 12px;font-size:22px}.detail dl{display:grid;grid-template-columns:88px 1fr;gap:7px 10px;margin:0}.detail dt{color:var(--dim)}.detail dd{margin:0;color:var(--ink)}.legend{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.legend span{border:1px solid var(--line);border-radius:14px;padding:8px 9px;color:var(--muted);font-size:12px}.section{margin-top:20px}.section h2{font-size:28px;margin:0 0 12px}.timeline{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.time-card{border:1px solid var(--line);border-radius:18px;padding:14px;background:rgba(248,234,208,.045)}.time-card b{color:var(--gold)}.time-card p{color:var(--muted);font-size:13px;margin:.45em 0 0}.bottom-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.status-list{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.status-list div{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(248,234,208,.045);color:var(--muted);font-size:13px}.status-list b{color:var(--gold)}footer{margin-top:22px;border-top:1px solid var(--line);padding-top:16px;color:var(--dim);font-size:13px}@keyframes turn{to{transform:rotate(360deg)}}@media(max-width:1180px){.hero{grid-template-columns:1fr}.graph-card{min-height:780px}.timeline{grid-template-columns:repeat(3,1fr)}.bottom-grid,.status-list{grid-template-columns:1fr 1fr}}@media(max-width:680px){.page{padding:14px}.timeline,.bottom-grid,.status-list{grid-template-columns:1fr}.graph-card{min-height:680px}.metric-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
   <main class="page">
     <div class="top">
-      <div class="brand">Nagarjuna Lineage Archive / Tiantai Module</div>
-      <nav class="nav"><a class="pill" href="index.html">返回总览</a><a class="pill" href="https://github.com/jiazhouxv/nagarjuna-lineage-archive">GitHub 仓库</a><button class="pill active" data-lang="zh">中文</button><button class="pill" data-lang="ja">日本語</button><button class="pill" data-lang="ko">한국어</button><button class="pill" data-lang="en">English</button></nav>
+      <div class="brand">Nagarjuna Lineage Archive / Tiantai Dense Demo</div>
+      <nav class="nav"><a class="pill" href="index.html">返回总览</a><a class="pill" href="https://github.com/jiazhouxv/nagarjuna-lineage-archive">GitHub 仓库</a><a class="pill" href="sanlun-relation-preview.html">三论宗预览</a></nav>
     </div>
 
     <section class="hero">
-      <div class="intro">
-        <div class="eyebrow" data-i18n="eyebrow">第一阶段重点模块</div>
-        <h1 data-i18n="title">天台宗关系图谱</h1>
-        <p data-i18n="subtitle">以天台宗为中心，可视化龙树与中观思想、鸠摩罗什译经系统、慧文—慧思—智顗的祖师链、三大部文献，以及中国、日本、韩国地域分支。</p>
-        <div class="legend"><span>root / 思想源点</span><span>person / 人物</span><span>work / 典籍</span><span>branch / 地域分支</span><span>sample_only</span></div>
-      </div>
-      <div class="graph-card">
-        <svg id="graph" viewBox="0 0 760 680" role="img" aria-label="Tiantai relation graph"></svg>
+      <aside class="panel intro">
+        <div class="eyebrow">High-density HTML5 demo</div>
+        <h1>天台宗知识图谱演示</h1>
+        <p>这不是最终学术定稿，而是展示资料库未来前台效果的高密度样板：把思想源流、汉译接受、祖师谱系、核心典籍、教义系统与中日韩地域传播放在同一张可交互图中。</p>
+        <div class="metric-grid">
+          <div class="metric"><b>32</b><span>demo nodes</span></div>
+          <div class="metric"><b>42</b><span>relation edges</span></div>
+          <div class="metric"><b>6</b><span>semantic layers</span></div>
+          <div class="metric"><b>4</b><span>preset paths</span></div>
+        </div>
+        <div class="section">
+          <h2>过滤节点</h2>
+          <div class="controls" id="filters"></div>
+        </div>
+        <div class="section">
+          <h2>路径预设</h2>
+          <div class="path-controls" id="paths"></div>
+        </div>
+      </aside>
+
+      <section class="graph-card" aria-label="Tiantai dense knowledge graph">
+        <svg id="graph" viewBox="0 0 980 760" role="img"></svg>
+      </section>
+
+      <aside class="panel side">
+        <h2>节点详情</h2>
+        <div id="detail" class="detail">点击任意节点，查看类型、层级、说明与审查状态。</div>
+        <div class="legend">
+          <span>人物 person</span><span>典籍 work</span><span>教义 doctrine</span><span>地域 region</span><span>传译 transmission</span><span>中心 tradition</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section panel">
+      <h2>时间线预览</h2>
+      <div class="timeline">
+        <div class="time-card"><b>2–3 世纪</b><p>龙树与中观思想作为东亚后续诠释的重要思想源点。</p></div>
+        <div class="time-card"><b>401–413</b><p>鸠摩罗什译经活动推动中观语汇进入汉传佛教。</p></div>
+        <div class="time-card"><b>6 世纪</b><p>慧文、慧思、智顗构成天台祖师谱系的关键阶段。</p></div>
+        <div class="time-card"><b>智顗时期</b><p>止观体系、法华诠释与教判系统形成核心结构。</p></div>
+        <div class="time-card"><b>灌顶 / 湛然</b><p>整理、传承与再诠释天台教观体系。</p></div>
+        <div class="time-card"><b>东亚传播</b><p>中国天台向日本 Tendai、韩国 Cheontae 等地域分支扩展。</p></div>
       </div>
     </section>
 
-    <section class="section grid">
-      <div class="panel detail">
-        <h2 data-i18n="detailTitle">节点详情</h2>
-        <div id="detail"><p data-i18n="detailEmpty">点击右侧图谱中的节点，查看其在天台宗模块中的位置。</p></div>
+    <section class="section bottom-grid">
+      <div class="panel">
+        <h2>这个 demo 要表达什么</h2>
+        <p style="color:var(--muted)">真正的前台不只是列出人物和书名，而是让用户看到：龙树思想如何经中观、译经、祖师诠释、典籍系统、教义范畴、地域传播，形成天台宗模块中的多层网络。后续可把 YAML / JSON 数据导出后替换这里的 sample data。</p>
       </div>
       <div class="panel">
-        <h2 data-i18n="pathTitle">可视化说明</h2>
-        <p data-i18n="pathBody">本页不是新增正式关系记录，而是把 README 中已经确认的第一阶段建设对象转成 HTML5 交互预览。关系线用于说明数据结构方向，仍属于 visualization_sample_only。</p>
+        <h2>数据状态边界</h2>
+        <div class="status-list">
+          <div><b>sample_only</b><br>当前是可视化样板</div>
+          <div><b>needs_review</b><br>不提升正式关系记录</div>
+          <div><b>no full text</b><br>不复制受限全文</div>
+          <div><b>metadata-first</b><br>面向结构化数据</div>
+        </div>
       </div>
     </section>
 
-    <section class="section">
-      <h2 data-i18n="timelineTitle">天台模块时间线预览</h2>
-      <div class="timeline" id="timeline"></div>
-    </section>
-
-    <section class="section">
-      <h2 data-i18n="statusTitle">资料库状态</h2>
-      <div class="status"><div><b>metadata-first</b><br>以元数据和结构化索引为核心</div><div><b>source-linked</b><br>保留来源与后续审查入口</div><div><b>no full-text dump</b><br>不复制受限制全文</div><div><b>review boundary</b><br>可视化不等于已审定关系</div></div>
-    </section>
-
-    <footer>Preview status: visualization_sample_only. This HTML page does not create canonical YAML relation records.</footer>
+    <footer>Preview status: dense_visualization_sample_only. This page demonstrates future presentation capability and does not create canonical YAML relation records.</footer>
   </main>
 
   <script>
-    const I18N={zh:{eyebrow:"第一阶段重点模块",title:"天台宗关系图谱",subtitle:"以天台宗为中心，可视化龙树与中观思想、鸠摩罗什译经系统、慧文—慧思—智顗的祖师链、三大部文献，以及中国、日本、韩国地域分支。",detailTitle:"节点详情",detailEmpty:"点击右侧图谱中的节点，查看其在天台宗模块中的位置。",pathTitle:"可视化说明",pathBody:"本页不是新增正式关系记录，而是把 README 中已经确认的第一阶段建设对象转成 HTML5 交互预览。关系线用于说明数据结构方向，仍属于 visualization_sample_only。",timelineTitle:"天台模块时间线预览",statusTitle:"资料库状态",fields:{type:"类型",role:"位置",status:"状态",note:"说明"}},en:{eyebrow:"First active module",title:"Tiantai relation graph",subtitle:"A Tiantai-centered visualization of Nagarjuna, Madhyamaka reception, Kumarajiva's translation system, the Huiwen–Huisi–Zhiyi lineage, the three major Tiantai works, and regional branches in China, Japan, and Korea.",detailTitle:"Node detail",detailEmpty:"Click a node in the graph to inspect its role in the Tiantai module.",pathTitle:"Visualization note",pathBody:"This page does not create new canonical relation records. It turns the README-defined first-phase Tiantai scope into an HTML5 interactive preview. Edges remain visualization_sample_only.",timelineTitle:"Tiantai module timeline preview",statusTitle:"Archive status",fields:{type:"Type",role:"Role",status:"Status",note:"Note"}},ja:{eyebrow:"第一段階の重点モジュール",title:"天台宗関係図",subtitle:"天台宗を中心に、龍樹・中観思想・鳩摩羅什の翻訳系統・慧文―慧思―智顗の祖師系譜・三大部・中国/日本/韓国の地域分岐を可視化します。",detailTitle:"ノード詳細",detailEmpty:"図中のノードをクリックして、天台モジュール内での位置を確認します。",pathTitle:"可視化説明",pathBody:"このページは正式な関係記録を追加しません。README で確認された第一段階の天台範囲を HTML5 の対話型プレビューにしたものです。",timelineTitle:"天台モジュール年表プレビュー",statusTitle:"資料庫状態",fields:{type:"種別",role:"位置",status:"状態",note:"説明"}},ko:{eyebrow:"1단계 핵심 모듈",title:"천태종 관계도",subtitle:"천태종을 중심으로 용수, 중관 사상, 구마라집 번역 체계, 혜문–혜사–지의 계보, 천태 삼대부, 중국·일본·한국 지역 분기를 시각화합니다.",detailTitle:"노드 상세",detailEmpty:"그래프의 노드를 클릭하여 천태 모듈 안의 위치를 확인합니다.",pathTitle:"시각화 설명",pathBody:"이 페이지는 공식 관계 기록을 새로 만들지 않습니다. README에서 확인된 1단계 천태 범위를 HTML5 상호작용 미리보기로 표현합니다.",timelineTitle:"천태 모듈 연표 미리보기",statusTitle:"자료 상태",fields:{type:"유형",role:"위치",status:"상태",note:"설명"}}};
-    const labels={zh:{tiantai:"天台宗",nagarjuna:"龙树",madhyamaka:"中观",kumarajiva:"鸠摩罗什",huiwen:"慧文",huisi:"慧思",zhiyi:"智顗",guanding:"灌顶",zhanran:"湛然",mohe:"摩诃止观",xuanyi:"法华玄义",wenju:"法华文句",china:"中国天台",japan:"日本 Tendai",korea:"韩国 Cheontae"},en:{tiantai:"Tiantai",nagarjuna:"Nāgārjuna",madhyamaka:"Madhyamaka",kumarajiva:"Kumārajīva",huiwen:"Huiwen",huisi:"Huisi",zhiyi:"Zhiyi",guanding:"Guanding",zhanran:"Zhanran",mohe:"Mohe Zhiguan",xuanyi:"Fahua Xuanyi",wenju:"Fahua Wenju",china:"Chinese Tiantai",japan:"Japanese Tendai",korea:"Korean Cheontae"},ja:{tiantai:"天台宗",nagarjuna:"龍樹",madhyamaka:"中観",kumarajiva:"鳩摩羅什",huiwen:"慧文",huisi:"慧思",zhiyi:"智顗",guanding:"灌頂",zhanran:"湛然",mohe:"摩訶止観",xuanyi:"法華玄義",wenju:"法華文句",china:"中国天台",japan:"日本天台",korea:"韓国天台"},ko:{tiantai:"천태종",nagarjuna:"용수",madhyamaka:"중관",kumarajiva:"구마라집",huiwen:"혜문",huisi:"혜사",zhiyi:"지의",guanding:"관정",zhanran:"담연",mohe:"마하지관",xuanyi:"법화현의",wenju:"법화문구",china:"중국 천태",japan:"일본 Tendai",korea:"한국 Cheontae"}};
-    const nodes={tiantai:{x:380,y:340,type:"tradition",role:"center",note:"天台宗专题页中心节点。"},nagarjuna:{x:110,y:120,type:"root",role:"doctrinal root",note:"龙树作为中观与空义思想源点之一。"},madhyamaka:{x:250,y:130,type:"term",role:"doctrinal reception",note:"中观思想在天台宗解释系统中的接受与转化。"},kumarajiva:{x:510,y:130,type:"person",role:"translation transmission",note:"鸠摩罗什译经系统连接印度佛教思想与汉传佛教语境。"},huiwen:{x:165,y:300,type:"person",role:"patriarchal clue",note:"慧文是天台早期谱系中的关键人物。"},huisi:{x:250,y:430,type:"person",role:"lineage transmission",note:"慧思连接早期理解与智顗体系化建构。"},zhiyi:{x:380,y:520,type:"person",role:"system builder",note:"智顗是天台宗思想系统化的核心人物。"},guanding:{x:520,y:430,type:"person",role:"record and transmission",note:"灌顶与天台文献记录、整理、传承有关。"},zhanran:{x:610,y:300,type:"person",role:"later interpreter",note:"湛然是后期天台思想阐释的重要人物。"},mohe:{x:185,y:570,type:"work",role:"core work",note:"摩诃止观是天台三大部之一。"},xuanyi:{x:380,y:625,type:"work",role:"core work",note:"法华玄义是天台三大部之一。"},wenju:{x:575,y:570,type:"work",role:"core work",note:"法华文句是天台三大部之一。"},china:{x:650,y:120,type:"branch",role:"regional branch",note:"中国天台为第一阶段重点分支。"},japan:{x:690,y:440,type:"branch",role:"regional branch",note:"日本 Tendai 是天台传播的重要地域分支。"},korea:{x:70,y:440,type:"branch",role:"regional branch",note:"韩国 Cheontae 是天台传播的重要地域分支。"}};
-    const edges=[['nagarjuna','madhyamaka'],['madhyamaka','tiantai'],['kumarajiva','tiantai'],['huiwen','huisi'],['huisi','zhiyi'],['zhiyi','guanding'],['guanding','zhanran'],['zhiyi','tiantai'],['tiantai','mohe'],['tiantai','xuanyi'],['tiantai','wenju'],['tiantai','china'],['tiantai','japan'],['tiantai','korea'],['kumarajiva','china']];
-    const timeline=[['源点','龙树与中观思想'],['译经','鸠摩罗什译经系统'],['早期线索','慧文、慧思'],['体系化','智顗与三大部'],['传播','中国、日本、韩国分支']];
-    let lang='zh';const svg=document.getElementById('graph'),detail=document.getElementById('detail');
-    function draw(){svg.innerHTML='';edges.forEach(([a,b],i)=>{const A=nodes[a],B=nodes[b];const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('class','edge');p.dataset.a=a;p.dataset.b=b;p.setAttribute('d',`M ${A.x} ${A.y} Q ${(A.x+B.x)/2} ${(A.y+B.y)/2-28} ${B.x} ${B.y}`);svg.appendChild(p)});Object.keys(nodes).forEach(id=>{const n=nodes[id],g=document.createElementNS('http://www.w3.org/2000/svg','g');g.setAttribute('class',`node ${n.type}`);g.dataset.id=id;if(n.type==='work'){const r=document.createElementNS('http://www.w3.org/2000/svg','rect');r.setAttribute('x',n.x-55);r.setAttribute('y',n.y-24);r.setAttribute('width',110);r.setAttribute('height',48);r.setAttribute('rx',16);g.appendChild(r)}else{const c=document.createElementNS('http://www.w3.org/2000/svg','circle');c.setAttribute('cx',n.x);c.setAttribute('cy',n.y);c.setAttribute('r',id==='tiantai'?58:42);g.appendChild(c)}const t=document.createElementNS('http://www.w3.org/2000/svg','text');t.setAttribute('x',n.x);t.setAttribute('y',n.y+5);t.setAttribute('text-anchor','middle');t.setAttribute('fill',id==='tiantai'?'#1b1208':'#f7ead0');t.setAttribute('font-size',id==='tiantai'?22:14);t.setAttribute('font-weight','700');t.textContent=labels[lang][id];g.appendChild(t);g.onclick=()=>selectNode(id);svg.appendChild(g)})}
-    function selectNode(id){document.querySelectorAll('.node,.edge').forEach(e=>e.classList.remove('active'));document.querySelector(`.node[data-id="${id}"]`).classList.add('active');document.querySelectorAll(`.edge[data-a="${id}"],.edge[data-b="${id}"]`).forEach(e=>e.classList.add('active'));const n=nodes[id],L=I18N[lang],name=labels[lang][id];detail.innerHTML=`<dl><dt>${L.fields.type}</dt><dd>${n.type}</dd><dt>${L.fields.role}</dt><dd>${n.role}</dd><dt>${L.fields.status}</dt><dd>visualization_sample_only</dd><dt>${L.fields.note}</dt><dd><b>${name}</b> — ${n.note}</dd></dl>`}
-    function applyLang(){const L=I18N[lang];document.documentElement.lang=lang==='zh'?'zh-Hans':lang;document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(L[k])el.textContent=L[k]});document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));detail.innerHTML=`<p>${L.detailEmpty}</p>`;document.getElementById('timeline').innerHTML=timeline.map(([a,b])=>`<div class="time-card"><b>${a}</b><p>${b}</p></div>`).join('');draw()}
-    document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{lang=b.dataset.lang;applyLang()});applyLang();
+    const nodes=[
+      {id:'tiantai',label:'天台宗',type:'center',layer:'宗派核心',x:490,y:380,summary:'天台宗模块中心节点，统摄祖师、典籍、教义与地域分支。'},
+      {id:'nagarjuna',label:'龙树',type:'person',layer:'思想源流',x:130,y:90,summary:'龙树菩萨作为中观思想的重要源点，在东亚诸宗接受史中具有基础地位。'},
+      {id:'madhyamaka',label:'中观',type:'doctrine',layer:'思想源流',x:270,y:120,summary:'中观思想作为天台宗理解空义、二谛和中道的重要思想背景。'},
+      {id:'emptiness',label:'空',type:'doctrine',layer:'教义范畴',x:110,y:250,summary:'空义是中观与天台教义接受中的核心术语之一。'},
+      {id:'twotruths',label:'二谛',type:'doctrine',layer:'教义范畴',x:245,y:255,summary:'真俗二谛是理解中观与天台判教、圆融思想的重要入口。'},
+      {id:'dependent',label:'缘起',type:'doctrine',layer:'教义范畴',x:115,y:400,summary:'缘起与空义共同构成龙树思想进入东亚诠释传统的重要基础。'},
+      {id:'middleway',label:'中道',type:'doctrine',layer:'教义范畴',x:270,y:420,summary:'中道思想在天台圆融解释中获得新的组织方式。'},
+      {id:'eightneg',label:'八不',type:'doctrine',layer:'教义范畴',x:185,y:555,summary:'八不中道是中观思想的代表性表达之一。'},
+      {id:'kumarajiva',label:'鸠摩罗什',type:'person',layer:'汉译接受',x:490,y:90,summary:'鸠摩罗什译经系统推动中观及相关佛教术语进入汉语思想语境。'},
+      {id:'translation',label:'汉译佛教语境',type:'transmission',layer:'汉译接受',x:490,y:215,summary:'译经、术语和解释共同构成中观进入汉传佛教的语境。'},
+      {id:'huiwen',label:'慧文',type:'person',layer:'祖师谱系',x:635,y:170,summary:'天台谱系中的早期关键人物之一。'},
+      {id:'huisi',label:'慧思',type:'person',layer:'祖师谱系',x:700,y:285,summary:'承接早期天台思想并影响智顗。'},
+      {id:'zhiyi',label:'智顗',type:'person',layer:'祖师谱系',x:650,y:435,summary:'天台宗体系化的核心人物，关联止观、法华诠释与教判系统。'},
+      {id:'guanding',label:'灌顶',type:'person',layer:'祖师谱系',x:760,y:540,summary:'参与整理和传承智顗相关思想与文献传统。'},
+      {id:'zhanran',label:'湛然',type:'person',layer:'祖师谱系',x:860,y:455,summary:'唐代天台重要传承与再诠释人物。'},
+      {id:'mohe',label:'摩诃止观',type:'work',layer:'核心典籍',x:440,y:560,summary:'天台止观体系的重要典籍。'},
+      {id:'xuanyi',label:'法华玄义',type:'work',layer:'核心典籍',x:565,y:615,summary:'天台法华诠释系统的核心典籍之一。'},
+      {id:'wenju',label:'法华文句',type:'work',layer:'核心典籍',x:705,y:645,summary:'天台法华诠释系统的核心典籍之一。'},
+      {id:'threetruths',label:'三谛圆融',type:'doctrine',layer:'天台教义',x:825,y:130,summary:'天台教义系统中的重要圆融表达。'},
+      {id:'3000',label:'一念三千',type:'doctrine',layer:'天台教义',x:890,y:250,summary:'天台思想中高度综合性的教义表达。'},
+      {id:'zhiguan',label:'止观双修',type:'doctrine',layer:'天台教义',x:880,y:350,summary:'止与观的修行结构，是天台实践体系的重要特征。'},
+      {id:'fiveeight',label:'五时八教',type:'doctrine',layer:'天台教义',x:835,y:610,summary:'天台判教系统的重要框架。'},
+      {id:'lotus',label:'法华圆教',type:'doctrine',layer:'天台教义',x:930,y:540,summary:'围绕法华思想展开的圆教解释。'},
+      {id:'china',label:'中国天台',type:'region',layer:'地域分支',x:490,y:700,summary:'天台宗在中国的本土发展与传承。'},
+      {id:'japan',label:'日本 Tendai',type:'region',layer:'地域分支',x:315,y:680,summary:'天台思想传播至日本后形成 Tendai 传统。'},
+      {id:'korea',label:'韩国 Cheontae',type:'region',layer:'地域分支',x:665,y:715,summary:'天台思想在朝鲜半岛形成 Cheontae 传统。'},
+      {id:'lotusSutra',label:'法华经',type:'work',layer:'经典背景',x:945,y:85,summary:'天台法华诠释体系的重要经典背景。'},
+      {id:'classification',label:'判教',type:'doctrine',layer:'天台教义',x:945,y:690,summary:'天台组织佛教经典与教义层次的重要方法。'},
+      {id:'practice',label:'修行体系',type:'doctrine',layer:'实践系统',x:340,y:525,summary:'止观、观心与教义体系共同构成修行面向。'},
+      {id:'sourceIndex',label:'来源索引',type:'transmission',layer:'资料库机制',x:55,y:690,summary:'未来可连接 CBETA、SAT、书目和研究文献的来源索引。'},
+      {id:'review',label:'审查状态',type:'transmission',layer:'资料库机制',x:55,y:610,summary:'区分 sample、needs_review、reviewed，避免把演示关系当成正式学术断言。'},
+      {id:'export',label:'图谱导出',type:'transmission',layer:'资料库机制',x:160,y:690,summary:'未来从 YAML / JSON 生成前台图谱数据。'}
+    ];
+    const edges=[
+      ['nagarjuna','madhyamaka','思想源点'],['madhyamaka','emptiness','教义'],['madhyamaka','twotruths','教义'],['madhyamaka','middleway','教义'],['madhyamaka','eightneg','表达'],['dependent','emptiness','缘起性空'],['nagarjuna','kumarajiva','译介前史'],['kumarajiva','translation','汉译'],['translation','huiwen','接受语境'],['huiwen','huisi','祖师链'],['huisi','zhiyi','祖师链'],['zhiyi','guanding','传承'],['guanding','zhanran','传承'],['huiwen','tiantai','谱系'],['huisi','tiantai','谱系'],['zhiyi','tiantai','体系化'],['tiantai','mohe','核心典籍'],['tiantai','xuanyi','核心典籍'],['tiantai','wenju','核心典籍'],['zhiyi','mohe','关联'],['zhiyi','xuanyi','关联'],['zhiyi','wenju','关联'],['mohe','zhiguan','实践'],['mohe','practice','实践'],['xuanyi','threetruths','教义'],['xuanyi','fiveeight','判教'],['wenju','lotus','法华诠释'],['lotusSutra','xuanyi','经典背景'],['lotusSutra','wenju','经典背景'],['tiantai','threetruths','教义系统'],['tiantai','3000','教义系统'],['tiantai','zhiguan','实践系统'],['tiantai','fiveeight','判教系统'],['tiantai','lotus','法华系统'],['threetruths','3000','圆融'],['fiveeight','classification','判教'],['classification','lotus','教判'],['tiantai','china','地域本体'],['china','japan','传播'],['china','korea','传播'],['review','sourceIndex','资料机制'],['sourceIndex','export','资料机制'],['export','tiantai','数据驱动']
+    ];
+    const paths={
+      '龙树到天台教义':['nagarjuna','madhyamaka','middleway','tiantai','threetruths','3000'],
+      '鸠摩罗什到智顗':['kumarajiva','translation','huiwen','huisi','zhiyi'],
+      '智顗到三大部':['zhiyi','mohe','xuanyi','wenju'],
+      '中国到日韩':['tiantai','china','japan','korea']
+    };
+    const typeLabels={all:'全部',person:'人物',work:'典籍',doctrine:'教义',region:'地域',transmission:'传译/机制',center:'中心'};
+    const colors={person:'#322018',work:'#2d1d2f',doctrine:'#142233',region:'#13251d',transmission:'#2d2718',center:'#d7ab58'};
+    const svg=document.getElementById('graph'), detail=document.getElementById('detail'), filters=document.getElementById('filters'), pathBox=document.getElementById('paths');
+    let activeFilter='all', activePath=[];
+    function byId(id){return nodes.find(n=>n.id===id)}
+    function edgeInPath(e){for(let i=0;i<activePath.length-1;i++){if(e[0]===activePath[i]&&e[1]===activePath[i+1])return true}return false}
+    function setDetail(n){detail.innerHTML=`<dl><dt>ID</dt><dd>${n.id}</dd><dt>名称</dt><dd>${n.label}</dd><dt>类型</dt><dd>${typeLabels[n.type]||n.type}</dd><dt>层级</dt><dd>${n.layer}</dd><dt>说明</dt><dd>${n.summary}</dd><dt>状态</dt><dd>visualization_sample_only / needs_review</dd></dl>`}
+    function draw(){svg.innerHTML=''; const eg=document.createElementNS('http://www.w3.org/2000/svg','g'); const ng=document.createElementNS('http://www.w3.org/2000/svg','g');
+      edges.forEach(e=>{const a=byId(e[0]),b=byId(e[1]); const p=document.createElementNS('http://www.w3.org/2000/svg','path'); const mx=(a.x+b.x)/2,my=(a.y+b.y)/2-28; p.setAttribute('d',`M ${a.x} ${a.y} Q ${mx} ${my} ${b.x} ${b.y}`); let cls='edge'; if(activePath.length){cls+=edgeInPath(e)?' highlight':' dim'} p.setAttribute('class',cls); p.addEventListener('click',()=>{activePath=[e[0],e[1]]; setDetail({id:e[0]+'→'+e[1],label:e[2],type:'transmission',layer:'关系边',summary:`${byId(e[0]).label} → ${byId(e[1]).label}`}); draw()}); eg.appendChild(p)});
+      nodes.forEach(n=>{const visible=activeFilter==='all'||n.type===activeFilter; const g=document.createElementNS('http://www.w3.org/2000/svg','g'); let cls=`node ${n.type}`; if(!visible)cls+=' dim'; if(activePath.includes(n.id))cls+=' active'; g.setAttribute('class',cls); g.setAttribute('transform',`translate(${n.x},${n.y})`); if(n.type==='work'){const r=document.createElementNS('http://www.w3.org/2000/svg','rect'); r.setAttribute('x',-52);r.setAttribute('y',-22);r.setAttribute('width',104);r.setAttribute('height',44);r.setAttribute('rx',13);g.appendChild(r)}else{const c=document.createElementNS('http://www.w3.org/2000/svg','circle'); c.setAttribute('r',n.type==='center'?58:36); g.appendChild(c)} const text=document.createElementNS('http://www.w3.org/2000/svg','text'); text.setAttribute('text-anchor','middle'); text.setAttribute('fill',n.type==='center'?'#151008':'#f8ead0'); text.setAttribute('font-size',n.type==='center'?22:13); text.setAttribute('y',5); text.textContent=n.label; g.appendChild(text); g.addEventListener('click',()=>{activePath=[n.id];setDetail(n);draw()}); ng.appendChild(g)});
+      svg.appendChild(eg); svg.appendChild(ng)}
+    Object.keys(typeLabels).forEach(k=>{const b=document.createElement('button');b.className='btn'+(k==='all'?' active':'');b.textContent=typeLabels[k];b.onclick=()=>{activeFilter=k;document.querySelectorAll('#filters .btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');draw()};filters.appendChild(b)});
+    Object.entries(paths).forEach(([name,path])=>{const b=document.createElement('button');b.className='btn';b.textContent=name;b.onclick=()=>{activePath=path;document.querySelectorAll('#paths .btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');setDetail({id:name,label:name,type:'transmission',layer:'路径预设',summary:path.map(id=>byId(id).label).join(' → ')});draw()};pathBox.appendChild(b)});
+    setDetail(nodes[0]);draw();
   </script>
 </body>
 </html>
