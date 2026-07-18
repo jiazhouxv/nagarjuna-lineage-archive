@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jiazhouxv.github.io/nagarjuna-lineage-archive/schemas/visualization-graph.schema.json",
+  "title": "Nagarjuna Lineage Archive Visualization Graph",
+  "description": "Data contract for static HTML5 visualization graph demos and future reviewed graph exports.",
+  "type": "object",
+  "required": ["metadata", "nodes", "edges"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["id", "title", "status", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "title": {"type": "string"},
+        "subtitle": {"type": "string"},
+        "version": {"type": "string"},
+        "status": {"enum": ["visualization_sample_only", "draft_export", "reviewed_export"]},
+        "tradition": {"type": "string"},
+        "canonical": {"type": "boolean"},
+        "languageDefault": {"enum": ["zh", "ja", "ko", "en"]},
+        "availableLanguages": {
+          "type": "array",
+          "items": {"enum": ["zh", "ja", "ko", "en"]},
+          "uniqueItems": true
+        },
+        "generatedFrom": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "notes": {"type": "string"}
+      }
+    },
+    "layers": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/layer"},
+      "uniqueItems": true
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/node"}
+    },
+    "edges": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/edge"}
+    },
+    "pathPresets": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/pathPreset"}
+    },
+    "timeline": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/timelineItem"}
+    },
+    "display": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "layout": {"enum": ["manual", "layered", "radial", "force_export"]},
+        "theme": {"enum": ["dark_gold", "light_archive", "ink_scroll"]},
+        "entryNodeId": {"type": "string"},
+        "defaultPathPresetId": {"type": "string"}
+      }
+    },
+    "boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "publicNote": {"type": "string"},
+        "noRestrictedFullText": {"type": "boolean"},
+        "noCanonicalPromotion": {"type": "boolean"},
+        "reviewRequiredBeforeCanonicalUse": {"type": "boolean"}
+      }
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "zh": {"type": "string"},
+        "ja": {"type": "string"},
+        "ko": {"type": "string"},
+        "en": {"type": "string"}
+      }
+    },
+    "layer": {
+      "type": "object",
+      "required": ["id", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "label": {"$ref": "#/$defs/localizedText"},
+        "description": {"$ref": "#/$defs/localizedText"},
+        "order": {"type": "integer"}
+      }
+    },
+    "node": {
+      "type": "object",
+      "required": ["id", "type", "label", "reviewStatus"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "type": {"enum": ["center", "person", "work", "doctrine", "region", "tradition", "source", "transmission", "concept"]},
+        "label": {"$ref": "#/$defs/localizedText"},
+        "shortLabel": {"$ref": "#/$defs/localizedText"},
+        "description": {"$ref": "#/$defs/localizedText"},
+        "layerId": {"type": "string"},
+        "reviewStatus": {"enum": ["visualization_sample_only", "needs_review", "page_level_verified", "reviewed"]},
+        "recordStatus": {"enum": ["sample_only", "draft", "partial", "stable"]},
+        "sourceRefs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "display": {"$ref": "#/$defs/displayNode"}
+      }
+    },
+    "displayNode": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "x": {"type": "number"},
+        "y": {"type": "number"},
+        "radius": {"type": "number"},
+        "shape": {"enum": ["circle", "rect", "pill"]},
+        "emphasis": {"enum": ["low", "normal", "high", "primary"]}
+      }
+    },
+    "edge": {
+      "type": "object",
+      "required": ["id", "source", "target", "relationType", "label", "reviewStatus", "claimStrength"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "source": {"type": "string"},
+        "target": {"type": "string"},
+        "relationType": {"enum": ["doctrinal_root", "translation_transmission", "lineage_transmission", "commentarial_context", "core_work", "doctrinal_development", "regional_transmission", "bibliographic_context", "tradition_context", "visualization_link"]},
+        "label": {"$ref": "#/$defs/localizedText"},
+        "description": {"$ref": "#/$defs/localizedText"},
+        "claimStrength": {"enum": ["visualization_sample_only", "traditional_attribution", "canonical_metadata", "academic_context", "interpretive_context", "page_level_verified"]},
+        "reviewStatus": {"enum": ["visualization_sample_only", "needs_review", "page_level_verified", "reviewed"]},
+        "sourceRefs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "display": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "curved": {"type": "boolean"},
+            "emphasis": {"enum": ["low", "normal", "high"]}
+          }
+        }
+      }
+    },
+    "pathPreset": {
+      "type": "object",
+      "required": ["id", "label", "nodeIds"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "label": {"$ref": "#/$defs/localizedText"},
+        "description": {"$ref": "#/$defs/localizedText"},
+        "nodeIds": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 2
+        },
+        "edgeIds": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "timelineItem": {
+      "type": "object",
+      "required": ["id", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "dateLabel": {"type": "string"},
+        "label": {"$ref": "#/$defs/localizedText"},
+        "description": {"$ref": "#/$defs/localizedText"},
+        "relatedNodeIds": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "reviewStatus": {"enum": ["visualization_sample_only", "needs_review", "page_level_verified", "reviewed"]}
+      }
+    }
+  }
+}
